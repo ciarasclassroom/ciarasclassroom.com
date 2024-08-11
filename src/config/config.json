@@ -1,0 +1,23 @@
+{
+  "site": {
+    "title": "Ciara's Classroom",
+    "base_url": "https://dev.ciarasclassroom.com",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "100",
+    "logo_height": "34"
+  },
+
+  "settings": {
+    "pagination": 5,
+    "summary_length": 100
+  },
+
+  "metadata": {
+    "meta_author": "Ciara's Classroom",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Sharing ideas for supporting inclusion in diverse and multicultural classrooms!"
+  }
+}
