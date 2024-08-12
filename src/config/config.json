@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Ciara's Classroom",
-    "base_url": "https://dev.ciarasclassroom.com",
+    "base_url": "https://ciarasclassroom.com",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
