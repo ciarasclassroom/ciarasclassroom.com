@@ -109,12 +109,11 @@ const { title, meta_title, description, image, noindex, canonical, date } =
     />
 
     <!-- meta-published-date -->
-    {date && (
-      <meta
-        name="og:publish_date"
-        content={new Date(date).toISOString()}
-      />
-    )}
+    {
+      date && (
+        <meta name="og:publish_date" content={new Date(date).toISOString()} />
+      )
+    }
 
     <ViewTransitions />
 

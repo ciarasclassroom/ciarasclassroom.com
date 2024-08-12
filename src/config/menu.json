@@ -7,6 +7,10 @@
     {
       "name": "Blog",
       "url": "/blog"
+    },
+    {
+      "name": "Best Sellers",
+      "url": "/resources"
     }
   ],
   "footer": []
