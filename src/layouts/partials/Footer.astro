@@ -1,5 +1,7 @@
 ---
 import Social from "@/components/Social.astro";
+import InstagramWidget from "@/components/InstagramWidget.astro";
+
 import menu from "@/config/menu.json";
 import social from "@/config/social.json";
 const today = new Date();
@@ -29,4 +31,5 @@ const today = new Date();
       &copy; {today.getFullYear()} Ciara's Classroom
     </p>
   </div>
+  <InstagramWidget />
 </footer>
