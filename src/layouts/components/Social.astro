@@ -35,6 +35,8 @@ import {
   IoMail,
 } from "react-icons/io5";
 
+import { Icon } from "astro-icon/components";
+
 const {
   facebook,
   twitter,
@@ -67,6 +69,9 @@ const {
   address,
   skype,
   website,
+  tpt,
+  mash,
+  rahoo
 } = source;
 ---
 
@@ -445,6 +450,48 @@ const {
           rel="noopener noreferrer nofollow"
         >
           <IoGlobeOutline />
+        </a>
+      </li>
+    )
+  }
+  {
+    tpt && (
+      <li class="inline-block">
+        <a
+          aria-label="tpt"
+          href={tpt}
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+        >
+          <Icon name="tpt" />
+        </a>
+      </li>
+    )
+  }
+  {
+    mash && (
+      <li class="inline-block">
+        <a
+          aria-label="mash"
+          href={mash}
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+        >
+          <Icon name="mash" />
+        </a>
+      </li>
+    )
+  }
+  {
+    rahoo && (
+      <li class="inline-block">
+        <a
+          aria-label="rahoo"
+          href={rahoo}
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+        >
+          <Icon name="rahoo" />
         </a>
       </li>
     )
