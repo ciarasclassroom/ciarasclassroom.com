@@ -57,7 +57,7 @@ export default defineConfig({
             label: "Image",
             name: "image",
             type: "image",
-            required: true,
+            required: false,
           },
           {
             label: "Tags",
