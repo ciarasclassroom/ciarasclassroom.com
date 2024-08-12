@@ -1,14 +1,16 @@
 ---
-title: "My First Post"
-description: "meta description"
-date: 2024-08-12T05:00:00Z
-categories: ["art"]
-tags: ["diy", "toy"]
+title: My First Post
+description: meta description
+image: /images/logo.png
+tags:
+  - diy
+  - toy
+categories:
+  - art
+date: 2024-08-12T05:00:00.000Z
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+My First Post!
 
 ## Creative Design
 
