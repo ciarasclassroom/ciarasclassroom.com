@@ -9,6 +9,8 @@ const today = new Date();
 
 <footer class="section bg-theme-dark">
   <div class="container text-center">
+    <InstagramWidget />
+
     {/* footer menu */}
     <ul class="mb-8 space-x-4">
       {
@@ -26,10 +28,10 @@ const today = new Date();
     </ul>
     {/* social icons */}
     <Social source={social} className="social-icons mb-8" />
+
     {/* copyright */}
     <p class="text-white/75">
       &copy; {today.getFullYear()} Ciara's Classroom
     </p>
   </div>
-  <InstagramWidget />
 </footer>

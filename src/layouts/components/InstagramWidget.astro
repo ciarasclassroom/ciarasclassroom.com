@@ -1,0 +1,52 @@
+---
+import axios from 'axios';
+
+const INSTAGRAM_USER_ID = '8453018622';
+const INSTAGRAM_QUERY_HASH = '58b6785bea111c67129decbe6a448951';
+
+const fetchInstagramPosts = async () => {
+  const response = await axios.get(`https://www.instagram.com/graphql/query/`, {
+    params: {
+      query_hash: INSTAGRAM_QUERY_HASH,
+      variables: JSON.stringify({
+        id: INSTAGRAM_USER_ID,
+        first: 6
+      })
+    }
+  });
+
+  const posts = response.data.data.user.edge_owner_to_timeline_media.edges.slice(3, 6).map(async (edge) => {
+    const imageUrl = edge.node.display_url;
+    const caption = edge.node.edge_media_to_caption.edges[0]?.node?.text || '';
+    const postUrl = `https://www.instagram.com/p/${edge.node.shortcode}/`;
+
+    const imageResponse = await axios.get(imageUrl, { responseType: 'arraybuffer' });
+    const base64Image = Buffer.from(imageResponse.data, 'binary').toString('base64');
+    const mimeType = imageResponse.headers['content-type'];
+
+    return {
+      imageUrl: `data:${mimeType};base64,${base64Image}`,
+      caption,
+      postUrl
+    };
+  });
+
+  return Promise.all(posts);
+};
+
+const posts = await fetchInstagramPosts();
+---
+
+
+<div>
+    <h3 class="text-xl font-semibold mb-6 text-white/75">Latest Instagram Posts</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
+      {posts.map(post => (
+        <a href={post.postUrl} target="_blank" rel="noopener noreferrer" class="flex justify-center">
+          <div class="w-[60%] pt-[60%] relative overflow-hidden rounded-lg shadow-md">
+            <img src={post.imageUrl} alt={post.caption} class="absolute top-0 left-0 w-full h-full object-cover transition-transform duration-300 transform group-hover:scale-105" />
+          </div>
+        </a>
+      ))}
+    </div>
+</div>
