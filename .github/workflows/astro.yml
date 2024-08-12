@@ -37,6 +37,19 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Tailscale
+        uses: tailscale/github-action@v2
+        with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:ci
+
+      - name: Fetch Instagram Posts
+        env:
+          HTTP_PROXY: ${{ secrets.HTTP_PROXY }}
+          HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
+        run: npx node fetch-instagram-posts.mjs
+
       - name: Build Site
         env:
           TINACLIENTID: ${{ secrets.TINACLIENTID }}
