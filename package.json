@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "npx tinacms dev -c 'astro dev'",
     "start": "astro dev",
-    "build": "tinacms build && astro build",
+    "build": "node fetch-instagram-posts.mjs && tinacms build && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
