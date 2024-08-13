@@ -22,7 +22,7 @@ Hello, and welcome to Ciara's Classroom! I’m thrilled you’re here as I embar
 
 ### Why Inclusive Education Matters
 
-Let’s face it—“inclusive education” has become quite the buzzword in recent years. But here’s the thing: it’s so much more than that. It’s about creating learning environments where every child, regardless of their culture, religion, race, family structure, socioeconomic background, abilities, or challenges, feels valued, respected, and empowered to succeed.  I’ve been lucky enough in my career so far to have witnessed firsthand how inclusive practices can transform not just individual students, but entire school communities. Here’s why it matters so much:
+Let’s face it—“inclusive education” has become quite the buzzword in recent years. But here’s the thing: it’s so much more than that. It’s about creating learning environments where every child, regardless of their culture, religion, race, family structure, socioeconomic background, abilities, or challenges, feels valued, respected, and empowered to succeed. I’ve been lucky enough in my career so far to have witnessed firsthand how inclusive practices can transform not just individual students, but entire school communities. Here’s why it matters so much:
 
 #### Celebrating Diversity
 
@@ -30,7 +30,7 @@ Inclusive education is about more than acknowledging diversity; it’s about emb
 
 #### Improved Learning Outcomes
 
-When we adapt our teaching to meet diverse needs, all students benefit. I’ve seen how inclusive strategies lead to more engaging, creative, and effective learning experiences. Whether it’s using visual aids, incorporating hands-on activities, or creating flexible learning groups, these approaches often make learning more enjoyable and accessible for everyone in the room.  There has been loads of research into UDL (Universal Design for Learning), which is a fantastic way of supporting all learners in your classroom.
+When we adapt our teaching to meet diverse needs, all students benefit. I’ve seen how inclusive strategies lead to more engaging, creative, and effective learning experiences. Whether it’s using visual aids, incorporating hands-on activities, or creating flexible learning groups, these approaches often make learning more enjoyable and accessible for everyone in the room. There has been loads of research into UDL (Universal Design for Learning), which is a fantastic way of supporting all learners in your classroom.
 
 #### Social and Emotional Growth
 
@@ -52,4 +52,4 @@ That’s why I’m passionate about sharing practical, real-world strategies for
 
 ### What to Expect from This Blog
 
-Through this blog, I’ll be sharing experiences, insights, tips and resources on how to create a welcoming, positive classroom environment. My aim is to provide you with ideas that are not only effective but also very doable—because I know how busy we all are!  Whether you’re a seasoned teacher or just starting out, I hope you’ll find inspiration and practical tips to make your classroom a place where every student can thrive.
+Through this blog, I’ll be sharing experiences, insights, tips and resources on how to create a welcoming, positive classroom environment. My aim is to provide you with ideas that are not only effective but also very doable—because I know how busy we all are! Whether you’re a seasoned teacher or just starting out, I hope you’ll find inspiration and practical tips to make your classroom a place where every student can thrive.

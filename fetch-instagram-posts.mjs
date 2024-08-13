@@ -82,10 +82,12 @@ const downloadImage = async (imageUrl, index) => {
 // Process posts and download images
 const processPosts = async (posts) => {
   const results = await Promise.all(
-    posts.filter((post) => post.data.draft != true).map(async (post) => {
-      const imageUrl = await downloadImage(post.imageUrl, post.index);
-      return imageUrl ? { ...post, imageUrl } : null;
-    }),
+    posts
+      .filter((post) => post.data.draft != true)
+      .map(async (post) => {
+        const imageUrl = await downloadImage(post.imageUrl, post.index);
+        return imageUrl ? { ...post, imageUrl } : null;
+      }),
   );
 
   return results.filter(Boolean);
