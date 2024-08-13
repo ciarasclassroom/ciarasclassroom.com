@@ -86,6 +86,50 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "about",
+        label: "About",
+        path: "src/content/about",
+        defaultItem: () => ({
+          title: "New About",
+          layout: "../pages/about.astro",
+        }),
+        ui: {
+          filename: {
+            readonly: false,
+            slugify: (values) => {
+              return values?.slug?.toLowerCase().replace(/ /g, "-");
+            },
+          },
+        },
+        fields: [
+          {
+            name: "title",
+            label: "Title",
+            type: "string",
+            isTitle: true,
+            required: true,
+          },
+          {
+            label: "Image",
+            name: "image",
+            type: "image",
+            required: false,
+          },
+          {
+            label: "Description",
+            name: "description",
+            type: "string",
+            required: true,
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+        ],
+      },
     ],
   },
   search: {
