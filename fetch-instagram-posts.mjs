@@ -1,6 +1,7 @@
 import axios from "axios";
 import fs from "fs/promises";
 import path from "path";
+import sharp from "sharp";
 import { HttpsProxyAgent } from "https-proxy-agent";
 
 const INSTAGRAM_USER_ID = "8453018622";
@@ -31,13 +32,13 @@ const fetchInstagramPosts = async () => {
         headers: {
           "User-Agent": USER_AGENT,
         },
-      },
+      }
     );
 
     const edges = response.data.data.user.edge_owner_to_timeline_media.edges;
 
     return edges.slice(3, 7).map((edge, index) => {
-      const { display_url: imageUrl, shortcode } = edge.node;
+      const { thumbnail_src: imageUrl, shortcode } = edge.node;
       const caption =
         edge.node.edge_media_to_caption.edges[0]?.node?.text || "";
       const postUrl = `https://www.instagram.com/p/${shortcode}/`;
@@ -50,7 +51,7 @@ const fetchInstagramPosts = async () => {
   }
 };
 
-// Download image and save to local filesystem
+// Download image, resize it, and save to local filesystem
 const downloadImage = async (imageUrl, index) => {
   try {
     const imageResponse = await axios.get(imageUrl, {
@@ -60,13 +61,19 @@ const downloadImage = async (imageUrl, index) => {
     const imagePath = path.join("public", "images", "instagram", imageName);
 
     await fs.mkdir(path.dirname(imagePath), { recursive: true });
-    await fs.writeFile(imagePath, imageResponse.data);
+
+    // Resize the image to a width of 200 pixels while maintaining aspect ratio
+    const resizedImageBuffer = await sharp(imageResponse.data)
+      .resize({ width: 200 })
+      .toBuffer();
+
+    await fs.writeFile(imagePath, resizedImageBuffer);
 
     return `/images/instagram/${imageName}`;
   } catch (error) {
     console.error(
       `An error occurred while downloading image ${imageUrl}:`,
-      error,
+      error
     );
     return null;
   }
@@ -78,7 +85,7 @@ const processPosts = async (posts) => {
     posts.map(async (post) => {
       const imageUrl = await downloadImage(post.imageUrl, post.index);
       return imageUrl ? { ...post, imageUrl } : null;
-    }),
+    })
   );
 
   return results.filter(Boolean);
@@ -92,7 +99,7 @@ const savePostsToFile = async (posts) => {
       "src",
       "lib",
       "fixtures",
-      "instagram_posts.json",
+      "instagram_posts.json"
     );
 
     await fs.mkdir(path.dirname(filePath), { recursive: true });
