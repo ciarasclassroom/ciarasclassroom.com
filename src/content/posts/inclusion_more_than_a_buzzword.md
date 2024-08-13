@@ -15,6 +15,8 @@ image: /Buzzword Banner.jpg
 tags:
   - Welcome
   - Inclusion
+categories:
+  - Inclusion
 date: 2024-08-12T23:00:00.000Z
 ---
 
