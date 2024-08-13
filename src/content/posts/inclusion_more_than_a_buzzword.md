@@ -11,13 +11,12 @@ description: >-
   lucky enough in my career so far to have witnessed firsthand how inclusive
   practices can transform not just individual students, but entire school
   communities.
+image: /Buzzword Banner.jpg
 tags:
   - Welcome
   - Inclusion
 date: 2024-08-12T23:00:00.000Z
 ---
-
-![](</Buzzword Banner.jpg>)
 
 Hello, and welcome to Ciara's Classroom! I’m thrilled you’re here as I embark on this blogging journey to share insights, strategies, and stories from the heart of a primary school classroom. As a teacher and Assistant Principal in a multi-denominational school, I've seen how powerful inclusive education can be—and I’m excited to dive into why it matters so much.
 
