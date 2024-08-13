@@ -26,8 +26,7 @@ export async function fetchResources() {
       .text()
       .trim();
     const link =
-      "https://www.teacherspayteachers.com" +
-      $(element).find("a").attr("href");
+      "https://www.teacherspayteachers.com" + $(element).find("a").attr("href");
     products.push({ title, image, description, price, link });
   });
 

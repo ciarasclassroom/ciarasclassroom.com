@@ -1,5 +1,5 @@
 ---
-import posts from "@/lib/fixtures/instagram_posts.json";
+import products from "@/lib/fixtures/tpt_products.json";
 ---
 
 <div>
@@ -7,22 +7,21 @@ import posts from "@/lib/fixtures/instagram_posts.json";
     href="https://www.teacherspayteachers.com/store/ciaras-classroom"
     class="mt-4 inline-block text-center hover:text-primary text-white/75 rounded-lg p-3"
   >
-    Recent Instagram Posts
+    Recent TpT Products
   </a>
-
   <div class="grid grid-cols-2 gap-2">
     {
-      posts.map((post) => (
+      products.map((product) => (
         <a
-          href={post.postUrl}
+          href={product.link}
           target="_blank"
           rel="noopener noreferrer"
           class="group flex justify-center"
         >
           <div class="w-[70%] pt-[70%] relative overflow-hidden rounded-lg shadow-md">
             <img
-              src={post.imageUrl}
-              alt={post.caption}
+              src={product.image}
+              alt={product.description}
               class="absolute top-0 left-0 w-full h-full object-cover transition-transform duration-300 transform group-hover:scale-110"
             />
           </div>

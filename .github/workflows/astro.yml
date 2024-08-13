@@ -50,6 +50,13 @@ jobs:
           HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
         run: npx node fetch-instagram-posts.mjs
 
+      - name: Fetch TpT Products
+        env:
+          HTTP_PROXY: ${{ secrets.HTTP_PROXY }}
+          HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
+        run: npx node fetch-tpt-products.mjs
+
+
       - name: Build Site
         env:
           TINACLIENTID: ${{ secrets.TINACLIENTID }}

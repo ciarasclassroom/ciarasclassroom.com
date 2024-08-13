@@ -17,23 +17,26 @@ const getProxyAgent = () => {
 // Fetch Instagram posts
 const fetchInstagramPosts = async () => {
   try {
-    const response = await axios.get("https://www.instagram.com/graphql/query/", {
-      params: {
-        query_hash: INSTAGRAM_QUERY_HASH,
-        variables: JSON.stringify({
-          id: INSTAGRAM_USER_ID,
-          first: 6,
-        }),
+    const response = await axios.get(
+      "https://www.instagram.com/graphql/query/",
+      {
+        params: {
+          query_hash: INSTAGRAM_QUERY_HASH,
+          variables: JSON.stringify({
+            id: INSTAGRAM_USER_ID,
+            first: 7,
+          }),
+        },
+        httpsAgent: getProxyAgent(),
+        headers: {
+          "User-Agent": USER_AGENT,
+        },
       },
-      httpsAgent: getProxyAgent(),
-      headers: {
-        "User-Agent": USER_AGENT,
-      },
-    });
+    );
 
     const edges = response.data.data.user.edge_owner_to_timeline_media.edges;
 
-    return edges.slice(3, 6).map((edge, index) => {
+    return edges.slice(3, 7).map((edge, index) => {
       const { display_url: imageUrl, shortcode } = edge.node;
       const caption =
         edge.node.edge_media_to_caption.edges[0]?.node?.text || "";
