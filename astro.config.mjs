@@ -7,6 +7,11 @@ import { defineConfig, squooshImageService } from "astro/config";
 import remarkCollapse from "remark-collapse";
 import remarkToc from "remark-toc";
 import config from "./src/config/config.json";
+import remarkAutolinkHeadings from 'remark-autolink-headings';
+import remarkExternalLinks from 'remark-external-links';
+import remarkEmoji from 'remark-emoji';
+import remarkImages from 'remark-images';
+import remarkGfm from 'remark-gfm';
 
 import icon from "astro-icon";
 
@@ -44,6 +49,11 @@ export default defineConfig({
   ],
   markdown: {
     remarkPlugins: [
+      remarkAutolinkHeadings,
+      remarkExternalLinks,
+      remarkEmoji,
+      remarkImages,
+      remarkGfm,
       remarkToc,
       [
         remarkCollapse,
