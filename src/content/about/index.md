@@ -27,3 +27,5 @@ Whether you're here to read, reflect, or find some new ideas for your own classr
 Happy teaching! 
 
 Ciara
+
+![](</About Ciara.jpeg>)
