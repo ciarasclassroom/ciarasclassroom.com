@@ -6,7 +6,7 @@ import { getSinglePage } from "@/lib/contentParser.astro";
 import type { TPost } from "@/types";
 
 const getPosts = (await getSinglePage("posts")) as TPost[];
-const postsSlug = getPosts.map((item) => item.slug);
+const postsSlug = getPosts.filter((post) => post.data.draft != true).map((item) => item.slug);
 
 export async function getStaticPaths() {
   const posts = await getSinglePage("posts");

@@ -5,7 +5,7 @@ on:
     branches: ["master"]
   workflow_dispatch:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: "0 3 * * *"
 
 permissions:
   contents: read
@@ -55,7 +55,6 @@ jobs:
           HTTP_PROXY: ${{ secrets.HTTP_PROXY }}
           HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
         run: npx node fetch-tpt-products.mjs
-
 
       - name: Build Site
         env:

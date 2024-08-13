@@ -32,7 +32,7 @@ const fetchInstagramPosts = async () => {
         headers: {
           "User-Agent": USER_AGENT,
         },
-      }
+      },
     );
 
     const edges = response.data.data.user.edge_owner_to_timeline_media.edges;
@@ -73,7 +73,7 @@ const downloadImage = async (imageUrl, index) => {
   } catch (error) {
     console.error(
       `An error occurred while downloading image ${imageUrl}:`,
-      error
+      error,
     );
     return null;
   }
@@ -82,10 +82,10 @@ const downloadImage = async (imageUrl, index) => {
 // Process posts and download images
 const processPosts = async (posts) => {
   const results = await Promise.all(
-    posts.map(async (post) => {
+    posts.filter((post) => post.data.draft != true).map(async (post) => {
       const imageUrl = await downloadImage(post.imageUrl, post.index);
       return imageUrl ? { ...post, imageUrl } : null;
-    })
+    }),
   );
 
   return results.filter(Boolean);
@@ -99,7 +99,7 @@ const savePostsToFile = async (posts) => {
       "src",
       "lib",
       "fixtures",
-      "instagram_posts.json"
+      "instagram_posts.json",
     );
 
     await fs.mkdir(path.dirname(filePath), { recursive: true });

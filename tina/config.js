@@ -79,6 +79,12 @@ export default defineConfig({
             required: true,
           },
           {
+            name: "draft",
+            label: "Draft",
+            type: "boolean",
+            defaultValue: false,
+          },
+          {
             type: "rich-text",
             name: "body",
             label: "Body",

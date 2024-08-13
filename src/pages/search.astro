@@ -7,7 +7,7 @@ import { getSinglePage } from "@/lib/contentParser.astro";
 const posts = await getSinglePage("posts");
 
 // List of items to search in
-const searchList = posts.map((item: any) => ({
+const searchList = posts.filter((post) => post.data.draft != true).map((item: any) => ({
   slug: item.slug,
   data: item.data,
   content: item.body,
