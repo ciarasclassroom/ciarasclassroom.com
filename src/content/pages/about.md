@@ -1,6 +1,7 @@
 ---
 title: About
 image: ""
+weight: 1
 description: >-
   Supporting teachers, and sharing ideas for supporting inclusion in diverse and
   multicultural classrooms

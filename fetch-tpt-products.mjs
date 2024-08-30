@@ -3,77 +3,237 @@ import fs from "fs/promises";
 import path from "path";
 import { HttpsProxyAgent } from "https-proxy-agent";
 import * as cheerio from "cheerio";
+import dotenv from "dotenv";
 
+// Load environment variables
+dotenv.config();
+
+// Constants
 const USER_AGENT =
-  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3";
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36";
+const { EXCHANGE_RATE_API_KEY } = process.env;
+const BASE_API_URL = "https://v6.exchangerate-api.com/v6/";
+const VALID_SORT_PARAMS = ["MOST_RECENT", "RELEVANCE"];
+const FILE_DIR = path.join("src", "lib", "fixtures");
+const TPT_BASE_URL = "https://www.teacherspayteachers.com";
+const MAX_RETRIES = 3;
+const RETRY_DELAY = 1000; // 1 second
 
-// Fetch proxy agent if available
+// Validate API Key
+if (!EXCHANGE_RATE_API_KEY) {
+  console.error(
+    "Error: The EXCHANGE_RATE_API_KEY environment variable is not set.",
+  );
+  process.exit(1);
+}
+
+// Helper Functions
 const getProxyAgent = () => {
   const proxy = process.env.HTTP_PROXY || process.env.http_proxy;
   return proxy ? new HttpsProxyAgent(proxy) : null;
 };
 
-// Fetch Instagram posts
-const fetchTpTProducts = async () => {
+const fetchWithRetry = async (options, retries = MAX_RETRIES) => {
   try {
-    const response = await axios.get(
-      "https://www.teacherspayteachers.com/store/ciaras-classroom?order=Most-Recent",
-      {
-        httpsAgent: getProxyAgent(),
-        headers: {
-          "User-Agent": USER_AGENT,
-        },
-      },
+    return await axios(options);
+  } catch (error) {
+    if (retries > 0) {
+      console.log(`Retrying... (${MAX_RETRIES - retries + 1}/${MAX_RETRIES})`);
+      await new Promise((resolve) => setTimeout(resolve, RETRY_DELAY));
+      return fetchWithRetry(url, options, retries - 1);
+    }
+    throw error;
+  }
+};
+
+const fetchExchangeRate = async () => {
+  try {
+    const apiUrl = `${BASE_API_URL}${EXCHANGE_RATE_API_KEY}/latest/USD`;
+    const { data } = await fetchWithRetry(apiUrl);
+    return data.conversion_rates.EUR;
+  } catch (error) {
+    console.error("Error fetching exchange rate:", error.message);
+    throw error;
+  }
+};
+
+const convertDollarsToEuros = (dollars, exchangeRate) => {
+  return (dollars * exchangeRate).toFixed(2);
+};
+
+const parseProducts = async (products, exchangeRate) => {
+  return products.map((product) => {
+    return {
+      title: product.title,
+      link: `https://teacherspayteachers.com/Product/${product.canonicalSlug}`,
+      description: product.description,
+      descriptionSnippet: product.descriptionSnippet,
+      images: product.assets.thumbnails.map((thumbnail) => thumbnail.originalUrl),
+      slug: product.canonicalSlug,
+      reviews: product.totalEvaluations,
+      rating: product.overallQualityScore,
+      categories: product.resourceCategories.map((resourceCategory) => resourceCategory.name),
+      currencies: {
+        USD: product.pricing.nonTransferableLicenses.price,
+        EUR: convertDollarsToEuros(product.pricing.nonTransferableLicenses.price, exchangeRate)
+      }
+    };
+  });
+};
+
+const fetchTpTProducts = async (sortParam, products = [], exchangeRate) => {
+  if (!VALID_SORT_PARAMS.includes(sortParam)) {
+    throw new Error(
+      `Invalid sort parameter. Choose 'MOST_RECENT' or 'RELEVANCE'.`,
     );
+  }
 
-    const $ = cheerio.load(response.data);
-    const products = [];
-
-    $(".ProductRowLayout").each((index, element) => {
-      const title = $(element).find("h2").text().trim();
-      const image = $(element).find("picture img").attr("src");
-      const description = $(element)
-        .find("[class*='ProductRowCard-module__cardDescription']")
-        .text()
-        .trim();
-      const price = $(element)
-        .find(
-          "[class*='ProductPrice-module__price'] [class*='Text-module__root']",
-        )
-        .text()
-        .trim();
-      const link =
-        "https://www.teacherspayteachers.com" +
-        $(element).find("a").attr("href");
-      products.push({ title, image, description, price, link });
+  try {
+    const { data } = await fetchWithRetry({
+      httpsAgent: getProxyAgent(),
+      method: "post",
+      url: "https://www.teacherspayteachers.com/gateway/graphql?opname=StoreResources",
+      headers: {
+        accept: "application/json",
+        "content-type": "application/json",
+        "user-agent": USER_AGENT,
+      },
+      data: {
+        operationName: "StoreResources",
+        variables: {
+          searchQuery: "",
+          pageNumber: 0,
+          client: "MARKETPLACE",
+          withHighlights: true,
+          storeSlug: "ciaras-classroom",
+          resourcesPerPage: 500,
+          debug: false,
+          sortType: sortParam,
+        },
+        query: `query StoreResources($storeId: ID, $storeSlug: String, $pageNumber: Int!, $resourcesPerPage: Int!, $searchQuery: String, $sortType: ResourceSearchSortType, $facets: [String], $withHighlights: Boolean, $debug: Boolean!) {
+      searchResources(pageNum: $pageNumber, resourcesPerPage: $resourcesPerPage, query: $searchQuery, sortType: $sortType, client: MARKETPLACE, filters: {authorId: $storeId, storeSlug: $storeSlug, tptProducts: ["marketplace"]}, withFacets: ["grades_label", "formats", "subjectareas_label", "resourcetypes_label", "on_sale", "featured", "standards_label", "categories"], inputFacets: $facets, withStores: false, withHighlights: $withHighlights, debug: $debug) {
+        totalCount
+        conservativeCount
+        resources {
+          __typename
+          id
+          assets {
+            __typename
+          }
+          ... on DigitalDownloadResource {
+            assets {
+              thumbnails {
+                originalUrl
+                __typename
+              }
+              __typename
+            }
+            __typename
+          }
+          ... on BundleResource {
+            assets {
+              thumbnails {
+                originalUrl
+                __typename
+              }
+              __typename
+            }
+            __typename
+          }
+          ... on OnlineResource {
+            assets {
+              thumbnails {
+                originalUrl
+                __typename
+              }
+              __typename
+            }
+            __typename
+          }
+          description
+          descriptionSnippet
+          canonicalSlug
+          resourceCategories {
+            id
+            name
+            __typename
+          }
+          pricing {
+            nonTransferableLicenses {
+              price
+              __typename
+            }
+            __typename
+          }
+          title
+          totalEvaluations
+          overallQualityScore
+        }
+        __typename
+      }
+    }`,
+      },
     });
 
-    return products.slice(0, 4);
+    const parsedProducts = await parseProducts(data.data.searchResources.resources, exchangeRate);
+    products = products.concat(parsedProducts);
+
+    console.log(`Fetched ${parsedProducts.length} products`);
+
+    return products;
   } catch (error) {
-    console.error("An error occurred while fetching TpT products:", error);
-    return [];
+    console.error(
+      `An error occurred while fetching TpT products:`,
+      error,
+    );
+    return products;
   }
 };
 
-// Save posts data to JSON file
-const saveProductsToFile = async (posts) => {
+const saveProductsToFile = async (products, sortParam) => {
   try {
-    const jsonString = JSON.stringify(posts, null, 2);
-    const filePath = path.join("src", "lib", "fixtures", "tpt_products.json");
-
+    const jsonString = JSON.stringify(products, null, 2);
+    const filePath = path.join(FILE_DIR, `tpt_products_${sortParam}.json`);
     await fs.mkdir(path.dirname(filePath), { recursive: true });
     await fs.writeFile(filePath, jsonString, "utf-8");
-
-    console.log("TpT products data saved successfully.");
+    console.log(`TpT products data saved successfully to ${filePath}.`);
   } catch (error) {
-    console.error("An error occurred while saving the JSON file:", error);
+    console.error(
+      "An error occurred while saving the JSON file:",
+      error.message,
+    );
+    throw error;
   }
 };
 
-// Main execution function
+// Main Execution
 const main = async () => {
-  const products = await fetchTpTProducts();
-  await saveProductsToFile(products);
+  try {
+    const sortParam = process.argv[2] || "MOST_RECENT";
+    if (!VALID_SORT_PARAMS.includes(sortParam)) {
+      throw new Error(
+        `Invalid sort parameter: ${sortParam}. Choose 'MOST_RECENT' or 'RELEVANCE'.`,
+      );
+    }
+
+    console.log(`Fetching exchange rate...`);
+    const exchangeRate = await fetchExchangeRate();
+    console.log(`Exchange rate USD to EUR: ${exchangeRate}`);
+
+    console.log(`Fetching TpT products with sort parameter: ${sortParam}`);
+    const products = await fetchTpTProducts(sortParam, [], exchangeRate);
+    console.log(products);
+    console.log(`Fetched ${products.length} products in total.`);
+
+    await saveProductsToFile(products, sortParam);
+    console.log("Process completed successfully.");
+  } catch (error) {
+    console.error("An unexpected error occurred:", error.message);
+    process.exit(1);
+  }
 };
 
-main().catch((error) => console.error("An unexpected error occurred:", error));
+main().catch((error) => {
+  console.error("Unhandled error in main function:", error);
+  process.exit(1);
+});

@@ -34,32 +34,35 @@ export interface Props {
   noindex?: boolean;
   canonical?: string;
   date?: string;
+  tags?: list;
+  weight?: number;
 }
 
 // distructure frontmatters
-const { title, meta_title, description, image, noindex, canonical, date } =
-  Astro.props;
+const {
+  title,
+  meta_title,
+  description,
+  image,
+  noindex,
+  canonical,
+  date,
+  tags,
+  weight,
+} = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- favicon -->
-    <link rel="shortcut icon" href={config.site.favicon} />
-    <!-- theme meta -->
-    <meta name="theme-name" content="bookworm-light-astro" />
-    <meta name="msapplication-TileColor" content="#000000" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+
     <meta
-      name="theme-color"
-      media="(prefers-color-scheme: light)"
-      content="#fff"
+      name="google-site-verification"
+      content="-OBHGm_Nls9yR0u8lq1aqZLYDFw_dUU1qwfFT5vfVFg"
     />
-    <meta
-      name="theme-color"
-      media="(prefers-color-scheme: dark)"
-      content="#000"
-    />
-    <meta name="generator" content={Astro.generator} />
+    <meta name="p:domain_verify" content="3f05bbb83118856ab395237ec971d550" />
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <!-- google font css -->
@@ -108,6 +111,11 @@ const { title, meta_title, description, image, noindex, canonical, date } =
       )}
     />
 
+    <meta
+      name="keywords"
+      content={tags ? tags.join(", ") : config.metadata.meta_tags.join(", ")}
+    />
+
     <!-- meta-published-date -->
     {
       date && (
@@ -140,6 +148,10 @@ const { title, meta_title, description, image, noindex, canonical, date } =
       property="og:url"
       content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`}
     />
+    <meta
+      property="og:site_name"
+      content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`}
+    />
 
     <!-- twitter-title -->
     <meta
@@ -164,6 +176,12 @@ const { title, meta_title, description, image, noindex, canonical, date } =
         image ? image : config.metadata.meta_image
       }`}
     />
+    <meta
+      property="og:image:alt"
+      content={plainify(
+        meta_title ? meta_title : title ? title : config.site.title,
+      )}
+    />
 
     <!-- twitter-image -->
     <meta
@@ -173,6 +191,32 @@ const { title, meta_title, description, image, noindex, canonical, date } =
       }`}
     />
     <meta name="twitter:card" content="summary_large_image" />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="author" content="Ciara Lynch" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-touch-icon.png?v=1723991838"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon-32x32.png?v=1723991838"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon-16x16.png?v=1723991838"
+    />
+    <link rel="manifest" href="/site.webmanifest?v=1723991838" />
+    <link rel="shortcut icon" href="/favicon.ico?v=1723991838" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
     <TwSizeIndicator />
@@ -189,7 +233,7 @@ const { title, meta_title, description, image, noindex, canonical, date } =
       ga.l = +new Date();
       ga("create", "G-H0SPRG8BKN", "auto");
       ga("send", "pageview");
-      ga('set', 'anonymizeIp', true);
+      ga("set", "anonymizeIp", true);
     </script>
     <script src="https://www.google-analytics.com/analytics.js" async defer
     ></script>

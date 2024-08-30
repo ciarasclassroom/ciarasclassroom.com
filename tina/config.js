@@ -93,21 +93,9 @@ export default defineConfig({
         ],
       },
       {
-        name: "about",
-        label: "About",
-        path: "src/content/about",
-        defaultItem: () => ({
-          title: "New About",
-          layout: "../pages/about.astro",
-        }),
-        ui: {
-          filename: {
-            readonly: false,
-            slugify: (values) => {
-              return values?.slug?.toLowerCase().replace(/ /g, "-");
-            },
-          },
-        },
+        name: "page",
+        label: "Pages",
+        path: "src/content/pages",
         fields: [
           {
             name: "title",
@@ -126,7 +114,19 @@ export default defineConfig({
             label: "Description",
             name: "description",
             type: "string",
-            required: true,
+            required: false,
+          },
+          {
+            label: "Weight",
+            name: "weight",
+            type: "number",
+            required: false,
+          },
+          {
+            name: "draft",
+            label: "Draft",
+            type: "boolean",
+            defaultValue: false,
           },
           {
             type: "rich-text",

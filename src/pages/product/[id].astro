@@ -1,0 +1,223 @@
+---
+import { Image } from "astro:assets";
+import Base from "@/layouts/Base.astro";
+import products from "@/lib/fixtures/tpt_products_MOST_RECENT.json";
+import * as cheerio from "cheerio";
+
+export async function getStaticPaths() {
+  const CURRENCY_VARIANTS = ["US", "IE"] as const;
+
+  const extractFirstParagraph = (htmlString) => {
+    const $ = cheerio.load(htmlString);
+    return $("p").first().prop("outerHTML");
+  };
+
+  const createProductVariant = (
+    product,
+    suffix: (typeof CURRENCY_VARIANTS)[number] | "" = "",
+  ) => ({
+    props: {
+      product: {
+        ...product,
+        description: extractFirstParagraph(product.description),
+        id: `${product.slug}${suffix ? `-${suffix}` : ""}`,
+        currency: suffix === "IE" ? "EUR" : "USD",
+      },
+    },
+    params: { id: `${product.slug}${suffix ? `-${suffix}` : ""}` },
+  });
+
+  return products.flatMap((product) => [
+    createProductVariant(product),
+    ...CURRENCY_VARIANTS.map((suffix) => createProductVariant(product, suffix)),
+  ]);
+}
+
+const { product } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+const price =
+  product.currency === "EUR" ? product.currencies.EUR : product.currencies.USD;
+const currencySymbol = product.currency === "EUR" ? "€" : "$";
+
+const ProductSchema = JSON.stringify({
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  name: product.title,
+  image: product.images,
+  description: product.descriptionSnippet,
+  sku: product.slug,
+  mpn: product.slug,
+  brand: {
+    "@type": "Brand",
+    name: "Ciara's Classroom",
+  },
+  review:
+    product.reviews > 0
+      ? {
+          "@type": "Review",
+          reviewRating: {
+            "@type": "Rating",
+            ratingValue: product.rating,
+            bestRating: "5",
+          },
+        }
+      : undefined,
+  aggregateRating:
+    product.reviews > 0
+      ? {
+          "@type": "AggregateRating",
+          ratingValue: product.rating,
+          reviewCount: product.reviews,
+        }
+      : undefined,
+  offers: {
+    "@type": "Offer",
+    url: canonicalURL.toString(),
+    priceCurrency: product.currency,
+    price: price,
+    priceValidUntil: "2024-12-31",
+    itemCondition: "https://schema.org/NewCondition",
+    availability: "https://schema.org/InStock",
+  },
+});
+
+const formatPrice = (price: number | string): string => {
+  if (typeof price === "string") {
+    // If price is already a string, assume it's pre-formatted
+    return price == "0.00" ? "Free" : `${currencySymbol}${price}`;
+  }
+
+  // If price is a number
+  return price === 0 ? "Free" : `${currencySymbol}${price.toFixed(2)}`;
+};
+---
+
+<Base
+  title={product.title}
+  description={product.descriptionSnippet}
+  image={product.images[0]}
+>
+  <script type="application/ld+json" set:html={ProductSchema} />
+
+  <div class="container mx-auto px-4 py-8">
+    <article
+      class="bg-white shadow-lg rounded-lg overflow-hidden"
+      itemscope
+      itemtype="https://schema.org/Product"
+    >
+      <div class="md:flex">
+        <div class="md:w-1/2 p-4">
+          <div class="w-full h-0 pb-[100%] relative mb-4">
+            <Image
+              src={product.images[0]}
+              alt={product.title}
+              width={400}
+              height={400}
+              class="absolute inset-0 w-full h-full object-contain"
+              id="mainImage"
+              itemprop="image"
+            />
+          </div>
+          <div class="grid grid-cols-4 gap-2">
+            {
+              product.images.map((image, index) => (
+                <div class="aspect-w-1 aspect-h-1 cursor-pointer">
+                  <Image
+                    src={image}
+                    alt={`${product.title} - Image ${index + 1}`}
+                    width={100}
+                    height={100}
+                    class={`rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out object-cover w-full h-full thumbnail ${index === 0 ? "border-2 border-primary" : ""}`}
+                    data-src={image}
+                  />
+                </div>
+              ))
+            }
+          </div>
+        </div>
+        <div class="p-8 md:w-1/2">
+          <header>
+            <div
+              class="uppercase tracking-wide text-sm text-primary font-semibold"
+            >
+              {product.categories.join(", ")}
+            </div>
+            <h1 class="mt-1 text-3xl font-bold text-gray-900" itemprop="name">
+              {product.title}
+            </h1>
+          </header>
+          <div
+            itemprop="description"
+            set:html={product.description}
+            class="mt-2 text-gray-600"
+          />
+          <div
+            class="mt-4"
+            itemprop="offers"
+            itemscope
+            itemtype="https://schema.org/Offer"
+          >
+            <span class="text-gray-500">Price:</span>
+            <span
+              class="ml-2 text-2xl font-bold text-gray-900"
+              itemprop="price"
+              content={price}
+            >
+              {formatPrice(price)}
+            </span>
+            <meta itemprop="priceCurrency" content={product.currency} />
+            <link itemprop="availability" href="https://schema.org/InStock" />
+          </div>
+          {
+            product.reviews > 0 && (
+              <div
+                class="mt-4 flex items-center"
+                itemprop="aggregateRating"
+                itemscope
+                itemtype="https://schema.org/AggregateRating"
+              >
+                <span class="text-gray-500">Rating:</span>
+                <span class="ml-2 text-yellow-500">
+                  {"★".repeat(Math.round(product.rating))}
+                  {"☆".repeat(5 - Math.round(product.rating))}
+                </span>
+                <span class="ml-2 text-gray-500">
+                  (<span itemprop="ratingValue">{product.rating}</span>/
+                  <span itemprop="bestRating">5</span> based on{" "}
+                  <span itemprop="reviewCount">{product.reviews}</span> reviews)
+                </span>
+              </div>
+            )
+          }
+              <a
+                href={product.link}
+                class="mt-4 btn rounded-lg border border-light bg-transparent text-center transition hover:border-primary hover:bg-primary hover:text-white px-4 py-2 inline-block"
+              >
+            {price === 0 ? "Get for Free" : "Buy Now"}
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+</Base>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const mainImage = document.getElementById("mainImage") as HTMLImageElement;
+    const thumbnails = document.querySelectorAll(".thumbnail");
+
+    thumbnails.forEach((thumb) => {
+      thumb.addEventListener("click", function () {
+        const src = this.getAttribute("data-src");
+        if (src && mainImage) {
+          mainImage.src = src;
+          thumbnails.forEach((t) =>
+            t.classList.remove("border-2", "border-primary"),
+          );
+          this.classList.add("border-2", "border-primary");
+        }
+      });
+    });
+  });
+</script>

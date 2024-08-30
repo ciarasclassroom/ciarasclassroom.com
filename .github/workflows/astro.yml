@@ -50,11 +50,15 @@ jobs:
           HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
         run: npx node fetch-instagram-posts.mjs
 
-      - name: Fetch TpT Products
+      - name: Fetch Best Sellers TpT Products
         env:
-          HTTP_PROXY: ${{ secrets.HTTP_PROXY }}
-          HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
-        run: npx node fetch-tpt-products.mjs
+          EXCHANGE_RATE_API_KEY: ${{ secrets.EXCHANGE_RATE_API_KEY }}
+        run: npx node fetch-tpt-products.mjs RELEVANCE
+
+      - name: Fetch Recent TpT Products
+        env:
+          EXCHANGE_RATE_API_KEY: ${{ secrets.EXCHANGE_RATE_API_KEY }}
+        run: npx node fetch-tpt-products.mjs MOST_RECENT
 
       - name: Build Site
         env:

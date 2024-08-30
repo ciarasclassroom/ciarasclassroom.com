@@ -22,3 +22,6 @@ yarn.lock
 
 # ignore .astro directory
 .astro
+oauth2_credentials.json
+token.json
+

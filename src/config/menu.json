@@ -2,19 +2,18 @@
   "main": [
     {
       "name": "Home",
-      "url": "/"
-    },
-    {
-      "name": "About",
-      "url": "/about"
+      "url": "/",
+      "weight": 0
     },
     {
       "name": "Blog",
-      "url": "/blog"
+      "url": "/blog",
+      "weight": 2
     },
     {
       "name": "Best Sellers",
-      "url": "/resources"
+      "url": "/product",
+      "weight": 3
     }
   ],
   "footer": []

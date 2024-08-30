@@ -2,6 +2,7 @@
 import Logo from "@/components/Logo.astro";
 import menu from "@/config/menu.json";
 import { IoSearch } from "react-icons/io5";
+import { getSinglePage } from "@/lib/contentParser.astro";
 
 export interface ChildNavigationLink {
   name: string;
@@ -13,9 +14,28 @@ export interface NavigationLink {
   url: string;
   hasChildren?: boolean;
   children?: ChildNavigationLink[];
+  index?: number;
 }
 
-const { main }: { main: NavigationLink[] } = menu;
+const pages = (await getSinglePage("pages"))
+  .filter((page) => !page.data.hidden)
+  .map((page) => {
+    return {
+      name: page.data.title,
+      url: "/" + page.slug,
+      weight: page.data.weight,
+    };
+  });
+
+let main: { main: NavigationLink[] } = [...menu.main, ...pages];
+
+console.log(main);
+
+main.sort((a, b) => {
+  if (a.weight === undefined) return 1;
+  if (b.weight === undefined) return -1;
+  return a.weight - b.weight;
+});
 ---
 
 <header class="header pt-6">
