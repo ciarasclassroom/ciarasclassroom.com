@@ -52,17 +52,6 @@ const ProductSchema = JSON.stringify({
     "@type": "Brand",
     name: "Ciara's Classroom",
   },
-  review:
-    product.reviews > 0
-      ? {
-          "@type": "Review",
-          reviewRating: {
-            "@type": "Rating",
-            ratingValue: product.rating,
-            bestRating: "5",
-          },
-        }
-      : undefined,
   aggregateRating:
     product.reviews > 0
       ? {
