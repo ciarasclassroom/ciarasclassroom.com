@@ -20,7 +20,7 @@ if (!MERCHANT_ID) {
 async function initializeAuthClient() {
   try {
     const serviceAccountKey = JSON.parse(
-      await fs.readFile(SERVICE_ACCOUNT_PATH, "utf-8"),
+      await fs.readFile(SERVICE_ACCOUNT_PATH, "utf-8")
     );
     return new google.auth.JWT({
       email: serviceAccountKey.client_email,
@@ -36,55 +36,68 @@ async function initializeAuthClient() {
 async function deleteProducts(content, products) {
   const deletionPromises = products.map(async (product) => {
     try {
-      await content.products.delete({
-        merchantId: MERCHANT_ID,
-        productId: product.id,
-      });
-      console.log(`Deleted product with ID: ${product.id}`);
+      // Count the number of hyphens in the product ID
+      const hyphenCount = (product.id.match(/-/g) || []).length;
+      
+      // Check if price is 0.00
+      const price = parseFloat(product.price?.value) || 0;
+      const isPriceZero = price === 0;
+
+      if (hyphenCount >= 2 || isPriceZero) {
+        await content.products.delete({
+          merchantId: MERCHANT_ID,
+          productId: product.id,
+        });
+        console.log(`Deleted product with ID: ${product.id} (${hyphenCount >= 2 ? 'multiple hyphens' : 'zero price'})`);
+      } else {
+        console.log(`Skipped product with ID: ${product.id} (price: ${product.price?.value} ${product.price?.currency})`);
+      }
     } catch (error) {
       console.error(
         `Failed to delete product with ID: ${product.id}:`,
-        error.message,
+        error.message
       );
     }
   });
-
   await Promise.all(deletionPromises);
 }
 
 async function deleteAllProducts() {
   const authClient = await initializeAuthClient();
   await authClient.authorize();
-
   const content = google.content({
     version: "v2.1",
     auth: authClient,
   });
 
-  let nextPageToken = null;
+  let pageToken = undefined;
   do {
     try {
-      const res = await content.products.list({
+      const params = {
         merchantId: MERCHANT_ID,
         maxResults: MAX_RESULTS,
-        pageToken: nextPageToken,
-      });
+      };
+
+      if (pageToken) {
+        params.pageToken = pageToken;
+      }
+
+      const res = await content.products.list(params);
 
       const products = res.data.resources || [];
       if (products.length === 0) {
-        console.log("No products found.");
-        return;
+        console.log("No more products found.");
+        break;
       }
 
-      console.log(`Deleting ${products.length} products...`);
+      console.log(`Processing ${products.length} products...`);
       await deleteProducts(content, products);
-
-      nextPageToken = res.data.nextPageToken;
+      pageToken = res.data.nextPageToken;
     } catch (error) {
       console.error("Error fetching or deleting products:", error.message);
       throw error;
     }
-  } while (nextPageToken);
+  } while (pageToken);
 
   console.log("All products have been processed.");
 }

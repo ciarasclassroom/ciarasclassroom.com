@@ -86,6 +86,7 @@ const formatPrice = (price: number | string): string => {
   title={product.title}
   description={product.descriptionSnippet}
   image={product.images[0]}
+  external_image={true}
 >
   <script type="application/ld+json" set:html={ProductSchema} />
 

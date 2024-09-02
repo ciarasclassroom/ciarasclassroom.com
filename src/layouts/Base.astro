@@ -30,6 +30,7 @@ export interface Props {
   title?: string;
   meta_title?: string;
   description?: string;
+  external_image?: boolean;
   image?: string;
   noindex?: boolean;
   canonical?: string;
@@ -49,6 +50,7 @@ const {
   date,
   tags,
   weight,
+  external_image,
 } = Astro.props;
 ---
 
@@ -172,7 +174,7 @@ const {
     <!-- og-image -->
     <meta
       property="og:image"
-      content={`${config.site.base_url}${
+      content={`${!external_image ? config.site.base_url : ""}${
         image ? image : config.metadata.meta_image
       }`}
     />
@@ -186,7 +188,7 @@ const {
     <!-- twitter-image -->
     <meta
       name="twitter:image"
-      content={`${config.site.base_url}${
+      content={`${!external_image ? config.site.base_url : ""}${
         image ? image : config.metadata.meta_image
       }`}
     />
