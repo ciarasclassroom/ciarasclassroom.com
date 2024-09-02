@@ -60,6 +60,13 @@ jobs:
           EXCHANGE_RATE_API_KEY: ${{ secrets.EXCHANGE_RATE_API_KEY }}
         run: npx node fetch-tpt-products.mjs MOST_RECENT
 
+      - name: Upload Google Products
+        env:
+          MERCHANT_ID: ${{ secrets.MERCHANT_ID }}
+        run: |
+          echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_TOKEN }}' > token.json
+          npx node google-merchent.mjs
+
       - name: Build Site
         env:
           TINACLIENTID: ${{ secrets.TINACLIENTID }}
