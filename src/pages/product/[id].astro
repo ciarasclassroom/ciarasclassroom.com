@@ -27,7 +27,7 @@ export async function getStaticPaths() {
         product: {
           ...product,
           description: extractFirstParagraph(product.description),
-          id: `${product.slug}${variant.suffix ? `-${variant.suffix}` : ""}`,
+          id: `${product.slug.split('-').pop()}${variant.suffix ? `-${variant.suffix}` : ""}`,
           currency: variant.currency,
           currencySymbol: variant.symbol,
         },
@@ -64,7 +64,6 @@ const getCountryInfo = (id) => {
 };
 
 const countryInfo = getCountryInfo(product.id);
-const sku = product.id.split('-').slice(-2).join('-');
 
 
 const ProductSchema = JSON.stringify({
@@ -73,7 +72,7 @@ const ProductSchema = JSON.stringify({
   "name": product.title,
   "image": product.images,
   "description": product.descriptionSnippet,
-  "sku": sku,
+  "sku": product.id,
   "brand": {
     "@type": "Brand",
     "name": "Ciara's Classroom"
@@ -178,7 +177,7 @@ const formatPrice = (price: number | string): string => {
     >
       <meta itemprop="name" content={product.title} />
       <meta itemprop="description" content={product.descriptionSnippet} />
-      <meta itemprop="sku" content={sku} />
+      <meta itemprop="sku" content={product.id} />
       <div itemprop="brand" itemscope itemtype="https://schema.org/Brand">
         <meta itemprop="name" content="Ciara's Classroom" />
       </div>
