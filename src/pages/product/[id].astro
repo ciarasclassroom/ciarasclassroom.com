@@ -197,6 +197,7 @@ const formatPrice = (price: number | string): string => {
           <div class="grid grid-cols-4 gap-2">
             {product.images.map((image, index) => (
               <div class="aspect-w-1 aspect-h-1 cursor-pointer">
+                <meta itemprop="image" content={image} />
                 <Image
                   src={image}
                   alt={`${product.title} - Image ${index + 1}`}
@@ -208,7 +209,6 @@ const formatPrice = (price: number | string): string => {
               </div>
             ))}
           </div>
-          <meta itemprop="image" content={product.images[0]} />
         </div>
         <div class="p-8 md:w-1/2">
           <header>
