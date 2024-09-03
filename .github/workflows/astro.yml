@@ -65,6 +65,7 @@ jobs:
           MERCHANT_ID: ${{ secrets.MERCHANT_ID }}
         run: |
           echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_TOKEN }}' > token.json
+          npx node delete-google-merchant.mjs
           npx node google-merchent.mjs
 
       - name: Build Site

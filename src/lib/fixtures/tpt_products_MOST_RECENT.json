@@ -20,7 +20,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -44,7 +48,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -68,7 +76,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -92,7 +104,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -116,7 +132,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -140,7 +160,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -164,7 +188,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -188,7 +216,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -212,7 +244,11 @@
     ],
     "currencies": {
       "USD": 1.9,
-      "EUR": "1.71"
+      "CAD": "2.56",
+      "GBP": "1.45",
+      "EUR": "1.72",
+      "AUD": "2.80",
+      "NZD": "3.05"
     }
   },
   {
@@ -236,7 +272,11 @@
     ],
     "currencies": {
       "USD": 36,
-      "EUR": "32.49"
+      "CAD": "48.58",
+      "GBP": "27.40",
+      "EUR": "32.54",
+      "AUD": "53.07",
+      "NZD": "57.80"
     }
   },
   {
@@ -260,7 +300,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -284,7 +328,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -308,7 +356,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -332,7 +384,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -356,7 +412,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -380,7 +440,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -404,7 +468,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -428,7 +496,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -452,7 +524,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -476,7 +552,11 @@
     ],
     "currencies": {
       "USD": 1.9,
-      "EUR": "1.71"
+      "CAD": "2.56",
+      "GBP": "1.45",
+      "EUR": "1.72",
+      "AUD": "2.80",
+      "NZD": "3.05"
     }
   },
   {
@@ -499,7 +579,11 @@
     ],
     "currencies": {
       "USD": 1.95,
-      "EUR": "1.76"
+      "CAD": "2.63",
+      "GBP": "1.48",
+      "EUR": "1.76",
+      "AUD": "2.87",
+      "NZD": "3.13"
     }
   },
   {
@@ -523,7 +607,11 @@
     ],
     "currencies": {
       "USD": 6.94,
-      "EUR": "6.26"
+      "CAD": "9.37",
+      "GBP": "5.28",
+      "EUR": "6.27",
+      "AUD": "10.23",
+      "NZD": "11.14"
     }
   },
   {
@@ -547,7 +635,11 @@
     ],
     "currencies": {
       "USD": 4.99,
-      "EUR": "4.50"
+      "CAD": "6.73",
+      "GBP": "3.80",
+      "EUR": "4.51",
+      "AUD": "7.36",
+      "NZD": "8.01"
     }
   },
   {
@@ -571,7 +663,11 @@
     ],
     "currencies": {
       "USD": 8.09,
-      "EUR": "7.30"
+      "CAD": "10.92",
+      "GBP": "6.16",
+      "EUR": "7.31",
+      "AUD": "11.93",
+      "NZD": "12.99"
     }
   },
   {
@@ -595,7 +691,11 @@
     ],
     "currencies": {
       "USD": 7.99,
-      "EUR": "7.21"
+      "CAD": "10.78",
+      "GBP": "6.08",
+      "EUR": "7.22",
+      "AUD": "11.78",
+      "NZD": "12.83"
     }
   },
   {
@@ -619,7 +719,11 @@
     ],
     "currencies": {
       "USD": 3.94,
-      "EUR": "3.56"
+      "CAD": "5.32",
+      "GBP": "3.00",
+      "EUR": "3.56",
+      "AUD": "5.81",
+      "NZD": "6.33"
     }
   },
   {
@@ -643,7 +747,11 @@
     ],
     "currencies": {
       "USD": 12.23,
-      "EUR": "11.04"
+      "CAD": "16.50",
+      "GBP": "9.31",
+      "EUR": "11.06",
+      "AUD": "18.03",
+      "NZD": "19.64"
     }
   },
   {
@@ -667,7 +775,11 @@
     ],
     "currencies": {
       "USD": 8,
-      "EUR": "7.22"
+      "CAD": "10.80",
+      "GBP": "6.09",
+      "EUR": "7.23",
+      "AUD": "11.79",
+      "NZD": "12.84"
     }
   },
   {
@@ -691,7 +803,11 @@
     ],
     "currencies": {
       "USD": 2,
-      "EUR": "1.80"
+      "CAD": "2.70",
+      "GBP": "1.52",
+      "EUR": "1.81",
+      "AUD": "2.95",
+      "NZD": "3.21"
     }
   },
   {
@@ -713,7 +829,11 @@
     ],
     "currencies": {
       "USD": 1,
-      "EUR": "0.90"
+      "CAD": "1.35",
+      "GBP": "0.76",
+      "EUR": "0.90",
+      "AUD": "1.47",
+      "NZD": "1.61"
     }
   },
   {
@@ -737,7 +857,11 @@
     ],
     "currencies": {
       "USD": 2.1,
-      "EUR": "1.90"
+      "CAD": "2.83",
+      "GBP": "1.60",
+      "EUR": "1.90",
+      "AUD": "3.10",
+      "NZD": "3.37"
     }
   },
   {
@@ -761,7 +885,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -785,7 +913,11 @@
     ],
     "currencies": {
       "USD": 5.1,
-      "EUR": "4.60"
+      "CAD": "6.88",
+      "GBP": "3.88",
+      "EUR": "4.61",
+      "AUD": "7.52",
+      "NZD": "8.19"
     }
   },
   {
@@ -809,7 +941,11 @@
     ],
     "currencies": {
       "USD": 10,
-      "EUR": "9.02"
+      "CAD": "13.49",
+      "GBP": "7.61",
+      "EUR": "9.04",
+      "AUD": "14.74",
+      "NZD": "16.05"
     }
   },
   {
@@ -830,7 +966,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -854,7 +994,11 @@
     ],
     "currencies": {
       "USD": 5.3,
-      "EUR": "4.78"
+      "CAD": "7.15",
+      "GBP": "4.03",
+      "EUR": "4.79",
+      "AUD": "7.81",
+      "NZD": "8.51"
     }
   },
   {
@@ -878,7 +1022,11 @@
     ],
     "currencies": {
       "USD": 3.3,
-      "EUR": "2.98"
+      "CAD": "4.45",
+      "GBP": "2.51",
+      "EUR": "2.98",
+      "AUD": "4.86",
+      "NZD": "5.30"
     }
   },
   {
@@ -902,7 +1050,11 @@
     ],
     "currencies": {
       "USD": 1.9,
-      "EUR": "1.71"
+      "CAD": "2.56",
+      "GBP": "1.45",
+      "EUR": "1.72",
+      "AUD": "2.80",
+      "NZD": "3.05"
     }
   },
   {
@@ -926,7 +1078,11 @@
     ],
     "currencies": {
       "USD": 3.5,
-      "EUR": "3.16"
+      "CAD": "4.72",
+      "GBP": "2.66",
+      "EUR": "3.16",
+      "AUD": "5.16",
+      "NZD": "5.62"
     }
   },
   {
@@ -950,7 +1106,11 @@
     ],
     "currencies": {
       "USD": 5.15,
-      "EUR": "4.65"
+      "CAD": "6.95",
+      "GBP": "3.92",
+      "EUR": "4.66",
+      "AUD": "7.59",
+      "NZD": "8.27"
     }
   },
   {
@@ -972,7 +1132,11 @@
     ],
     "currencies": {
       "USD": 5.78,
-      "EUR": "5.22"
+      "CAD": "7.80",
+      "GBP": "4.40",
+      "EUR": "5.23",
+      "AUD": "8.52",
+      "NZD": "9.28"
     }
   },
   {
@@ -994,7 +1158,11 @@
     ],
     "currencies": {
       "USD": 1.99,
-      "EUR": "1.80"
+      "CAD": "2.69",
+      "GBP": "1.51",
+      "EUR": "1.80",
+      "AUD": "2.93",
+      "NZD": "3.19"
     }
   },
   {
@@ -1018,7 +1186,11 @@
     ],
     "currencies": {
       "USD": 5,
-      "EUR": "4.51"
+      "CAD": "6.75",
+      "GBP": "3.81",
+      "EUR": "4.52",
+      "AUD": "7.37",
+      "NZD": "8.03"
     }
   },
   {
@@ -1040,7 +1212,11 @@
     ],
     "currencies": {
       "USD": 1.99,
-      "EUR": "1.80"
+      "CAD": "2.69",
+      "GBP": "1.51",
+      "EUR": "1.80",
+      "AUD": "2.93",
+      "NZD": "3.19"
     }
   },
   {
@@ -1061,7 +1237,11 @@
     ],
     "currencies": {
       "USD": 1.8,
-      "EUR": "1.62"
+      "CAD": "2.43",
+      "GBP": "1.37",
+      "EUR": "1.63",
+      "AUD": "2.65",
+      "NZD": "2.89"
     }
   },
   {
@@ -1085,7 +1265,11 @@
     ],
     "currencies": {
       "USD": 2,
-      "EUR": "1.80"
+      "CAD": "2.70",
+      "GBP": "1.52",
+      "EUR": "1.81",
+      "AUD": "2.95",
+      "NZD": "3.21"
     }
   },
   {
@@ -1109,7 +1293,11 @@
     ],
     "currencies": {
       "USD": 3.25,
-      "EUR": "2.93"
+      "CAD": "4.39",
+      "GBP": "2.47",
+      "EUR": "2.94",
+      "AUD": "4.79",
+      "NZD": "5.22"
     }
   },
   {
@@ -1133,7 +1321,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -1157,7 +1349,11 @@
     ],
     "currencies": {
       "USD": 2,
-      "EUR": "1.80"
+      "CAD": "2.70",
+      "GBP": "1.52",
+      "EUR": "1.81",
+      "AUD": "2.95",
+      "NZD": "3.21"
     }
   },
   {
@@ -1181,7 +1377,11 @@
     ],
     "currencies": {
       "USD": 2,
-      "EUR": "1.80"
+      "CAD": "2.70",
+      "GBP": "1.52",
+      "EUR": "1.81",
+      "AUD": "2.95",
+      "NZD": "3.21"
     }
   },
   {
@@ -1205,7 +1405,11 @@
     ],
     "currencies": {
       "USD": 22,
-      "EUR": "19.85"
+      "CAD": "29.69",
+      "GBP": "16.74",
+      "EUR": "19.89",
+      "AUD": "32.43",
+      "NZD": "35.32"
     }
   },
   {
@@ -1229,7 +1433,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -1253,7 +1461,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -1277,7 +1489,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -1301,7 +1517,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -1325,7 +1545,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -1345,7 +1569,11 @@
     ],
     "currencies": {
       "USD": 1.65,
-      "EUR": "1.49"
+      "CAD": "2.23",
+      "GBP": "1.26",
+      "EUR": "1.49",
+      "AUD": "2.43",
+      "NZD": "2.65"
     }
   },
   {
@@ -1367,7 +1595,11 @@
     ],
     "currencies": {
       "USD": 8.8,
-      "EUR": "7.94"
+      "CAD": "11.88",
+      "GBP": "6.70",
+      "EUR": "7.96",
+      "AUD": "12.97",
+      "NZD": "14.13"
     }
   },
   {
@@ -1390,7 +1622,11 @@
     ],
     "currencies": {
       "USD": 6.75,
-      "EUR": "6.09"
+      "CAD": "9.11",
+      "GBP": "5.14",
+      "EUR": "6.10",
+      "AUD": "9.95",
+      "NZD": "10.84"
     }
   },
   {
@@ -1414,7 +1650,11 @@
     ],
     "currencies": {
       "USD": 2.2,
-      "EUR": "1.99"
+      "CAD": "2.97",
+      "GBP": "1.67",
+      "EUR": "1.99",
+      "AUD": "3.24",
+      "NZD": "3.53"
     }
   },
   {
@@ -1436,7 +1676,11 @@
     ],
     "currencies": {
       "USD": 16.2,
-      "EUR": "14.62"
+      "CAD": "21.86",
+      "GBP": "12.33",
+      "EUR": "14.64",
+      "AUD": "23.88",
+      "NZD": "26.01"
     }
   },
   {
@@ -1458,7 +1702,11 @@
     ],
     "currencies": {
       "USD": 1.2,
-      "EUR": "1.08"
+      "CAD": "1.62",
+      "GBP": "0.91",
+      "EUR": "1.08",
+      "AUD": "1.77",
+      "NZD": "1.93"
     }
   },
   {
@@ -1481,7 +1729,11 @@
     ],
     "currencies": {
       "USD": 1.2,
-      "EUR": "1.08"
+      "CAD": "1.62",
+      "GBP": "0.91",
+      "EUR": "1.08",
+      "AUD": "1.77",
+      "NZD": "1.93"
     }
   },
   {
@@ -1504,7 +1756,11 @@
     ],
     "currencies": {
       "USD": 1.2,
-      "EUR": "1.08"
+      "CAD": "1.62",
+      "GBP": "0.91",
+      "EUR": "1.08",
+      "AUD": "1.77",
+      "NZD": "1.93"
     }
   },
   {
@@ -1527,7 +1783,11 @@
     ],
     "currencies": {
       "USD": 1.2,
-      "EUR": "1.08"
+      "CAD": "1.62",
+      "GBP": "0.91",
+      "EUR": "1.08",
+      "AUD": "1.77",
+      "NZD": "1.93"
     }
   },
   {
@@ -1550,7 +1810,11 @@
     ],
     "currencies": {
       "USD": 1.2,
-      "EUR": "1.08"
+      "CAD": "1.62",
+      "GBP": "0.91",
+      "EUR": "1.08",
+      "AUD": "1.77",
+      "NZD": "1.93"
     }
   },
   {
@@ -1573,7 +1837,11 @@
     ],
     "currencies": {
       "USD": 1.2,
-      "EUR": "1.08"
+      "CAD": "1.62",
+      "GBP": "0.91",
+      "EUR": "1.08",
+      "AUD": "1.77",
+      "NZD": "1.93"
     }
   },
   {
@@ -1596,7 +1864,11 @@
     ],
     "currencies": {
       "USD": 1.2,
-      "EUR": "1.08"
+      "CAD": "1.62",
+      "GBP": "0.91",
+      "EUR": "1.08",
+      "AUD": "1.77",
+      "NZD": "1.93"
     }
   },
   {
@@ -1619,7 +1891,11 @@
     ],
     "currencies": {
       "USD": 1.2,
-      "EUR": "1.08"
+      "CAD": "1.62",
+      "GBP": "0.91",
+      "EUR": "1.08",
+      "AUD": "1.77",
+      "NZD": "1.93"
     }
   },
   {
@@ -1642,7 +1918,11 @@
     ],
     "currencies": {
       "USD": 1.2,
-      "EUR": "1.08"
+      "CAD": "1.62",
+      "GBP": "0.91",
+      "EUR": "1.08",
+      "AUD": "1.77",
+      "NZD": "1.93"
     }
   },
   {
@@ -1665,7 +1945,11 @@
     ],
     "currencies": {
       "USD": 1.2,
-      "EUR": "1.08"
+      "CAD": "1.62",
+      "GBP": "0.91",
+      "EUR": "1.08",
+      "AUD": "1.77",
+      "NZD": "1.93"
     }
   },
   {
@@ -1688,7 +1972,11 @@
     ],
     "currencies": {
       "USD": 1.2,
-      "EUR": "1.08"
+      "CAD": "1.62",
+      "GBP": "0.91",
+      "EUR": "1.08",
+      "AUD": "1.77",
+      "NZD": "1.93"
     }
   },
   {
@@ -1711,7 +1999,11 @@
     ],
     "currencies": {
       "USD": 1.2,
-      "EUR": "1.08"
+      "CAD": "1.62",
+      "GBP": "0.91",
+      "EUR": "1.08",
+      "AUD": "1.77",
+      "NZD": "1.93"
     }
   },
   {
@@ -1735,7 +2027,11 @@
     ],
     "currencies": {
       "USD": 2.2,
-      "EUR": "1.99"
+      "CAD": "2.97",
+      "GBP": "1.67",
+      "EUR": "1.99",
+      "AUD": "3.24",
+      "NZD": "3.53"
     }
   },
   {
@@ -1759,7 +2055,11 @@
     ],
     "currencies": {
       "USD": 2.2,
-      "EUR": "1.99"
+      "CAD": "2.97",
+      "GBP": "1.67",
+      "EUR": "1.99",
+      "AUD": "3.24",
+      "NZD": "3.53"
     }
   },
   {
@@ -1783,7 +2083,11 @@
     ],
     "currencies": {
       "USD": 2.2,
-      "EUR": "1.99"
+      "CAD": "2.97",
+      "GBP": "1.67",
+      "EUR": "1.99",
+      "AUD": "3.24",
+      "NZD": "3.53"
     }
   },
   {
@@ -1806,7 +2110,11 @@
     ],
     "currencies": {
       "USD": 1.99,
-      "EUR": "1.80"
+      "CAD": "2.69",
+      "GBP": "1.51",
+      "EUR": "1.80",
+      "AUD": "2.93",
+      "NZD": "3.19"
     }
   },
   {
@@ -1829,7 +2137,11 @@
     ],
     "currencies": {
       "USD": 6.98,
-      "EUR": "6.30"
+      "CAD": "9.42",
+      "GBP": "5.31",
+      "EUR": "6.31",
+      "AUD": "10.29",
+      "NZD": "11.21"
     }
   },
   {
@@ -1851,7 +2163,11 @@
     ],
     "currencies": {
       "USD": 1.99,
-      "EUR": "1.80"
+      "CAD": "2.69",
+      "GBP": "1.51",
+      "EUR": "1.80",
+      "AUD": "2.93",
+      "NZD": "3.19"
     }
   },
   {
@@ -1875,7 +2191,11 @@
     ],
     "currencies": {
       "USD": 2.5,
-      "EUR": "2.26"
+      "CAD": "3.37",
+      "GBP": "1.90",
+      "EUR": "2.26",
+      "AUD": "3.69",
+      "NZD": "4.01"
     }
   },
   {
@@ -1899,7 +2219,11 @@
     ],
     "currencies": {
       "USD": 6,
-      "EUR": "5.41"
+      "CAD": "8.10",
+      "GBP": "4.57",
+      "EUR": "5.42",
+      "AUD": "8.84",
+      "NZD": "9.63"
     }
   },
   {
@@ -1922,7 +2246,11 @@
     ],
     "currencies": {
       "USD": 3.5,
-      "EUR": "3.16"
+      "CAD": "4.72",
+      "GBP": "2.66",
+      "EUR": "3.16",
+      "AUD": "5.16",
+      "NZD": "5.62"
     }
   },
   {
@@ -1942,7 +2270,11 @@
     ],
     "currencies": {
       "USD": 0,
-      "EUR": "0.00"
+      "CAD": "0.00",
+      "GBP": "0.00",
+      "EUR": "0.00",
+      "AUD": "0.00",
+      "NZD": "0.00"
     }
   },
   {
@@ -1965,7 +2297,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -1988,7 +2324,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -2011,7 +2351,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -2034,7 +2378,11 @@
     ],
     "currencies": {
       "USD": 7.49,
-      "EUR": "6.76"
+      "CAD": "10.11",
+      "GBP": "5.70",
+      "EUR": "6.77",
+      "AUD": "11.04",
+      "NZD": "12.03"
     }
   },
   {
@@ -2056,7 +2404,11 @@
     ],
     "currencies": {
       "USD": 2.5,
-      "EUR": "2.26"
+      "CAD": "3.37",
+      "GBP": "1.90",
+      "EUR": "2.26",
+      "AUD": "3.69",
+      "NZD": "4.01"
     }
   },
   {
@@ -2078,7 +2430,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -2098,7 +2454,11 @@
     ],
     "currencies": {
       "USD": 1.25,
-      "EUR": "1.13"
+      "CAD": "1.69",
+      "GBP": "0.95",
+      "EUR": "1.13",
+      "AUD": "1.84",
+      "NZD": "2.01"
     }
   },
   {
@@ -2122,7 +2482,11 @@
     ],
     "currencies": {
       "USD": 8.49,
-      "EUR": "7.66"
+      "CAD": "11.46",
+      "GBP": "6.46",
+      "EUR": "7.67",
+      "AUD": "12.52",
+      "NZD": "13.63"
     }
   },
   {
@@ -2146,7 +2510,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -2170,7 +2538,11 @@
     ],
     "currencies": {
       "USD": 7.3,
-      "EUR": "6.59"
+      "CAD": "9.85",
+      "GBP": "5.56",
+      "EUR": "6.60",
+      "AUD": "10.76",
+      "NZD": "11.72"
     }
   },
   {
@@ -2191,7 +2563,11 @@
     ],
     "currencies": {
       "USD": 1.99,
-      "EUR": "1.80"
+      "CAD": "2.69",
+      "GBP": "1.51",
+      "EUR": "1.80",
+      "AUD": "2.93",
+      "NZD": "3.19"
     }
   },
   {
@@ -2215,7 +2591,11 @@
     ],
     "currencies": {
       "USD": 3.5,
-      "EUR": "3.16"
+      "CAD": "4.72",
+      "GBP": "2.66",
+      "EUR": "3.16",
+      "AUD": "5.16",
+      "NZD": "5.62"
     }
   },
   {
@@ -2234,7 +2614,11 @@
     ],
     "currencies": {
       "USD": 0,
-      "EUR": "0.00"
+      "CAD": "0.00",
+      "GBP": "0.00",
+      "EUR": "0.00",
+      "AUD": "0.00",
+      "NZD": "0.00"
     }
   },
   {
@@ -2258,7 +2642,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -2282,7 +2670,11 @@
     ],
     "currencies": {
       "USD": 14.89,
-      "EUR": "13.44"
+      "CAD": "20.09",
+      "GBP": "11.33",
+      "EUR": "13.46",
+      "AUD": "21.95",
+      "NZD": "23.91"
     }
   },
   {
@@ -2306,7 +2698,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -2327,7 +2723,11 @@
     ],
     "currencies": {
       "USD": 1.25,
-      "EUR": "1.13"
+      "CAD": "1.69",
+      "GBP": "0.95",
+      "EUR": "1.13",
+      "AUD": "1.84",
+      "NZD": "2.01"
     }
   },
   {
@@ -2351,7 +2751,11 @@
     ],
     "currencies": {
       "USD": 3.2,
-      "EUR": "2.89"
+      "CAD": "4.32",
+      "GBP": "2.44",
+      "EUR": "2.89",
+      "AUD": "4.72",
+      "NZD": "5.14"
     }
   },
   {
@@ -2360,10 +2764,10 @@
     "description": "<p>A Student Council Folder is an essential for any teacher working with their school's council.  This resource pack includes everything you need to set up the  Student Council Binder for the year.  There are two covers to choose from ('Student Council Binder' and 'Student Council Folder') and a variety of templates.</p><p></p><p>I have also included a duplicate of the full pack using the term Student Organization should your school use this name rather than of Student Council.</p><p></p><p>  </p><p>Templates include:</p><ul><li>Planning the Student Council Elections</li><li>This Year's Student Council Members</li><li>Student Council Vision for _____</li><li>Student Council Ideas/Brainstorm</li><li>This Year's Student Council (bullet points)</li><li>Student Council Goals</li><li>Student Council Goal Setting ( using SMART to set clear attainable goals)</li><li>Checklist for Current Student Council Goal</li><li>Meeting Agenda</li><li>Meeting Minutes (broken into 'Discussion Points', 'Action Items' and 'Next Meeting')</li><li>Student Council To Do List</li><li>Student Council Notes Sheet</li><li>Student Council Calendar (month by month)</li></ul><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Student-Council-Information-Powerpoint-8589659\" target=\"_blank\" rel=\"noreferrer noopener\">Student Council Information Powerpoint</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Student-Council-Certificates-8098806\" target=\"_blank\" rel=\"noreferrer noopener\">Student Council Certificates</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Inclusive-Classroom-Posters-for-Celebrating-Diversity-7174795\" target=\"_blank\" rel=\"noreferrer noopener\">Inclusive Classroom Posters for Celebrating Diversity</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Classroom-Library-Checklist-for-Diversity-and-Inclusion-8456543\" target=\"_blank\" rel=\"noreferrer noopener\">Classroom Library Checklist for Diversity and Inclusion</a></li></ul><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
     "descriptionSnippet": "A Student Council Folder is an essential for any teacher working with their school's council.  This resource pack includes everything you need to set up the  Student Council Binder for the year.  There are two covers to choose from ('Student Council Binder' and 'Student Council Folder') and a variety of templates. I have also included a duplicate of the full pack using the term Student Organization should your school use this name rather than of Student Council.    Templates include: Planning th",
     "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/Student-Council-Folder-9255891-1706539446/original-9255891-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Student-Council-Folder-9255891-1706539446/original-9255891-2.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Student-Council-Folder-9255891-1706539446/original-9255891-3.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Student-Council-Folder-9255891-1706539446/original-9255891-4.jpg"
+      "https://ecdn.teacherspayteachers.com/thumbitem/Student-Council-Folder-9255891-1725089058/original-9255891-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Student-Council-Folder-9255891-1725089058/original-9255891-2.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Student-Council-Folder-9255891-1725089058/original-9255891-3.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Student-Council-Folder-9255891-1725089058/original-9255891-4.jpg"
     ],
     "slug": "Student-Council-Folder-9255891",
     "reviews": 0,
@@ -2375,7 +2779,11 @@
     ],
     "currencies": {
       "USD": 3.5,
-      "EUR": "3.16"
+      "CAD": "4.72",
+      "GBP": "2.66",
+      "EUR": "3.16",
+      "AUD": "5.16",
+      "NZD": "5.62"
     }
   },
   {
@@ -2399,7 +2807,11 @@
     ],
     "currencies": {
       "USD": 3.5,
-      "EUR": "3.16"
+      "CAD": "4.72",
+      "GBP": "2.66",
+      "EUR": "3.16",
+      "AUD": "5.16",
+      "NZD": "5.62"
     }
   },
   {
@@ -2423,7 +2835,11 @@
     ],
     "currencies": {
       "USD": 1.95,
-      "EUR": "1.76"
+      "CAD": "2.63",
+      "GBP": "1.48",
+      "EUR": "1.76",
+      "AUD": "2.87",
+      "NZD": "3.13"
     }
   },
   {
@@ -2447,7 +2863,11 @@
     ],
     "currencies": {
       "USD": 9.15,
-      "EUR": "8.26"
+      "CAD": "12.35",
+      "GBP": "6.96",
+      "EUR": "8.27",
+      "AUD": "13.49",
+      "NZD": "14.69"
     }
   },
   {
@@ -2470,7 +2890,11 @@
     ],
     "currencies": {
       "USD": 2.25,
-      "EUR": "2.03"
+      "CAD": "3.04",
+      "GBP": "1.71",
+      "EUR": "2.03",
+      "AUD": "3.32",
+      "NZD": "3.61"
     }
   },
   {
@@ -2494,7 +2918,11 @@
     ],
     "currencies": {
       "USD": 2,
-      "EUR": "1.80"
+      "CAD": "2.70",
+      "GBP": "1.52",
+      "EUR": "1.81",
+      "AUD": "2.95",
+      "NZD": "3.21"
     }
   },
   {
@@ -2518,7 +2946,11 @@
     ],
     "currencies": {
       "USD": 4.15,
-      "EUR": "3.74"
+      "CAD": "5.60",
+      "GBP": "3.16",
+      "EUR": "3.75",
+      "AUD": "6.12",
+      "NZD": "6.66"
     }
   },
   {
@@ -2539,7 +2971,11 @@
     ],
     "currencies": {
       "USD": 9,
-      "EUR": "8.12"
+      "CAD": "12.15",
+      "GBP": "6.85",
+      "EUR": "8.14",
+      "AUD": "13.27",
+      "NZD": "14.45"
     }
   },
   {
@@ -2560,7 +2996,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -2581,7 +3021,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -2602,7 +3046,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -2626,7 +3074,11 @@
     ],
     "currencies": {
       "USD": 3.25,
-      "EUR": "2.93"
+      "CAD": "4.39",
+      "GBP": "2.47",
+      "EUR": "2.94",
+      "AUD": "4.79",
+      "NZD": "5.22"
     }
   },
   {
@@ -2648,7 +3100,11 @@
     ],
     "currencies": {
       "USD": 2.25,
-      "EUR": "2.03"
+      "CAD": "3.04",
+      "GBP": "1.71",
+      "EUR": "2.03",
+      "AUD": "3.32",
+      "NZD": "3.61"
     }
   },
   {
@@ -2671,7 +3127,11 @@
     ],
     "currencies": {
       "USD": 2,
-      "EUR": "1.80"
+      "CAD": "2.70",
+      "GBP": "1.52",
+      "EUR": "1.81",
+      "AUD": "2.95",
+      "NZD": "3.21"
     }
   },
   {
@@ -2693,7 +3153,11 @@
     ],
     "currencies": {
       "USD": 1.95,
-      "EUR": "1.76"
+      "CAD": "2.63",
+      "GBP": "1.48",
+      "EUR": "1.76",
+      "AUD": "2.87",
+      "NZD": "3.13"
     }
   },
   {
@@ -2717,7 +3181,11 @@
     ],
     "currencies": {
       "USD": 9.9,
-      "EUR": "8.93"
+      "CAD": "13.36",
+      "GBP": "7.53",
+      "EUR": "8.95",
+      "AUD": "14.59",
+      "NZD": "15.89"
     }
   },
   {
@@ -2741,7 +3209,11 @@
     ],
     "currencies": {
       "USD": 23.08,
-      "EUR": "20.83"
+      "CAD": "31.15",
+      "GBP": "17.56",
+      "EUR": "20.86",
+      "AUD": "34.02",
+      "NZD": "37.05"
     }
   },
   {
@@ -2765,7 +3237,11 @@
     ],
     "currencies": {
       "USD": 2.6,
-      "EUR": "2.35"
+      "CAD": "3.51",
+      "GBP": "1.98",
+      "EUR": "2.35",
+      "AUD": "3.83",
+      "NZD": "4.17"
     }
   },
   {
@@ -2789,7 +3265,11 @@
     ],
     "currencies": {
       "USD": 1.95,
-      "EUR": "1.76"
+      "CAD": "2.63",
+      "GBP": "1.48",
+      "EUR": "1.76",
+      "AUD": "2.87",
+      "NZD": "3.13"
     }
   },
   {
@@ -2812,7 +3292,11 @@
     ],
     "currencies": {
       "USD": 1.99,
-      "EUR": "1.80"
+      "CAD": "2.69",
+      "GBP": "1.51",
+      "EUR": "1.80",
+      "AUD": "2.93",
+      "NZD": "3.19"
     }
   },
   {
@@ -2836,7 +3320,11 @@
     ],
     "currencies": {
       "USD": 2.1,
-      "EUR": "1.90"
+      "CAD": "2.83",
+      "GBP": "1.60",
+      "EUR": "1.90",
+      "AUD": "3.10",
+      "NZD": "3.37"
     }
   },
   {
@@ -2860,7 +3348,11 @@
     ],
     "currencies": {
       "USD": 2.1,
-      "EUR": "1.90"
+      "CAD": "2.83",
+      "GBP": "1.60",
+      "EUR": "1.90",
+      "AUD": "3.10",
+      "NZD": "3.37"
     }
   },
   {
@@ -2884,7 +3376,11 @@
     ],
     "currencies": {
       "USD": 1.99,
-      "EUR": "1.80"
+      "CAD": "2.69",
+      "GBP": "1.51",
+      "EUR": "1.80",
+      "AUD": "2.93",
+      "NZD": "3.19"
     }
   },
   {
@@ -2907,7 +3403,11 @@
     ],
     "currencies": {
       "USD": 1.8,
-      "EUR": "1.62"
+      "CAD": "2.43",
+      "GBP": "1.37",
+      "EUR": "1.63",
+      "AUD": "2.65",
+      "NZD": "2.89"
     }
   },
   {
@@ -2931,7 +3431,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -2955,7 +3459,11 @@
     ],
     "currencies": {
       "USD": 3.5,
-      "EUR": "3.16"
+      "CAD": "4.72",
+      "GBP": "2.66",
+      "EUR": "3.16",
+      "AUD": "5.16",
+      "NZD": "5.62"
     }
   },
   {
@@ -2979,7 +3487,11 @@
     ],
     "currencies": {
       "USD": 2.1,
-      "EUR": "1.90"
+      "CAD": "2.83",
+      "GBP": "1.60",
+      "EUR": "1.90",
+      "AUD": "3.10",
+      "NZD": "3.37"
     }
   },
   {
@@ -3002,7 +3514,11 @@
     ],
     "currencies": {
       "USD": 2.5,
-      "EUR": "2.26"
+      "CAD": "3.37",
+      "GBP": "1.90",
+      "EUR": "2.26",
+      "AUD": "3.69",
+      "NZD": "4.01"
     }
   },
   {
@@ -3026,7 +3542,11 @@
     ],
     "currencies": {
       "USD": 6,
-      "EUR": "5.41"
+      "CAD": "8.10",
+      "GBP": "4.57",
+      "EUR": "5.42",
+      "AUD": "8.84",
+      "NZD": "9.63"
     }
   },
   {
@@ -3050,7 +3570,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -3074,7 +3598,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -3097,7 +3625,11 @@
     ],
     "currencies": {
       "USD": 1,
-      "EUR": "0.90"
+      "CAD": "1.35",
+      "GBP": "0.76",
+      "EUR": "0.90",
+      "AUD": "1.47",
+      "NZD": "1.61"
     }
   },
   {
@@ -3117,7 +3649,11 @@
     ],
     "currencies": {
       "USD": 1,
-      "EUR": "0.90"
+      "CAD": "1.35",
+      "GBP": "0.76",
+      "EUR": "0.90",
+      "AUD": "1.47",
+      "NZD": "1.61"
     }
   },
   {
@@ -3141,7 +3677,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -3163,7 +3703,11 @@
     ],
     "currencies": {
       "USD": 1.99,
-      "EUR": "1.80"
+      "CAD": "2.69",
+      "GBP": "1.51",
+      "EUR": "1.80",
+      "AUD": "2.93",
+      "NZD": "3.19"
     }
   },
   {
@@ -3182,7 +3726,11 @@
     ],
     "currencies": {
       "USD": 20.59,
-      "EUR": "18.58"
+      "CAD": "27.79",
+      "GBP": "15.67",
+      "EUR": "18.61",
+      "AUD": "30.35",
+      "NZD": "33.06"
     }
   },
   {
@@ -3202,7 +3750,11 @@
     ],
     "currencies": {
       "USD": 2.5,
-      "EUR": "2.26"
+      "CAD": "3.37",
+      "GBP": "1.90",
+      "EUR": "2.26",
+      "AUD": "3.69",
+      "NZD": "4.01"
     }
   },
   {
@@ -3224,7 +3776,11 @@
     ],
     "currencies": {
       "USD": 4.9,
-      "EUR": "4.42"
+      "CAD": "6.61",
+      "GBP": "3.73",
+      "EUR": "4.43",
+      "AUD": "7.22",
+      "NZD": "7.87"
     }
   },
   {
@@ -3248,7 +3804,11 @@
     ],
     "currencies": {
       "USD": 24.69,
-      "EUR": "22.28"
+      "CAD": "33.32",
+      "GBP": "18.79",
+      "EUR": "22.32",
+      "AUD": "36.40",
+      "NZD": "39.64"
     }
   },
   {
@@ -3271,7 +3831,11 @@
     ],
     "currencies": {
       "USD": 2.5,
-      "EUR": "2.26"
+      "CAD": "3.37",
+      "GBP": "1.90",
+      "EUR": "2.26",
+      "AUD": "3.69",
+      "NZD": "4.01"
     }
   },
   {
@@ -3292,7 +3856,11 @@
     ],
     "currencies": {
       "USD": 1.2,
-      "EUR": "1.08"
+      "CAD": "1.62",
+      "GBP": "0.91",
+      "EUR": "1.08",
+      "AUD": "1.77",
+      "NZD": "1.93"
     }
   },
   {
@@ -3316,7 +3884,11 @@
     ],
     "currencies": {
       "USD": 2,
-      "EUR": "1.80"
+      "CAD": "2.70",
+      "GBP": "1.52",
+      "EUR": "1.81",
+      "AUD": "2.95",
+      "NZD": "3.21"
     }
   },
   {
@@ -3339,7 +3911,11 @@
     ],
     "currencies": {
       "USD": 1.99,
-      "EUR": "1.80"
+      "CAD": "2.69",
+      "GBP": "1.51",
+      "EUR": "1.80",
+      "AUD": "2.93",
+      "NZD": "3.19"
     }
   },
   {
@@ -3362,7 +3938,11 @@
     ],
     "currencies": {
       "USD": 9.8,
-      "EUR": "8.84"
+      "CAD": "13.23",
+      "GBP": "7.46",
+      "EUR": "8.86",
+      "AUD": "14.45",
+      "NZD": "15.73"
     }
   },
   {
@@ -3384,7 +3964,11 @@
     ],
     "currencies": {
       "USD": 13.2,
-      "EUR": "11.91"
+      "CAD": "17.81",
+      "GBP": "10.05",
+      "EUR": "11.93",
+      "AUD": "19.46",
+      "NZD": "21.19"
     }
   },
   {
@@ -3404,7 +3988,11 @@
     ],
     "currencies": {
       "USD": 1,
-      "EUR": "0.90"
+      "CAD": "1.35",
+      "GBP": "0.76",
+      "EUR": "0.90",
+      "AUD": "1.47",
+      "NZD": "1.61"
     }
   },
   {
@@ -3426,7 +4014,11 @@
     ],
     "currencies": {
       "USD": 4.99,
-      "EUR": "4.50"
+      "CAD": "6.73",
+      "GBP": "3.80",
+      "EUR": "4.51",
+      "AUD": "7.36",
+      "NZD": "8.01"
     }
   },
   {
@@ -3435,9 +4027,9 @@
     "description": "<p>Create beautiful Back to School keepsakes with these first day of school signs.  Simply print and use the sign in your first day of school photos.  This product also includes last day of school signs which would be perfect for showing just how much your students have grown since the first day of the year.  The signs come as a Powerpoint so you can edit the date and use them again year after year.</p><p> </p><p><strong>Product includes:</strong></p><ul><li>“Today is my first day of (Primary School, Junior Infants, Senior Infants, First Class, Second Class, Third Class, Fourth Class, Fifth Class, Sixth Class)”</li><li>“Today is my last day of (Primary School, Junior Infants, Senior Infants, First Class, Second Class, Third Class, Fourth Class, Fifth Class, Sixth Class)”</li></ul><p> </p><p>If you would like to see some of the other resources that I love using with my students, check out my instagram account at <ins><a href=\"https://www.instagram.com/ciarasclassroom/\">@ciarasclassroom</a></ins>.</p><p> </p><p><em>Also, I would really appreciate it if you could leave a review for this product on my store. Your feedback will help me to continue to make helpful resources for you and your students. You can also earn TpT credit to use towards future purchases on this website!</em></p><p> </p><p>I hope that you enjoy creating memories with these editable signs for the start and end of the year in your classroom!</p><p></p><p><strong>Related resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/EDITABLE-Meet-the-Teacher-Template-5919617\" target=\"_blank\" rel=\"noreferrer noopener\">EDITABLE Meet the Teacher Template</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Teacher-Organisation-Printables-7076336\" target=\"_blank\" rel=\"noreferrer noopener\">Teacher Organisation Printables</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Inclusive-Classroom-Posters-for-Celebrating-Diversity-7174795\" target=\"_blank\" rel=\"noreferrer noopener\">Inclusive Classroom Posters for Celebrating Diversity</a></li></ul><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login). </li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product. </li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases. </li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store.  &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
     "descriptionSnippet": "Create beautiful Back to School keepsakes with these first day of school signs.  Simply print and use the sign in your first day of school photos.  This product also includes last day of school signs which would be perfect for showing just how much your students have grown since the first day of the year.  The signs come as a Powerpoint so you can edit the date and use them again year after year.   Product includes:“Today is my first day of (Primary School, Junior Infants, Senior Infants, First",
     "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/First-Day-and-Last-Day-of-School-Signs-for-Photos-Ireland-8166539-1723193780/original-8166539-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/First-Day-and-Last-Day-of-School-Signs-for-Photos-Ireland-8166539-1723193780/original-8166539-2.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/First-Day-and-Last-Day-of-School-Signs-for-Photos-Ireland-8166539-1723193780/original-8166539-3.jpg"
+      "https://ecdn.teacherspayteachers.com/thumbitem/First-Day-and-Last-Day-of-School-Signs-for-Photos-Ireland-8166539-1725088994/original-8166539-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/First-Day-and-Last-Day-of-School-Signs-for-Photos-Ireland-8166539-1725088994/original-8166539-2.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/First-Day-and-Last-Day-of-School-Signs-for-Photos-Ireland-8166539-1725088994/original-8166539-3.jpg"
     ],
     "slug": "First-Day-and-Last-Day-of-School-Signs-for-Photos-Ireland-8166539",
     "reviews": 1,
@@ -3448,7 +4040,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -3472,7 +4068,11 @@
     ],
     "currencies": {
       "USD": 6.25,
-      "EUR": "5.64"
+      "CAD": "8.43",
+      "GBP": "4.76",
+      "EUR": "5.65",
+      "AUD": "9.21",
+      "NZD": "10.03"
     }
   },
   {
@@ -3494,7 +4094,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -3516,7 +4120,11 @@
     ],
     "currencies": {
       "USD": 3.25,
-      "EUR": "2.93"
+      "CAD": "4.39",
+      "GBP": "2.47",
+      "EUR": "2.94",
+      "AUD": "4.79",
+      "NZD": "5.22"
     }
   },
   {
@@ -3537,7 +4145,11 @@
     ],
     "currencies": {
       "USD": 1.85,
-      "EUR": "1.67"
+      "CAD": "2.50",
+      "GBP": "1.41",
+      "EUR": "1.67",
+      "AUD": "2.73",
+      "NZD": "2.97"
     }
   },
   {
@@ -3559,7 +4171,11 @@
     ],
     "currencies": {
       "USD": 1.99,
-      "EUR": "1.80"
+      "CAD": "2.69",
+      "GBP": "1.51",
+      "EUR": "1.80",
+      "AUD": "2.93",
+      "NZD": "3.19"
     }
   },
   {
@@ -3583,7 +4199,11 @@
     ],
     "currencies": {
       "USD": 9.5,
-      "EUR": "8.57"
+      "CAD": "12.82",
+      "GBP": "7.23",
+      "EUR": "8.59",
+      "AUD": "14.00",
+      "NZD": "15.25"
     }
   },
   {
@@ -3606,7 +4226,11 @@
     ],
     "currencies": {
       "USD": 3.6,
-      "EUR": "3.25"
+      "CAD": "4.86",
+      "GBP": "2.74",
+      "EUR": "3.25",
+      "AUD": "5.31",
+      "NZD": "5.78"
     }
   },
   {
@@ -3627,7 +4251,11 @@
     ],
     "currencies": {
       "USD": 2.5,
-      "EUR": "2.26"
+      "CAD": "3.37",
+      "GBP": "1.90",
+      "EUR": "2.26",
+      "AUD": "3.69",
+      "NZD": "4.01"
     }
   },
   {
@@ -3648,7 +4276,11 @@
     ],
     "currencies": {
       "USD": 2.2,
-      "EUR": "1.99"
+      "CAD": "2.97",
+      "GBP": "1.67",
+      "EUR": "1.99",
+      "AUD": "3.24",
+      "NZD": "3.53"
     }
   },
   {
@@ -3669,7 +4301,11 @@
     ],
     "currencies": {
       "USD": 1.5,
-      "EUR": "1.35"
+      "CAD": "2.02",
+      "GBP": "1.14",
+      "EUR": "1.36",
+      "AUD": "2.21",
+      "NZD": "2.41"
     }
   },
   {
@@ -3690,7 +4326,11 @@
     ],
     "currencies": {
       "USD": 2.4,
-      "EUR": "2.17"
+      "CAD": "3.24",
+      "GBP": "1.83",
+      "EUR": "2.17",
+      "AUD": "3.54",
+      "NZD": "3.85"
     }
   },
   {
@@ -3710,7 +4350,11 @@
     ],
     "currencies": {
       "USD": 0,
-      "EUR": "0.00"
+      "CAD": "0.00",
+      "GBP": "0.00",
+      "EUR": "0.00",
+      "AUD": "0.00",
+      "NZD": "0.00"
     }
   },
   {
@@ -3732,7 +4376,11 @@
     ],
     "currencies": {
       "USD": 0,
-      "EUR": "0.00"
+      "CAD": "0.00",
+      "GBP": "0.00",
+      "EUR": "0.00",
+      "AUD": "0.00",
+      "NZD": "0.00"
     }
   },
   {
@@ -3752,7 +4400,11 @@
     ],
     "currencies": {
       "USD": 0,
-      "EUR": "0.00"
+      "CAD": "0.00",
+      "GBP": "0.00",
+      "EUR": "0.00",
+      "AUD": "0.00",
+      "NZD": "0.00"
     }
   },
   {
@@ -3773,7 +4425,11 @@
     ],
     "currencies": {
       "USD": 1.8,
-      "EUR": "1.62"
+      "CAD": "2.43",
+      "GBP": "1.37",
+      "EUR": "1.63",
+      "AUD": "2.65",
+      "NZD": "2.89"
     }
   },
   {
@@ -3794,7 +4450,11 @@
     ],
     "currencies": {
       "USD": 11.94,
-      "EUR": "10.77"
+      "CAD": "16.11",
+      "GBP": "9.09",
+      "EUR": "10.79",
+      "AUD": "17.60",
+      "NZD": "19.17"
     }
   },
   {
@@ -3816,7 +4476,11 @@
     ],
     "currencies": {
       "USD": 1.99,
-      "EUR": "1.80"
+      "CAD": "2.69",
+      "GBP": "1.51",
+      "EUR": "1.80",
+      "AUD": "2.93",
+      "NZD": "3.19"
     }
   },
   {
@@ -3838,7 +4502,11 @@
     ],
     "currencies": {
       "USD": 1.99,
-      "EUR": "1.80"
+      "CAD": "2.69",
+      "GBP": "1.51",
+      "EUR": "1.80",
+      "AUD": "2.93",
+      "NZD": "3.19"
     }
   },
   {
@@ -3858,7 +4526,11 @@
     ],
     "currencies": {
       "USD": 2,
-      "EUR": "1.80"
+      "CAD": "2.70",
+      "GBP": "1.52",
+      "EUR": "1.81",
+      "AUD": "2.95",
+      "NZD": "3.21"
     }
   },
   {
@@ -3880,7 +4552,11 @@
     ],
     "currencies": {
       "USD": 1.99,
-      "EUR": "1.80"
+      "CAD": "2.69",
+      "GBP": "1.51",
+      "EUR": "1.80",
+      "AUD": "2.93",
+      "NZD": "3.19"
     }
   },
   {
@@ -3902,7 +4578,11 @@
     ],
     "currencies": {
       "USD": 1.99,
-      "EUR": "1.80"
+      "CAD": "2.69",
+      "GBP": "1.51",
+      "EUR": "1.80",
+      "AUD": "2.93",
+      "NZD": "3.19"
     }
   },
   {
@@ -3924,7 +4604,11 @@
     ],
     "currencies": {
       "USD": 1.99,
-      "EUR": "1.80"
+      "CAD": "2.69",
+      "GBP": "1.51",
+      "EUR": "1.80",
+      "AUD": "2.93",
+      "NZD": "3.19"
     }
   },
   {
@@ -3946,7 +4630,11 @@
     ],
     "currencies": {
       "USD": 1.99,
-      "EUR": "1.80"
+      "CAD": "2.69",
+      "GBP": "1.51",
+      "EUR": "1.80",
+      "AUD": "2.93",
+      "NZD": "3.19"
     }
   },
   {
@@ -3970,7 +4658,11 @@
     ],
     "currencies": {
       "USD": 13.54,
-      "EUR": "12.22"
+      "CAD": "18.27",
+      "GBP": "10.30",
+      "EUR": "12.24",
+      "AUD": "19.96",
+      "NZD": "21.74"
     }
   },
   {
@@ -3993,7 +4685,11 @@
     ],
     "currencies": {
       "USD": 6,
-      "EUR": "5.41"
+      "CAD": "8.10",
+      "GBP": "4.57",
+      "EUR": "5.42",
+      "AUD": "8.84",
+      "NZD": "9.63"
     }
   },
   {
@@ -4014,7 +4710,11 @@
     ],
     "currencies": {
       "USD": 1.99,
-      "EUR": "1.80"
+      "CAD": "2.69",
+      "GBP": "1.51",
+      "EUR": "1.80",
+      "AUD": "2.93",
+      "NZD": "3.19"
     }
   },
   {
@@ -4035,7 +4735,11 @@
     ],
     "currencies": {
       "USD": 2.2,
-      "EUR": "1.99"
+      "CAD": "2.97",
+      "GBP": "1.67",
+      "EUR": "1.99",
+      "AUD": "3.24",
+      "NZD": "3.53"
     }
   },
   {
@@ -4059,7 +4763,11 @@
     ],
     "currencies": {
       "USD": 4,
-      "EUR": "3.61"
+      "CAD": "5.40",
+      "GBP": "3.04",
+      "EUR": "3.62",
+      "AUD": "5.90",
+      "NZD": "6.42"
     }
   },
   {
@@ -4082,7 +4790,11 @@
     ],
     "currencies": {
       "USD": 4.5,
-      "EUR": "4.06"
+      "CAD": "6.07",
+      "GBP": "3.42",
+      "EUR": "4.07",
+      "AUD": "6.63",
+      "NZD": "7.22"
     }
   },
   {
@@ -4103,7 +4815,11 @@
     ],
     "currencies": {
       "USD": 0,
-      "EUR": "0.00"
+      "CAD": "0.00",
+      "GBP": "0.00",
+      "EUR": "0.00",
+      "AUD": "0.00",
+      "NZD": "0.00"
     }
   },
   {
@@ -4124,7 +4840,11 @@
     ],
     "currencies": {
       "USD": 3.25,
-      "EUR": "2.93"
+      "CAD": "4.39",
+      "GBP": "2.47",
+      "EUR": "2.94",
+      "AUD": "4.79",
+      "NZD": "5.22"
     }
   },
   {
@@ -4145,7 +4865,11 @@
     ],
     "currencies": {
       "USD": 41.5,
-      "EUR": "37.45"
+      "CAD": "56.00",
+      "GBP": "31.58",
+      "EUR": "37.52",
+      "AUD": "61.18",
+      "NZD": "66.63"
     }
   },
   {
@@ -4168,7 +4892,11 @@
     ],
     "currencies": {
       "USD": 2.25,
-      "EUR": "2.03"
+      "CAD": "3.04",
+      "GBP": "1.71",
+      "EUR": "2.03",
+      "AUD": "3.32",
+      "NZD": "3.61"
     }
   },
   {
@@ -4187,7 +4915,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -4206,7 +4938,11 @@
     ],
     "currencies": {
       "USD": 1.95,
-      "EUR": "1.76"
+      "CAD": "2.63",
+      "GBP": "1.48",
+      "EUR": "1.76",
+      "AUD": "2.87",
+      "NZD": "3.13"
     }
   },
   {
@@ -4226,7 +4962,11 @@
     ],
     "currencies": {
       "USD": 6,
-      "EUR": "5.41"
+      "CAD": "8.10",
+      "GBP": "4.57",
+      "EUR": "5.42",
+      "AUD": "8.84",
+      "NZD": "9.63"
     }
   },
   {
@@ -4248,7 +4988,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -4270,7 +5014,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -4291,7 +5039,11 @@
     ],
     "currencies": {
       "USD": 10.05,
-      "EUR": "9.07"
+      "CAD": "13.56",
+      "GBP": "7.65",
+      "EUR": "9.09",
+      "AUD": "14.81",
+      "NZD": "16.14"
     }
   },
   {
@@ -4314,7 +5066,11 @@
     ],
     "currencies": {
       "USD": 2.25,
-      "EUR": "2.03"
+      "CAD": "3.04",
+      "GBP": "1.71",
+      "EUR": "2.03",
+      "AUD": "3.32",
+      "NZD": "3.61"
     }
   },
   {
@@ -4337,7 +5093,11 @@
     ],
     "currencies": {
       "USD": 2.2,
-      "EUR": "1.99"
+      "CAD": "2.97",
+      "GBP": "1.67",
+      "EUR": "1.99",
+      "AUD": "3.24",
+      "NZD": "3.53"
     }
   },
   {
@@ -4358,7 +5118,11 @@
     ],
     "currencies": {
       "USD": 15,
-      "EUR": "13.54"
+      "CAD": "20.24",
+      "GBP": "11.42",
+      "EUR": "13.56",
+      "AUD": "22.11",
+      "NZD": "24.08"
     }
   },
   {
@@ -4381,7 +5145,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -4404,7 +5172,11 @@
     ],
     "currencies": {
       "USD": 5.5,
-      "EUR": "4.96"
+      "CAD": "7.42",
+      "GBP": "4.19",
+      "EUR": "4.97",
+      "AUD": "8.11",
+      "NZD": "8.83"
     }
   },
   {
@@ -4427,7 +5199,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -4450,7 +5226,11 @@
     ],
     "currencies": {
       "USD": 0,
-      "EUR": "0.00"
+      "CAD": "0.00",
+      "GBP": "0.00",
+      "EUR": "0.00",
+      "AUD": "0.00",
+      "NZD": "0.00"
     }
   },
   {
@@ -4473,7 +5253,11 @@
     ],
     "currencies": {
       "USD": 2.5,
-      "EUR": "2.26"
+      "CAD": "3.37",
+      "GBP": "1.90",
+      "EUR": "2.26",
+      "AUD": "3.69",
+      "NZD": "4.01"
     }
   },
   {
@@ -4497,7 +5281,11 @@
     ],
     "currencies": {
       "USD": 3.2,
-      "EUR": "2.89"
+      "CAD": "4.32",
+      "GBP": "2.44",
+      "EUR": "2.89",
+      "AUD": "4.72",
+      "NZD": "5.14"
     }
   },
   {
@@ -4520,7 +5308,11 @@
     ],
     "currencies": {
       "USD": 2.25,
-      "EUR": "2.03"
+      "CAD": "3.04",
+      "GBP": "1.71",
+      "EUR": "2.03",
+      "AUD": "3.32",
+      "NZD": "3.61"
     }
   },
   {
@@ -4543,7 +5335,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -4566,7 +5362,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -4587,7 +5387,11 @@
     ],
     "currencies": {
       "USD": 12.24,
-      "EUR": "11.05"
+      "CAD": "16.52",
+      "GBP": "9.31",
+      "EUR": "11.06",
+      "AUD": "18.04",
+      "NZD": "19.65"
     }
   },
   {
@@ -4610,7 +5414,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -4633,7 +5441,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -4657,7 +5469,11 @@
     ],
     "currencies": {
       "USD": 3.3,
-      "EUR": "2.98"
+      "CAD": "4.45",
+      "GBP": "2.51",
+      "EUR": "2.98",
+      "AUD": "4.86",
+      "NZD": "5.30"
     }
   },
   {
@@ -4676,7 +5492,11 @@
     ],
     "currencies": {
       "USD": 1,
-      "EUR": "0.90"
+      "CAD": "1.35",
+      "GBP": "0.76",
+      "EUR": "0.90",
+      "AUD": "1.47",
+      "NZD": "1.61"
     }
   },
   {
@@ -4699,7 +5519,11 @@
     ],
     "currencies": {
       "USD": 1.6,
-      "EUR": "1.44"
+      "CAD": "2.16",
+      "GBP": "1.22",
+      "EUR": "1.45",
+      "AUD": "2.36",
+      "NZD": "2.57"
     }
   },
   {
@@ -4722,7 +5546,11 @@
     ],
     "currencies": {
       "USD": 3,
-      "EUR": "2.71"
+      "CAD": "4.05",
+      "GBP": "2.28",
+      "EUR": "2.71",
+      "AUD": "4.42",
+      "NZD": "4.82"
     }
   },
   {
@@ -4745,7 +5573,11 @@
     ],
     "currencies": {
       "USD": 3.2,
-      "EUR": "2.89"
+      "CAD": "4.32",
+      "GBP": "2.44",
+      "EUR": "2.89",
+      "AUD": "4.72",
+      "NZD": "5.14"
     }
   },
   {
@@ -4767,7 +5599,11 @@
     ],
     "currencies": {
       "USD": 3.7,
-      "EUR": "3.34"
+      "CAD": "4.99",
+      "GBP": "2.82",
+      "EUR": "3.34",
+      "AUD": "5.45",
+      "NZD": "5.94"
     }
   },
   {
@@ -4790,7 +5626,11 @@
     ],
     "currencies": {
       "USD": 5,
-      "EUR": "4.51"
+      "CAD": "6.75",
+      "GBP": "3.81",
+      "EUR": "4.52",
+      "AUD": "7.37",
+      "NZD": "8.03"
     }
   },
   {
@@ -4813,7 +5653,11 @@
     ],
     "currencies": {
       "USD": 0,
-      "EUR": "0.00"
+      "CAD": "0.00",
+      "GBP": "0.00",
+      "EUR": "0.00",
+      "AUD": "0.00",
+      "NZD": "0.00"
     }
   }
 ]

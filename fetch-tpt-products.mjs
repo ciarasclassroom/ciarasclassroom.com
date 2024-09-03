@@ -18,6 +18,7 @@ const FILE_DIR = path.join("src", "lib", "fixtures");
 const TPT_BASE_URL = "https://www.teacherspayteachers.com";
 const MAX_RETRIES = 3;
 const RETRY_DELAY = 1000; // 1 second
+const SUPPORTED_CURRENCIES = ["USD", "CAD", "GBP", "EUR", "AUD", "NZD"]; // Add more currencies as needed
 
 // Validate API Key
 if (!EXCHANGE_RATE_API_KEY) {
@@ -40,29 +41,41 @@ const fetchWithRetry = async (options, retries = MAX_RETRIES) => {
     if (retries > 0) {
       console.log(`Retrying... (${MAX_RETRIES - retries + 1}/${MAX_RETRIES})`);
       await new Promise((resolve) => setTimeout(resolve, RETRY_DELAY));
-      return fetchWithRetry(url, options, retries - 1);
+      return fetchWithRetry(options, retries - 1);
     }
     throw error;
   }
 };
 
-const fetchExchangeRate = async () => {
+const fetchExchangeRates = async () => {
   try {
     const apiUrl = `${BASE_API_URL}${EXCHANGE_RATE_API_KEY}/latest/USD`;
-    const { data } = await fetchWithRetry(apiUrl);
-    return data.conversion_rates.EUR;
+    const { data } = await fetchWithRetry({ url: apiUrl });
+    const rates = {};
+    SUPPORTED_CURRENCIES.forEach(currency => {
+      rates[currency] = data.conversion_rates[currency];
+    });
+    return rates;
   } catch (error) {
-    console.error("Error fetching exchange rate:", error.message);
+    console.error("Error fetching exchange rates:", error.message);
     throw error;
   }
 };
 
-const convertDollarsToEuros = (dollars, exchangeRate) => {
-  return (dollars * exchangeRate).toFixed(2);
+const convertCurrency = (amount, fromCurrency, toCurrency, rates) => {
+  if (fromCurrency === toCurrency) return amount;
+  const inUSD = amount / rates[fromCurrency];
+  return (inUSD * rates[toCurrency]).toFixed(2);
 };
 
-const parseProducts = async (products, exchangeRate) => {
+const parseProducts = async (products, exchangeRates) => {
   return products.map((product) => {
+    const usdPrice = product.pricing.nonTransferableLicenses.price;
+    const currencies = {};
+    SUPPORTED_CURRENCIES.forEach(currency => {
+      currencies[currency] = convertCurrency(usdPrice, "USD", currency, exchangeRates);
+    });
+
     return {
       title: product.title,
       link: `https://teacherspayteachers.com/Product/${product.canonicalSlug}`,
@@ -73,15 +86,12 @@ const parseProducts = async (products, exchangeRate) => {
       reviews: product.totalEvaluations,
       rating: product.overallQualityScore,
       categories: product.resourceCategories.map((resourceCategory) => resourceCategory.name),
-      currencies: {
-        USD: product.pricing.nonTransferableLicenses.price,
-        EUR: convertDollarsToEuros(product.pricing.nonTransferableLicenses.price, exchangeRate)
-      }
+      currencies: currencies
     };
   });
 };
 
-const fetchTpTProducts = async (sortParam, products = [], exchangeRate) => {
+const fetchTpTProducts = async (sortParam, products = [], exchangeRates) => {
   if (!VALID_SORT_PARAMS.includes(sortParam)) {
     throw new Error(
       `Invalid sort parameter. Choose 'MOST_RECENT' or 'RELEVANCE'.`,
@@ -175,7 +185,7 @@ const fetchTpTProducts = async (sortParam, products = [], exchangeRate) => {
       },
     });
 
-    const parsedProducts = await parseProducts(data.data.searchResources.resources, exchangeRate);
+    const parsedProducts = await parseProducts(data.data.searchResources.resources, exchangeRates);
     products = products.concat(parsedProducts);
 
     console.log(`Fetched ${parsedProducts.length} products`);
@@ -216,13 +226,12 @@ const main = async () => {
       );
     }
 
-    console.log(`Fetching exchange rate...`);
-    const exchangeRate = await fetchExchangeRate();
-    console.log(`Exchange rate USD to EUR: ${exchangeRate}`);
+    console.log(`Fetching exchange rates...`);
+    const exchangeRates = await fetchExchangeRates();
+    console.log(`Exchange rates fetched for: ${Object.keys(exchangeRates).join(", ")}`);
 
     console.log(`Fetching TpT products with sort parameter: ${sortParam}`);
-    const products = await fetchTpTProducts(sortParam, [], exchangeRate);
-    console.log(products);
+    const products = await fetchTpTProducts(sortParam, [], exchangeRates);
     console.log(`Fetched ${products.length} products in total.`);
 
     await saveProductsToFile(products, sortParam);

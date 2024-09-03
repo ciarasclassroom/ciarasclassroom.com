@@ -5,7 +5,12 @@ import products from "@/lib/fixtures/tpt_products_MOST_RECENT.json";
 import * as cheerio from "cheerio";
 
 export async function getStaticPaths() {
-  const CURRENCY_VARIANTS = ["US", "IE"] as const;
+  const CURRENCY_VARIANTS = {
+    US: { suffix: "US", currency: "USD", symbol: "$" },
+    CA: { suffix: "CA", currency: "CAD", symbol: "CA$" },
+    IE: { suffix: "IE", currency: "EUR", symbol: "€" },
+    UK: { suffix: "UK", currency: "GBP", symbol: "£" },
+  } as const;
 
   const extractFirstParagraph = (htmlString) => {
     const $ = cheerio.load(htmlString);
@@ -14,31 +19,33 @@ export async function getStaticPaths() {
 
   const createProductVariant = (
     product,
-    suffix: (typeof CURRENCY_VARIANTS)[number] | "" = "",
-  ) => ({
-    props: {
-      product: {
-        ...product,
-        description: extractFirstParagraph(product.description),
-        id: `${product.slug}${suffix ? `-${suffix}` : ""}`,
-        currency: suffix === "IE" ? "EUR" : "USD",
+    variantKey: keyof typeof CURRENCY_VARIANTS | "" = "",
+  ) => {
+    const variant = variantKey ? CURRENCY_VARIANTS[variantKey] : { suffix: "", currency: "USD", symbol: "$" };
+    return {
+      props: {
+        product: {
+          ...product,
+          description: extractFirstParagraph(product.description),
+          id: `${product.slug}${variant.suffix ? `-${variant.suffix}` : ""}`,
+          currency: variant.currency,
+          currencySymbol: variant.symbol,
+        },
       },
-    },
-    params: { id: `${product.slug}${suffix ? `-${suffix}` : ""}` },
-  });
+      params: { id: `${product.slug}${variant.suffix ? `-${variant.suffix}` : ""}` },
+    };
+  };
 
   return products.flatMap((product) => [
     createProductVariant(product),
-    ...CURRENCY_VARIANTS.map((suffix) => createProductVariant(product, suffix)),
+    ...Object.keys(CURRENCY_VARIANTS).map((key) => createProductVariant(product, key as keyof typeof CURRENCY_VARIANTS)),
   ]);
 }
 
 const { product } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const price =
-  product.currency === "EUR" ? product.currencies.EUR : product.currencies.USD;
-const currencySymbol = product.currency === "EUR" ? "€" : "$";
+const price = product.currencies[product.currency];
 
 const ProductSchema = JSON.stringify({
   "@context": "https://schema.org/",
@@ -46,8 +53,6 @@ const ProductSchema = JSON.stringify({
   name: product.title,
   image: product.images,
   description: product.descriptionSnippet,
-  sku: product.slug,
-  mpn: product.slug,
   brand: {
     "@type": "Brand",
     name: "Ciara's Classroom",
@@ -73,12 +78,9 @@ const ProductSchema = JSON.stringify({
 
 const formatPrice = (price: number | string): string => {
   if (typeof price === "string") {
-    // If price is already a string, assume it's pre-formatted
-    return price == "0.00" ? "Free" : `${currencySymbol}${price}`;
+    return price === "0.00" ? "Free" : `${product.currencySymbol}${price}`;
   }
-
-  // If price is a number
-  return price === 0 ? "Free" : `${currencySymbol}${price.toFixed(2)}`;
+  return price === 0 ? "Free" : `${product.currencySymbol}${price.toFixed(2)}`;
 };
 ---
 
@@ -180,10 +182,10 @@ const formatPrice = (price: number | string): string => {
               </div>
             )
           }
-              <a
-                href={product.link}
-                class="mt-4 btn rounded-lg border border-light bg-transparent text-center transition hover:border-primary hover:bg-primary hover:text-white px-4 py-2 inline-block"
-              >
+          <a
+            href={product.link}
+            class="mt-4 btn rounded-lg border border-light bg-transparent text-center transition hover:border-primary hover:bg-primary hover:text-white px-4 py-2 inline-block"
+          >
             {price === 0 ? "Get for Free" : "Buy Now"}
           </a>
         </div>

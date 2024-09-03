@@ -18,22 +18,31 @@ const defaultProduct = {
   brand: "Ciara's Classroom",
 };
 
+// Currency and country mappings
+const currencyCountryMap = {
+  USD: { country: "US", suffix: "US" },
+  CAD: { country: "CA", suffix: "CA" },
+  GBP: { country: "GB", suffix: "UK" },
+  EUR: { country: "IE", suffix: "IE" },
+};
+
 // Helper function to create a product object
-function createProduct(product, country, currencyCode) {
-  const offerId = `${product.slug.split("-").pop()}-${country}`;
+function createProduct(product, currencyCode) {
+  const { country, suffix } = currencyCountryMap[currencyCode];
+  const offerId = `${product.slug.split('-').pop()}-${suffix}`;
   return {
     ...defaultProduct,
-    id: offerId,
+    id: `${product.slug.split('-').pop()}-${suffix}`,
     targetCountry: country,
     offerId,
     title: product.title,
     description: product.descriptionSnippet,
-    link: `https://ciarasclassroom.com/product/${product.slug}-${country}`,
+    link: `https://ciarasclassroom.com/product/${product.slug}-${suffix}`,
     imageLink: product.images[0],
     additionalImageLinks: product.images.slice(1),
     identifier_exists: false,
     price: {
-      value: product.currencies?.[currencyCode] || "0",
+      value: product.currencies[currencyCode] || "0",
       currency: currencyCode,
     },
     productTypes: product.categories,
@@ -44,10 +53,11 @@ function createProduct(product, country, currencyCode) {
 async function loadProductsFromFile(filePath) {
   try {
     const data = JSON.parse(await readFile(filePath, "utf-8"));
-    return [
-      ...data.map((product) => createProduct(product, "US", "USD")),
-      ...data.map((product) => createProduct(product, "IE", "EUR")),
-    ];
+    return data.flatMap((product) =>
+      Object.keys(currencyCountryMap).map((currencyCode) =>
+        createProduct(product, currencyCode)
+      )
+    );
   } catch (error) {
     console.error("Error loading products from file:", error);
     return [];
@@ -97,7 +107,7 @@ async function bulkUploadProducts(authClient, products) {
 
       res.data.entries.forEach((entry, index) => {
         if (entry.errors) {
-          console.error(`Product ${i + index + 1} upload error:`, entry.errors);
+          console.error(`Product ${i + index + 1} upload error:`, JSON.stringify(entry));
         } else {
           console.log(`Product ${i + index + 1} uploaded successfully.`);
         }
