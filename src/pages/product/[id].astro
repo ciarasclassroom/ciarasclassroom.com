@@ -49,39 +49,40 @@ const price = product.currencies[product.currency];
 
 console.log(product);
 
+const getCountryInfo = (id) => {
+  const suffix = id.split('-').pop();
+  switch (suffix) {
+    case 'US':
+      return { name: "United States", identifier: "US", currency: "USD" };
+    case 'CA':
+      return { name: "Canada", identifier: "CA", currency: "CAD" };
+    case 'IE':
+      return { name: "Ireland", identifier: "IE", currency: "EUR" };
+    case 'UK':
+      return { name: "United Kingdom", identifier: "UK", currency: "GBP" };
+    default:
+      return { name: "United States", identifier: "US", currency: "USD" }; // Default to US if no match
+  }
+};
+
+const countryInfo = getCountryInfo(product.id);
+
 const ProductSchema = JSON.stringify({
   "@context": "https://schema.org/",
   "@type": "Product",
   name: product.title,
   image: product.images,
   description: product.descriptionSnippet,
-  sku: product.id.split('-').slice(-2).join('-'),
+  sku: product.id,
   brand: {
     "@type": "Brand",
     name: "Ciara's Classroom",
   },
-  areaServed: [
-    {
-      "@type": "Country",
-      name: "United States",
-      identifier: "US"
-    },
-    {
-      "@type": "Country",
-      name: "Canada",
-      identifier: "CA"
-    },
-    {
-      "@type": "Country",
-      name: "Ireland",
-      identifier: "IE"
-    },
-    {
-      "@type": "Country",
-      name: "United Kingdom",
-      identifier: "UK"
-    }
-  ],
+  areaServed: {
+    "@type": "Country",
+    name: countryInfo.name,
+    identifier: countryInfo.identifier
+  },
   aggregateRating:
     product.reviews > 0
       ? {
@@ -90,64 +91,20 @@ const ProductSchema = JSON.stringify({
           reviewCount: product.reviews,
         }
       : undefined,
-  offers: [
-    {
-      "@type": "Offer",
-      url: canonicalURL.toString(),
-      priceCurrency: "USD",
-      price: product.currencies.USD,
-      priceValidUntil: "2024-12-31",
-      itemCondition: "https://schema.org/NewCondition",
-      availability: "https://schema.org/InStock",
-      areaServed: {
-        "@type": "Country",
-        name: "United States",
-        identifier: "US"
-      }
-    },
-    {
-      "@type": "Offer",
-      url: canonicalURL.toString(),
-      priceCurrency: "CAD",
-      price: product.currencies.CAD,
-      priceValidUntil: "2024-12-31",
-      itemCondition: "https://schema.org/NewCondition",
-      availability: "https://schema.org/InStock",
-      areaServed: {
-        "@type": "Country",
-        name: "Canada",
-        identifier: "CA"
-      }
-    },
-    {
-      "@type": "Offer",
-      url: canonicalURL.toString(),
-      priceCurrency: "EUR",
-      price: product.currencies.EUR,
-      priceValidUntil: "2024-12-31",
-      itemCondition: "https://schema.org/NewCondition",
-      availability: "https://schema.org/InStock",
-      areaServed: {
-        "@type": "Country",
-        name: "Ireland",
-        identifier: "IE"
-      }
-    },
-    {
-      "@type": "Offer",
-      url: canonicalURL.toString(),
-      priceCurrency: "GBP",
-      price: product.currencies.GBP,
-      priceValidUntil: "2024-12-31",
-      itemCondition: "https://schema.org/NewCondition",
-      availability: "https://schema.org/InStock",
-      areaServed: {
-        "@type": "Country",
-        name: "United Kingdom",
-        identifier: "UK"
-      }
+  offers: {
+    "@type": "Offer",
+    url: canonicalURL.toString(),
+    priceCurrency: countryInfo.currency,
+    price: product.currencies[countryInfo.currency],
+    priceValidUntil: "2024-12-31",
+    itemCondition: "https://schema.org/NewCondition",
+    availability: "https://schema.org/InStock",
+    areaServed: {
+      "@type": "Country",
+      name: countryInfo.name,
+      identifier: countryInfo.identifier
     }
-  ],
+  },
 });
 
 const formatPrice = (price: number | string): string => {
