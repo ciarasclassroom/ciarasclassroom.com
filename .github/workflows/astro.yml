@@ -44,17 +44,6 @@ jobs:
           oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
           tags: tag:ci
 
-      - name: Cache external data
-        uses: actions/cache@v3
-        with:
-          path: |
-            ./instagram-posts.json
-            ./tpt-products-relevance.json
-            ./tpt-products-recent.json
-          key: ${{ runner.os }}-external-data-${{ github.sha }}
-          restore-keys: |
-            ${{ runner.os }}-external-data-
-
       - name: Fetch external data
         env:
           HTTP_PROXY: ${{ secrets.HTTP_PROXY }}
@@ -124,7 +113,7 @@ jobs:
 
   deploy:
     name: Deploy to GitHub Pages
-    needs: [upload_google_products, build_site]
+    needs: [build_site]
     runs-on: ubuntu-latest
     environment:
       name: github-pages
