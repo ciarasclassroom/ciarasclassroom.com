@@ -73,6 +73,7 @@ const ProductSchema = JSON.stringify({
   "image": product.images,
   "description": product.descriptionSnippet,
   "sku": product.id,
+  "mpn": product.id,
   "brand": {
     "@type": "Brand",
     "name": "Ciara's Classroom"
@@ -178,6 +179,7 @@ const formatPrice = (price: number | string): string => {
       <meta itemprop="name" content={product.title} />
       <meta itemprop="description" content={product.descriptionSnippet} />
       <meta itemprop="sku" content={product.id} />
+      <meta itemprop="mpn" content={product.id} />
       <div itemprop="brand" itemscope itemtype="https://schema.org/Brand">
         <meta itemprop="name" content="Ciara's Classroom" />
       </div>
