@@ -60,6 +60,28 @@ const ProductSchema = JSON.stringify({
     "@type": "Brand",
     name: "Ciara's Classroom",
   },
+  areaServed: [
+    {
+      "@type": "Country",
+      name: "United States",
+      identifier: "US"
+    },
+    {
+      "@type": "Country",
+      name: "Canada",
+      identifier: "CA"
+    },
+    {
+      "@type": "Country",
+      name: "Ireland",
+      identifier: "IE"
+    },
+    {
+      "@type": "Country",
+      name: "United Kingdom",
+      identifier: "UK"
+    }
+  ],
   aggregateRating:
     product.reviews > 0
       ? {
@@ -68,15 +90,64 @@ const ProductSchema = JSON.stringify({
           reviewCount: product.reviews,
         }
       : undefined,
-  offers: {
-    "@type": "Offer",
-    url: canonicalURL.toString(),
-    priceCurrency: product.currency,
-    price: price,
-    priceValidUntil: "2024-12-31",
-    itemCondition: "https://schema.org/NewCondition",
-    availability: "https://schema.org/InStock",
-  },
+  offers: [
+    {
+      "@type": "Offer",
+      url: canonicalURL.toString(),
+      priceCurrency: "USD",
+      price: product.currencies.USD,
+      priceValidUntil: "2024-12-31",
+      itemCondition: "https://schema.org/NewCondition",
+      availability: "https://schema.org/InStock",
+      areaServed: {
+        "@type": "Country",
+        name: "United States",
+        identifier: "US"
+      }
+    },
+    {
+      "@type": "Offer",
+      url: canonicalURL.toString(),
+      priceCurrency: "CAD",
+      price: product.currencies.CAD,
+      priceValidUntil: "2024-12-31",
+      itemCondition: "https://schema.org/NewCondition",
+      availability: "https://schema.org/InStock",
+      areaServed: {
+        "@type": "Country",
+        name: "Canada",
+        identifier: "CA"
+      }
+    },
+    {
+      "@type": "Offer",
+      url: canonicalURL.toString(),
+      priceCurrency: "EUR",
+      price: product.currencies.EUR,
+      priceValidUntil: "2024-12-31",
+      itemCondition: "https://schema.org/NewCondition",
+      availability: "https://schema.org/InStock",
+      areaServed: {
+        "@type": "Country",
+        name: "Ireland",
+        identifier: "IE"
+      }
+    },
+    {
+      "@type": "Offer",
+      url: canonicalURL.toString(),
+      priceCurrency: "GBP",
+      price: product.currencies.GBP,
+      priceValidUntil: "2024-12-31",
+      itemCondition: "https://schema.org/NewCondition",
+      availability: "https://schema.org/InStock",
+      areaServed: {
+        "@type": "Country",
+        name: "United Kingdom",
+        identifier: "UK"
+      }
+    }
+  ],
 });
 
 const formatPrice = (price: number | string): string => {
