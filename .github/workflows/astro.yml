@@ -14,16 +14,16 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 env:
   BUILD_PATH: "."
+  NODE_VERSION: "20"
 
 jobs:
-  build:
-    name: Build
+  setup:
+    name: Setup
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -31,42 +31,84 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
-          cache: "npm"
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --prefer-offline --no-audit
 
-      - name: Tailscale
+      - name: Setup Tailscale
         uses: tailscale/github-action@v2
         with:
           oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
           oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
           tags: tag:ci
 
-      - name: Fetch Instagram Posts
+      - name: Cache external data
+        uses: actions/cache@v3
+        with:
+          path: |
+            ./instagram-posts.json
+            ./tpt-products-relevance.json
+            ./tpt-products-recent.json
+          key: ${{ runner.os }}-external-data-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-external-data-
+
+      - name: Fetch external data
         env:
           HTTP_PROXY: ${{ secrets.HTTP_PROXY }}
           HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
-        run: npx node fetch-instagram-posts.mjs
-
-      - name: Fetch Best Sellers TpT Products
-        env:
           EXCHANGE_RATE_API_KEY: ${{ secrets.EXCHANGE_RATE_API_KEY }}
-        run: npx node fetch-tpt-products.mjs RELEVANCE
+        run: |
+          node fetch-instagram-posts.mjs
+          node fetch-tpt-products.mjs RELEVANCE
+          node fetch-tpt-products.mjs MOST_RECENT
 
-      - name: Fetch Recent TpT Products
-        env:
-          EXCHANGE_RATE_API_KEY: ${{ secrets.EXCHANGE_RATE_API_KEY }}
-        run: npx node fetch-tpt-products.mjs MOST_RECENT
+      - name: Upload workspace
+        uses: actions/upload-artifact@v3
+        with:
+          name: workspace
+          path: .
+
+  upload_google_products:
+    name: Upload Google Products
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download workspace
+        uses: actions/download-artifact@v3
+        with:
+          name: workspace
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
 
       - name: Upload Google Products
         env:
           MERCHANT_ID: ${{ secrets.MERCHANT_ID }}
         run: |
           echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_TOKEN }}' > token.json
-          npx node delete-google-merchant.mjs
-          npx node google-merchent.mjs
+          node delete-google-merchant.mjs
+          node google-merchent.mjs
+
+  build_site:
+    name: Build Site
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download workspace
+        uses: actions/download-artifact@v3
+        with:
+          name: workspace
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
 
       - name: Build Site
         env:
@@ -82,12 +124,11 @@ jobs:
 
   deploy:
     name: Deploy to GitHub Pages
-    needs: build
+    needs: [upload_google_products, build_site]
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
