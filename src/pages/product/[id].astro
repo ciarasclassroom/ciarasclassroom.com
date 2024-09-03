@@ -47,12 +47,15 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const price = product.currencies[product.currency];
 
+console.log(product);
+
 const ProductSchema = JSON.stringify({
   "@context": "https://schema.org/",
   "@type": "Product",
   name: product.title,
   image: product.images,
   description: product.descriptionSnippet,
+  sku: product.id.split('-').slice(-2).join('-'),
   brand: {
     "@type": "Brand",
     name: "Ciara's Classroom",
