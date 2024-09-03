@@ -21,8 +21,8 @@ env:
   NODE_VERSION: "20"
 
 jobs:
-  setup:
-    name: Setup
+  fetch_data:
+    name: Fetch External Data
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -33,6 +33,7 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'
+          cache-dependency-path: './package-lock.json'
 
       - name: Install dependencies
         run: npm ci --prefer-offline --no-audit
@@ -54,50 +55,38 @@ jobs:
           node fetch-tpt-products.mjs RELEVANCE
           node fetch-tpt-products.mjs MOST_RECENT
 
-      - name: Upload workspace
+      - name: Upload fetched data
         uses: actions/upload-artifact@v3
         with:
-          name: workspace
-          path: .
+          name: external-data
+          path: |
+            ./src/lib/fixtures/instagram_posts.json
+            ./src/lib/fixtures/tpt_products_MOST_RECENT.json
+            ./src/lib/fixtures/tpt_products_RELEVANCE.json
 
-  upload_google_products:
-    name: Upload Google Products
-    needs: setup
+  build_and_deploy:
+    name: Build and Deploy
+    needs: fetch_data
     runs-on: ubuntu-latest
     steps:
-      - name: Download workspace
-        uses: actions/download-artifact@v3
-        with:
-          name: workspace
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-
-      - name: Upload Google Products
-        env:
-          MERCHANT_ID: ${{ secrets.MERCHANT_ID }}
-        run: |
-          echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_TOKEN }}' > token.json
-          node delete-google-merchant.mjs
-          node google-merchent.mjs
-
-  build_site:
-    name: Build Site
-    needs: setup
-    runs-on: ubuntu-latest
-    steps:
-      - name: Download workspace
-        uses: actions/download-artifact@v3
-        with:
-          name: workspace
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'
+          cache-dependency-path: './package-lock.json'
+
+      - name: Install dependencies
+        run: npm ci --prefer-offline --no-audit
+
+      - name: Download fetched data
+        uses: actions/download-artifact@v3
+        with:
+          name: external-data
+          path: ./src/lib/fixtures
 
       - name: Build Site
         env:
@@ -111,14 +100,38 @@ jobs:
         with:
           path: ${{ env.BUILD_PATH }}/dist
 
-  deploy:
-    name: Deploy to GitHub Pages
-    needs: [build_site]
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        
+  upload_google_products:
+    name: Upload Google Products
+    needs: fetch_data
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+          cache-dependency-path: './package-lock.json'
+
+      - name: Install dependencies
+        run: npm ci --prefer-offline --no-audit
+
+      - name: Download fetched data
+        uses: actions/download-artifact@v3
+        with:
+          name: external-data
+          path: ./src/lib/fixtures
+
+      - name: Upload Google Products
+        env:
+          MERCHANT_ID: ${{ secrets.MERCHANT_ID }}
+        run: |
+          echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_TOKEN }}' > token.json
+          node delete-google-merchant.mjs
+          node google-merchent.mjs
