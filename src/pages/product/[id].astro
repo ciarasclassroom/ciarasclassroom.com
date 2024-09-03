@@ -47,8 +47,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const price = product.currencies[product.currency];
 
-console.log(product);
-
 const getCountryInfo = (id) => {
   const suffix = id.split('-').pop();
   switch (suffix) {
@@ -66,6 +64,7 @@ const getCountryInfo = (id) => {
 };
 
 const countryInfo = getCountryInfo(product.id);
+const sku = product.id.split('-').slice(-2).join('-');
 
 const ProductSchema = JSON.stringify({
   "@context": "https://schema.org/",
@@ -73,7 +72,7 @@ const ProductSchema = JSON.stringify({
   name: product.title,
   image: product.images,
   description: product.descriptionSnippet,
-  sku: product.id,
+  sku: sku,
   brand: {
     "@type": "Brand",
     name: "Ciara's Classroom",
@@ -153,6 +152,7 @@ const formatPrice = (price: number | string): string => {
                     height={100}
                     class={`rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out object-cover w-full h-full thumbnail ${index === 0 ? "border-2 border-primary" : ""}`}
                     data-src={image}
+                    itemprop="image"
                   />
                 </div>
               ))
@@ -163,6 +163,7 @@ const formatPrice = (price: number | string): string => {
           <header>
             <div
               class="uppercase tracking-wide text-sm text-primary font-semibold"
+              itemprop="category"
             >
               {product.categories.join(", ")}
             </div>
@@ -175,6 +176,12 @@ const formatPrice = (price: number | string): string => {
             set:html={product.description}
             class="mt-2 text-gray-600"
           />
+          <div class="mt-4">
+            <span class="text-gray-500">Brand:</span>
+            <span itemprop="brand" itemscope itemtype="https://schema.org/Brand">
+              <span itemprop="name">Ciara's Classroom</span>
+            </span>
+          </div>
           <div
             class="mt-4"
             itemprop="offers"
@@ -191,6 +198,11 @@ const formatPrice = (price: number | string): string => {
             </span>
             <meta itemprop="priceCurrency" content={product.currency} />
             <link itemprop="availability" href="https://schema.org/InStock" />
+            <meta itemprop="priceValidUntil" content="2024-12-31" />
+            <div itemprop="areaServed" itemscope itemtype="https://schema.org/Country">
+              <meta itemprop="name" content={countryInfo.name} />
+              <meta itemprop="identifier" content={countryInfo.identifier} />
+            </div>
           </div>
           {
             product.reviews > 0 && (
@@ -213,6 +225,7 @@ const formatPrice = (price: number | string): string => {
               </div>
             )
           }
+          <meta itemprop="sku" content={sku} />
           <a
             href={product.link}
             class="mt-4 btn rounded-lg border border-light bg-transparent text-center transition hover:border-primary hover:bg-primary hover:text-white px-4 py-2 inline-block"
