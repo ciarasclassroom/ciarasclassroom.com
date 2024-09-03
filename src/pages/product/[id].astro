@@ -176,12 +176,9 @@ const formatPrice = (price: number | string): string => {
             set:html={product.description}
             class="mt-2 text-gray-600"
           />
-          <div class="mt-4">
-            <span class="text-gray-500">Brand:</span>
-            <span itemprop="brand" itemscope itemtype="https://schema.org/Brand">
-              <span itemprop="name">Ciara's Classroom</span>
-            </span>
-          </div>
+          <meta itemprop="brand" itemscope itemtype="https://schema.org/Brand">
+            <meta itemprop="name">Ciara's Classroom</meta>
+          </meta>
           <div
             class="mt-4"
             itemprop="offers"
