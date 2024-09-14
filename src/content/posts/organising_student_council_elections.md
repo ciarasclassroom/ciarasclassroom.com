@@ -4,7 +4,7 @@ description: >-
   Setting up a Student Council in your school?  Here's a step-by-step guide
   explaining how I run the Student Council elections in the primary school I
   work in.
-image: /Elections Banner.png
+image: /Student_Council_Elections_Banner.png
 tags:
   - Student Council
   - Student Voice
