@@ -31,15 +31,9 @@ In addition to this, we arrange our annual school visit for our Second to Sixth 
 
 The children can choose to nominate themselves or a friend (with their permission) during this week.  
 
-
-
-
 ### Campaign Week
 
 ‘Campaign Week’ is a very exciting part of our elections process.  Each nominee is invited to design a campaign poster and hang these up in their classroom or hallway.  They also give a campaign speech in front of their class, explaining why they are interested in being elected to the Student Council, some of their ideas for our school, and what would make them a good Class Rep.
-
-
-
 
 ### Election Day
 
