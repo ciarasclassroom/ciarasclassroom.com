@@ -18,7 +18,7 @@ const FILE_DIR = path.join("src", "lib", "fixtures");
 const TPT_BASE_URL = "https://www.teacherspayteachers.com";
 const MAX_RETRIES = 3;
 const RETRY_DELAY = 1000; // 1 second
-const SUPPORTED_CURRENCIES = ["USD", "CAD", "GBP", "EUR", "AUD", "NZD"]; // Add more currencies as needed
+const SUPPORTED_CURRENCIES = ["USD", "CAD", "GBP", "EUR"]; // Add more currencies as needed
 
 // Validate API Key
 if (!EXCHANGE_RATE_API_KEY) {
