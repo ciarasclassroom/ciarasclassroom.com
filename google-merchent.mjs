@@ -1,13 +1,14 @@
 import { google } from "googleapis";
-import { readFile } from "fs/promises";
-import dotenv from "dotenv";
+import {
+  MERCHANT_ID,
+  SERVICE_ACCOUNT_PATH,
+  initializeAuthClient,
+  loadJSONFromFile,
+  currencyCountryMap,
+  generateProductUrl
+} from './shared-library.mjs';
 
-// Load environment variables from the .env file
-dotenv.config();
-
-const MERCHANT_ID = process.env.MERCHANT_ID;
-const PRODUCTS_JSON_PATH = process.env.PRODUCTS_JSON_PATH || "src/lib/fixtures/tpt_products_MOST_RECENT.json";
-const SERVICE_ACCOUNT_PATH = process.env.SERVICE_ACCOUNT_PATH || "token.json";
+const PRODUCTS_JSON_PATH = process.env.PRODUCTS_JSON_PATH || "tpt_products_MOST_RECENT.json";
 
 // Default product fields
 const defaultProduct = {
@@ -16,14 +17,6 @@ const defaultProduct = {
   availability: "in stock",
   condition: "new",
   brand: "Ciara's Classroom",
-};
-
-// Currency and country mappings
-const currencyCountryMap = {
-  USD: { country: "US", suffix: "US" },
-  CAD: { country: "CA", suffix: "CA" },
-  GBP: { country: "GB", suffix: "UK" },
-  EUR: { country: "IE", suffix: "IE" },
 };
 
 // Helper function to create a product object
@@ -37,7 +30,7 @@ function createProduct(product, currencyCode) {
     offerId,
     title: product.title,
     description: product.descriptionSnippet,
-    link: `https://ciarasclassroom.com/product/${product.slug}-${suffix}`,
+    link: generateProductUrl(product.slug, suffix),
     imageLink: product.images[0],
     additionalImageLinks: product.images.slice(1),
     identifier_exists: false,
@@ -49,10 +42,9 @@ function createProduct(product, currencyCode) {
   };
 }
 
-// Function to load products from a JSON file
 async function loadProductsFromFile(filePath) {
   try {
-    const data = JSON.parse(await readFile(filePath, "utf-8"));
+    const data = await loadJSONFromFile(filePath);
     return data.flatMap((product) =>
       Object.keys(currencyCountryMap).map((currencyCode) =>
         createProduct(product, currencyCode)
@@ -64,30 +56,12 @@ async function loadProductsFromFile(filePath) {
   }
 }
 
-// Function to initialize Google auth client
-async function initializeAuthClient(serviceAccountKeyPath) {
-  try {
-    const serviceAccountKey = JSON.parse(
-      await readFile(serviceAccountKeyPath, "utf-8")
-    );
-    return new google.auth.JWT({
-      email: serviceAccountKey.client_email,
-      key: serviceAccountKey.private_key,
-      scopes: ["https://www.googleapis.com/auth/content"],
-    });
-  } catch (error) {
-    console.error("Error initializing auth client:", error);
-    throw error;
-  }
-}
-
-// Function to upload products in bulk
 async function bulkUploadProducts(authClient, products) {
   try {
     await authClient.authorize();
     const content = google.content({ version: "v2.1", auth: authClient });
 
-    const batchSize = 1000; // Google's maximum batch size
+    const batchSize = 1000;
     for (let i = 0; i < products.length; i += batchSize) {
       const batch = products.slice(i, i + batchSize);
       const batchRequest = batch.map((product, index) => ({
@@ -100,10 +74,7 @@ async function bulkUploadProducts(authClient, products) {
       const res = await content.products.custombatch({
         requestBody: { entries: batchRequest },
       });
-      console.log(
-        `Batch ${Math.floor(i / batchSize) + 1} upload response:`,
-        res.data
-      );
+      console.log(`Batch ${Math.floor(i / batchSize) + 1} upload response:`, res.data);
 
       res.data.entries.forEach((entry, index) => {
         if (entry.errors) {
@@ -119,7 +90,6 @@ async function bulkUploadProducts(authClient, products) {
   }
 }
 
-// Main execution function
 async function main() {
   try {
     if (!MERCHANT_ID) {
@@ -131,15 +101,15 @@ async function main() {
       throw new Error("No products loaded, exiting.");
     }
 
-    const authClient = await initializeAuthClient(SERVICE_ACCOUNT_PATH);
+    const authClient = await initializeAuthClient();
     await bulkUploadProducts(authClient, products);
+    console.log("Product upload completed successfully.");
   } catch (error) {
     console.error("Unexpected error:", error);
     process.exit(1);
   }
 }
 
-// Execute the main function
 main().catch((error) => {
   console.error("Unhandled error in main function:", error);
   process.exit(1);

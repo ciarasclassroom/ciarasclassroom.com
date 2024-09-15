@@ -77,6 +77,7 @@ const parseProducts = async (products, exchangeRates) => {
     });
 
     return {
+      id: product.id,
       title: product.title,
       link: `https://teacherspayteachers.com/Product/${product.canonicalSlug}`,
       description: product.description,
@@ -200,6 +201,64 @@ const fetchTpTProducts = async (sortParam, products = [], exchangeRates) => {
   }
 };
 
+const fetchProductEvaluations = async (resourceId, limit = 100, offset = 0) => {
+  try {
+    const { data } = await fetchWithRetry({
+      httpsAgent: getProxyAgent(),
+      method: "post",
+      url: "https://www.teacherspayteachers.com/graph/graphql?opname=filterEvaluationsByResource",
+      headers: {
+        accept: "application/json",
+        "content-type": "application/json",
+        "user-agent": USER_AGENT,
+      },
+      data: {
+        operationName: "filterEvaluationsByResource",
+        variables: {
+          resourceId,
+          grades: "",
+          ratings: "",
+          spedOptions: "",
+          standards: "",
+          limit,
+          offset,
+          sortBy: "mostRecent"
+        },
+        query: `query filterEvaluationsByResource($resourceId: ID!, $grades: String, $ratings: String, $spedOptions: String, $standards: String, $limit: Int, $offset: Int, $sortBy: String) {
+          quality {
+            filterEvaluationsByResource(resourceId: $resourceId, grades: $grades, ratings: $ratings, spedOptions: $spedOptions, standards: $standards, limit: $limit, offset: $offset, sortBy: $sortBy) {
+              total
+              hasNext
+              evaluations {
+                id
+                updatedAt
+                signals
+                resourceId
+                userId
+                helpfulCount
+                hasUserMarkedHelpful
+                evaluationTypeId
+                sellerId
+                user {
+                  id
+                  displayName
+                }
+              }
+            }
+          }
+        }`
+      },
+    });
+
+    console.log(JSON.stringify(data));
+
+    return data.data.quality.filterEvaluationsByResource;
+  } catch (error) {
+    console.error(`Error fetching evaluations for resource ${resourceId}:`, error.message);
+    return null;
+  }
+};
+
 const saveProductsToFile = async (products, sortParam) => {
   try {
     const jsonString = JSON.stringify(products, null, 2);
@@ -213,6 +272,17 @@ const saveProductsToFile = async (products, sortParam) => {
       error.message,
     );
     throw error;
+  }
+};
+
+const loadPreviousProducts = async (sortParam) => {
+  try {
+    const filePath = path.join(FILE_DIR, `tpt_products_${sortParam}.json`);
+    const data = await fs.readFile(filePath, 'utf-8');
+    return JSON.parse(data);
+  } catch (error) {
+    console.log("No previous data found or error reading file:", error.message);
+    return null;
   }
 };
 
@@ -231,10 +301,65 @@ const main = async () => {
     console.log(`Exchange rates fetched for: ${Object.keys(exchangeRates).join(", ")}`);
 
     console.log(`Fetching TpT products with sort parameter: ${sortParam}`);
-    const products = await fetchTpTProducts(sortParam, [], exchangeRates);
-    console.log(`Fetched ${products.length} products in total.`);
+    const newProducts = await fetchTpTProducts(sortParam, [], exchangeRates);
+    console.log(`Fetched ${newProducts.length} products in total.`);
 
-    await saveProductsToFile(products, sortParam);
+    const previousProducts = await loadPreviousProducts(sortParam);
+
+    if (previousProducts) {
+      for (const newProduct of newProducts) {
+        if(newProduct.reviews > 0) {
+        const previousProduct = previousProducts.find(p => p.id === newProduct.id);
+        if (!previousProduct || newProduct.reviews > previousProduct.reviews) {
+          console.log(`Fetching evaluations for product ${newProduct.id}`);
+          let allEvaluations = [];
+          let hasNext = true;
+          let offset = 0;
+
+          while (hasNext) {
+            const evaluationsData = await fetchProductEvaluations(newProduct.id, 100, offset);
+            if (evaluationsData) {
+              allEvaluations = allEvaluations.concat(evaluationsData.evaluations);
+              hasNext = evaluationsData.hasNext;
+              offset += 100;
+            } else {
+              hasNext = false;
+            }
+          }
+
+          newProduct.evaluations = allEvaluations;
+          console.log(`Fetched ${allEvaluations.length} evaluations for product ${newProduct.id}`);
+        } else {
+          newProduct.evaluations = previousProduct.evaluations || [];
+        }
+      }
+      }
+    } else {
+      console.log("No previous data found. Fetching all evaluations...");
+      for (const product of newProducts) {
+        console.log(`Fetching evaluations for product ${product.id}`);
+        let allEvaluations = [];
+        let hasNext = true;
+        let offset = 0;
+        if(product.reviews > 0) {
+        while (hasNext) {
+          const evaluationsData = await fetchProductEvaluations(product.id, 100, offset);
+          if (evaluationsData) {
+            allEvaluations = allEvaluations.concat(evaluationsData.evaluations);
+            hasNext = evaluationsData.hasNext;
+            offset += 100;
+          } else {
+            hasNext = false;
+          }
+        }
+      }
+
+        product.evaluations = allEvaluations;
+        console.log(`Fetched ${allEvaluations.length} evaluations for product ${product.id}`);
+      }
+    }
+
+    await saveProductsToFile(newProducts, sortParam);
     console.log("Process completed successfully.");
   } catch (error) {
     console.error("An unexpected error occurred:", error.message);
