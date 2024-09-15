@@ -35,5 +35,4 @@ In September 2014, I was teaching a self portraits art lesson in my Third Class 
 * Mix It Up: Encourage kids to experiment with mixing colours to create unique skin tones.
 * Model it Yourself: Use diverse skin tones in your own classroom artwork and decorations.
 
-
 So, what do you say? Ready to add some skin tone colours to your classroom? Trust me, once you see the impact, you'll wonder how you ever taught without them. It's more than art – it's a step towards a more inclusive, respectful, and vibrant world. And it all starts with a simple crayon.
