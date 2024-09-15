@@ -21,8 +21,6 @@ export const currencyCountryMap = {
   CAD: { country: "CA", suffix: "CA" },
   GBP: { country: "GB", suffix: "UK" },
   EUR: { country: "IE", suffix: "IE" },
-  AUD: { country: "AU", suffix: "AU" },
-  NZD: { country: "NZ", suffix: "NZ" },
 };
 
 export const SUPPORTED_CURRENCIES = Object.keys(currencyCountryMap);
