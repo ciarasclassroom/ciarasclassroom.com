@@ -63,6 +63,7 @@ jobs:
             ./src/lib/fixtures/instagram_posts.json
             ./src/lib/fixtures/tpt_products_MOST_RECENT.json
             ./src/lib/fixtures/tpt_products_RELEVANCE.json
+            ./public/images/instagram/*
 
   build_and_deploy:
     name: Build and Deploy
@@ -86,7 +87,6 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: external-data
-          path: ./src/lib/fixtures
 
       - name: Build Site
         env:
@@ -126,7 +126,6 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: external-data
-          path: ./src/lib/fixtures
 
       - name: Upload Google Products
         env:
