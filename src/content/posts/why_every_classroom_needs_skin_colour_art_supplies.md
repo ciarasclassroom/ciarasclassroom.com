@@ -5,7 +5,7 @@ description: >-
   difference in your classroom: skin tone crayons, pencils and paints. Stick
   with me, and I'll show you why these little tools are secretly superstars in
   creating an inclusive, respectful, and vibrant learning space…
-image: /Skin Colours Banner.png
+image: /Skin_Colours_Banner.png
 tags:
   - Inclusion
   - Classroom resources
