@@ -1,5 +1,5 @@
 ---
-title: Why Every Classroom Should Have Skin Tone Art Supplies
+title: Why Every Classroom Needs Skin Tone Art Supplies
 description: >-
   Let's chat about something that might seem small but can make a huge
   difference in your classroom: skin tone crayons, pencils and paints. Stick
