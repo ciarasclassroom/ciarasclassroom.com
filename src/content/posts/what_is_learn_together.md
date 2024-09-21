@@ -9,7 +9,7 @@ image: /What-is-Learn-Together-Banner.png
 tags: []
 categories:
   - Learn Together
-date: 2024-10-13T23:00:00.000Z
+date: 2024-10-09T23:00:00.000Z
 draft: true
 ---
 
