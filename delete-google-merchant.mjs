@@ -1,118 +1,127 @@
-import { google } from "googleapis";
-import fs from "fs/promises";
-import path from "path";
-import dotenv from "dotenv";
-
-// Load environment variables
-dotenv.config();
+import { google } from 'googleapis';
+import { performance } from 'perf_hooks';
+import {
+  MERCHANT_ID,
+  SERVICE_ACCOUNT_PATH,
+  initializeAuthClient,
+  currencyCountryMap,
+  generateProductUrl,
+  TPT_BASE_URL
+} from './shared-library.mjs';
 
 // Constants
-const MERCHANT_ID = process.env.MERCHANT_ID;
-const SERVICE_ACCOUNT_PATH = process.env.SERVICE_ACCOUNT_PATH || "token.json";
 const MAX_RESULTS = 250;
+const CONCURRENT_DELETIONS = 10; // Number of concurrent delete operations
 
 // Validate required environment variables
 if (!MERCHANT_ID) {
-  console.error("Error: MERCHANT_ID is not set in the environment variables.");
+  console.error('Error: MERCHANT_ID is not set in the environment variables.');
   process.exit(1);
 }
 
-async function initializeAuthClient() {
+/**
+ * Determines if a product should be deleted based on criteria
+ * @param {Object} product - Product object from Google Merchant Center
+ * @returns {boolean} True if the product should be deleted
+ */
+function shouldDeleteProduct(product) {
+  const hyphenCount = (product.id.match(/-/g) || []).length;
+  const price = parseFloat(product.price?.value) || 0;
+  const isPriceZero = price === 0;
+  const isTPTLink = product.link && product.link.includes(TPT_BASE_URL);
+
+  return hyphenCount >= 2 || isPriceZero || isTPTLink;
+}
+
+/**
+ * Deletes a single product
+ * @param {google.content} content - Google Content API client
+ * @param {Object} product - Product to delete
+ * @returns {Promise<void>}
+ */
+async function deleteProduct(content, product) {
   try {
-    const serviceAccountKey = JSON.parse(
-      await fs.readFile(SERVICE_ACCOUNT_PATH, "utf-8")
-    );
-    return new google.auth.JWT({
-      email: serviceAccountKey.client_email,
-      key: serviceAccountKey.private_key,
-      scopes: ["https://www.googleapis.com/auth/content"],
+    await content.products.delete({
+      merchantId: MERCHANT_ID,
+      productId: product.id,
     });
+    console.log(`Deleted product with ID: ${product.id}`);
   } catch (error) {
-    console.error("Error initializing auth client:", error.message);
-    throw error;
+    console.error(`Failed to delete product with ID: ${product.id}:`, error.message);
   }
 }
 
+/**
+ * Deletes products concurrently
+ * @param {google.content} content - Google Content API client
+ * @param {Array} products - Array of products to delete
+ */
 async function deleteProducts(content, products) {
-  const deletionPromises = products.map(async (product) => {
-    try {
-      // Count the number of hyphens in the product ID
-      const hyphenCount = (product.id.match(/-/g) || []).length;
-      
-      // Check if price is 0.00
-      const price = parseFloat(product.price?.value) || 0;
-      const isPriceZero = price === 0;
-
-      if (hyphenCount >= 2 || isPriceZero) {
-        await content.products.delete({
-          merchantId: MERCHANT_ID,
-          productId: product.id,
-        });
-        console.log(`Deleted product with ID: ${product.id} (${hyphenCount >= 2 ? 'multiple hyphens' : 'zero price'})`);
-      } else {
-        console.log(`Skipped product with ID: ${product.id} (price: ${product.price?.value} ${product.price?.currency})`);
-      }
-    } catch (error) {
-      console.error(
-        `Failed to delete product with ID: ${product.id}:`,
-        error.message
-      );
-    }
-  });
-  await Promise.all(deletionPromises);
+  const productsToDelete = products.filter(shouldDeleteProduct);
+  
+  for (let i = 0; i < productsToDelete.length; i += CONCURRENT_DELETIONS) {
+    const batch = productsToDelete.slice(i, i + CONCURRENT_DELETIONS);
+    await Promise.all(batch.map(product => deleteProduct(content, product)));
+  }
 }
 
+/**
+ * Fetches and deletes all products meeting the deletion criteria
+ */
 async function deleteAllProducts() {
   const authClient = await initializeAuthClient();
   await authClient.authorize();
-  const content = google.content({
-    version: "v2.1",
-    auth: authClient,
-  });
+  const content = google.content({ version: 'v2.1', auth: authClient });
 
-  let pageToken = undefined;
+  let pageToken;
+  let totalProcessed = 0;
+  let totalDeleted = 0;
+
   do {
     try {
-      const params = {
+      const res = await content.products.list({
         merchantId: MERCHANT_ID,
         maxResults: MAX_RESULTS,
-      };
-
-      if (pageToken) {
-        params.pageToken = pageToken;
-      }
-
-      const res = await content.products.list(params);
+        pageToken,
+      });
 
       const products = res.data.resources || [];
-      if (products.length === 0) {
-        console.log("No more products found.");
-        break;
-      }
+      if (products.length === 0) break;
 
-      console.log(`Processing ${products.length} products...`);
-      await deleteProducts(content, products);
+      totalProcessed += products.length;
+      const productsToDelete = products.filter(shouldDeleteProduct);
+      totalDeleted += productsToDelete.length;
+
+      console.log(`Processing ${products.length} products (${productsToDelete.length} to be deleted)...`);
+      await deleteProducts(content, productsToDelete);
+
       pageToken = res.data.nextPageToken;
     } catch (error) {
-      console.error("Error fetching or deleting products:", error.message);
+      console.error('Error fetching or deleting products:', error.message);
       throw error;
     }
   } while (pageToken);
 
-  console.log("All products have been processed.");
+  console.log(`Total products processed: ${totalProcessed}`);
+  console.log(`Total products deleted: ${totalDeleted}`);
 }
 
+/**
+ * Main execution function
+ */
 async function main() {
+  const startTime = performance.now();
   try {
     await deleteAllProducts();
-    console.log("Product deletion process completed successfully.");
+    const endTime = performance.now();
+    console.log(`Product deletion process completed successfully in ${((endTime - startTime) / 1000).toFixed(2)} seconds.`);
   } catch (error) {
-    console.error("An unexpected error occurred:", error.message);
+    console.error('An unexpected error occurred:', error.message);
     process.exit(1);
   }
 }
 
 main().catch((error) => {
-  console.error("Unhandled error in main function:", error);
+  console.error('Unhandled error in main function:', error);
   process.exit(1);
 });

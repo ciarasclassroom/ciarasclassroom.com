@@ -1,55 +1,37 @@
-import axios from "axios";
-import fs from "fs/promises";
-import path from "path";
-import { HttpsProxyAgent } from "https-proxy-agent";
-import * as cheerio from "cheerio";
+import { performance } from 'perf_hooks';
 import dotenv from "dotenv";
+import {
+  USER_AGENT,
+  TPT_BASE_URL,
+  EXCHANGE_RATE_API_BASE_URL,
+  SUPPORTED_CURRENCIES,
+  getProxyAgent,
+  fetchWithRetry,
+  saveJSONToFile,
+  loadJSONFromFile,
+  convertCurrency,
+  generateProductUrl,
+  currencyCountryMap
+} from './shared-library.mjs';
 
 // Load environment variables
 dotenv.config();
 
 // Constants
-const USER_AGENT =
-  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36";
 const { EXCHANGE_RATE_API_KEY } = process.env;
-const BASE_API_URL = "https://v6.exchangerate-api.com/v6/";
 const VALID_SORT_PARAMS = ["MOST_RECENT", "RELEVANCE"];
-const FILE_DIR = path.join("src", "lib", "fixtures");
-const TPT_BASE_URL = "https://www.teacherspayteachers.com";
-const MAX_RETRIES = 3;
-const RETRY_DELAY = 1000; // 1 second
-const SUPPORTED_CURRENCIES = ["USD", "CAD", "GBP", "EUR"]; // Add more currencies as needed
+const MAX_RESULTS = 500;
+const EVALUATION_BATCH_SIZE = 100;
 
 // Validate API Key
 if (!EXCHANGE_RATE_API_KEY) {
-  console.error(
-    "Error: The EXCHANGE_RATE_API_KEY environment variable is not set.",
-  );
+  console.error("Error: The EXCHANGE_RATE_API_KEY environment variable is not set.");
   process.exit(1);
 }
 
-// Helper Functions
-const getProxyAgent = () => {
-  const proxy = process.env.HTTP_PROXY || process.env.http_proxy;
-  return proxy ? new HttpsProxyAgent(proxy) : null;
-};
-
-const fetchWithRetry = async (options, retries = MAX_RETRIES) => {
+async function fetchExchangeRates() {
   try {
-    return await axios(options);
-  } catch (error) {
-    if (retries > 0) {
-      console.log(`Retrying... (${MAX_RETRIES - retries + 1}/${MAX_RETRIES})`);
-      await new Promise((resolve) => setTimeout(resolve, RETRY_DELAY));
-      return fetchWithRetry(options, retries - 1);
-    }
-    throw error;
-  }
-};
-
-const fetchExchangeRates = async () => {
-  try {
-    const apiUrl = `${BASE_API_URL}${EXCHANGE_RATE_API_KEY}/latest/USD`;
+    const apiUrl = `${EXCHANGE_RATE_API_BASE_URL}${EXCHANGE_RATE_API_KEY}/latest/USD`;
     const { data } = await fetchWithRetry({ url: apiUrl });
     const rates = {};
     SUPPORTED_CURRENCIES.forEach(currency => {
@@ -60,15 +42,9 @@ const fetchExchangeRates = async () => {
     console.error("Error fetching exchange rates:", error.message);
     throw error;
   }
-};
+}
 
-const convertCurrency = (amount, fromCurrency, toCurrency, rates) => {
-  if (fromCurrency === toCurrency) return amount;
-  const inUSD = amount / rates[fromCurrency];
-  return (inUSD * rates[toCurrency]).toFixed(2);
-};
-
-const parseProducts = async (products, exchangeRates) => {
+function parseProducts(products, exchangeRates) {
   return products.map((product) => {
     const usdPrice = product.pricing.nonTransferableLicenses.price;
     const currencies = {};
@@ -79,7 +55,7 @@ const parseProducts = async (products, exchangeRates) => {
     return {
       id: product.id,
       title: product.title,
-      link: `https://teacherspayteachers.com/Product/${product.canonicalSlug}`,
+      link: generateProductUrl(product.canonicalSlug),
       description: product.description,
       descriptionSnippet: product.descriptionSnippet,
       images: product.assets.thumbnails.map((thumbnail) => thumbnail.originalUrl),
@@ -90,20 +66,18 @@ const parseProducts = async (products, exchangeRates) => {
       currencies: currencies
     };
   });
-};
+}
 
-const fetchTpTProducts = async (sortParam, products = [], exchangeRates) => {
+async function fetchTpTProducts(sortParam, products, exchangeRates) {
   if (!VALID_SORT_PARAMS.includes(sortParam)) {
-    throw new Error(
-      `Invalid sort parameter. Choose 'MOST_RECENT' or 'RELEVANCE'.`,
-    );
+    throw new Error(`Invalid sort parameter. Choose 'MOST_RECENT' or 'RELEVANCE'.`);
   }
 
   try {
     const { data } = await fetchWithRetry({
       httpsAgent: getProxyAgent(),
       method: "post",
-      url: "https://www.teacherspayteachers.com/gateway/graphql?opname=StoreResources",
+      url: `${TPT_BASE_URL}/gateway/graphql?opname=StoreResources`,
       headers: {
         accept: "application/json",
         "content-type": "application/json",
@@ -117,7 +91,7 @@ const fetchTpTProducts = async (sortParam, products = [], exchangeRates) => {
           client: "MARKETPLACE",
           withHighlights: true,
           storeSlug: "ciaras-classroom",
-          resourcesPerPage: 500,
+          resourcesPerPage: MAX_RESULTS,
           debug: false,
           sortType: sortParam,
         },
@@ -186,27 +160,20 @@ const fetchTpTProducts = async (sortParam, products = [], exchangeRates) => {
       },
     });
 
-    const parsedProducts = await parseProducts(data.data.searchResources.resources, exchangeRates);
-    products = products.concat(parsedProducts);
-
-    console.log(`Fetched ${parsedProducts.length} products`);
-
-    return products;
+    const parsedProducts = parseProducts(data.data.searchResources.resources, exchangeRates);
+    return products.concat(parsedProducts);
   } catch (error) {
-    console.error(
-      `An error occurred while fetching TpT products:`,
-      error,
-    );
+    console.error(`An error occurred while fetching TpT products:`, error);
     return products;
   }
-};
+}
 
-const fetchProductEvaluations = async (resourceId, limit = 100, offset = 0) => {
+async function fetchProductEvaluations(resourceId, limit = EVALUATION_BATCH_SIZE, offset = 0) {
   try {
     const { data } = await fetchWithRetry({
       httpsAgent: getProxyAgent(),
       method: "post",
-      url: "https://www.teacherspayteachers.com/graph/graphql?opname=filterEvaluationsByResource",
+      url: `${TPT_BASE_URL}/graph/graphql?opname=filterEvaluationsByResource`,
       headers: {
         accept: "application/json",
         "content-type": "application/json",
@@ -250,122 +217,93 @@ const fetchProductEvaluations = async (resourceId, limit = 100, offset = 0) => {
       },
     });
 
-    console.log(JSON.stringify(data));
-
     return data.data.quality.filterEvaluationsByResource;
   } catch (error) {
     console.error(`Error fetching evaluations for resource ${resourceId}:`, error.message);
     return null;
   }
-};
+}
 
-const saveProductsToFile = async (products, sortParam) => {
-  try {
-    const jsonString = JSON.stringify(products, null, 2);
-    const filePath = path.join(FILE_DIR, `tpt_products_${sortParam}.json`);
-    await fs.mkdir(path.dirname(filePath), { recursive: true });
-    await fs.writeFile(filePath, jsonString, "utf-8");
-    console.log(`TpT products data saved successfully to ${filePath}.`);
-  } catch (error) {
-    console.error(
-      "An error occurred while saving the JSON file:",
-      error.message,
-    );
-    throw error;
-  }
-};
-
-const loadPreviousProducts = async (sortParam) => {
-  try {
-    const filePath = path.join(FILE_DIR, `tpt_products_${sortParam}.json`);
-    const data = await fs.readFile(filePath, 'utf-8');
-    return JSON.parse(data);
-  } catch (error) {
-    console.log("No previous data found or error reading file:", error.message);
-    return null;
-  }
-};
-
-// Main Execution
-const main = async () => {
+async function main() {
+  const startTime = performance.now();
   try {
     const sortParam = process.argv[2] || "MOST_RECENT";
     if (!VALID_SORT_PARAMS.includes(sortParam)) {
-      throw new Error(
-        `Invalid sort parameter: ${sortParam}. Choose 'MOST_RECENT' or 'RELEVANCE'.`,
-      );
+      throw new Error(`Invalid sort parameter: ${sortParam}. Choose 'MOST_RECENT' or 'RELEVANCE'.`);
     }
 
     console.log(`Fetching exchange rates...`);
     const exchangeRates = await fetchExchangeRates();
-    console.log(`Exchange rates fetched for: ${Object.keys(exchangeRates).join(", ")}`);
+    console.log(`Exchange rates fetched for: ${SUPPORTED_CURRENCIES.join(", ")}`);
 
     console.log(`Fetching TpT products with sort parameter: ${sortParam}`);
     const newProducts = await fetchTpTProducts(sortParam, [], exchangeRates);
     console.log(`Fetched ${newProducts.length} products in total.`);
 
-    const previousProducts = await loadPreviousProducts(sortParam);
+    const previousProducts = await loadJSONFromFile(`tpt_products_${sortParam}.json`);
 
     if (previousProducts) {
       for (const newProduct of newProducts) {
-        if(newProduct.reviews > 0) {
-        const previousProduct = previousProducts.find(p => p.id === newProduct.id);
-        if (!previousProduct || newProduct.reviews > previousProduct.reviews) {
-          console.log(`Fetching evaluations for product ${newProduct.id}`);
+        if (newProduct.reviews > 0) {
+          const previousProduct = previousProducts.find(p => p.id === newProduct.id);
+          if (!previousProduct || newProduct.reviews > previousProduct.reviews) {
+            console.log(`Fetching evaluations for product ${newProduct.id}`);
+            let allEvaluations = [];
+            let hasNext = true;
+            let offset = 0;
+
+            while (hasNext) {
+              const evaluationsData = await fetchProductEvaluations(newProduct.id, EVALUATION_BATCH_SIZE, offset);
+              if (evaluationsData) {
+                allEvaluations = allEvaluations.concat(evaluationsData.evaluations);
+                hasNext = evaluationsData.hasNext;
+                offset += EVALUATION_BATCH_SIZE;
+              } else {
+                hasNext = false;
+              }
+            }
+
+            newProduct.evaluations = allEvaluations;
+            console.log(`Fetched ${allEvaluations.length} evaluations for product ${newProduct.id}`);
+          } else {
+            newProduct.evaluations = previousProduct.evaluations || [];
+          }
+        }
+      }
+    } else {
+      console.log("No previous data found. Fetching all evaluations...");
+      for (const product of newProducts) {
+        if (product.reviews > 0) {
+          console.log(`Fetching evaluations for product ${product.id}`);
           let allEvaluations = [];
           let hasNext = true;
           let offset = 0;
 
           while (hasNext) {
-            const evaluationsData = await fetchProductEvaluations(newProduct.id, 100, offset);
+            const evaluationsData = await fetchProductEvaluations(product.id, EVALUATION_BATCH_SIZE, offset);
             if (evaluationsData) {
               allEvaluations = allEvaluations.concat(evaluationsData.evaluations);
               hasNext = evaluationsData.hasNext;
-              offset += 100;
+              offset += EVALUATION_BATCH_SIZE;
             } else {
               hasNext = false;
             }
           }
 
-          newProduct.evaluations = allEvaluations;
-          console.log(`Fetched ${allEvaluations.length} evaluations for product ${newProduct.id}`);
-        } else {
-          newProduct.evaluations = previousProduct.evaluations || [];
+          product.evaluations = allEvaluations;
+          console.log(`Fetched ${allEvaluations.length} evaluations for product ${product.id}`);
         }
-      }
-      }
-    } else {
-      console.log("No previous data found. Fetching all evaluations...");
-      for (const product of newProducts) {
-        console.log(`Fetching evaluations for product ${product.id}`);
-        let allEvaluations = [];
-        let hasNext = true;
-        let offset = 0;
-        if(product.reviews > 0) {
-        while (hasNext) {
-          const evaluationsData = await fetchProductEvaluations(product.id, 100, offset);
-          if (evaluationsData) {
-            allEvaluations = allEvaluations.concat(evaluationsData.evaluations);
-            hasNext = evaluationsData.hasNext;
-            offset += 100;
-          } else {
-            hasNext = false;
-          }
-        }
-      }
-
-        product.evaluations = allEvaluations;
-        console.log(`Fetched ${allEvaluations.length} evaluations for product ${product.id}`);
       }
     }
 
-    await saveProductsToFile(newProducts, sortParam);
-    console.log("Process completed successfully.");
+    await saveJSONToFile(newProducts, `tpt_products_${sortParam}.json`);
+    const endTime = performance.now();
+    console.log(`Process completed successfully in ${((endTime - startTime) / 1000).toFixed(2)} seconds.`);
   } catch (error) {
     console.error("An unexpected error occurred:", error.message);
     process.exit(1);
   }
-};
+}
 
 main().catch((error) => {
   console.error("Unhandled error in main function:", error);
