@@ -1,67 +1,46 @@
 import xml2js from 'xml2js';
-import { performance } from 'perf_hooks';
+import fs from 'fs/promises';
 import {
   MERCHANT_ID,
-  TPT_BASE_URL,
-  SUPPORTED_CURRENCIES,
   initializeAuthClient,
   loadJSONFromFile,
-  saveJSONToFile,
   currencyCountryMap,
   generateProductUrl
 } from './shared-library.mjs';
 
-const INPUT_FILE = 'src/lib/fixtures/tpt_products_MOST_RECENT.json';
-const OUTPUT_FILE = './google_merchant_reviews.xml';
-
-/**
- * Converts a date string to ISO format
- * @param {string} dateString - Date string to convert
- * @returns {string} ISO formatted date string
- */
+// Helper functions
 const toISOString = (dateString) => new Date(dateString).toISOString();
 
-/**
- * Formats a rating value with min and max attributes
- * @param {number} rating - Rating value
- * @returns {Object} Formatted rating object
- */
 const formatRating = (rating) => ({
   _: rating,
-  $: { min: "1", max: "5" }
+  $: {
+    min: "1",
+    max: "5"
+  }
 });
 
-/**
- * Creates product IDs for a given product and country code
- * @param {Object} product - Product object
- * @param {string} countryCode - Country code
- * @returns {Object} Product IDs object
- */
 const createProductIds = (product, countryCode) => {
   const productIds = {};
-  const idSuffix = `-${countryCode}`;
   
-  productIds.gtins = { gtin: [product.gtin || `${product.id}${idSuffix}`] };
-  productIds.mpns = { mpn: [product.mpn || `${product.id}${idSuffix}`] };
+  // Order matters: gtins, mpns, brands, asins, skus
+  productIds.gtins = { gtin: [product.gtin || `${product.id}-${countryCode}`] };
+  productIds.mpns = { mpn: [product.mpn || `${product.id}-${countryCode}`] };
   productIds.brands = { brand: ["Ciara's Classroom"] };
+  // productIds.asins = { asin: [product.asin || `${product.id}-${countryCode}`] };
   
+  // Include SKU if available
   if (product.id) {
-    productIds.skus = { sku: [`${product.id}${idSuffix}`] };
+    productIds.skus = { sku: [`${product.id}-${countryCode}`] };
   }
   
   return productIds;
 };
 
-/**
- * Converts a review to the format required by Google Merchant Center
- * @param {Object} review - Review object
- * @param {Object} product - Product object
- * @param {string} currency - Currency code
- * @returns {Object} Converted review object
- */
 const convertReview = (review, product, currency) => {
   const { country, suffix } = currencyCountryMap[currency] || { country: "US", suffix: "" };
   const productUrl = generateProductUrl(product.slug, suffix);
+
+  // Create a unique review ID by combining the original ID and the currency
   const uniqueReviewId = `${review.id}-${currency}`;
 
   return {
@@ -95,12 +74,8 @@ const convertReview = (review, product, currency) => {
   };
 };
 
-/**
- * Converts product reviews to XML format
- * @param {Array} products - Array of product objects with reviews
- * @returns {string} XML string of reviews
- */
-const convertReviewsToXml = (products) => {
+const convertReviewsToXml = (inputData) => {
+  const products = inputData;
   const xmlObj = {
     $: {
       'xmlns:vc': 'http://www.w3.org/2007/XMLSchema-versioning',
@@ -108,14 +83,16 @@ const convertReviewsToXml = (products) => {
       'xsi:noNamespaceSchemaLocation': 'http://www.google.com/shopping/reviews/schema/product/2.3/product_reviews.xsd'
     },
     version: '2.3',
-    aggregator: { name: 'Teachers Pay Teachers' },
+    aggregator: {
+      name: 'Teachers Pay Teachers'
+    },
     publisher: {
       name: 'Teachers Pay Teachers',
-      favicon: `${TPT_BASE_URL}/favicon.ico`
+      favicon: 'https://www.teacherspayteachers.com/favicon.ico'
     },
     reviews: {
       review: products.flatMap(product => 
-        SUPPORTED_CURRENCIES.flatMap(currency =>
+        Object.keys(currencyCountryMap).flatMap(currency =>
           (product.evaluations || []).map(review => 
             convertReview(review, product, currency)
           )
@@ -131,36 +108,37 @@ const convertReviewsToXml = (products) => {
     headless: true
   });
 
-  return '<?xml version="1.0" encoding="UTF-8"?>\n' + builder.buildObject(xmlObj);
+  let xmlString = builder.buildObject(xmlObj);
+  xmlString = '<?xml version="1.0" encoding="UTF-8"?>\n' + xmlString;
+
+  return xmlString;
 };
 
-/**
- * Main execution function
- */
-const main = async () => {
-  const startTime = performance.now();
+const saveXMLToFile = async (xmlContent, filename) => {
   try {
-    console.log(`Reading product data from ${INPUT_FILE}...`);
-    const inputData = await loadJSONFromFile(INPUT_FILE, '');
-    if (!inputData || inputData.length === 0) {
-      throw new Error('No product data found in input file.');
-    }
-    console.log(`Loaded ${inputData.length} products.`);
+    await fs.writeFile(filename, xmlContent, 'utf8');
+    console.log(`XML content has been saved to ${filename}`);
+  } catch (error) {
+    console.error(`Error writing XML to file: ${error.message}`);
+    throw error;
+  }
+};
 
-    console.log('Converting reviews to XML format...');
+const main = async () => {
+  try {
+    // Read input JSON file
+    const inputData = await loadJSONFromFile('input.json', '');
+
+    // Convert reviews to XML
     const xmlOutput = convertReviewsToXml(inputData);
 
-    console.log(`Saving XML output to ${OUTPUT_FILE}...`);
-    await saveJSONToFile(xmlOutput, OUTPUT_FILE);
+    // Write output XML file directly
+    await saveXMLToFile(xmlOutput, 'output.xml');
     console.log('XML file has been created successfully.');
 
-    // TODO: Implement review upload functionality
-    // console.log('Uploading product reviews to Google Merchant Center...');
+    // Upload product reviews
     // await uploadProductReviews(xmlOutput);
-    // console.log('Product reviews have been uploaded to Google Merchant Center.');
-
-    const endTime = performance.now();
-    console.log(`Process completed successfully in ${((endTime - startTime) / 1000).toFixed(2)} seconds.`);
+    console.log('Product reviews have been uploaded to Google Merchant Center.');
   } catch (error) {
     console.error('An unexpected error occurred:', error.message);
     process.exit(1);

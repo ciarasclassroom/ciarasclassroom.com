@@ -10,6 +10,15 @@ export async function getStaticPaths() {
     CA: { suffix: "CA", currency: "CAD", symbol: "CA$" },
     IE: { suffix: "IE", currency: "EUR", symbol: "€" },
     UK: { suffix: "UK", currency: "GBP", symbol: "£" },
+    AU: { suffix: "AU", currency: "AUD", symbol: "A$" },
+    NZ: { suffix: "NZ", currency: "NZD", symbol: "NZ$" },
+    SG: { suffix: "SG", currency: "SGD", symbol: "S$" },
+    HK: { suffix: "HK", currency: "HKD", symbol: "HK$" },
+    ZA: { suffix: "ZA", currency: "ZAR", symbol: "R" },
+    IN: { suffix: "IN", currency: "INR", symbol: "₹" },
+    MY: { suffix: "MY", currency: "MYR", symbol: "RM" },
+    PH: { suffix: "PH", currency: "PHP", symbol: "₱" },
+    AE: { suffix: "AE", currency: "AED", symbol: "د.إ" },
   } as const;
 
   const extractFirstParagraph = (htmlString) => {
