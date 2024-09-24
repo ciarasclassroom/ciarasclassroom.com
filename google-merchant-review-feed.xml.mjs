@@ -52,7 +52,7 @@ const convertReview = (review, product, currency) => {
     review_timestamp: toISOString(review.updatedAt),
     title: review.title || "Review",
     content: review.signals.buyer_experience || '',
-    review_url: [{ _: productUrl, $: { type: 'singleton' } }],
+    review_url: [{ _: productUrl + "#review-" + uniqueReviewId, $: { type: 'singleton' } }],
     ratings: {
       overall: formatRating(
         review.signals.overall_qual_how_satisfied_stars === 'extremely' ? 5 :

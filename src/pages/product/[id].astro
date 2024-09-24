@@ -98,6 +98,24 @@ const getCountryInfo = (id) => {
       return { name: "Ireland", identifier: "IE", currency: "EUR" };
     case "UK":
       return { name: "United Kingdom", identifier: "UK", currency: "GBP" };
+    case "AU":
+      return { name: "Australia", identifier: "AU", currency: "AUD" };
+    case "NZ":
+      return { name: "New Zealand", identifier: "NZ", currency: "NZD" };
+    case "SG":
+      return { name: "Singapore", identifier: "SG", currency: "SGD" };
+    case "HK":
+      return { name: "Hong Kong", identifier: "HK", currency: "HKD" };
+    case "ZA":
+      return { name: "South Africa", identifier: "ZA", currency: "ZAR" };
+    case "IN":
+      return { name: "India", identifier: "IN", currency: "INR" };
+    case "MY":
+      return { name: "Malaysia", identifier: "MY", currency: "MYR" };
+    case "PH":
+      return { name: "Philippines", identifier: "PH", currency: "PHP" };
+    case "AE":
+      return { name: "United Arab Emirates", identifier: "AE", currency: "AED" };
     default:
       return { name: "United States", identifier: "US", currency: "USD" }; // Default to US if no match
   }
