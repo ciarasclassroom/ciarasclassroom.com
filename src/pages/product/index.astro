@@ -38,7 +38,9 @@ const formatPrice = (price: number | string): string => {
                 <p class="text-gray-600 mb-2 line-clamp-5">
                   {resource.descriptionSnippet}
                 </p>
-                <p class="text-gray-800 font-bold mb-2">{formatPrice(resource.currencies?.USD || 0)}</p>
+                <p class="text-gray-800 font-bold mb-2">
+                  {formatPrice(resource.currencies?.USD || 0)}
+                </p>
               </div>
             </a>
           ))

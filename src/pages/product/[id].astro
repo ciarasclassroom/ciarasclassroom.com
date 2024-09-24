@@ -26,28 +26,59 @@ export async function getStaticPaths() {
     return $("p").first().prop("outerHTML");
   };
 
+  const formatReviews = (evaluations) => {
+    if (!evaluations || evaluations.length === 0) return null;
+
+    return evaluations.map((evaluation) => ({
+      id: evaluation.id,
+      author: evaluation.user.displayName,
+      date: new Date(evaluation.updatedAt).toLocaleDateString(),
+      rating:
+        evaluation.signals.overall_qual_how_satisfied_stars === "extremely"
+          ? 5
+          : evaluation.signals.overall_qual_how_satisfied_stars === "very"
+            ? 4
+            : evaluation.signals.overall_qual_how_satisfied_stars ===
+                "moderately"
+              ? 3
+              : evaluation.signals.overall_qual_how_satisfied_stars ===
+                  "slightly"
+                ? 2
+                : 1,
+      content: evaluation.signals.buyer_experience,
+      helpfulCount: evaluation.helpfulCount,
+    }));
+  };
+
   const createProductVariant = (
     product,
     variantKey: keyof typeof CURRENCY_VARIANTS | "" = "",
   ) => {
-    const variant = variantKey ? CURRENCY_VARIANTS[variantKey] : { suffix: "", currency: "USD", symbol: "$" };
+    const variant = variantKey
+      ? CURRENCY_VARIANTS[variantKey]
+      : { suffix: "", currency: "USD", symbol: "$" };
     return {
       props: {
         product: {
           ...product,
           description: extractFirstParagraph(product.description),
-          id: `${product.slug.split('-').pop()}${variant.suffix ? `-${variant.suffix}` : ""}`,
+          id: `${product.slug.split("-").pop()}${variant.suffix ? `-${variant.suffix}` : ""}`,
           currency: variant.currency,
           currencySymbol: variant.symbol,
+          reviews: formatReviews(product.evaluations),
         },
       },
-      params: { id: `${product.slug}${variant.suffix ? `-${variant.suffix}` : ""}` },
+      params: {
+        id: `${product.slug}${variant.suffix ? `-${variant.suffix}` : ""}`,
+      },
     };
   };
 
   return products.flatMap((product) => [
     createProductVariant(product),
-    ...Object.keys(CURRENCY_VARIANTS).map((key) => createProductVariant(product, key as keyof typeof CURRENCY_VARIANTS)),
+    ...Object.keys(CURRENCY_VARIANTS).map((key) =>
+      createProductVariant(product, key as keyof typeof CURRENCY_VARIANTS),
+    ),
   ]);
 }
 
@@ -57,15 +88,15 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const price = product.currencies[product.currency];
 
 const getCountryInfo = (id) => {
-  const suffix = id.split('-').pop();
+  const suffix = id.split("-").pop();
   switch (suffix) {
-    case 'US':
+    case "US":
       return { name: "United States", identifier: "US", currency: "USD" };
-    case 'CA':
+    case "CA":
       return { name: "Canada", identifier: "CA", currency: "CAD" };
-    case 'IE':
+    case "IE":
       return { name: "Ireland", identifier: "IE", currency: "EUR" };
-    case 'UK':
+    case "UK":
       return { name: "United Kingdom", identifier: "UK", currency: "GBP" };
     default:
       return { name: "United States", identifier: "US", currency: "USD" }; // Default to US if no match
@@ -74,93 +105,96 @@ const getCountryInfo = (id) => {
 
 const countryInfo = getCountryInfo(product.id);
 
-
 const ProductSchema = JSON.stringify({
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": product.title,
-  "image": product.images,
-  "description": product.descriptionSnippet,
-  "sku": product.id,
-  "mpn": product.id,
-  "brand": {
+  name: product.title,
+  image: product.images,
+  description: product.descriptionSnippet,
+  sku: product.id,
+  mpn: product.id,
+  brand: {
     "@type": "Brand",
-    "name": "Ciara's Classroom"
+    name: "Ciara's Classroom",
   },
-  "areaServed": {
+  areaServed: {
     "@type": "Country",
-    "name": countryInfo.name,
-    "identifier": countryInfo.identifier
+    name: countryInfo.name,
+    identifier: countryInfo.identifier,
   },
-  "aggregateRating": product.reviews > 0
-    ? {
-        "@type": "AggregateRating",
-        "ratingValue": product.rating,
-        "reviewCount": product.reviews
-      }
-    : undefined,
-  "offers": {
+  aggregateRating:
+    product.reviews > 0
+      ? {
+          "@type": "AggregateRating",
+          ratingValue: product.rating,
+          reviewCount: product.reviews,
+        }
+      : undefined,
+  offers: {
     "@type": "Offer",
-    "url": canonicalURL.toString(),
-    "priceCurrency": countryInfo.currency,
-    "price": product.currencies[countryInfo.currency],
-    "priceValidUntil": "2024-12-31",
-    "itemCondition": "https://schema.org/NewCondition",
-    "availability": "https://schema.org/InStock",
-    "areaServed": {
+    url: canonicalURL.toString(),
+    priceCurrency: countryInfo.currency,
+    price: product.currencies[countryInfo.currency],
+    priceValidUntil: "2024-12-31",
+    itemCondition: "https://schema.org/NewCondition",
+    availability: "https://schema.org/InStock",
+    areaServed: {
       "@type": "Country",
-      "name": countryInfo.name,
-      "identifier": countryInfo.identifier
+      name: countryInfo.name,
+      identifier: countryInfo.identifier,
     },
-    "hasMerchantReturnPolicy": {
+    hasMerchantReturnPolicy: {
       "@type": "MerchantReturnPolicy",
-      "applicableCountry": countryInfo.identifier,
-      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-      "merchantReturnDays": 365,
-      "returnMethod": "https://schema.org/ReturnByMail",
-      "returnFees": "https://schema.org/FreeReturn",
-      "returnPolicyLink": "https://ciarasclassroom.com/refund-policy/",
-      "additionalProperty": [
+      applicableCountry: countryInfo.identifier,
+      returnPolicyCategory:
+        "https://schema.org/MerchantReturnFiniteReturnWindow",
+      merchantReturnDays: 365,
+      returnMethod: "https://schema.org/ReturnByMail",
+      returnFees: "https://schema.org/FreeReturn",
+      returnPolicyLink: "https://ciarasclassroom.com/refund-policy/",
+      additionalProperty: [
         {
           "@type": "PropertyValue",
-          "name": "RefundPolicy",
-          "value": "All sales are final and nonrefundable for downloaded or accessed digital resources. Refunds are considered in specific scenarios within one year of purchase."
+          name: "RefundPolicy",
+          value:
+            "All sales are final and nonrefundable for downloaded or accessed digital resources. Refunds are considered in specific scenarios within one year of purchase.",
         },
         {
           "@type": "PropertyValue",
-          "name": "RefundScenarios",
-          "value": "Compromised resource file, misrepresentation, technical limitations, duplicate purchase, or unaccessed file status."
-        }
-      ]
+          name: "RefundScenarios",
+          value:
+            "Compromised resource file, misrepresentation, technical limitations, duplicate purchase, or unaccessed file status.",
+        },
+      ],
     },
-    "shippingDetails": {
+    shippingDetails: {
       "@type": "OfferShippingDetails",
-      "shippingRate": {
+      shippingRate: {
         "@type": "MonetaryAmount",
-        "value": "0",
-        "currency": countryInfo.currency
+        value: "0",
+        currency: countryInfo.currency,
       },
-      "shippingDestination": {
+      shippingDestination: {
         "@type": "DefinedRegion",
-        "addressCountry": countryInfo.identifier
+        addressCountry: countryInfo.identifier,
       },
-      "deliveryTime": {
+      deliveryTime: {
         "@type": "ShippingDeliveryTime",
-        "handlingTime": {
+        handlingTime: {
           "@type": "QuantitativeValue",
-          "minValue": "0",
-          "maxValue": "0",
-          "unitCode": "DAY"
+          minValue: "0",
+          maxValue: "0",
+          unitCode: "DAY",
         },
-        "transitTime": {
+        transitTime: {
           "@type": "QuantitativeValue",
-          "minValue": "0",
-          "maxValue": "0",
-          "unitCode": "DAY"
-        }
-      }
-    }
-  }
+          minValue: "0",
+          maxValue: "0",
+          unitCode: "DAY",
+        },
+      },
+    },
+  },
 });
 
 const formatPrice = (price: number | string): string => {
@@ -206,24 +240,28 @@ const formatPrice = (price: number | string): string => {
             />
           </div>
           <div class="grid grid-cols-4 gap-2">
-            {product.images.map((image, index) => (
-              <div class="aspect-w-1 aspect-h-1 cursor-pointer">
-                <meta itemprop="image" content={image} />
-                <Image
-                  src={image}
-                  alt={`${product.title} - Image ${index + 1}`}
-                  width={100}
-                  height={100}
-                  class={`rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out object-cover w-full h-full thumbnail ${index === 0 ? "border-2 border-primary" : ""}`}
-                  data-src={image}
-                />
-              </div>
-            ))}
+            {
+              product.images.map((image, index) => (
+                <div class="aspect-w-1 aspect-h-1 cursor-pointer">
+                  <meta itemprop="image" content={image} />
+                  <Image
+                    src={image}
+                    alt={`${product.title} - Image ${index + 1}`}
+                    width={100}
+                    height={100}
+                    class={`rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out object-cover w-full h-full thumbnail ${index === 0 ? "border-2 border-primary" : ""}`}
+                    data-src={image}
+                  />
+                </div>
+              ))
+            }
           </div>
         </div>
         <div class="p-8 md:w-1/2">
           <header>
-            <div class="uppercase tracking-wide text-sm text-primary font-semibold">
+            <div
+              class="uppercase tracking-wide text-sm text-primary font-semibold"
+            >
               {product.categories.join(", ")}
             </div>
             <h1 class="mt-1 text-3xl font-bold text-gray-900">
@@ -231,7 +269,7 @@ const formatPrice = (price: number | string): string => {
             </h1>
           </header>
           <div set:html={product.description} class="mt-2 text-gray-600" />
-          
+
           <div class="mt-4">
             <span class="text-gray-500">Price:</span>
             <span class="ml-2 text-2xl font-bold text-gray-900">
@@ -239,21 +277,26 @@ const formatPrice = (price: number | string): string => {
             </span>
           </div>
 
-          {product.reviews > 0 && (
-            <div class="mt-4 flex items-center">
-              <span class="text-gray-500">Rating:</span>
-              <span class="ml-2 text-yellow-500">
-                {"★".repeat(Math.round(product.rating))}
-                {"☆".repeat(5 - Math.round(product.rating))}
-              </span>
-              <span class="ml-2 text-gray-500">
-                ({product.rating}/5 based on {product.reviews} reviews)
-              </span>
-            </div>
-          )}
+          {
+            product.reviews > 0 && (
+              <div class="mt-4 flex items-center">
+                <span class="text-gray-500">Rating:</span>
+                <span class="ml-2 text-yellow-500">
+                  {"★".repeat(Math.round(product.rating))}
+                  {"☆".repeat(5 - Math.round(product.rating))}
+                </span>
+                <span class="ml-2 text-gray-500">
+                  ({product.rating}/5 based on {product.reviews} reviews)
+                </span>
+              </div>
+            )
+          }
 
           <a
-            href={product.link}
+            href={product.link.replace(
+              "ciarasclassroom.com",
+              "teacherspayteachers.com",
+            )}
             class="mt-4 btn rounded-lg border border-light bg-transparent text-center transition hover:border-primary hover:bg-primary hover:text-white px-4 py-2 inline-block"
           >
             {price === 0 ? "Get for Free" : "Buy Now"}
@@ -270,41 +313,105 @@ const formatPrice = (price: number | string): string => {
               <meta itemprop="priceCurrency" content={product.currency} />
               <link itemprop="availability" href="https://schema.org/InStock" />
               <meta itemprop="priceValidUntil" content="2024-12-31" />
-              <div itemprop="areaServed" itemscope itemtype="https://schema.org/Country">
+              <div
+                itemprop="areaServed"
+                itemscope
+                itemtype="https://schema.org/Country"
+              >
                 <meta itemprop="name" content={countryInfo.name} />
                 <meta itemprop="identifier" content={countryInfo.identifier} />
               </div>
-              <div itemprop="hasMerchantReturnPolicy" itemscope itemtype="https://schema.org/MerchantReturnPolicy">
-                <meta itemprop="applicableCountry" content={countryInfo.identifier} />
-                <link itemprop="returnPolicyCategory" href="https://schema.org/MerchantReturnFiniteReturnWindow" />
+              <div
+                itemprop="hasMerchantReturnPolicy"
+                itemscope
+                itemtype="https://schema.org/MerchantReturnPolicy"
+              >
+                <meta
+                  itemprop="applicableCountry"
+                  content={countryInfo.identifier}
+                />
+                <link
+                  itemprop="returnPolicyCategory"
+                  href="https://schema.org/MerchantReturnFiniteReturnWindow"
+                />
                 <meta itemprop="merchantReturnDays" content="365" />
-                <link itemprop="returnMethod" href="https://schema.org/ReturnByMail" />
-                <link itemprop="returnFees" href="https://schema.org/FreeReturn" />
-                <link itemprop="returnPolicyLink" href="https://ciarasclassroom.com/refund-policy/" />
-                <div itemprop="additionalProperty" itemscope itemtype="https://schema.org/PropertyValue">
+                <link
+                  itemprop="returnMethod"
+                  href="https://schema.org/ReturnByMail"
+                />
+                <link
+                  itemprop="returnFees"
+                  href="https://schema.org/FreeReturn"
+                />
+                <link
+                  itemprop="returnPolicyLink"
+                  href="https://ciarasclassroom.com/refund-policy/"
+                />
+                <div
+                  itemprop="additionalProperty"
+                  itemscope
+                  itemtype="https://schema.org/PropertyValue"
+                >
                   <meta itemprop="name" content="RefundPolicy" />
-                  <meta itemprop="value" content="All sales are final and nonrefundable for downloaded or accessed digital resources. Refunds are considered in specific scenarios within one year of purchase." />
+                  <meta
+                    itemprop="value"
+                    content="All sales are final and nonrefundable for downloaded or accessed digital resources. Refunds are considered in specific scenarios within one year of purchase."
+                  />
                 </div>
-                <div itemprop="additionalProperty" itemscope itemtype="https://schema.org/PropertyValue">
+                <div
+                  itemprop="additionalProperty"
+                  itemscope
+                  itemtype="https://schema.org/PropertyValue"
+                >
                   <meta itemprop="name" content="RefundScenarios" />
-                  <meta itemprop="value" content="Compromised resource file, misrepresentation, technical limitations, duplicate purchase, or unaccessed file status." />
+                  <meta
+                    itemprop="value"
+                    content="Compromised resource file, misrepresentation, technical limitations, duplicate purchase, or unaccessed file status."
+                  />
                 </div>
               </div>
-              <div itemprop="shippingDetails" itemscope itemtype="https://schema.org/OfferShippingDetails">
-                <div itemprop="shippingRate" itemscope itemtype="https://schema.org/MonetaryAmount">
+              <div
+                itemprop="shippingDetails"
+                itemscope
+                itemtype="https://schema.org/OfferShippingDetails"
+              >
+                <div
+                  itemprop="shippingRate"
+                  itemscope
+                  itemtype="https://schema.org/MonetaryAmount"
+                >
                   <meta itemprop="value" content="0" />
                   <meta itemprop="currency" content={countryInfo.currency} />
                 </div>
-                <div itemprop="shippingDestination" itemscope itemtype="https://schema.org/DefinedRegion">
-                  <meta itemprop="addressCountry" content={countryInfo.identifier} />
+                <div
+                  itemprop="shippingDestination"
+                  itemscope
+                  itemtype="https://schema.org/DefinedRegion"
+                >
+                  <meta
+                    itemprop="addressCountry"
+                    content={countryInfo.identifier}
+                  />
                 </div>
-                <div itemprop="deliveryTime" itemscope itemtype="https://schema.org/ShippingDeliveryTime">
-                  <div itemprop="handlingTime" itemscope itemtype="https://schema.org/QuantitativeValue">
+                <div
+                  itemprop="deliveryTime"
+                  itemscope
+                  itemtype="https://schema.org/ShippingDeliveryTime"
+                >
+                  <div
+                    itemprop="handlingTime"
+                    itemscope
+                    itemtype="https://schema.org/QuantitativeValue"
+                  >
                     <meta itemprop="minValue" content="0" />
                     <meta itemprop="maxValue" content="0" />
                     <meta itemprop="unitCode" content="DAY" />
                   </div>
-                  <div itemprop="transitTime" itemscope itemtype="https://schema.org/QuantitativeValue">
+                  <div
+                    itemprop="transitTime"
+                    itemscope
+                    itemtype="https://schema.org/QuantitativeValue"
+                  >
                     <meta itemprop="minValue" content="0" />
                     <meta itemprop="maxValue" content="0" />
                     <meta itemprop="unitCode" content="DAY" />
@@ -312,16 +419,55 @@ const formatPrice = (price: number | string): string => {
                 </div>
               </div>
             </div>
-            {product.reviews > 0 && (
-              <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                <meta itemprop="ratingValue" content={product.rating} />
-                <meta itemprop="reviewCount" content={product.reviews} />
-              </div>
-            )}
+            {
+              product.reviews > 0 && (
+                <div
+                  itemprop="aggregateRating"
+                  itemscope
+                  itemtype="https://schema.org/AggregateRating"
+                >
+                  <meta itemprop="ratingValue" content={product.rating} />
+                  <meta itemprop="reviewCount" content={product.reviews} />
+                </div>
+              )
+            }
           </div>
         </div>
       </div>
     </article>
+
+    {
+      product.reviews && product.reviews.length > 0 && (
+        <div class="mt-4 bg-white shadow-lg rounded-lg overflow-hidden">
+          <div class="md:flex">
+            <div class="md p-4">
+              <h2 class="text-2xl font-bold mb-4">Customer Reviews</h2>
+              {product.reviews.map((review) => (
+                <div
+                  key={review.id}
+                  class="mb-4 pb-4 border-b border-gray-300 last:border-b-0"
+                >
+                  <div class="flex items-center mb-2">
+                    <span class="text-yellow-500 mr-2">
+                      {"★".repeat(review.rating)}
+                      {"☆".repeat(5 - review.rating)}
+                    </span>
+                    <span class="font-semibold">{review.author}</span>
+                    <span class="text-gray-500 ml-2">{review.date}</span>
+                  </div>
+                  <p class="text-gray-700 review-content">{review.content}</p>
+                  <div class="mt-2 text-sm text-gray-500">
+                    {review.helpfulCount}{" "}
+                    {review.helpfulCount === 1 ? "person" : "people"} found this
+                    helpful
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )
+    }
   </div>
 </Base>
 
