@@ -444,7 +444,7 @@ const formatPrice = (price: number | string): string => {
               <h2 class="text-2xl font-bold mb-4">Customer Reviews</h2>
               {product.reviews.map((review) => (
                 <div
-                  key={review.id}
+                  id={`review-${review.id}-${product.currency}`}
                   class="mb-4 pb-4 border-b border-gray-300 last:border-b-0"
                 >
                   <div class="flex items-center mb-2">
