@@ -13,17 +13,17 @@ date: 2024-11-04T00:00:00.000Z
 draft: true
 ---
 
-Hi there! A big thank you to Ciara for inviting me to share my story on her blog. For those of you who don’t know me, I’m David, the face behind the Instagram account Múinteoir Dave. I started my account three years ago after finishing the PME as a way to document my teaching journey. Another thing about me? I’m colourblind.
+Hi there! A big thank you to Ciara for inviting me to share my story on her blog. For those of you who don’t know me, I’m David and I run a teacher Instagram account called Múinteoir Dave. I started my account three years ago after finishing the PME as a way to document my teaching journey. Another thing about me? I’m colourblind.
 
 ### What is Colourblindness?
 
-Colourblindness, or more accurately, colour vision deficiency, is a hidden disability affecting how a person perceives colours. It’s a genetic condition, usually passed down through the X chromosome, caused by an irregular development of colour-detecting cells in the eye, known as cones. There are three types of cones in the human eye, each responsible for detecting blue, green, or red light. When one or more of these cones don’t develop properly, the brain receives incomplete signals, making it difficult to distinguish certain colours.
+Colourblindness, or more accurately, colour vision deficiency, is a hidden disability affecting how a person perceives colours. It’s a genetic condition, usually passed down through the X chromosome, caused by an irregular development of colour-detecting cells, known as cones, in the back of the eye. There are three types of cones in the human eye, each responsible for detecting blue, green, or red light. When one or more of these cones don’t develop properly, the brain receives incomplete signals, making it difficult to distinguish certain colours.
 
 There are several types of colourblindness, but the most common include:
 
-* Deuteranomaly (difficulty perceiving green light)
-* Protanomaly (difficulty perceiving red light)
-* Tritanopia (difficulty perceiving blue light)
+* Deuteranomaly (red/green deficiency due to inability to perceive green light)
+* Protanomaly (reds and greens looking more muted due to inability to perceive red light)
+* Tritanopia (blue/yellow deficiency due to inability to perceive blue light)
 
 In my case, I experience a combination of these. Imagine looking at a colour palette—while I can distinguish between some colours, others blend together. For example, if I look at a blue plastic chair in a classroom, the dark specs of dirt on the seat can bleed into the blue, making the chair appear to shift between blue, purple, grey, and green. This constant colour distortion is how I see the world every day.
 
