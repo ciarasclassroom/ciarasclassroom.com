@@ -8,7 +8,12 @@ description: >-
   guest post, Múinteoir Dave (a colourblind teacher) shares insights and top
   tips.
 image: /Colour_Blindness_in_the_Classroom_Blogpost_Banner.png
-tags: []
+tags:
+  - Colourblindness
+  - Inclusion
+categories:
+  - Guest Post
+  - Inclusion
 date: 2024-11-04T00:00:00.000Z
 draft: true
 ---
