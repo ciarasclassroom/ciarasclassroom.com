@@ -25,9 +25,9 @@ There are several types of colourblindness, but the most common include:
 * Protanomaly (reds and greens looking more muted due to inability to perceive red light)
 * Tritanopia (blue/yellow deficiency due to inability to perceive blue light)
 
-In my case, I experience a combination of these. Imagine looking at a colour palette—while I can distinguish between some colours, others blend together. For example, if I look at a blue plastic chair in a classroom, the dark specs of dirt on the seat can bleed into the blue, making the chair appear to shift between blue, purple, grey, and green. This constant colour distortion is how I see the world every day.
+In my case, I experience a combination of these. Imagine looking at a paint pallet booklet with hues getting darker as you go down the column. I can differentiate the first and third colours in the column but I cannot differentiate the first and second colours or the second and third colours. For me, when colours of similar hues are in close proximity, they will begin to bleed into each other while I look at them and then the undertones of the colours will begin to become more prominent in a cyclical way which results in the object I'm looking at to constantly change colours and make it impossible for me to identify it's true colour. For example, if I look at a blue plastic chair in a classroom, any dark marks or specs of dirt on the seat can bleed into the blue, making the chair appear to continually shift between blue, purple, grey, and green, over and over again until I look away. This constant colour distortion is how I see the world every day.
 
-Colourblindness is more common than you might think. Around 300 million people worldwide are colourblind, with 1 in 12 males and 1 in 200 females affected. In an average urban school, this means that in each class, at least two boys and one girl in the entire school may have some form of colourblindness.
+Colourblindness is more common than you might think. Around 300 million people worldwide are colourblind, with 1 in 12 males and 1 in 200 females affected. In an average urban school, this means that in each class there may be two or three colourblind boys and there may be one or two colourblind girls in the school.
 
 ### My Story
 
