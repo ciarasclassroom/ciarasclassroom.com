@@ -45,13 +45,13 @@ export default defineConfig({
             label: "Title",
             type: "string",
             isTitle: true,
-            required: true,
+            required: false,
           },
           {
             label: "Description",
             name: "description",
             type: "string",
-            required: true,
+            required: false,
           },
           {
             label: "Image",
@@ -76,7 +76,7 @@ export default defineConfig({
             name: "date",
             type: "datetime",
             dateFormat: "MMM DD YYYY",
-            required: true,
+            required: false,
           },
           {
             name: "draft",
@@ -88,7 +88,7 @@ export default defineConfig({
             type: "rich-text",
             name: "body",
             label: "Body",
-            isBody: true,
+            isBody: false,
           },
         ],
       },
@@ -102,7 +102,7 @@ export default defineConfig({
             label: "Title",
             type: "string",
             isTitle: true,
-            required: true,
+            required: false,
           },
           {
             label: "Image",
