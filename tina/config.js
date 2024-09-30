@@ -45,7 +45,7 @@ export default defineConfig({
             label: "Title",
             type: "string",
             isTitle: true,
-            required: false,
+            required: true,
           },
           {
             label: "Description",
@@ -102,7 +102,7 @@ export default defineConfig({
             label: "Title",
             type: "string",
             isTitle: true,
-            required: false,
+            required: true,
           },
           {
             label: "Image",
