@@ -7,7 +7,7 @@ description: >-
   development of colour-detecting cells in the eye, known as cones.  In this
   guest post, Múinteoir Dave (a colourblind teacher) shares insights and top
   tips.
-image: /Colour_Blindness_in_the_Classroom_Blogpost_Banner.png
+image: /Guest_Post_Colour_Blindness_Banner.jpg
 tags:
   - Colourblindness
   - Inclusion
