@@ -58,7 +58,7 @@ function parseProducts(products, exchangeRates) {
       link: generateProductUrl(product.canonicalSlug),
       description: product.description,
       descriptionSnippet: product.descriptionSnippet,
-      images: product.assets.thumbnails.map((thumbnail) => thumbnail.originalUrl),
+      images: product.assets.thumbnails.map((thumbnail) => thumbnail.originalUrl.replace("original", "750f")),
       slug: product.canonicalSlug,
       reviews: product.totalEvaluations,
       rating: product.overallQualityScore,
@@ -109,6 +109,7 @@ async function fetchTpTProducts(sortParam, products, exchangeRates) {
             assets {
               thumbnails {
                 originalUrl
+                largeUrl
                 __typename
               }
               __typename

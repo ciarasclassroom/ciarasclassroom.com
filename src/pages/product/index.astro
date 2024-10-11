@@ -9,7 +9,7 @@ import products from "@/lib/fixtures/tpt_products_RELEVANCE.json";
 const formatPrice = (price: number | string): string => {
   if (typeof price === "string") {
     // If price is already a string, assume it's pre-formatted
-    return price == "0.00" ? "Free" : `\${price}`;
+    return price == "0.00" ? "Free" : `${price}`;
   }
 
   // If price is a number
