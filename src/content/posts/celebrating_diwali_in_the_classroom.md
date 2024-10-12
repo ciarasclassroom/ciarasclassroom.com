@@ -47,5 +47,8 @@ body: >
   to the rich cultural traditions and values associated with this multi-faith
   festival. Here are 10 creative, engaging activities that you can use to mark
   Diwali in your classroom:
+
+
+  ![](/Rangoli_Design_Diwali_in_the_Classroom.jpg)
 ---
 
