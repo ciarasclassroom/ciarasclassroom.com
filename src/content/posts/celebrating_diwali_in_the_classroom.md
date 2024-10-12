@@ -65,7 +65,7 @@ Diwali is famous for its diyas—small oil lamps made from clay. Challenge your 
 
 If possible, invite a parent or local community member who celebrates Diwali to come in and share their personal experiences and traditions. They could talk about how their family prepares for Diwali, what they eat, how they decorate their home, and more. This brings the celebration to life and gives students an opportunity to ask questions and deepen their understanding of the holiday.
 
-### 7. Diwali Greeting Cards (TPT Resource)
+### 7. Diwali Greeting Cards 
 
 Here are some [Diwali Greeting Card Templates](https://www.teacherspayteachers.com/Product/Diwali-Card-Templates-8866707?utm_source=My%20Blog\&utm_campaign=Diwali%20Blog%20Post) that your students could use to colour and write their own Diwali cards to send to family or classmates.  As a class, you could also discuss how sending cards during Diwali is a way of sharing good wishes, just as we might exchange cards for other holidays.
 
