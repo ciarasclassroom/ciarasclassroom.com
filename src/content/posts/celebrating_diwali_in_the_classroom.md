@@ -40,6 +40,9 @@ body: >
   that symbolises hope, enlightenment, and the triumph of good over evil.
 
 
+  ![](/Diya_Diwali_in_the_Classroom.jpg)
+
+
   Celebrating Diwali in the classroom is a wonderful way to introduce students
   to the rich cultural traditions and values associated with this multi-faith
   festival. Here are 10 creative, engaging activities that you can use to mark
