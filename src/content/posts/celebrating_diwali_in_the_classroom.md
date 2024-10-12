@@ -15,7 +15,7 @@ categories:
   - Classroom Ideas
   - Celebrating Diversity
   - Learn Together
-date: 2024-10-14T23:00:00.000Z
+date: 2024-10-11T23:00:00.000Z
 draft: false
 body: >
   Diwali, also known as the Festival of Lights, is a special celebration in
