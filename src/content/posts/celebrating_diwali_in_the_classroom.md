@@ -54,7 +54,7 @@ body: >
 
   Rangoli is a traditional art form where patterns are drawn on the ground using
   coloured powders, rice, or flower petals. In class, students could create
-  their own rangoli designs on paper using bright-colored markers, crayons,
+  their own rangoli designs on paper using bright-coloured markers, crayons,
   crepe paper or even small beads. For younger students, you could provide
   pre-drawn templates of simple patterns. Older students could challenge
   themselves by designing their own intricate patterns. This activity could tie
@@ -164,5 +164,20 @@ body: >
   flowers (often used for garlands). Have the students describe how each item
   makes them feel, and talk about how Diwali appeals to all the senses, from the
   scent of the floral garlands to the sound of fireworks.
+
+
+  ### 10. Class Diwali Feast
+
+
+  Introduce your students to the variety of foods traditionally enjoyed during
+  Diwali. If feasible, organise a small Diwali food-tasting event with
+  traditional snacks like samosas, ladoos, or other festive treats.
+  Alternatively, have students research different Diwali foods and create a
+  virtual feast, where they can share images, recipes, or drawings of their
+  chosen dishes. This helps students appreciate the diversity of Diwali
+  celebrations through food.
+
+
+  ![](/Food_Diwali_Classroom_ideas.jpg)
 ---
 
