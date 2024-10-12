@@ -99,5 +99,21 @@ body: >
 
 
   ![](/Diwali_Collaborative_Colouring_Project_1.png)
+
+
+  ### 4. Diwali STEM Challenge: Build a Floating Diya
+
+
+  Diwali is famous for its diyas—small oil lamps made from clay. Challenge your
+  students to design and construct a floating diya.  The students could use a
+  variety of materials like cork, aluminum foil, play dough, or small cups. You
+  could even give each team a small tealight (unlit or battery operated) to fit
+  inside their design.  The goal is to create a diya that will float on water
+  for the longest time.  This activity encourages teamwork, problem-solving, and
+  creativity, making it an exciting way to incorporate Diwali into a STEM
+  lesson.
+
+
+  ![](/Floating_Diya_Diwali_in_the_Classroom_Ideas.jpg)
 ---
 
