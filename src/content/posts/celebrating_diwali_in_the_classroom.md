@@ -69,7 +69,7 @@ body: >
 
   Read “The Best Diwali Ever” by Sonali Shaha heartwarming story that
   beautifully captures the excitement and joy of Diwali from a child’s
-  perspective. The book follows a young girl named Aditi, who is eager to
+  perspective. The book follows a young girl named Ariana, who is eager to
   celebrate Diwali with her family. However, not everything goes according to
   plan, and she learns that Diwali is not just about the decorations and sweets,
   but about love, family, and togetherness. After reading the story, engage the
@@ -82,5 +82,22 @@ body: >
 
 
   ![](/The_Best_Diwali_Ever_Classroom_Ideas_for_Diwali.jpg)
+
+
+  ### 3. Collaborative Diwali Colouring Project 
+
+
+  Use a [collaborative Diwali colouring
+  project](https://www.teacherspayteachers.com/Product/Diwali-Collaborative-Art-Coloring-Project-12350575?st=8c96cf8840b170db84eb8c02aca3f937)
+  to create a beautiful Diwali-themed artwork that can be displayed in the
+  classroom or hallway. Each student gets a portion of the overall image to
+  colour, and when all the pieces are combined, it reveals the full image. This
+  is a fun way to build classroom community while celebrating the festival. 
+  With easy-to-follow instructions and printable templates (8, 16, 18, 25, 32
+  and 36 sheet versions included), it's a no-stress addition to your classroom
+  that is perfect for marking this special festival with your students.
+
+
+  ![](/Diwali_Collaborative_Colouring_Project_1.png)
 ---
 
