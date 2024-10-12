@@ -14,7 +14,7 @@ tags:
 categories:
   - Guest Post
   - Inclusion
-date: 2024-10-31T00:00:00.000Z
+date: 2024-10-23T23:00:00.000Z
 draft: true
 ---
 
@@ -68,6 +68,6 @@ Children often think colourblindness means you "can't see any colours," but it's
 
 If you've made it this far, I hope my story has given you some insight into one of the most common hidden disabilities and how we can better support colourblind students and colleagues in our classrooms. A small change in how we organise and teach can have a lasting impact. If it wasn't for Mrs Scully, I probably wouldn't have been identified and diagnosed when I was and I wouldn't have received the supports I needed to succeed in school. I know for a fact I wouldn't be a teacher today if it wasn't for her. Let's all of us be Mrs Scully in our own classrooms and create lifelong, positive impacts on the children that we're lucky enough to teach!
 
-Thanks so much to David for writing this informative guest blog post all about colourblindness in the classroom.  You can connect with David on his Instagram page [Múinteoir Dave](https://www.instagram.com/muinteoir_dave/) .
+*Thanks so much to David for writing this informative guest blog post all about colourblindness in the classroom.  You can connect with David on his Instagram page [Múinteoir Dave](https://www.instagram.com/muinteoir_dave/) .*
 
 ![](/Muinetoir_Dave_instagram.jpeg)
