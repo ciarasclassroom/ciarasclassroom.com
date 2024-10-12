@@ -85,7 +85,18 @@ body: >
   ![](/The_Best_Diwali_Ever_Classroom_Ideas_for_Diwali.jpg)
 
 
-  ### 3. Collaborative Diwali Colouring Project 
+  ### 3. Diwali Traditions Around the World
+
+
+  Help students explore how Diwali is celebrated in different parts of the
+  world, from India to the UK, Canada, and beyond. Create a "Diwali Around the
+  World" poster or slideshow as a class project. Each student or small group can
+  be assigned a country or region to research. This activity enhances research
+  skills and broadens their understanding of how festivals evolve in different
+  cultural settings.
+
+
+  ### 4. Collaborative Diwali Colouring Project 
 
 
   Use a [collaborative Diwali colouring
@@ -102,7 +113,7 @@ body: >
   ![](/Diwali_Collaborative_Colouring_Project_1.png)
 
 
-  ### 4. Diwali STEM Challenge: Build a Floating Diya
+  ### 5. Diwali STEM Challenge: Build a Floating Diya
 
 
   Diwali is famous for its diyas—small oil lamps made from clay. Challenge your
@@ -118,7 +129,7 @@ body: >
   ![](/Floating_Diya_Diwali_in_the_Classroom_Ideas.jpg)
 
 
-  ### 5. Classroom Visitor: Invite a Parent or Community Member to Share Diwali
+  ### 6. Classroom Visitor: Invite a Parent or Community Member to Share Diwali
   Traditions
 
 
@@ -128,17 +139,6 @@ body: >
   decorate their home, and more. This brings the celebration to life and gives
   students an opportunity to ask questions and deepen their understanding of the
   holiday.
-
-
-  ### 6. Diwali Traditions Around the World
-
-
-  Help students explore how Diwali is celebrated in different parts of the
-  world, from India to the UK, Canada, and beyond. Create a "Diwali Around the
-  World" poster or slideshow as a class project. Each student or small group can
-  be assigned a country or region to research. This activity enhances research
-  skills and broadens their understanding of how festivals evolve in different
-  cultural settings.
 
 
   ### 7. Diwali Greeting Cards (TPT Resource)
