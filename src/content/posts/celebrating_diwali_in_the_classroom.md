@@ -139,5 +139,19 @@ body: >
   be assigned a country or region to research. This activity enhances research
   skills and broadens their understanding of how festivals evolve in different
   cultural settings.
+
+
+  ### 7. Diwali Greeting Cards (TPT Resource)
+
+
+  Here are some [Diwali Greeting Card
+  Templates](https://www.teacherspayteachers.com/Product/Diwali-Card-Templates-8866707?utm_source=My%20Blog\&utm_campaign=Diwali%20Blog%20Post)
+  that your students could use to colour and write their own Diwali cards to
+  send to family or classmates.  As a class, you could also discuss how sending
+  cards during Diwali is a way of sharing good wishes, just as we might exchange
+  cards for other holidays.
+
+
+  ![](/Diwali-Card-Templates-1.png)
 ---
 
