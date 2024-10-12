@@ -5,9 +5,18 @@ description: >-
   with your students?  This blogpost will outline some key information for you
   as a teacher, as well as some ideas you can use in your classroom.
 image: /Celebrating_Diwali_in_the_Classroom Banner.png
-tags: []
+tags:
+  - Jainism
+  - Sikhism
+  - Hinduism
+  - Religions
+  - Diversity
+categories:
+  - Classroom Ideas
+  - Celebrating Diversity
+  - Learn Together
 date: 2024-10-14T23:00:00.000Z
-draft: true
+draft: false
 body: >
   Diwali, also known as the Festival of Lights, is a special celebration in
   Hinduism, Jainism and Sikhism.  This five-day festival usually falls between
@@ -96,7 +105,7 @@ body: >
   cultural settings.
 
 
-  ### 4. Collaborative Diwali Colouring Project 
+  ### 4. Collaborative Diwali Colouring Project
 
 
   Use a [collaborative Diwali colouring
