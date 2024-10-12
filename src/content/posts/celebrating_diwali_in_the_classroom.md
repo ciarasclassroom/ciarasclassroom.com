@@ -62,5 +62,25 @@ body: >
 
 
   ![](/Rangoli_Design_Diwali_in_the_Classroom.jpg)
+
+
+  ### 2. Story Time: Picture Book - “The Best Diwali Ever”
+
+
+  Read “The Best Diwali Ever” by Sonali Shaha heartwarming story that
+  beautifully captures the excitement and joy of Diwali from a child’s
+  perspective. The book follows a young girl named Aditi, who is eager to
+  celebrate Diwali with her family. However, not everything goes according to
+  plan, and she learns that Diwali is not just about the decorations and sweets,
+  but about love, family, and togetherness. After reading the story, engage the
+  class in a discussion about the themes of family, perseverance, and finding
+  joy in unexpected moments. You could follow this up by asking students to
+  share what family traditions are most special to them, or even write a short
+  story about their own celebration of Diwali (or another festival). This
+  activity encourages literacy, empathy, and reflection on the deeper meaning of
+  festivals.
+
+
+  ![](/The_Best_Diwali_Ever_Classroom_Ideas_for_Diwali.jpg)
 ---
 
