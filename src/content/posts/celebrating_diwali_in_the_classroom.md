@@ -88,7 +88,7 @@ body: >
 
 
   Use a [collaborative Diwali colouring
-  project](https://www.teacherspayteachers.com/Product/Diwali-Collaborative-Art-Coloring-Project-12350575?st=8c96cf8840b170db84eb8c02aca3f937)
+  project](https://www.teacherspayteachers.com/Product/Diwali-Collaborative-Art-Coloring-Project-12350575?st=8c96cf8840b170db84eb8c02aca3f937\&utm_source=My%20Blog\&utm_campaign=Diwali%20Blog%20Post)
   to create a beautiful Diwali-themed artwork that can be displayed in the
   classroom or hallway. Each student gets a portion of the overall image to
   colour, and when all the pieces are combined, it reveals the full image. This
