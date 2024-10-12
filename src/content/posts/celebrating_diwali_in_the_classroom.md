@@ -6,10 +6,10 @@ description: >-
   as a teacher, as well as some ideas you can use in your classroom.
 image: /Celebrating_Diwali_in_the_Classroom Banner.png
 tags:
-  - Jainism
-  - Sikhism
-  - Hinduism
   - Religions
+  - Hinduism
+  - Sikhism
+  - Jainism
   - Diversity
 categories:
   - Classroom Ideas
