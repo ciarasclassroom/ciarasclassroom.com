@@ -49,6 +49,18 @@ body: >
   Diwali in your classroom:
 
 
+  ### 1. Art Activity: Rangoli Patterns
+
+
+  Rangoli is a traditional art form where patterns are drawn on the ground using
+  coloured powders, rice, or flower petals. In class, students could create
+  their own rangoli designs on paper using bright-colored markers, crayons,
+  crepe paper or even small beads. For younger students, you could provide
+  pre-drawn templates of simple patterns. Older students could challenge
+  themselves by designing their own intricate patterns. This activity promotes
+  creativity while introducing students to a beautiful Diwali tradition. 
+
+
   ![](/Rangoli_Design_Diwali_in_the_Classroom.jpg)
 ---
 
