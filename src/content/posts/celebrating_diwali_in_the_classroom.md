@@ -153,5 +153,16 @@ body: >
 
 
   ![](/Diwali-Card-Templates-1.png)
+
+
+  ### 9. Diwali Senses Exploration
+
+
+  Engage the senses by introducing the class to different scents, sounds, and
+  textures that may be associated with Diwali. Bring in items such as incense,
+  traditional Indian music, and different materials like silk, spices, or
+  flowers (often used for garlands). Have the students describe how each item
+  makes them feel, and talk about how Diwali appeals to all the senses, from the
+  scent of the floral garlands to the sound of fireworks.
 ---
 
