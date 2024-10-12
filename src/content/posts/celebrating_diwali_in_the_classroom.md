@@ -19,7 +19,7 @@ body: >
 
   In Hinduism, Diwali often commemorates Prince Rama's return to Ayodhya with
   his wife Sita, after defeating the demon king Ravana. People lit oil lamps to
-  guide Rama home, which is why lights are so central to the celebration.
+  guide them home, which is why lights are so central to the celebration.
 
 
   To the Jains, Diwali is the day that Lord Mahavira, the 24th Tirthankara,
@@ -179,5 +179,16 @@ body: >
 
 
   ![](/Food_Diwali_Classroom_ideas.jpg)
+
+
+  Celebrating Diwali in the classroom is a fantastic opportunity to embrace the
+  diversity of cultures, beliefs, and traditions that enrich our world. By
+  introducing children to the stories, symbols, and values of Diwali—whether
+  through art, stories, STEM activities, or community connections—we not only
+  help them gain a deeper understanding of this vibrant festival but also foster
+  a sense of inclusion and respect for different cultures. These activities can
+  spark curiosity, encourage empathy, and inspire creativity in every student,
+  making your classroom a place where all traditions are honoured and
+  celebrated.
 ---
 
