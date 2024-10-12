@@ -57,8 +57,9 @@ body: >
   their own rangoli designs on paper using bright-colored markers, crayons,
   crepe paper or even small beads. For younger students, you could provide
   pre-drawn templates of simple patterns. Older students could challenge
-  themselves by designing their own intricate patterns. This activity promotes
-  creativity while introducing students to a beautiful Diwali tradition. 
+  themselves by designing their own intricate patterns. This activity could tie
+  also into a broader lesson on symmetry, angles, or patterns, showing students
+  how maths can be found in traditional art forms.
 
 
   ![](/Rangoli_Design_Diwali_in_the_Classroom.jpg)
@@ -115,5 +116,28 @@ body: >
 
 
   ![](/Floating_Diya_Diwali_in_the_Classroom_Ideas.jpg)
+
+
+  ### 5. Classroom Visitor: Invite a Parent or Community Member to Share Diwali
+  Traditions
+
+
+  If possible, invite a parent or local community member who celebrates Diwali
+  to come in and share their personal experiences and traditions. They could
+  talk about how their family prepares for Diwali, what they eat, how they
+  decorate their home, and more. This brings the celebration to life and gives
+  students an opportunity to ask questions and deepen their understanding of the
+  holiday.
+
+
+  ### 6. Diwali Traditions Around the World
+
+
+  Help students explore how Diwali is celebrated in different parts of the
+  world, from India to the UK, Canada, and beyond. Create a "Diwali Around the
+  World" poster or slideshow as a class project. Each student or small group can
+  be assigned a country or region to research. This activity enhances research
+  skills and broadens their understanding of how festivals evolve in different
+  cultural settings.
 ---
 
