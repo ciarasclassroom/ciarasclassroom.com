@@ -14,8 +14,8 @@ tags:
 categories:
   - Guest Post
   - Inclusion
-date: 2024-10-23T23:00:00.000Z
-draft: true
+date: 2024-10-25T23:00:00.000Z
+draft: false
 ---
 
 Hi there! A big thank you to Ciara for inviting me to share my story on her blog. For those of you who don’t know me, I’m David and I run a teacher Instagram account called Múinteoir Dave. I started my account three years ago after finishing the PME as a way to document my teaching journey. Another thing about me? I’m colourblind.
