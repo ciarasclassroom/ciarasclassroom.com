@@ -17,7 +17,7 @@ draft: true
 
 ### What is Learn Together?
 
-Ireland's Educate Together schools are unique in their approach to creating inclusive, diverse, and respectful learning environments. Central to their mission is the Learn Together curriculum, an ethics and values program that helps guide students not only academically but also socially and morally. In this post, we’ll dive into the Educate Together ethos, explore the Learn Together curriculum, and explore how it fosters inclusive education.
+Have you ever wondered what school would look like if inclusivity and respect weren't just add-ons, but the foundation of education itself? That's exactly what Ireland's Educate Together schools have created. At their heart lies the Learn Together curriculum - an innovative approach that weaves ethics, values, and critical thinking into everyday learning. This isn't just another school subject; it's a unique way of helping children understand themselves, each other, and their place in our diverse world.
 
 ### Understanding the Educate Together Ethos
 
