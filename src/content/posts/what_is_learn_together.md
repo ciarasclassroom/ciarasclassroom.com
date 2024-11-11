@@ -11,8 +11,8 @@ image: /What-is-Learn-Together-Banner.png
 tags: []
 categories:
   - Learn Together
-date: 2024-11-09T00:00:00.000Z
-draft: true
+date: 2024-11-11T00:00:00.000Z
+draft: false
 ---
 
 ### What is Learn Together?
