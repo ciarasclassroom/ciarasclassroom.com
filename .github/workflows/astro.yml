@@ -52,9 +52,9 @@ jobs:
           HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
           EXCHANGE_RATE_API_KEY: ${{ secrets.EXCHANGE_RATE_API_KEY }}
         run: |
-          node fetch-instagram-posts.mjs
-          node fetch-tpt-products.mjs RELEVANCE
-          node fetch-tpt-products.mjs MOST_RECENT
+          node fetch-instagram-posts.mjs || true
+          node fetch-tpt-products.mjs RELEVANCE || true
+          node fetch-tpt-products.mjs MOST_RECENT || true
 
       - name: Upload fetched data
         uses: actions/upload-artifact@v3
