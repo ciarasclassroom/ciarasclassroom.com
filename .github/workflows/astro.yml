@@ -23,7 +23,7 @@ env:
 jobs:
   fetch_data:
     name: Fetch External Data
-    if: "!contains(github.event.head_commit.message, '[skip ci]')" # Skip job if commit message contains "[skip ci]"
+    if: "!contains(github.event.head_commit.message, '[skip ci]') && !contains(github.event.head_commit.message, 'TinaCMS')" # Skip job if commit message contains "[skip ci]" or "TinaCMS"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -100,7 +100,7 @@ jobs:
         run: npm ci --prefer-offline --no-audit
 
       - name: Download fetched data
-        if: "!contains(github.event.head_commit.message, '[skip ci]')" # Skip step if commit message contains "[skip ci]"
+        if: "!contains(github.event.head_commit.message, '[skip ci]') && !contains(github.event.head_commit.message, 'TinaCMS')" # Skip job if commit message contains "[skip ci]" or "TinaCMS"
         uses: actions/download-artifact@v3
         with:
           name: external-data
@@ -123,7 +123,7 @@ jobs:
         
   upload_google_products:
     name: Upload Google Products
-    if: "!contains(github.event.head_commit.message, '[skip ci]')" # Skip job if commit message contains "[skip ci]"
+    if: "!contains(github.event.head_commit.message, '[skip ci]') && !contains(github.event.head_commit.message, 'TinaCMS')" # Skip job if commit message contains "[skip ci]" or "TinaCMS"
     needs: fetch_data
     runs-on: ubuntu-latest
     steps:
