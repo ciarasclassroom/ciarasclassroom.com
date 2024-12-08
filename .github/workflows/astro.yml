@@ -78,7 +78,7 @@ jobs:
           git add ./src/lib/fixtures/tpt_products_MOST_RECENT.json || true
           git add ./src/lib/fixtures/tpt_products_RELEVANCE.json || true
           git add ./public/images/instagram/* || true
-          git commit -m "Update external data [skip ci]"
+          git commit -m "Update external data [skip ci]" || true
           git push origin master || true
 
   build_and_deploy:
