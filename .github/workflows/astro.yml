@@ -79,7 +79,7 @@ jobs:
           git add ./src/lib/fixtures/tpt_products_RELEVANCE.json
           git add ./public/images/instagram/*
           git commit -m "Update external data [skip ci]"
-          git push origin master
+          git push origin master || true
 
   build_and_deploy:
     name: Build and Deploy
