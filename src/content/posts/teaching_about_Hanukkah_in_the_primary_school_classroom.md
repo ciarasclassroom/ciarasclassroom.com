@@ -56,11 +56,11 @@ By exploring the history and traditions of Hanukkah with your students, you’re
 
 Here are some creative and meaningful ways to bring Hanukkah into your classroom:
 
-#### Storytelling and Creative Expression
+#### 1. Storytelling and Creative Expression
 
 Introduce the story of Hanukkah to your students by sharing the tale of the Maccabees and the miracle of the oil. Then, invite students to retell the story through drawing, writing, or acting. This activity encourages creativity and helps reinforce their understanding of the holiday’s meaning.
 
-#### Music with a Fun Twist
+#### 2. Music with a Fun Twist
 
 Play the song Candlelight by the Maccabeats, a catchy Hanukkah parody of Taio Cruz’s Dynamite. This song blends tradition with modern music, making it relatable and engaging for students. After listening, discuss the lyrics and their connection to Hanukkah traditions. You could even encourage students to write their own Hanukkah-inspired song verses! 
 
@@ -68,37 +68,37 @@ Play the song Candlelight by the Maccabeats, a catchy Hanukkah parody of Taio Cr
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qSJCSR4MuhU?si=pUT5UMwgnbRQFNXS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
-#### Personalised Greeting Cards
+#### 3. Personalised Greeting Cards
 
 Combine creativity with cultural learning by having students create Hanukkah greeting cards. Use my [Hanukkah Card Templates ](https://www.teacherspayteachers.com/Product/Hanukkah-Card-Templates-8849451?utm_source=My%20Blog\&utm_campaign=Hanukkah%20Blogpost)to simplify the process while giving students space to design and personalise their cards. This activity helps students express themselves while learning about the holiday’s customs. ![](/Hanukkah-Card-Templates-1.png)
 
-#### Dreidel Math Adventures
+#### 4. Dreidel Math Adventures
 
 Introduce a fun maths lesson by teaching your students how to play the traditional dreidel game. Use chocolate gelt or counters to make it exciting, and explore concepts like probability, counting, or addition based on the game’s outcomes.  If you don't have actual dreidels available, here is a [simple digital one](https://g.co/kgs/5YtwAZi) you can use!
 
-#### Collaborative Classroom Art
+#### 5. Collaborative Classroom Art
 
 Celebrate Hanukkah with a large-scale collaborative art project. My [Hanukkah Collaborative Art Poster ](https://www.teacherspayteachers.com/Product/Hanukkah-Collaborative-Art-Chanukah-Coloring-Project-10418527?utm_source=My%20Blog\&utm_campaign=Hanukkah%20Blogpost)features a "Happy Hanukkah" design where each student contributes by colouring a section. Once assembled, the poster creates a stunning classroom display, promoting teamwork and creativity. ![](</Hanukkah Collaborative Art Project.png>)
 
-#### Cultural Awareness Discussions
+#### 6. Cultural Awareness Discussions
 
 Facilitate meaningful conversations about holiday traditions, focusing on how Hanukkah compares to and contrasts with other celebrations. Guide students to explore themes like light, hope, and resilience while fostering respect and curiosity about Jewish culture.
 
-#### Fine Motor Skills Craft
+#### 7. Fine Motor Skills Craft
 
 Engage your students’ fine motor skills with a hands-on craft. My [Menorah Cut and Paste Activity](https://www.teacherspayteachers.com/Product/Menorah-Cut-and-Paste-Hanukkah-Craft-Chanukah-Fine-Motor-Skills-Activity-8842762?utm_source=My%20Blog\&utm_campaign=Hanukkah%20Blogpost) is perfect for younger students, combining cultural learning with skill-building in a fun and interactive way. ![](/Menorah-cut-and-paste-craft-1.png)
 
-#### Scientific Connections with Light
+#### 8. Scientific Connections with Light
 
 Incorporate STEM by exploring the science of light and candles. Discuss how oil lamps work, experiment with reflections and shadows, or even create a simple science experiment with oil and water. Connect these lessons to the Hanukkah story to deepen their learning.
 
-#### Hanukkah Word Puzzle Challenge  
+#### 9. Hanukkah Word Puzzle Challenge  
 
 Make vocabulary fun with my [Hanukkah Word Scramble Activity. ](https://www.teacherspayteachers.com/Product/Hanukkah-Word-Scramble-Activity-12470813?utm_source=My%20Blog\&utm_campaign=Hanukkah%20Blogpost)It’s an engaging way to introduce students to key terms like "dreidel," "latkes," and "menorah" while building problem-solving skills. ![](/Hanukkah_Word_Scramble_1.png)
 
-#### Hanukkah Scavenger Hunt  
+#### 10. Hanukkah Scavenger Hunt  
 
- Create a scavenger hunt in your classroom where students find items or images related to Hanukkah, such as dreidels, menorahs, candles, or symbols of light. Alongside each item, include a brief description or fun fact to educate students about its significance.
+Create a scavenger hunt in your classroom where students find items or images related to Hanukkah, such as dreidels, menorahs, candles, or symbols of light. Alongside each item, include a brief description or fun fact to educate students about its significance.
 
 ***
 
