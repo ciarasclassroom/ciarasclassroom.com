@@ -1,21 +1,26 @@
+import AutoImport from "astro-auto-import";
+import config from "./src/config/config.json";
+import icon from "astro-icon";
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
+import remarkAutolinkHeadings from "remark-autolink-headings";
+import remarkCollapse from "remark-collapse";
+import remarkEmoji from "remark-emoji";
+import remarkExternalLinks from "remark-external-links";
+import remarkFootnotes from "remark-footnotes";
+import remarkGfm from "remark-gfm";
+import remarkHtml from "remark-html";
+import remarkImages from "remark-images";
+import remarkLint from "remark-lint";
+import remarkMath from "remark-math";
+import remarkRehype from "remark-rehype";
+import remarkSlug from "remark-slug";
+import remarkToc from "remark-toc";
+import remarkUnwrapImages from "remark-unwrap-images";
+import remarkYoutube from "remark-youtube";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
-import AutoImport from "astro-auto-import";
 import { defineConfig, squooshImageService } from "astro/config";
-import remarkCollapse from "remark-collapse";
-import remarkToc from "remark-toc";
-import config from "./src/config/config.json";
-import remarkAutolinkHeadings from "remark-autolink-headings";
-import remarkExternalLinks from "remark-external-links";
-import remarkEmoji from "remark-emoji";
-import remarkImages from "remark-images";
-import remarkGfm from "remark-gfm";
-import remarkYoutube from 'remark-youtube';
-import remarkHtml from 'remark-html';
-
-import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
@@ -59,6 +64,12 @@ export default defineConfig({
       remarkImages,
       remarkGfm,
       remarkToc,
+      remarkSlug,
+      remarkFootnotes,
+      remarkMath,
+      remarkRehype,
+      remarkLint,
+      remarkUnwrapImages,
       [
         remarkCollapse,
         {
