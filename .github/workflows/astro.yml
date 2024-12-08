@@ -74,10 +74,10 @@ jobs:
 
       - name: Commit and Push changes
         run: |
-          git add ./src/lib/fixtures/instagram_posts.json
-          git add ./src/lib/fixtures/tpt_products_MOST_RECENT.json
-          git add ./src/lib/fixtures/tpt_products_RELEVANCE.json
-          git add ./public/images/instagram/*
+          git add ./src/lib/fixtures/instagram_posts.json || true
+          git add ./src/lib/fixtures/tpt_products_MOST_RECENT.json || true
+          git add ./src/lib/fixtures/tpt_products_RELEVANCE.json || true
+          git add ./public/images/instagram/* || true
           git commit -m "Update external data [skip ci]"
           git push origin master || true
 
