@@ -69,8 +69,10 @@
     "remark-emoji": "^5.0.1",
     "remark-external-links": "^9.0.1",
     "remark-gfm": "^4.0.0",
+    "remark-html": "^16.0.1",
     "remark-images": "^4.0.0",
     "remark-slug": "^7.0.1",
-    "remark-toc": "^9.0.0"
+    "remark-toc": "^9.0.0",
+    "remark-youtube": "^1.3.2"
   }
 }

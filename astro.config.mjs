@@ -12,6 +12,8 @@ import remarkExternalLinks from "remark-external-links";
 import remarkEmoji from "remark-emoji";
 import remarkImages from "remark-images";
 import remarkGfm from "remark-gfm";
+import remarkYoutube from 'remark-youtube';
+import remarkHtml from 'remark-html';
 
 import icon from "astro-icon";
 
@@ -49,6 +51,8 @@ export default defineConfig({
   ],
   markdown: {
     remarkPlugins: [
+      remarkHtml,
+      remarkYoutube,
       remarkAutolinkHeadings,
       remarkExternalLinks,
       remarkEmoji,
