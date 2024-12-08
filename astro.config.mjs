@@ -7,7 +7,6 @@ import remarkAutolinkHeadings from "remark-autolink-headings";
 import remarkCollapse from "remark-collapse";
 import remarkEmoji from "remark-emoji";
 import remarkExternalLinks from "remark-external-links";
-import remarkFootnotes from "remark-footnotes";
 import remarkGfm from "remark-gfm";
 import remarkHtml from "remark-html";
 import remarkImages from "remark-images";
@@ -65,7 +64,6 @@ export default defineConfig({
       remarkGfm,
       remarkToc,
       remarkSlug,
-      remarkFootnotes,
       remarkMath,
       remarkRehype,
       remarkLint,

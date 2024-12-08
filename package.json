@@ -68,7 +68,6 @@
     "remark-collapse": "^0.1.2",
     "remark-emoji": "^5.0.1",
     "remark-external-links": "^9.0.1",
-    "remark-footnotes": "^5.0.0",
     "remark-gfm": "^4.0.0",
     "remark-html": "^16.0.1",
     "remark-images": "^4.1.0",
