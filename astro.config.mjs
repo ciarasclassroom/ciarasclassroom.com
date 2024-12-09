@@ -15,7 +15,6 @@ import remarkMath from "remark-math";
 import remarkRehype from "remark-rehype";
 import remarkSlug from "remark-slug";
 import remarkToc from "remark-toc";
-import remarkUnwrapImages from "remark-unwrap-images";
 import remarkYoutube from "remark-youtube";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
@@ -67,7 +66,6 @@ export default defineConfig({
       remarkMath,
       remarkRehype,
       remarkLint,
-      remarkUnwrapImages,
       [
         remarkCollapse,
         {
