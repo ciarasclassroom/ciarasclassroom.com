@@ -25,9 +25,7 @@ interface SearchResult {
 export default function SearchBar({ searchList }: Props) {
   const inputRef = useRef<HTMLInputElement>(null);
   const [inputVal, setInputVal] = useState("");
-  const [searchResults, setSearchResults] = useState<SearchResult[] | null>(
-    null,
-  );
+  const [searchResults, setSearchResults] = useState<SearchResult[] | null>(null);
 
   const handleChange = (e: React.FormEvent<HTMLInputElement>) => {
     setInputVal(e.currentTarget.value);
@@ -46,8 +44,7 @@ export default function SearchBar({ searchList }: Props) {
     if (searchStr) setInputVal(searchStr);
 
     setTimeout(function () {
-      inputRef.current!.selectionStart = inputRef.current!.selectionEnd =
-        searchStr?.length || 0;
+      inputRef.current!.selectionStart = inputRef.current!.selectionEnd = searchStr?.length || 0;
     }, 50);
   }, []);
 
@@ -58,8 +55,7 @@ export default function SearchBar({ searchList }: Props) {
     if (inputVal.length > 0) {
       const searchParams = new URLSearchParams(window.location.search);
       searchParams.set("q", inputVal);
-      const newRelativePathQuery =
-        window.location.pathname + "?" + searchParams.toString();
+      const newRelativePathQuery = window.location.pathname + "?" + searchParams.toString();
       history.pushState(null, "", newRelativePathQuery);
     } else {
       history.pushState(null, "", window.location.pathname);
@@ -83,10 +79,7 @@ export default function SearchBar({ searchList }: Props) {
       {inputVal.length > 1 && (
         <div className="my-6 text-center">
           Found {searchResults?.length}
-          {searchResults?.length && searchResults?.length === 1
-            ? " result"
-            : " results"}{" "}
-          for '{inputVal}'
+          {searchResults?.length && searchResults?.length === 1 ? " result" : " results"} for '{inputVal}'
         </div>
       )}
 
@@ -94,10 +87,7 @@ export default function SearchBar({ searchList }: Props) {
         {searchResults?.map(({ item }) => (
           <div key={item.slug} className={"col-12 mb-8 sm:col-6"}>
             {item.data.image && (
-              <a
-                href={`/${item.slug}`}
-                className="rounded-lg block hover:text-primary overflow-hidden group"
-              >
+              <a href={`/${item.slug}`} className="rounded-lg block hover:text-primary overflow-hidden group">
                 <img
                   className="group-hover:scale-[1.03] transition duration-300 w-full"
                   src={item.data.image}
@@ -119,10 +109,7 @@ export default function SearchBar({ searchList }: Props) {
                   <ul>
                     {item.data.categories.map((category: string, i: number) => (
                       <li key={i} className="inline-block">
-                        <a
-                          href={`/categories/${slugify(category)}`}
-                          className="mr-2 hover:text-primary font-medium"
-                        >
+                        <a href={`/categories/${slugify(category)}`} className="mr-2 hover:text-primary font-medium">
                           {humanize(category)}
                           {i !== item.data.categories.length - 1 && ","}
                         </a>
@@ -134,16 +121,11 @@ export default function SearchBar({ searchList }: Props) {
             </ul>
 
             <h3 className="mb-2">
-              <a
-                href={`/${item.slug}`}
-                className="block hover:text-primary transition duration-300"
-              >
+              <a href={`/${item.slug}`} className="block hover:text-primary transition duration-300">
                 {item.data.title}
               </a>
             </h3>
-            <p className="text-text">
-              {item.content?.slice(0, Number(summary_length))}...
-            </p>
+            <p className="text-text">{item.content?.slice(0, Number(summary_length))}...</p>
           </div>
         ))}
       </div>

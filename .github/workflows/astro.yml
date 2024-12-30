@@ -33,8 +33,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: 'npm'
-          cache-dependency-path: './package-lock.json'
+          cache: "npm"
+          cache-dependency-path: "./package-lock.json"
 
       - name: Install dependencies
         run: npm ci --prefer-offline --no-audit
@@ -93,8 +93,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: 'npm'
-          cache-dependency-path: './package-lock.json'
+          cache: "npm"
+          cache-dependency-path: "./package-lock.json"
 
       - name: Install dependencies
         run: npm ci --prefer-offline --no-audit
@@ -120,7 +120,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        
+
   upload_google_products:
     name: Upload Google Products
     if: "!contains(github.event.head_commit.message, '[skip ci]') && !contains(github.event.head_commit.message, 'TinaCMS')" # Skip job if commit message contains "[skip ci]" or "TinaCMS"
@@ -134,8 +134,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: 'npm'
-          cache-dependency-path: './package-lock.json'
+          cache: "npm"
+          cache-dependency-path: "./package-lock.json"
 
       - name: Install dependencies
         run: npm ci --prefer-offline --no-audit

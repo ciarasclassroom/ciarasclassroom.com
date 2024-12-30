@@ -53,4 +53,4 @@ Through Learn Together, children develop a strong foundation in values like fair
 
 By learning about different beliefs, cultures, and ways of life, students are building not just knowledge but connections and friendships that can last a lifetime. The Learn Together curriculum is more than just a part of the school day—it’s a way to raise thoughtful, open-minded individuals who are ready to bring light and kindness to the world.
 
-If you are interested in seeing some ideas from my classroom, make sure to follow my Instagram page [@ciarasclassroom](https://www.instagram.com/ciarasclassroom) , or for lots of Learn Together resources make sure to check out my [TPT store](https://www.teacherspayteachers.com/store/ciaras-classroom)! 
+If you are interested in seeing some ideas from my classroom, make sure to follow my Instagram page [@ciarasclassroom](https://www.instagram.com/ciarasclassroom) , or for lots of Learn Together resources make sure to check out my [TPT store](https://www.teacherspayteachers.com/store/ciaras-classroom)!

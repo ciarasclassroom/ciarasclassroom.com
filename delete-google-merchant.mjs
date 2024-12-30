@@ -1,13 +1,13 @@
-import { google } from 'googleapis';
-import { performance } from 'perf_hooks';
+import { google } from "googleapis";
+import { performance } from "perf_hooks";
 import {
   MERCHANT_ID,
   SERVICE_ACCOUNT_PATH,
   initializeAuthClient,
   currencyCountryMap,
   generateProductUrl,
-  TPT_BASE_URL
-} from './shared-library.mjs';
+  TPT_BASE_URL,
+} from "./shared-library.mjs";
 
 // Constants
 const MAX_RESULTS = 250;
@@ -15,7 +15,7 @@ const CONCURRENT_DELETIONS = 10; // Number of concurrent delete operations
 
 // Validate required environment variables
 if (!MERCHANT_ID) {
-  console.error('Error: MERCHANT_ID is not set in the environment variables.');
+  console.error("Error: MERCHANT_ID is not set in the environment variables.");
   process.exit(1);
 }
 
@@ -58,10 +58,10 @@ async function deleteProduct(content, product) {
  */
 async function deleteProducts(content, products) {
   const productsToDelete = products.filter(shouldDeleteProduct);
-  
+
   for (let i = 0; i < productsToDelete.length; i += CONCURRENT_DELETIONS) {
     const batch = productsToDelete.slice(i, i + CONCURRENT_DELETIONS);
-    await Promise.all(batch.map(product => deleteProduct(content, product)));
+    await Promise.all(batch.map((product) => deleteProduct(content, product)));
   }
 }
 
@@ -71,7 +71,7 @@ async function deleteProducts(content, products) {
 async function deleteAllProducts() {
   const authClient = await initializeAuthClient();
   await authClient.authorize();
-  const content = google.content({ version: 'v2.1', auth: authClient });
+  const content = google.content({ version: "v2.1", auth: authClient });
 
   let pageToken;
   let totalProcessed = 0;
@@ -97,7 +97,7 @@ async function deleteAllProducts() {
 
       pageToken = res.data.nextPageToken;
     } catch (error) {
-      console.error('Error fetching or deleting products:', error.message);
+      console.error("Error fetching or deleting products:", error.message);
       throw error;
     }
   } while (pageToken);
@@ -114,14 +114,16 @@ async function main() {
   try {
     await deleteAllProducts();
     const endTime = performance.now();
-    console.log(`Product deletion process completed successfully in ${((endTime - startTime) / 1000).toFixed(2)} seconds.`);
+    console.log(
+      `Product deletion process completed successfully in ${((endTime - startTime) / 1000).toFixed(2)} seconds.`,
+    );
   } catch (error) {
-    console.error('An unexpected error occurred:', error.message);
+    console.error("An unexpected error occurred:", error.message);
     process.exit(1);
   }
 }
 
 main().catch((error) => {
-  console.error('Unhandled error in main function:', error);
+  console.error("Unhandled error in main function:", error);
   process.exit(1);
 });

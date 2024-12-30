@@ -1,4 +1,4 @@
-import { performance } from 'perf_hooks';
+import { performance } from "perf_hooks";
 import dotenv from "dotenv";
 import {
   USER_AGENT,
@@ -11,8 +11,8 @@ import {
   loadJSONFromFile,
   convertCurrency,
   generateProductUrl,
-  currencyCountryMap
-} from './shared-library.mjs';
+  currencyCountryMap,
+} from "./shared-library.mjs";
 
 // Load environment variables
 dotenv.config();
@@ -34,7 +34,7 @@ async function fetchExchangeRates() {
     const apiUrl = `${EXCHANGE_RATE_API_BASE_URL}${EXCHANGE_RATE_API_KEY}/latest/USD`;
     const { data } = await fetchWithRetry({ url: apiUrl });
     const rates = {};
-    SUPPORTED_CURRENCIES.forEach(currency => {
+    SUPPORTED_CURRENCIES.forEach((currency) => {
       rates[currency] = data.conversion_rates[currency];
     });
     return rates;
@@ -48,7 +48,7 @@ function parseProducts(products, exchangeRates) {
   return products.map((product) => {
     const usdPrice = product.pricing.nonTransferableLicenses.price;
     const currencies = {};
-    SUPPORTED_CURRENCIES.forEach(currency => {
+    SUPPORTED_CURRENCIES.forEach((currency) => {
       currencies[currency] = convertCurrency(usdPrice, "USD", currency, exchangeRates);
     });
 
@@ -63,7 +63,7 @@ function parseProducts(products, exchangeRates) {
       reviews: product.totalEvaluations,
       rating: product.overallQualityScore,
       categories: product.resourceCategories.map((resourceCategory) => resourceCategory.name),
-      currencies: currencies
+      currencies: currencies,
     };
   });
 }
@@ -190,7 +190,7 @@ async function fetchProductEvaluations(resourceId, limit = EVALUATION_BATCH_SIZE
           standards: "",
           limit,
           offset,
-          sortBy: "mostRecent"
+          sortBy: "mostRecent",
         },
         query: `query filterEvaluationsByResource($resourceId: ID!, $grades: String, $ratings: String, $spedOptions: String, $standards: String, $limit: Int, $offset: Int, $sortBy: String) {
           quality {
@@ -214,7 +214,7 @@ async function fetchProductEvaluations(resourceId, limit = EVALUATION_BATCH_SIZE
               }
             }
           }
-        }`
+        }`,
       },
     });
 
@@ -246,7 +246,7 @@ async function main() {
     if (previousProducts) {
       for (const newProduct of newProducts) {
         if (newProduct.reviews > 0) {
-          const previousProduct = previousProducts.find(p => p.id === newProduct.id);
+          const previousProduct = previousProducts.find((p) => p.id === newProduct.id);
           if (!previousProduct || newProduct.reviews > previousProduct.reviews) {
             console.log(`Fetching evaluations for product ${newProduct.id}`);
             let allEvaluations = [];

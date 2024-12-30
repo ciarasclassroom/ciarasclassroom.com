@@ -28,19 +28,11 @@ const formatPrice = (price: number | string): string => {
               key={resource.title}
               class="block bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
             >
-              <img
-                src={resource.images[0]}
-                alt={resource.title}
-                class="w-full h-48 object-cover"
-              />
+              <img src={resource.images[0]} alt={resource.title} class="w-full h-48 object-cover" />
               <div class="p-4">
                 <h2 class="text-lg font-semibold mb-2">{resource.title}</h2>
-                <p class="text-gray-600 mb-2 line-clamp-5">
-                  {resource.descriptionSnippet}
-                </p>
-                <p class="text-gray-800 font-bold mb-2">
-                  {formatPrice(resource.currencies?.USD || 0)}
-                </p>
+                <p class="text-gray-600 mb-2 line-clamp-5">{resource.descriptionSnippet}</p>
+                <p class="text-gray-800 font-bold mb-2">{formatPrice(resource.currencies?.USD || 0)}</p>
               </div>
             </a>
           ))

@@ -10,9 +10,7 @@ let h2 = h3 * font_scale;
 let h1 = h2 * font_scale;
 let fontPrimary, fontPrimaryType, fontSecondary, fontSecondaryType;
 if (theme.fonts.font_family.primary) {
-  fontPrimary = theme.fonts.font_family.primary
-    .replace(/\+/g, " ")
-    .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
+  fontPrimary = theme.fonts.font_family.primary.replace(/\+/g, " ").replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
   fontPrimaryType = theme.fonts.font_family.primary_type;
 }
 if (theme.fonts.font_family.secondary) {

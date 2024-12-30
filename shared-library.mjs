@@ -1,16 +1,17 @@
-import axios from 'axios';
-import fs from 'fs/promises';
-import path from 'path';
-import { HttpsProxyAgent } from 'https-proxy-agent';
-import dotenv from 'dotenv';
-import { google } from 'googleapis';
+import axios from "axios";
+import fs from "fs/promises";
+import path from "path";
+import { HttpsProxyAgent } from "https-proxy-agent";
+import dotenv from "dotenv";
+import { google } from "googleapis";
 
 dotenv.config();
 
 // Constants
 export const MERCHANT_ID = process.env.MERCHANT_ID;
 export const SERVICE_ACCOUNT_PATH = process.env.SERVICE_ACCOUNT_PATH || "token.json";
-export const USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3";
+export const USER_AGENT =
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3";
 export const TPT_BASE_URL = "https://www.teacherspayteachers.com";
 export const EXCHANGE_RATE_API_BASE_URL = "https://v6.exchangerate-api.com/v6/";
 export const INSTAGRAM_BASE_URL = "https://www.instagram.com";
@@ -30,7 +31,7 @@ export const currencyCountryMap = {
   INR: { country: "IN", suffix: "IN" },
   MYR: { country: "MY", suffix: "MY" },
   PHP: { country: "PH", suffix: "PH" },
-  AED: { country: "AE", suffix: "AE" }
+  AED: { country: "AE", suffix: "AE" },
 };
 
 export const SUPPORTED_CURRENCIES = Object.keys(currencyCountryMap);
@@ -70,9 +71,7 @@ export const fetchWithRetry = async (options, retries = 3, delay = 1000) => {
  */
 export const initializeAuthClient = async () => {
   try {
-    const serviceAccountKey = JSON.parse(
-      await fs.readFile(SERVICE_ACCOUNT_PATH, "utf-8")
-    );
+    const serviceAccountKey = JSON.parse(await fs.readFile(SERVICE_ACCOUNT_PATH, "utf-8"));
     return new google.auth.JWT({
       email: serviceAccountKey.client_email,
       key: serviceAccountKey.private_key,
@@ -113,7 +112,7 @@ export const saveJSONToFile = async (data, fileName, directory = "src/lib/fixtur
 export const loadJSONFromFile = async (fileName, directory = "src/lib/fixtures") => {
   try {
     const filePath = path.join(directory, fileName);
-    const data = await fs.readFile(filePath, 'utf-8');
+    const data = await fs.readFile(filePath, "utf-8");
     return JSON.parse(data);
   } catch (error) {
     console.log("No data found or error reading file:", error.message);
@@ -128,7 +127,7 @@ export const loadJSONFromFile = async (fileName, directory = "src/lib/fixtures")
  * @returns {string} Full product URL
  */
 export const generateProductUrl = (slug, suffix) => {
-  return `${MAIN_SITE_URL}/product/${slug}${suffix ? `-${suffix}` : ''}`;
+  return `${MAIN_SITE_URL}/product/${slug}${suffix ? `-${suffix}` : ""}`;
 };
 
 /**
@@ -164,7 +163,7 @@ export const fetchExchangeRates = async (apiKey) => {
     const apiUrl = `${EXCHANGE_RATE_API_BASE_URL}${apiKey}/latest/USD`;
     const { data } = await fetchWithRetry({ url: apiUrl });
     const rates = {};
-    SUPPORTED_CURRENCIES.forEach(currency => {
+    SUPPORTED_CURRENCIES.forEach((currency) => {
       rates[currency] = data.conversion_rates[currency];
     });
     return rates;
@@ -180,9 +179,9 @@ export const fetchExchangeRates = async (apiKey) => {
  * @throws {Error} If any required variable is not set
  */
 export const validateEnvironmentVariables = (requiredVars) => {
-  const missingVars = requiredVars.filter(varName => !process.env[varName]);
+  const missingVars = requiredVars.filter((varName) => !process.env[varName]);
   if (missingVars.length > 0) {
-    throw new Error(`Missing required environment variables: ${missingVars.join(', ')}`);
+    throw new Error(`Missing required environment variables: ${missingVars.join(", ")}`);
   }
 };
 
@@ -191,7 +190,7 @@ export const validateEnvironmentVariables = (requiredVars) => {
  * @param {number} ms - Number of milliseconds to sleep
  * @returns {Promise<void>}
  */
-export const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+export const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 /**
  * Chunks an array into smaller arrays of a specified size
@@ -201,6 +200,6 @@ export const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
  */
 export const chunkArray = (array, size) => {
   return Array.from({ length: Math.ceil(array.length / size) }, (_, index) =>
-    array.slice(index * size, (index + 1) * size)
+    array.slice(index * size, (index + 1) * size),
   );
 };

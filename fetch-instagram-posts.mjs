@@ -2,15 +2,9 @@ import axios from "axios";
 import fs from "fs/promises";
 import path from "path";
 import sharp from "sharp";
-import { performance } from 'perf_hooks';
+import { performance } from "perf_hooks";
 import dotenv from "dotenv";
-import {
-  getProxyAgent,
-  INSTAGRAM_BASE_URL,
-  USER_AGENT,
-  saveJSONToFile,
-  fetchWithRetry
-} from './shared-library.mjs';
+import { getProxyAgent, INSTAGRAM_BASE_URL, USER_AGENT, saveJSONToFile, fetchWithRetry } from "./shared-library.mjs";
 
 // Load environment variables
 dotenv.config();
@@ -30,21 +24,25 @@ const RETRY_DELAY = 1000; // 1 second
  */
 async function fetchInstagramPosts() {
   try {
-    const response = await fetchWithRetry({
-      url: `${INSTAGRAM_BASE_URL}/graphql/query/`,
-      method: 'get',
-      params: {
-        query_hash: INSTAGRAM_QUERY_HASH,
-        variables: JSON.stringify({
-          id: INSTAGRAM_USER_ID,
-          first: POSTS_TO_FETCH,
-        }),
+    const response = await fetchWithRetry(
+      {
+        url: `${INSTAGRAM_BASE_URL}/graphql/query/`,
+        method: "get",
+        params: {
+          query_hash: INSTAGRAM_QUERY_HASH,
+          variables: JSON.stringify({
+            id: INSTAGRAM_USER_ID,
+            first: POSTS_TO_FETCH,
+          }),
+        },
+        httpsAgent: getProxyAgent(),
+        headers: {
+          "User-Agent": USER_AGENT,
+        },
       },
-      httpsAgent: getProxyAgent(),
-      headers: {
-        "User-Agent": USER_AGENT,
-      },
-    }, MAX_RETRIES, RETRY_DELAY);
+      MAX_RETRIES,
+      RETRY_DELAY,
+    );
 
     const edges = response.data.data.user.edge_owner_to_timeline_media.edges;
     return edges.slice(POSTS_TO_FETCH - POSTS_TO_PROCESS).map((edge, index) => {
@@ -67,20 +65,22 @@ async function fetchInstagramPosts() {
  */
 async function downloadImage(imageUrl, index) {
   try {
-    const imageResponse = await fetchWithRetry({
-      url: imageUrl,
-      method: 'get',
-      responseType: "arraybuffer",
-      httpsAgent: getProxyAgent(),
-    }, MAX_RETRIES, RETRY_DELAY);
+    const imageResponse = await fetchWithRetry(
+      {
+        url: imageUrl,
+        method: "get",
+        responseType: "arraybuffer",
+        httpsAgent: getProxyAgent(),
+      },
+      MAX_RETRIES,
+      RETRY_DELAY,
+    );
 
     const imageName = `${index + 1}.jpg`;
     const imagePath = path.join("public", "images", "instagram", imageName);
     await fs.mkdir(path.dirname(imagePath), { recursive: true });
 
-    const resizedImageBuffer = await sharp(imageResponse.data)
-      .resize({ width: IMAGE_WIDTH })
-      .toBuffer();
+    const resizedImageBuffer = await sharp(imageResponse.data).resize({ width: IMAGE_WIDTH }).toBuffer();
     await fs.writeFile(imagePath, resizedImageBuffer);
 
     return `/images/instagram/${imageName}`;
@@ -100,7 +100,7 @@ async function processPosts(posts) {
     posts.map(async (post) => {
       const imageUrl = await downloadImage(post.imageUrl, post.index);
       return imageUrl ? { ...post, imageUrl } : null;
-    })
+    }),
   );
   return results.filter(Boolean);
 }

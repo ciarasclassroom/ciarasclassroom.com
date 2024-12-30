@@ -13,10 +13,7 @@ for (let i = 1; i <= totalPages; i++) {
 
 {
   totalPages > 1 && (
-    <nav
-      class="mb-4 flex justify-center space-x-2 text-center"
-      aria-label="Pagination"
-    >
+    <nav class="mb-4 flex justify-center space-x-2 text-center" aria-label="Pagination">
       {/* previous */}
       {hasPrevPage ? (
         <a
@@ -72,11 +69,7 @@ for (let i = 1; i <= totalPages; i++) {
           </span>
         ) : (
           <a
-            href={
-              i === 0
-                ? `${section ? "/" + section : "/"}`
-                : `${section ? "/" + section : ""}/page/${pagination}`
-            }
+            href={i === 0 ? `${section ? "/" + section : "/"}` : `${section ? "/" + section : ""}/page/${pagination}`}
             aria-current="page"
             class={`border border-primary hover:bg-primary hover:text-white rounded-md h-10 w-10 leading-[36px] font-semibold text-dark flex items-center justify-center transition duration-200`}
           >

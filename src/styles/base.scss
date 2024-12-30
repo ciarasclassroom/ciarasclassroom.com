@@ -45,6 +45,6 @@ h6,
   @apply text-h6;
 }
 
-.content :where(a):not(:where([class~=not-prose],[class~=not-prose] *)) {
+.content :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
   color: revert !important;
 }

@@ -1,6 +1,6 @@
 ---
-import products from "@/lib/fixtures/tpt_products_MOST_RECENT.json";
 import { Image } from "astro:assets";
+import products from "@/lib/fixtures/tpt_products_MOST_RECENT.json";
 ---
 
 <div>
@@ -13,12 +13,7 @@ import { Image } from "astro:assets";
   <div class="grid grid-cols-2 gap-2">
     {
       products.slice(0, 4).map((product) => (
-        <a
-          href={product.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="group flex justify-center"
-        >
+        <a href={product.link} target="_blank" rel="noopener noreferrer" class="group flex justify-center">
           <div class="w-[70%] pt-[70%] relative overflow-hidden rounded-lg shadow-md">
             <img
               src={product.images[0]}

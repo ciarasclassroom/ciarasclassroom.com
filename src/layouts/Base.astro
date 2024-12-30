@@ -15,9 +15,7 @@ const sf = theme.fonts.font_family.secondary;
 
 let fontPrimary, fontSecondary;
 if (theme.fonts.font_family.primary) {
-  fontPrimary = theme.fonts.font_family.primary
-    .replace(/\+/g, " ")
-    .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
+  fontPrimary = theme.fonts.font_family.primary.replace(/\+/g, " ").replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
 }
 if (theme.fonts.font_family.secondary) {
   fontSecondary = theme.fonts.font_family.secondary
@@ -40,18 +38,7 @@ export interface Props {
 }
 
 // distructure frontmatters
-const {
-  title,
-  meta_title,
-  description,
-  image,
-  noindex,
-  canonical,
-  date,
-  tags,
-  weight,
-  external_image,
-} = Astro.props;
+const { title, meta_title, description, image, noindex, canonical, date, tags, weight, external_image } = Astro.props;
 ---
 
 <!doctype html>
@@ -59,10 +46,7 @@ const {
   <head>
     <link rel="sitemap" href="/sitemap-index.xml" />
 
-    <meta
-      name="google-site-verification"
-      content="-OBHGm_Nls9yR0u8lq1aqZLYDFw_dUU1qwfFT5vfVFg"
-    />
+    <meta name="google-site-verification" content="-OBHGm_Nls9yR0u8lq1aqZLYDFw_dUU1qwfFT5vfVFg" />
     <meta name="p:domain_verify" content="3f05bbb83118856ab395237ec971d550" />
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -92,10 +76,7 @@ const {
     />
 
     <!-- responsive meta -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=5"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
 
     <!-- title -->
     <title>
@@ -106,24 +87,12 @@ const {
     {canonical && <link rel="canonical" href={canonical} item-prop="url" />}
 
     <!-- meta-description -->
-    <meta
-      name="description"
-      content={plainify(
-        description ? description : config.metadata.meta_description,
-      )}
-    />
+    <meta name="description" content={plainify(description ? description : config.metadata.meta_description)} />
 
-    <meta
-      name="keywords"
-      content={tags ? tags.join(", ") : config.metadata.meta_tags.join(", ")}
-    />
+    <meta name="keywords" content={tags ? tags.join(", ") : config.metadata.meta_tags.join(", ")} />
 
     <!-- meta-published-date -->
-    {
-      date && (
-        <meta name="og:publish_date" content={new Date(date).toISOString()} />
-      )
-    }
+    {date && <meta name="og:publish_date" content={new Date(date).toISOString()} />}
 
     <ViewTransitions />
 
@@ -131,66 +100,33 @@ const {
     <meta name="author" content={config.metadata.meta_author} />
 
     <!-- og-title -->
-    <meta
-      property="og:title"
-      content={plainify(
-        meta_title ? meta_title : title ? title : config.site.title,
-      )}
-    />
+    <meta property="og:title" content={plainify(meta_title ? meta_title : title ? title : config.site.title)} />
 
     <!-- og-description -->
-    <meta
-      property="og:description"
-      content={plainify(
-        description ? description : config.metadata.meta_description,
-      )}
-    />
+    <meta property="og:description" content={plainify(description ? description : config.metadata.meta_description)} />
     <meta property="og:type" content="website" />
-    <meta
-      property="og:url"
-      content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`}
-    />
-    <meta
-      property="og:site_name"
-      content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`}
-    />
+
+    <meta property="og:url" content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`} />
+
+    <meta property="og:site_name" content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`} />
 
     <!-- twitter-title -->
-    <meta
-      name="twitter:title"
-      content={plainify(
-        meta_title ? meta_title : title ? title : config.site.title,
-      )}
-    />
+    <meta name="twitter:title" content={plainify(meta_title ? meta_title : title ? title : config.site.title)} />
 
     <!-- twitter-description -->
-    <meta
-      name="twitter:description"
-      content={plainify(
-        description ? description : config.metadata.meta_description,
-      )}
-    />
+    <meta name="twitter:description" content={plainify(description ? description : config.metadata.meta_description)} />
 
     <!-- og-image -->
     <meta
       property="og:image"
-      content={`${!external_image ? config.site.base_url : ""}${
-        image ? image : config.metadata.meta_image
-      }`}
+      content={`${!external_image ? config.site.base_url : ""}${image ? image : config.metadata.meta_image}`}
     />
-    <meta
-      property="og:image:alt"
-      content={plainify(
-        meta_title ? meta_title : title ? title : config.site.title,
-      )}
-    />
+    <meta property="og:image:alt" content={plainify(meta_title ? meta_title : title ? title : config.site.title)} />
 
     <!-- twitter-image -->
     <meta
       name="twitter:image"
-      content={`${!external_image ? config.site.base_url : ""}${
-        image ? image : config.metadata.meta_image
-      }`}
+      content={`${!external_image ? config.site.base_url : ""}${image ? image : config.metadata.meta_image}`}
     />
     <meta name="twitter:card" content="summary_large_image" />
 
@@ -198,23 +134,9 @@ const {
     <meta name="language" content="English" />
     <meta name="author" content="Ciara Lynch" />
 
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/apple-touch-icon.png?v=1723991838"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/favicon-32x32.png?v=1723991838"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/favicon-16x16.png?v=1723991838"
-    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=1723991838" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=1723991838" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=1723991838" />
     <link rel="manifest" href="/site.webmanifest?v=1723991838" />
     <link rel="shortcut icon" href="/favicon.ico?v=1723991838" />
     <meta name="msapplication-TileColor" content="#ffffff" />
@@ -237,7 +159,6 @@ const {
       ga("send", "pageview");
       ga("set", "anonymizeIp", true);
     </script>
-    <script src="https://www.google-analytics.com/analytics.js" async defer
-    ></script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
   </body>
 </html>

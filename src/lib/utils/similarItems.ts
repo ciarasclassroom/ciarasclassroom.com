@@ -14,9 +14,8 @@ const similerItems = (currentItem: any, allItems: any, slug: string) => {
   }
 
   // filter by categories
-  const filterByCategories = allItems.filter(
-    (item: { data: { categories: string } }) =>
-      categories.find((category) => item.data.categories.includes(category)),
+  const filterByCategories = allItems.filter((item: { data: { categories: string } }) =>
+    categories.find((category) => item.data.categories.includes(category)),
   );
 
   // filter by tags

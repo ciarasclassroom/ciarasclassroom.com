@@ -38,11 +38,9 @@ export async function getStaticPaths() {
           ? 5
           : evaluation.signals.overall_qual_how_satisfied_stars === "very"
             ? 4
-            : evaluation.signals.overall_qual_how_satisfied_stars ===
-                "moderately"
+            : evaluation.signals.overall_qual_how_satisfied_stars === "moderately"
               ? 3
-              : evaluation.signals.overall_qual_how_satisfied_stars ===
-                  "slightly"
+              : evaluation.signals.overall_qual_how_satisfied_stars === "slightly"
                 ? 2
                 : 1,
       content: evaluation.signals.buyer_experience,
@@ -50,13 +48,8 @@ export async function getStaticPaths() {
     }));
   };
 
-  const createProductVariant = (
-    product,
-    variantKey: keyof typeof CURRENCY_VARIANTS | "" = "",
-  ) => {
-    const variant = variantKey
-      ? CURRENCY_VARIANTS[variantKey]
-      : { suffix: "", currency: "USD", symbol: "$" };
+  const createProductVariant = (product, variantKey: keyof typeof CURRENCY_VARIANTS | "" = "") => {
+    const variant = variantKey ? CURRENCY_VARIANTS[variantKey] : { suffix: "", currency: "USD", symbol: "$" };
     return {
       props: {
         product: {
@@ -164,8 +157,7 @@ const ProductSchema = JSON.stringify({
     hasMerchantReturnPolicy: {
       "@type": "MerchantReturnPolicy",
       applicableCountry: countryInfo.identifier,
-      returnPolicyCategory:
-        "https://schema.org/MerchantReturnFiniteReturnWindow",
+      returnPolicyCategory: "https://schema.org/MerchantReturnFiniteReturnWindow",
       merchantReturnDays: 365,
       returnMethod: "https://schema.org/ReturnByMail",
       returnFees: "https://schema.org/FreeReturn",
@@ -223,20 +215,11 @@ const formatPrice = (price: number | string): string => {
 };
 ---
 
-<Base
-  title={product.title}
-  description={product.descriptionSnippet}
-  image={product.images[0]}
-  external_image={true}
->
+<Base title={product.title} description={product.descriptionSnippet} image={product.images[0]} external_image={true}>
   <script type="application/ld+json" set:html={ProductSchema} />
 
   <div class="container mx-auto px-4 py-8">
-    <article
-      class="bg-white shadow-lg rounded-lg overflow-hidden"
-      itemscope
-      itemtype="https://schema.org/Product"
-    >
+    <article class="bg-white shadow-lg rounded-lg overflow-hidden" itemscope itemtype="https://schema.org/Product">
       <meta itemprop="name" content={product.title} />
       <meta itemprop="description" content={product.descriptionSnippet} />
       <meta itemprop="sku" content={product.id} />
@@ -277,9 +260,7 @@ const formatPrice = (price: number | string): string => {
         </div>
         <div class="p-8 md:w-1/2">
           <header>
-            <div
-              class="uppercase tracking-wide text-sm text-primary font-semibold"
-            >
+            <div class="uppercase tracking-wide text-sm text-primary font-semibold">
               {product.categories.join(", ")}
             </div>
             <h1 class="mt-1 text-3xl font-bold text-gray-900">
@@ -311,10 +292,7 @@ const formatPrice = (price: number | string): string => {
           }
 
           <a
-            href={product.link.replace(
-              "ciarasclassroom.com",
-              "teacherspayteachers.com",
-            )}
+            href={product.link.replace("ciarasclassroom.com", "teacherspayteachers.com")}
             class="mt-4 btn rounded-lg border border-light bg-transparent text-center transition hover:border-primary hover:bg-primary hover:text-white px-4 py-2 inline-block"
           >
             {price === 0 ? "Get for Free" : "Buy Now"}
@@ -322,65 +300,30 @@ const formatPrice = (price: number | string): string => {
 
           <!-- Hidden metadata -->
           <div hidden>
-            <div
-              itemprop="offers"
-              itemscope
-              itemtype="https://schema.org/Offer"
-            >
+            <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
               <meta itemprop="price" content={price} />
               <meta itemprop="priceCurrency" content={product.currency} />
               <link itemprop="availability" href="https://schema.org/InStock" />
               <meta itemprop="priceValidUntil" content="2024-12-31" />
-              <div
-                itemprop="areaServed"
-                itemscope
-                itemtype="https://schema.org/Country"
-              >
+              <div itemprop="areaServed" itemscope itemtype="https://schema.org/Country">
                 <meta itemprop="name" content={countryInfo.name} />
                 <meta itemprop="identifier" content={countryInfo.identifier} />
               </div>
-              <div
-                itemprop="hasMerchantReturnPolicy"
-                itemscope
-                itemtype="https://schema.org/MerchantReturnPolicy"
-              >
-                <meta
-                  itemprop="applicableCountry"
-                  content={countryInfo.identifier}
-                />
-                <link
-                  itemprop="returnPolicyCategory"
-                  href="https://schema.org/MerchantReturnFiniteReturnWindow"
-                />
+              <div itemprop="hasMerchantReturnPolicy" itemscope itemtype="https://schema.org/MerchantReturnPolicy">
+                <meta itemprop="applicableCountry" content={countryInfo.identifier} />
+                <link itemprop="returnPolicyCategory" href="https://schema.org/MerchantReturnFiniteReturnWindow" />
                 <meta itemprop="merchantReturnDays" content="365" />
-                <link
-                  itemprop="returnMethod"
-                  href="https://schema.org/ReturnByMail"
-                />
-                <link
-                  itemprop="returnFees"
-                  href="https://schema.org/FreeReturn"
-                />
-                <link
-                  itemprop="returnPolicyLink"
-                  href="https://ciarasclassroom.com/refund-policy/"
-                />
-                <div
-                  itemprop="additionalProperty"
-                  itemscope
-                  itemtype="https://schema.org/PropertyValue"
-                >
+                <link itemprop="returnMethod" href="https://schema.org/ReturnByMail" />
+                <link itemprop="returnFees" href="https://schema.org/FreeReturn" />
+                <link itemprop="returnPolicyLink" href="https://ciarasclassroom.com/refund-policy/" />
+                <div itemprop="additionalProperty" itemscope itemtype="https://schema.org/PropertyValue">
                   <meta itemprop="name" content="RefundPolicy" />
                   <meta
                     itemprop="value"
                     content="All sales are final and nonrefundable for downloaded or accessed digital resources. Refunds are considered in specific scenarios within one year of purchase."
                   />
                 </div>
-                <div
-                  itemprop="additionalProperty"
-                  itemscope
-                  itemtype="https://schema.org/PropertyValue"
-                >
+                <div itemprop="additionalProperty" itemscope itemtype="https://schema.org/PropertyValue">
                   <meta itemprop="name" content="RefundScenarios" />
                   <meta
                     itemprop="value"
@@ -388,48 +331,21 @@ const formatPrice = (price: number | string): string => {
                   />
                 </div>
               </div>
-              <div
-                itemprop="shippingDetails"
-                itemscope
-                itemtype="https://schema.org/OfferShippingDetails"
-              >
-                <div
-                  itemprop="shippingRate"
-                  itemscope
-                  itemtype="https://schema.org/MonetaryAmount"
-                >
+              <div itemprop="shippingDetails" itemscope itemtype="https://schema.org/OfferShippingDetails">
+                <div itemprop="shippingRate" itemscope itemtype="https://schema.org/MonetaryAmount">
                   <meta itemprop="value" content="0" />
                   <meta itemprop="currency" content={countryInfo.currency} />
                 </div>
-                <div
-                  itemprop="shippingDestination"
-                  itemscope
-                  itemtype="https://schema.org/DefinedRegion"
-                >
-                  <meta
-                    itemprop="addressCountry"
-                    content={countryInfo.identifier}
-                  />
+                <div itemprop="shippingDestination" itemscope itemtype="https://schema.org/DefinedRegion">
+                  <meta itemprop="addressCountry" content={countryInfo.identifier} />
                 </div>
-                <div
-                  itemprop="deliveryTime"
-                  itemscope
-                  itemtype="https://schema.org/ShippingDeliveryTime"
-                >
-                  <div
-                    itemprop="handlingTime"
-                    itemscope
-                    itemtype="https://schema.org/QuantitativeValue"
-                  >
+                <div itemprop="deliveryTime" itemscope itemtype="https://schema.org/ShippingDeliveryTime">
+                  <div itemprop="handlingTime" itemscope itemtype="https://schema.org/QuantitativeValue">
                     <meta itemprop="minValue" content="0" />
                     <meta itemprop="maxValue" content="0" />
                     <meta itemprop="unitCode" content="DAY" />
                   </div>
-                  <div
-                    itemprop="transitTime"
-                    itemscope
-                    itemtype="https://schema.org/QuantitativeValue"
-                  >
+                  <div itemprop="transitTime" itemscope itemtype="https://schema.org/QuantitativeValue">
                     <meta itemprop="minValue" content="0" />
                     <meta itemprop="maxValue" content="0" />
                     <meta itemprop="unitCode" content="DAY" />
@@ -439,11 +355,7 @@ const formatPrice = (price: number | string): string => {
             </div>
             {
               product.reviews > 0 && (
-                <div
-                  itemprop="aggregateRating"
-                  itemscope
-                  itemtype="https://schema.org/AggregateRating"
-                >
+                <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
                   <meta itemprop="ratingValue" content={product.rating} />
                   <meta itemprop="reviewCount" content={product.reviews} />
                 </div>
@@ -475,9 +387,7 @@ const formatPrice = (price: number | string): string => {
                   </div>
                   <p class="text-gray-700 review-content">{review.content}</p>
                   <div class="mt-2 text-sm text-gray-500">
-                    {review.helpfulCount}{" "}
-                    {review.helpfulCount === 1 ? "person" : "people"} found this
-                    helpful
+                    {review.helpfulCount} {review.helpfulCount === 1 ? "person" : "people"} found this helpful
                   </div>
                 </div>
               ))}
@@ -499,9 +409,7 @@ const formatPrice = (price: number | string): string => {
         const src = this.getAttribute("data-src");
         if (src && mainImage) {
           mainImage.src = src;
-          thumbnails.forEach((t) =>
-            t.classList.remove("border-2", "border-primary"),
-          );
+          thumbnails.forEach((t) => t.classList.remove("border-2", "border-primary"));
           this.classList.add("border-2", "border-primary");
         }
       });

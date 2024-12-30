@@ -5,9 +5,9 @@ import {
   initializeAuthClient,
   loadJSONFromFile,
   currencyCountryMap,
-  generateProductUrl
-} from './shared-library.mjs';
-import { performance } from 'perf_hooks';
+  generateProductUrl,
+} from "./shared-library.mjs";
+import { performance } from "perf_hooks";
 
 const PRODUCTS_JSON_PATH = process.env.PRODUCTS_JSON_PATH || "tpt_products_MOST_RECENT.json";
 const BATCH_SIZE = 1000;
@@ -30,10 +30,10 @@ const defaultProduct = {
  */
 function createProduct(product, currencyCode) {
   const { country, suffix } = currencyCountryMap[currencyCode];
-  const offerId = `${product.slug.split('-').pop()}-${suffix}`;
+  const offerId = `${product.slug.split("-").pop()}-${suffix}`;
   return {
     ...defaultProduct,
-    id: `${product.slug.split('-').pop()}-${suffix}`,
+    id: `${product.slug.split("-").pop()}-${suffix}`,
     targetCountry: country,
     offerId,
     title: product.title,
@@ -60,9 +60,7 @@ async function loadProductsFromFile(filePath) {
     const data = await loadJSONFromFile(filePath);
     console.log(`Loaded ${data.length} products from file.`);
     return data.flatMap((product) =>
-      Object.keys(currencyCountryMap).map((currencyCode) =>
-        createProduct(product, currencyCode)
-      )
+      Object.keys(currencyCountryMap).map((currencyCode) => createProduct(product, currencyCode)),
     );
   } catch (error) {
     console.error("Error loading products from file:", error);
@@ -91,14 +89,17 @@ async function uploadProductBatch(content, batch, batchNumber) {
     });
 
     console.log(`Batch ${batchNumber} upload completed.`);
-    
+
     let successCount = 0;
     let errorCount = 0;
 
     res.data.entries.forEach((entry) => {
       if (entry.errors) {
         errorCount++;
-        console.error(`Product upload error (Batch ${batchNumber}, ID: ${entry.batchId}):`, JSON.stringify(entry.errors));
+        console.error(
+          `Product upload error (Batch ${batchNumber}, ID: ${entry.batchId}):`,
+          JSON.stringify(entry.errors),
+        );
       } else {
         successCount++;
       }

@@ -7,5 +7,6 @@
       }
     }
   ],
-  "plugins": ["prettier-plugin-astro"]
+  "plugins": ["prettier-plugin-astro"],
+  "printWidth": 120
 }

@@ -32,10 +32,7 @@ const { title, description, categories, image, date, tags } = post.data;
                 {
                   categories.map((category: string, i: number) => (
                     <li class="inline-block">
-                      <a
-                        href={`/categories/${slugify(category)}`}
-                        class="mr-2 hover:text-primary font-medium"
-                      >
+                      <a href={`/categories/${slugify(category)}`} class="mr-2 hover:text-primary font-medium">
                         {humanize(category)}
                         {i !== post.data.categories.length - 1 && ","}
                       </a>
@@ -49,17 +46,7 @@ const { title, description, categories, image, date, tags } = post.data;
       </div>
 
       <div class="col-12 mt-8 mb-2">
-        {
-          image && (
-            <Image
-              src={image}
-              height={500}
-              width={1000}
-              alt={title}
-              class="rounded-lg"
-            />
-          )
-        }
+        {image && <Image src={image} height={500} width={1000} alt={title} class="rounded-lg" />}
       </div>
 
       <div class="md:col-10">
@@ -81,12 +68,7 @@ const { title, description, categories, image, date, tags } = post.data;
               ))
             }
           </ul>
-          <Share
-            className="social-share mb-4"
-            title={title}
-            description={description}
-            slug={post.slug}
-          />
+          <Share className="social-share mb-4" title={title} description={description} slug={post.slug} />
         </div>
       </div>
     </article>

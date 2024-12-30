@@ -13,12 +13,7 @@ import posts from "@/lib/fixtures/instagram_posts.json";
   <div class="grid grid-cols-2 gap-2">
     {
       posts.map((post) => (
-        <a
-          href={post.postUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="group flex justify-center"
-        >
+        <a href={post.postUrl} target="_blank" rel="noopener noreferrer" class="group flex justify-center">
           <div class="w-[70%] pt-[70%] relative overflow-hidden rounded-lg shadow-md">
             <img
               src={post.imageUrl}
