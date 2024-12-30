@@ -100,6 +100,7 @@ jobs:
 
       - name: Download fetched data
         if: "!contains(github.event.head_commit.message, '[skip ci]') && !contains(github.event.head_commit.message, 'TinaCMS')" # Skip job if commit message contains "[skip ci]" or "TinaCMS"
+        needs: fetch_data
         uses: actions/download-artifact@v3
         with:
           name: external-data
