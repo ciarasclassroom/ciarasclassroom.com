@@ -119,14 +119,14 @@ const { title, meta_title, description, image, noindex, canonical, date, tags, w
     <!-- og-image -->
     <meta
       property="og:image"
-      content={`encodeURI(${!external_image ? config.site.base_url : ""}${image ? image : config.metadata.meta_image})`}
+      content={encodeURI(`(${!external_image ? config.site.base_url : ""}${image ? image : config.metadata.meta_image}`)}
     />
     <meta property="og:image:alt" content={plainify(meta_title ? meta_title : title ? title : config.site.title)} />
 
     <!-- twitter-image -->
     <meta
       name="twitter:image"
-      content={`encodeURI(${!external_image ? config.site.base_url : ""}${image ? image : config.metadata.meta_image})`}
+      content={encodeURI(`${!external_image ? config.site.base_url : ""}${image ? image : config.metadata.meta_image}`)}
     />
     <meta name="twitter:card" content="summary_large_image" />
 
