@@ -80,7 +80,7 @@ const { title, meta_title, description, image, noindex, canonical, date, tags, w
 
     <!-- title -->
     <title>
-      {plainify(meta_title ? meta_title : title ? title : config.site.title)}
+      {trim(plainify(meta_title ? meta_title : title ? title : config.site.title))}
     </title>
 
     <!-- canonical url -->
@@ -100,10 +100,10 @@ const { title, meta_title, description, image, noindex, canonical, date, tags, w
     <meta name="author" content={config.metadata.meta_author} />
 
     <!-- og-title -->
-    <meta property="og:title" content={plainify(meta_title ? meta_title : title ? title : config.site.title)} />
+    <meta property="og:title" content={trim(plainify(meta_title ? meta_title : title ? title : config.site.title))} />
 
     <!-- og-description -->
-    <meta property="og:description" content={plainify(description ? description : config.metadata.meta_description)} />
+    <meta property="og:description" content={trim(plainify(description ? description : config.metadata.meta_description))} />
     <meta property="og:type" content="website" />
 
     <meta property="og:url" content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`} />
@@ -111,10 +111,10 @@ const { title, meta_title, description, image, noindex, canonical, date, tags, w
     <meta property="og:site_name" content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`} />
 
     <!-- twitter-title -->
-    <meta name="twitter:title" content={plainify(meta_title ? meta_title : title ? title : config.site.title)} />
+    <meta name="twitter:title" content={trim(plainify(meta_title ? meta_title : title ? title : config.site.title))} />
 
     <!-- twitter-description -->
-    <meta name="twitter:description" content={plainify(description ? description : config.metadata.meta_description)} />
+    <meta name="twitter:description" content={trim(plainify(description ? description : config.metadata.meta_description))} />
 
     <!-- og-image -->
     <meta
