@@ -52,6 +52,7 @@
     "astro-auto-import": "^0.4.2",
     "astro-font": "^0.1.81",
     "astro-icon": "^1.1.0",
+    "astro-remove-whitespace": "^1.0.1",
     "axios": "^1.7.3",
     "cheerio": "^1.0.0",
     "date-fns": "^3.6.0",

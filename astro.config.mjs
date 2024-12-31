@@ -19,6 +19,7 @@ import remarkYoutube from "remark-youtube";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import { defineConfig, squooshImageService } from "astro/config";
+import removeTagWhitespace from 'astro-remove-whitespace';
 
 // https://astro.build/config
 export default defineConfig({
@@ -49,6 +50,7 @@ export default defineConfig({
     }),
     mdx(),
     icon(),
+    removeTagWhitespace(),
   ],
   markdown: {
     remarkPlugins: [
