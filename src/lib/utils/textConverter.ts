@@ -19,7 +19,7 @@ export const humanize = (content: string) => {
     .replace(/[-\s]+/g, " ")
     .replace(/^[a-z]/, function (m) {
       return m.toUpperCase();
-    });
+    }).trim();
 };
 
 // titleify
@@ -28,7 +28,7 @@ export const titleify = (content: string) => {
   return humanized
     .split(" ")
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
+    .join(" ").trim();
 };
 
 // plainify
@@ -37,7 +37,7 @@ export const plainify = (content: string) => {
   const filterBrackets = parseMarkdown.replace(/<\/?[^>]+(>|$)/gm, "");
   const filterSpaces = filterBrackets.replace(/[\r\n]\s*[\r\n]/gm, "");
   const stripHTML = htmlEntityDecoder(filterSpaces);
-  return stripHTML;
+  return stripHTML.trim();
 };
 
 // strip entities for plainify
