@@ -157,7 +157,7 @@ Teaching students to identify and question bias equips them to navigate the worl
 
 ### Simplify Your Planning for MLK Day with Ready-to-Use Resources
 
-To help you make the most of your MLK Day lessons, I’ve created a comprehensive 117-page resource packed with engaging activities, including:
+To help you make the most of your MLK Day lessons, I’ve created a comprehensive **117-page resource** packed with engaging activities, including:
 
 * Colour-by-number worksheets
 * Poetry templates
