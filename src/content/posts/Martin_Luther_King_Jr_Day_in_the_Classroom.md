@@ -14,9 +14,6 @@ Martin Luther King Jr. Day, observed on the third Monday of January each year (J
 
 But let’s not stop at one day. Anti-racism education and celebrating diversity should weave into your teaching all year long. Here’s how you can approach MLK Day meaningfully while building a foundation for continuous, inclusive learning.
 
-
-
-
 ### Tips and Activities to Bring MLK Day to Life
 
 To make MLK Day meaningful, integrate these tips and activities into your lessons:
@@ -46,7 +43,10 @@ Dr. King and other civil rights activists have inspired countless songs and musi
 * Activity: Play songs like ‘Glory’ by John Legend and Common, ‘Oh Freedom!’, ‘We Shall Not Be Moved’ or ‘We Shall Overcome’. Discuss how music was a tool for unity and protest during the Civil Rights Movement and encourage students to create their own short songs or raps about courage, kindness, understanding, togetherness and/or equality.
 
 ```javascript
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HUZOKvYcx_o?si=Y_TBm4wihG10nqAR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qSJCSR4MuhU?si=pUT5UMwgnbRQFNXS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 ```
 
 #### 5. Teach Peaceful Problem-Solving
@@ -128,7 +128,6 @@ Representation matters. Make sure your classroom materials reflect the rich dive
 
 Representation in the classroom helps all students feel seen, respected, and valued.
 
-
 6\. Foster Critical Thinking About Bias and Stereotypes
 
 Help students develop the skills to recognise and challenge stereotypes in media, books, and everyday life.
@@ -137,9 +136,6 @@ Help students develop the skills to recognise and challenge stereotypes in media
 * Discussion: Ask questions like, “Whose voices are missing?” or “What could be done differently to include more perspectives?”
 
 Teaching students to identify and question bias equips them to navigate the world with greater awareness and empathy.
-
-
-
 
 ### Simplify Your Planning for MLK Day with Ready-to-Use Resources
 
