@@ -1,5 +1,20 @@
 ---
 title: 'Martin Luther King Jr. Day: Meaningful Strategies for your Classroom'
+description: >-
+  Looking for meaningful ways to teach Martin Luther King Jr. Day in your
+  classroom? This blog post is packed with practical tips and engaging
+  activities designed to honour Dr. King’s legacy while fostering anti-racism
+  education. Discover creative lesson ideas to inspire young learners, from
+  exploring age-appropriate resources to hosting meaningful classroom
+  discussions about equality, empathy, and justice.  But teaching about MLK goes
+  beyond a single day. Learn how to integrate Black history, voices, and
+  contributions into your teaching throughout the year. This post highlights
+  strategies to diversify your classroom materials, celebrate Black culture, and
+  promote inclusivity.  Whether you’re a primary or elementary school teacher,
+  this post will help you create a welcoming, inclusive space where students can
+  explore Dr. King’s message and the importance of social justice. Plus, don’t
+  miss the link to our comprehensive MLK Day resource pack for ready-to-use
+  activities!
 image: /MLK Blog Banner.png
 tags:
   - Learn Together
