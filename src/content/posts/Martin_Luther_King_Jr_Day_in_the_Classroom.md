@@ -14,6 +14,12 @@ Martin Luther King Jr. Day, observed on the third Monday of January each year (J
 
 But let’s not stop at one day. Anti-racism education and celebrating diversity should weave into your teaching all year long. Here’s how you can approach MLK Day meaningfully while building a foundation for continuous, inclusive learning.
 
+![](/MLKJr.jpg)
+
+***
+
+###
+
 ### Tips and Activities to Bring MLK Day to Life
 
 To make MLK Day meaningful, integrate these tips and activities into your lessons:
@@ -79,6 +85,12 @@ Show students how Dr. King’s work has inspired modern activists and movements 
 
 * Activity: Watch a short, age-appropriate video about a recent social justice movement or leader. Ask students to discuss connections between Dr. King’s values and present-day efforts for equality.
 
+![](/MLK_Badge.png)
+
+***
+
+###
+
 ### Building Anti-Racism Education Beyond MLK Day
 
 Martin Luther King Jr. Day is only one piece of the puzzle when it comes to fostering an inclusive classroom. Here are ways to ensure anti-racism education continues year-round:
@@ -124,13 +136,13 @@ Show them that everyone—regardless of age—can make a positive difference in 
 
 Representation matters. Make sure your classroom materials reflect the rich diversity of the world.
 
-* Books: Add titles that celebrate Black voices, such as ‘All Are Welcome’ by Alexandra Penfold or ‘Stamped (For Kids)’ by Jason Reynolds and Ibram X. Kendi.
+* Books: Add titles that celebrate Black voices, such as *‘All Are Welcome’* by Alexandra Penfold or ‘*Stamped (For Kids)’* by Jason Reynolds and Ibram X. Kendi.
 * Posters and Displays: Use visuals that represent a range of cultures, identities, and historical figures.
-* Media: Share music, videos, or podcasts that celebrate Black culture and history. Explore jazz from the Harlem Renaissance, Motown hits, or music from countries and cultures all around the world.
+* Media: Share music, [videos](https://www.youtube.com/c/KidsBlackHistory/featured), or podcasts that celebrate Black culture and history. Explore jazz from the Harlem Renaissance, Motown hits, or music from countries and cultures all around the world.
 
 Representation in the classroom helps all students feel seen, respected, and valued.
 
-6\. Foster Critical Thinking About Bias and Stereotypes
+#### 6. Foster Critical Thinking About Bias and Stereotypes
 
 Help students develop the skills to recognise and challenge stereotypes in media, books, and everyday life.
 
@@ -138,6 +150,10 @@ Help students develop the skills to recognise and challenge stereotypes in media
 * Discussion: Ask questions like, “Whose voices are missing?” or “What could be done differently to include more perspectives?”
 
 Teaching students to identify and question bias equips them to navigate the world with greater awareness and empathy.
+
+![](/Together_We_Rise.png)
+
+***
 
 ### Simplify Your Planning for MLK Day with Ready-to-Use Resources
 
