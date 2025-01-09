@@ -68,7 +68,9 @@ Picture books and biographies are a great way to introduce Dr. King’s story.
 * Activity: Read aloud ‘Martin’s Big Words’ by Doreen Rappaport or ‘A Sweet Smell of Roses’ by Angela Johnson. Ask students to reflect on how these stories make them feel and what they’ve learned.
 
 ```javascript
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/m2LYcwHF8gs?si=s14MgpiNBz7GwHw5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center >
 ```
 
 #### 8. Dr. King’s Legacy in Action
