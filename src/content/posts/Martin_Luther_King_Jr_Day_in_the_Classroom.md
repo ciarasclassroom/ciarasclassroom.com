@@ -21,13 +21,13 @@ tags:
   - Antiracist Education
 categories:
   - Inclusion
-date: 2025-01-13T00:00:00.000Z
+date: 2025-01-15T00:00:00.000Z
 draft: true
 ---
 
 Martin Luther King Jr. Day, observed on the third Monday of January each year (January 20th in 2025), is a powerful opportunity to reflect on the values of equality, justice, and non-violence.  It’s the perfect time to start meaningful conversations in your classroom about anti-racism and inclusion. 
 
-But let’s not stop at one day. Anti-racism education and celebrating diversity should weave into your teaching all year long. Here’s how you can approach MLK Day meaningfully while building a foundation for continuous, inclusive learning.
+But let’s not stop at one day. Anti-racism education and celebrating diversity should weave into your teaching all year long. Here’s some ideas on how you can approach MLK Day meaningfully while building a foundation for continuous, inclusive learning.
 
 ![](/MLKJr.jpg)
 
