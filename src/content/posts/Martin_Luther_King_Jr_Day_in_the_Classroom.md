@@ -138,26 +138,9 @@ Look for opportunities to integrate anti-racist perspectives into your teaching,
 
 By showing how Black history and culture intersect with every subject, you help students see that diversity is a strength woven into all aspects of life.
 
-#### 4. Empower Students to Be Changemakers
+![](/Together_We_Rise.png)
 
-Encourage your students to take small, meaningful actions in their own communities.
-
-* Activity: Brainstorm ways they can promote kindness and fairness, such as speaking up against unfair treatment, welcoming new classmates, or creating posters about inclusion.
-* Extension: Share real-life examples of young activists, like Marley Dias, who created the #1000BlackGirlBooks campaign, or Xavier Logan, a teen advocating for educational equity.
-
-Show them that everyone—regardless of age—can make a positive difference in the world.
-
-#### 5. Diversify Your Classroom Resources
-
-Representation matters. Make sure your classroom materials reflect the rich diversity of the world.
-
-* Books: Add titles that celebrate Black voices, such as *‘All Are Welcome’* by Alexandra Penfold or ‘*Stamped (For Kids)’* by Jason Reynolds and Ibram X. Kendi.
-* Posters and Displays: Use visuals that represent a range of cultures, identities, and historical figures.
-* Media: Share music, [videos](https://www.youtube.com/c/KidsBlackHistory/featured), or podcasts that celebrate Black culture and history. Explore jazz from the Harlem Renaissance, Motown hits, or music from countries and cultures all around the world.
-
-Representation in the classroom helps all students feel seen, respected, and valued.
-
-#### 6. Foster Critical Thinking About Bias and Stereotypes
+#### 4. Foster Critical Thinking About Bias and Stereotypes
 
 Help students develop the skills to recognise and challenge stereotypes in media, books, and everyday life.
 
@@ -166,7 +149,24 @@ Help students develop the skills to recognise and challenge stereotypes in media
 
 Teaching students to identify and question bias equips them to navigate the world with greater awareness and empathy.
 
-![](/Together_We_Rise.png)
+#### 5.  Empower Students to Be Changemakers
+
+Encourage your students to take small, meaningful actions in their own communities.
+
+* Activity: Brainstorm ways they can promote kindness and fairness, such as speaking up against unfair treatment, welcoming new classmates, or creating posters about inclusion.
+* Extension: Share real-life examples of young activists, like Marley Dias, who created the #1000BlackGirlBooks campaign, or Xavier Logan, a teen advocating for educational equity.
+
+Show them that everyone—regardless of age—can make a positive difference in the world.
+
+#### 6. Diversify Your Classroom Resources
+
+Representation matters. Make sure your classroom materials reflect the rich diversity of the world.
+
+* Books: Add titles that celebrate Black voices, such as *‘All Are Welcome’* by Alexandra Penfold or ‘*Stamped (For Kids)’* by Jason Reynolds and Ibram X. Kendi.
+* Posters and Displays: Use visuals that represent a range of cultures, identities, and historical figures.
+* Media: Share music, [videos](https://www.youtube.com/c/KidsBlackHistory/featured), or podcasts that celebrate Black culture and history. Explore jazz from the Harlem Renaissance, Motown hits, or music from countries and cultures all around the world.
+
+Representation in the classroom helps all students feel seen, respected, and valued.
 
 ***
 
