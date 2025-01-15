@@ -64,7 +64,7 @@ Dr. King and other civil rights activists have inspired countless songs and musi
 * Activity: Play songs like ‘Glory’ by John Legend and Common, ‘Oh Freedom!’, ‘We Shall Not Be Moved’ or ‘We Shall Overcome’. Discuss how music was a tool for unity and protest during the Civil Rights Movement and encourage students to create their own short songs or raps about courage, kindness, understanding, togetherness and/or equality.
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qSJCSR4MuhU?si=pUT5UMwgnbRQFNXS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HUZOKvYcx_o?si=yLhn0NEXu6HIndVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
 #### 5. Teach Peaceful Problem-Solving
