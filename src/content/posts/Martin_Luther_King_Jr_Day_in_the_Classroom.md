@@ -63,9 +63,12 @@ Dr. King and other civil rights activists have inspired countless songs and musi
 
 * Activity: Play songs like ‘Glory’ by John Legend and Common, ‘Oh Freedom!’, ‘We Shall Not Be Moved’ or ‘We Shall Overcome’. Discuss how music was a tool for unity and protest during the Civil Rights Movement and encourage students to create their own short songs or raps about courage, kindness, understanding, togetherness and/or equality.
 
+```javascript
+
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qSJCSR4MuhU?si=pUT5UMwgnbRQFNXS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
+```
 
 #### 5. Teach Peaceful Problem-Solving
 
@@ -85,9 +88,11 @@ Picture books and biographies are a great way to introduce Dr. King’s story.
 
 * Activity: Read aloud ‘Martin’s Big Words’ by Doreen Rappaport or ‘A Sweet Smell of Roses’ by Angela Johnson. Ask students to reflect on how these stories make them feel and what they’ve learned.
 
+```javascript
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/m2LYcwHF8gs?si=s14MgpiNBz7GwHw5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center >
+```
 
 #### 8. Dr. King’s Legacy in Action
 
@@ -127,7 +132,7 @@ Remind students that it’s okay to ask questions and make mistakes as long as t
 
 Look for opportunities to integrate anti-racist perspectives into your teaching, no matter the subject.
 
-* Math: Explore the work of Black mathematicians like Katherine Johnson, whose calculations were crucial for NASA’s Apollo missions.
+* Maths: Explore the work of Black mathematicians like Katherine Johnson, whose calculations were crucial for NASA’s Apollo missions.
 * Art: Study the vibrant works of Jacob Lawrence or explore the Harlem Renaissance through music and art projects.
 * Science: Teach about groundbreaking Black scientists and inventors who have shaped our world.
 
