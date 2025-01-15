@@ -22,7 +22,7 @@ tags:
 categories:
   - Inclusion
 date: 2025-01-15T00:00:00.000Z
-draft: true
+draft: false
 ---
 
 Martin Luther King Jr. Day, observed on the third Monday of January each year (January 20th in 2025), is a powerful opportunity to reflect on the values of equality, justice, and non-violence.  It’s the perfect time to start meaningful conversations in your classroom about anti-racism and inclusion. 
