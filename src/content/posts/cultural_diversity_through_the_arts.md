@@ -32,16 +32,18 @@ Here are some engaging and respectful ideas for incorporating cultural diversity
 
 #### 3. Drama: Building Empathy Through Stories
 
-* Exploring Folktales Through Performance: Share folktales or legends from different cultures, such as Anansai the Spider (West Africa/Carribean), The Legend of the Rainbow Serpent (Indigenous Australian), [The Bremen Town Musicians](https://www.dltk-teach.com/rhymes/bremen/) (Germany), or The Children of Lir (Ireland). Students can create simple performances that focus on the emotions or lessons within these stories.
+* Exploring Folktales Through Performance: Share folktales or legends from different cultures, such as Anansi the Spider (West Africa/Carribean), The Legend of the Rainbow Serpent (Indigenous Australian), [The Bremen Town Musicians](https://www.dltk-teach.com/rhymes/bremen/) (Germany), or The Children of Lir (Ireland). Students can create simple performances that focus on the emotions or lessons within these stories.
 * Role on the Wall: Use a drama strategy like "role on the wall," where students brainstorm and write about a character's feelings, thoughts, and actions. This is a safe way to explore stories without mimicking cultural identities.
 * Living Museum: Create a “living museum” where students research historical figures from diverse backgrounds and present facts, in first-person narration, about their lives and contributions.
+
+\<iframe width="560" height="315" src="https\://www\.youtube.com/embed/Ny4MTLpw1U4?si=Lap8N0rXDg7iO09I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>\</iframe> 
 
 ***
 
 #### 4. Literature: Stories That Reflect the World
 
 * Introduce Diverse Picture Books: Select diverse picture books and stories like The Name Jar by Yangsook Choi or Sulwe by Lupita Nyong’o. Discuss the themes and perspectives these stories offer.
-* Explore Poetry Across Cultures: Share poems from different traditions, such as Irish ballads, African-American spoken word, or [Haiku](https://kids.britannica.com/students/article/haiku/394592) from Japan. Students can write their own poems inspired by these forms.
+* Explore Poetry Across Cultures: Share poems from different traditions, such as Limerick's from Ireland, cillanelle from France, slam poetry from America, or [Haiku](https://kids.britannica.com/students/article/haiku/394592) from Japan. Students can write their own poems inspired by these forms.
 * Author Studies: Highlight authors from a variety of backgrounds, such as Malorie Blackman or Ezra Jack Keats, and encourage discussions about the themes in their work.
 
 ***
