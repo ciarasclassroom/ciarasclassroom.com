@@ -2,6 +2,7 @@
 title: >-
   Exploring and Celebrating Cultural Diversity Through the Arts in the Primary
   School Classroom
+image: /Cultural Diversity in Arts Lessons Banner.png
 tags: []
 date: 2025-02-19T00:00:00.000Z
 draft: true
@@ -50,6 +51,8 @@ Here are some engaging and respectful ideas for incorporating cultural diversity
 * Learn Traditional Dances: Introduce dances like Irish céilí, salsa from Latin America, or Bharatanatyam from India. Discuss their origins and cultural meanings, emphasising appreciation over imitation.
 * Cultural Dance Videos: Show videos of traditional performances, like céilí dancing, Maori haka, samba, gumboot dance. Use these as starting points for discussions about culture and identity.
 * Create a Class Dance: Students can work together to choreograph a dance inspired by a cultural theme, focusing on universal values like friendship, celebration, or resilience.
+
+\<iframe width="560" height="315" src="https\://www\.youtube.com/embed/ywErCIEcacQ?si=zb4YAHoQCweslk6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>\</iframe>
 
 ***
 
