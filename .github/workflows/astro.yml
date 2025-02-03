@@ -57,7 +57,7 @@ jobs:
           node fetch-tpt-products.mjs MOST_RECENT || true
 
       - name: Upload fetched data
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: external-data
           path: |
@@ -99,7 +99,7 @@ jobs:
         run: npm ci --prefer-offline --no-audit
 
       - name: Download fetched data
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: external-data
 
@@ -138,7 +138,7 @@ jobs:
         run: npm ci --prefer-offline --no-audit
 
       - name: Download fetched data
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: external-data
 
