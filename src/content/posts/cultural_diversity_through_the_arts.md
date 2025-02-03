@@ -2,10 +2,15 @@
 title: >-
   Exploring and Celebrating Cultural Diversity Through the Arts in the Primary
   School Classroom
+description: "This blogpost explores some engaging and respectful ideas for incorporating cultural diversity through the arts in your classroom.  The arts have a unique ability to bring people together, spark creativity, and foster understanding. In the primary school classroom, they offer an engaging way to celebrate cultural diversity while nurturing inclusivity. By incorporating diverse traditions, stories, and perspectives into art, music, drama, literature, and dance, you create a welcoming environment where every child feels seen and valued.\_ Reflecting diversity in your lesson content also helps students develop empathy, respect, and a broader understanding of the world—a cornerstone of anti-racist education.\_"
 image: /Cultural Diversity in Arts Lessons Banner.png
-tags: []
-date: 2025-02-19T00:00:00.000Z
-draft: true
+tags:
+  - Arts
+categories:
+  - Celebrating Diversity
+  - Classroom Ideas
+date: 2025-02-03T00:00:00.000Z
+draft: false
 ---
 
 The arts have a unique ability to bring people together, spark creativity, and foster understanding. In the primary school classroom, they offer an engaging way to celebrate cultural diversity while nurturing inclusivity. By incorporating diverse traditions, stories, and perspectives into art, music, drama, literature, and dance, you create a welcoming environment where every child feels seen and valued.  Reflecting diversity in your lesson content also helps students develop empathy, respect, and a broader understanding of the world—a cornerstone of anti-racist education. 
@@ -36,7 +41,7 @@ Here are some engaging and respectful ideas for incorporating cultural diversity
 * Role on the Wall: Use a drama strategy like "role on the wall," where students brainstorm and write about a character's feelings, thoughts, and actions. This is a safe way to explore stories without mimicking cultural identities.
 * Living Museum: Create a “living museum” where students research historical figures from diverse backgrounds and present facts, in first-person narration, about their lives and contributions.
 
-\<iframe width="560" height="315" src="https\://www\.youtube.com/embed/Ny4MTLpw1U4?si=Lap8N0rXDg7iO09I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>\</iframe> 
+\<iframe width="560" height="315" src="[https://www.youtube.com/embed/Ny4MTLpw1U4?si=Lap8N0rXDg7iO09I](https://www.youtube.com/embed/Ny4MTLpw1U4?si=Lap8N0rXDg7iO09I)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>\</iframe>
 
 ***
 
@@ -54,7 +59,7 @@ Here are some engaging and respectful ideas for incorporating cultural diversity
 * Cultural Dance Videos: Show videos of traditional performances, like céilí dancing, Maori haka, samba, gumboot dance. Use these as starting points for discussions about culture and identity.
 * Create a Class Dance: Students can work together to choreograph a dance inspired by a cultural theme, focusing on universal values like friendship, celebration, or resilience.
 
-\<iframe width="560" height="315" src="https\://www\.youtube.com/embed/ywErCIEcacQ?si=zb4YAHoQCweslk6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>\</iframe>
+\<iframe width="560" height="315" src="[https://www.youtube.com/embed/ywErCIEcacQ?si=zb4YAHoQCweslk6M](https://www.youtube.com/embed/ywErCIEcacQ?si=zb4YAHoQCweslk6M)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>\</iframe>
 
 ***
 
