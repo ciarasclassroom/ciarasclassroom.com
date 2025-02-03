@@ -35,7 +35,7 @@ Here are some engaging and respectful ideas for incorporating cultural diversity
 
 ***
 
-#### 3. Drama: Building Empathy Through Stories
+#### 3. Drama: Building Connection and Understanding Through Stories
 
 * Exploring Folktales Through Performance: Share folktales or legends from different cultures, such as Anansi the Spider (West Africa/Carribean), The Legend of the Rainbow Serpent (Indigenous Australian), [The Bremen Town Musicians](https://www.dltk-teach.com/rhymes/bremen/) (Germany), or The Children of Lir (Ireland). Students can create simple performances that focus on the emotions or lessons within these stories.
 * Role on the Wall: Use a drama strategy like "role on the wall," where students brainstorm and write about a character's feelings, thoughts, and actions. This is a safe way to explore stories without mimicking cultural identities.
@@ -47,7 +47,7 @@ Here are some engaging and respectful ideas for incorporating cultural diversity
 
 #### 4. Literature: Stories That Reflect the World
 
-* Introduce Diverse Picture Books: Select diverse picture books and stories like The Name Jar by Yangsook Choi or Sulwe by Lupita Nyong’o. Discuss the themes and perspectives these stories offer.
+* Introduce Diverse Picture Books: Select diverse picture books and stories like 'The Name Jar' by Yangsook Choi or 'Sulwe' by Lupita Nyong’o. Discuss the themes and perspectives these stories offer.
 * Explore Poetry Across Cultures: Share poems from different traditions, such as Limerick's from Ireland, cillanelle from France, slam poetry from America, or [Haiku](https://kids.britannica.com/students/article/haiku/394592) from Japan. Students can write their own poems inspired by these forms.
 * Author Studies: Highlight authors from a variety of backgrounds, such as Malorie Blackman or Ezra Jack Keats, and encourage discussions about the themes in their work.
 
