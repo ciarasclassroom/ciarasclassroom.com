@@ -66,7 +66,7 @@ I suppose it makes sense when you think about it; in order to respond to the div
 
  [Raising Awareness of Developmental Language Disorder (DLD) Day: #ThinkLanguage #ThinkDLD](https://www.youtube.com/watch?v=MU1inVSISFo) 
 
-##### THINK DIFFERENTLY ABOUT SLTs AND HOW THEY COULD SUPPORT YOU 
+THINK DIFFERENTLY ABOUT SLTs AND HOW THEY COULD SUPPORT YOU 
 
 * Find out if any of your students attend SLT. Talk to parents. Could you liaise with the SLT? Would the SLT like to visit? Could the SLT input into a support plan? 
 * Now that you know SLTs could provide support at a classroom or even school-wide level, next time you meet an SLT, enquire about your classroom and ways you might be able to improve anything for children with communication differences. 
@@ -87,8 +87,8 @@ I’d love to know what you imagine. Let’s collaborate. 
 ![](/Niamh_de_Burca_Logo.png)
 
 
-*Writer bio: *
+Writer bio: 
 
-*Niamh de Búrca is a speech and language therapist, business owner, and lecturer with almost 10 years’ experience. Niamh lectures on the MSc Speech and Language Therapy programme at University of Limerick where she teaches SLT students in the areas of paediatric disability, inclusive education, anti-ableism, neurodiversity, Alternative and Augmentative Communication (AAC), and more. Niamh has travelled around the world, including New Zealand, where she worked as a therapist and service manager in inclusive education. There, Niamh worked mainly in the classroom with teachers and support staff. Niamh has now settled in West Kerry where she has established a private practice with a difference, delivering services and supports in homes and schools (rather than from a clinic). Niamh offers bespoke training to schools, including online webinars, teacher consultations, and CPD workshops. *
+Niamh de Búrca is a speech and language therapist, business owner, and lecturer with almost 10 years’ experience. Niamh lectures on the MSc Speech and Language Therapy programme at University of Limerick where she teaches SLT students in the areas of paediatric disability, inclusive education, anti-ableism, neurodiversity, Alternative and Augmentative Communication (AAC), and more. Niamh has travelled around the world, including New Zealand, where she worked as a therapist and service manager in inclusive education. There, Niamh worked mainly in the classroom with teachers and support staff. Niamh has now settled in West Kerry where she has established a private practice with a difference, delivering services and supports in homes and schools (rather than from a clinic). Niamh offers bespoke training to schools, including online webinars, teacher consultations, and CPD workshops. 
 
 ![](/Niamh_de_Burca_SLT.png)
