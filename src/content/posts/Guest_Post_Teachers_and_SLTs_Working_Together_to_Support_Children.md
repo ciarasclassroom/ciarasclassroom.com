@@ -83,6 +83,8 @@ I’d love to know what you imagine. Let’s collaborate. 
 ![](/image4.jpg)
 
 ![](/Niamh_de_Burca_Logo.png)
+
+
 *Writer bio: *
 
 *Niamh de Búrca is a speech and language therapist, business owner, and lecturer with almost 10 years’ experience. Niamh lectures on the MSc Speech and Language Therapy programme at University of Limerick where she teaches SLT students in the areas of paediatric disability, inclusive education, anti-ableism, neurodiversity, Alternative and Augmentative Communication (AAC), and more. Niamh has travelled around the world, including New Zealand, where she worked as a therapist and service manager in inclusive education. There, Niamh worked mainly in the classroom with teachers and support staff. Niamh has now settled in West Kerry where she has established a private practice with a difference, delivering services and supports in homes and schools (rather than from a clinic). Niamh offers bespoke training to schools, including online webinars, teacher consultations, and CPD workshops. *
