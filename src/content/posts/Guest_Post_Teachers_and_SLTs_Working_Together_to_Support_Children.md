@@ -1,5 +1,5 @@
 ---
-title: 'Teachers and SLTs Supporting Students Together '
+title: 'Guest Post: Teachers and SLTs Supporting Students Together '
 description: >-
   In 2024, the National Council for Special Education (NCSE) released a report
   outlining their recommendations for inclusive schools. Inclusive schools are
