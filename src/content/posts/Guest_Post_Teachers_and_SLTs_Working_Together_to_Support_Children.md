@@ -62,7 +62,9 @@ I suppose it makes sense when you think about it; in order to respond to the div
 
 * Look around your classroom and identify students who may have language difficulties, or DLD. You might be surprised who you notice!
 * When you encounter a student experiencing difficulties with social interaction, emotional regulation, learning, engagement with activities, or literacy challenges… consider that language may be a factor. 
-* For more information, watch: [Raising Awareness of Developmental Language Disorder (DLD) Day: #ThinkLanguage #ThinkDLD](https://www.youtube.com/watch?v=MU1inVSISFo) 
+* For more information, watch:
+
+ [Raising Awareness of Developmental Language Disorder (DLD) Day: #ThinkLanguage #ThinkDLD](https://www.youtube.com/watch?v=MU1inVSISFo) 
 
 ##### THINK DIFFERENTLY ABOUT SLTs AND HOW THEY COULD SUPPORT YOU 
 
