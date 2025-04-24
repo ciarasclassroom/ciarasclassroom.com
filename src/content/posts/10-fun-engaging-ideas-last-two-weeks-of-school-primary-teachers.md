@@ -26,7 +26,7 @@ You’re nearly there! The books are almost closed, the weather’s warming up (
 4. Free Writing Fiesta
    Give kids free choice writing time – comic strips, summer stories, “Dear Me in 6 Months” letters… Add music and snacks for chilled-out vibes.
 5. Year in Review Mini-Documentary
-   Split into small groups and record short clips of “interviews,” skits or reenactments of moments from the year. Compile into a class video (or just watch them back raw for laughs!).
+   Split into small groups and record short clips of “interviews,” funny skits or reenactments of moments from the year. Compile into a class video (or just watch them back raw for laughs!).
 6. Summer-Themed STEM Challenge
    Build the best paper umbrella, design a water balloon launcher, make the fastest paper airplane, or create a floating boat from recyclables. Lots of fun with a sneaky bit of science thrown in!
 7. “Footsteps Through Our Year” Interactive Display   \
