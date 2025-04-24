@@ -10,7 +10,11 @@ description: >-
   year with smiles and a sense of accomplishment. Here are 10 fun and engaging
   ideas to help you make the most of those final school days!
 image: /End of Year ideas Blog Banner.png
-tags: []
+tags:
+  - Summer
+  - End of the year
+categories:
+  - Classroom Ideas
 date: 2025-05-27T23:00:00.000Z
 draft: true
 ---
