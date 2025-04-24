@@ -24,7 +24,6 @@ You’re nearly there! The books are almost closed, the weather’s warming up (
    Sit in a circle and share favourite memories from the year. You can make it themed (funniest moment, proudest moment, best book we read, etc.) or totally open-ended.
 3. Class Awards Ceremony
    Host a light-hearted, classroom awards ceremony with categories like ‘Best Laugh’ or ‘Most Likely to be a Future Artist.’ Not only does this let kids feel appreciated, but it also gives you a chance to celebrate their unique qualities and hard work. If you’re interested in presenting some graduation certificates too, here is a link to my Graduation Certificates for all class levels in Irish primary schools.
-   Optional plug: “If you want these ready-made, check out my Last Week of School Bundle!”
 4. Free Writing Fiesta
    Give kids free choice writing time – comic strips, summer stories, “Dear Me in 6 Months” letters… Add music and snacks for chilled-out vibes.
 5. Year in Review Mini-Documentary
