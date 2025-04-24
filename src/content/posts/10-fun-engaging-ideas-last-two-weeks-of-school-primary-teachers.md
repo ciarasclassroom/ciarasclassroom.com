@@ -52,11 +52,6 @@ You’re nearly there! The books are almost closed, the weather’s warming up (
 
 
 
-1.
-
-
-
-
 
 
 
