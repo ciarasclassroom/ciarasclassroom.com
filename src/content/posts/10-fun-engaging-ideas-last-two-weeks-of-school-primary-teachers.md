@@ -23,10 +23,7 @@ You’re nearly there! The books are almost closed, the weather’s warming up (
 \
 As the summer holidays approach, it’s the perfect time to show your students how much they’ve grown, what they’ve accomplished, and how much fun learning can be. I hope these activities give you the inspiration you need to finish the school year with a bang!
 
-
-
-
-And if you’re looking for some ready-to-go resources t
+And if you’re looking for some ready-to-go resources for your classroom this June, make sure to check out my [Last Week of School Bundle](https://www.teacherspayteachers.com/Product/Last-Week-of-School-Teaching-Resources-Bundle-8170932).
 
 
 ![](/IMG_0074.jpeg)
