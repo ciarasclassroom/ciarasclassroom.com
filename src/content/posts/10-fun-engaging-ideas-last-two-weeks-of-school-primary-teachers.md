@@ -16,5 +16,3 @@ draft: true
 ---
 
 You’re nearly there! The books are almost closed, the weather’s warming up (hopefully), and attention spans are starting to fade. But the last couple of weeks can still be some of the most memorable and joyful parts of the year. This post shares 10 teacher-loved activities that help you wrap up the term with fun, connection, and just a little bit of learning too.
-
-
