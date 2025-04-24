@@ -32,8 +32,10 @@ You’re nearly there! The books are almost closed, the weather’s warming up (
     Split into small groups and record short clips of “interviews,” skits or reenactments of moments from the year. Compile into a class video (or just watch them back raw for laughs!).
 6. Summer-Themed STEM Challenge
     Build the best paper umbrella, design a water balloon launcher, or create a floating boat from recyclables. Lots of fun with a sneaky bit of science thrown in!
-
-
+7.  “Footsteps Through Our Year” Interactive Display   \
+   Have each child trace their shoe onto card and decorate it with symbols or drawings that represent their highlights from the year — favourite subjects, friends, funny moments. String them together in a path that winds through the classroom or school corridor, showing the journey you’ve taken together. 
+8. End-of-Year Escape Room (DIY Style)   \
+   Set up a low-tech escape room using puzzles, riddles, and clues based on what they’ve learned during the year — e.g. a Gaeilge clue, a maths riddle, a memory clue from a book you read. Split into teams and let them work together to solve their way to “summer break.”  Bonus: include a final “treasure” like your Graduation Certificates — \[insert your product link here]
 
 
 
