@@ -20,6 +20,27 @@ You’re nearly there! The books are almost closed, the weather’s warming up (
 \
 
 
+
+1. The Countdown to Summer Jar
+    Write fun, silly or meaningful prompts on slips of paper. Each day, pull one out and complete the activity as a class. From “desk swap day” to “write a compliment note for someone,” this is a class favourite!
+    \[Link to your Countdown to Summer Jar resource here]
+2. Memory Sharing Circles
+    Sit in a circle and share favourite memories from the year. You can make it themed (funniest moment, proudest moment, best book we read, etc.) or totally open-ended.
+3. Class Awards Ceremony
+    Create light-hearted, positive awards for each child (“Most Likely to Make You Laugh,” “Best Bookworm,” etc.).
+    Optional plug: “If you want these ready-made, check out my Last Week of School Bundle!”
+4. Free Writing Fiesta
+    Give kids free choice writing time – comic strips, summer stories, “Dear Me in 6 Months” letters… Add music and snacks for chilled-out vibes.
+
+
+
+
+
+
+
+\
+
+
 \
 As the summer holidays approach, it’s the perfect time to show your students how much they’ve grown, what they’ve accomplished, and how much fun learning can be. I hope these activities give you the inspiration you need to finish the school year with a bang!
 
