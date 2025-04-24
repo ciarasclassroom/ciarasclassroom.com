@@ -26,4 +26,7 @@ As the summer holidays approach, it’s the perfect time to show your students h
 And if you’re looking for some ready-to-go resources for your classroom this June, make sure to check out my [Last Week of School Bundle](https://www.teacherspayteachers.com/Product/Last-Week-of-School-Teaching-Resources-Bundle-8170932).
 
 
-![](/IMG_0074.jpeg)
+![](/IMG_0074.jpeg)\
+
+
+However you spend the final stretch, remember: your class won’t remember every page of every book — but they will remember the laughs, the kindness, and the magic of their last weeks with you. You’ve nearly made it — finish strong, and finish with joy!
