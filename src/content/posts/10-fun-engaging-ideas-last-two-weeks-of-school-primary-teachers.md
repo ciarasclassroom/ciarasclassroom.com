@@ -36,7 +36,10 @@ You’re nearly there! The books are almost closed, the weather’s warming up (
    Have each child trace their shoe onto card and decorate it with symbols or drawings that represent their highlights from the year — favourite subjects, friends, funny moments. String them together in a path that winds through the classroom or school corridor, showing the journey you’ve taken together. 
 8. End-of-Year Escape Room (DIY Style)   \
    Set up a low-tech escape room using puzzles, riddles, and clues based on what they’ve learned during the year — e.g. a Gaeilge clue, a maths riddle, a memory clue from a book you read. Split into teams and let them work together to solve their way to “summer break.”  Bonus: include a final “treasure” like your Graduation Certificates — \[insert your product link here]
-
+9. Invent-a-Game Day   \
+   Challenge your class to invent their own playground or board game in small groups. They’ll need to design the rules, draw a diagram or board, and come up with how someone “wins.” Then let them teach their game to another group and play! It’s a brilliant mix of creativity, collaboration, oral language, and critical thinking — and the kids barely realise they’re learning.
+10. Story Dice Theatre: Creative Drama Fun   \
+    Story Dice Theatre is a fantastic way to combine imagination with drama in the classroom. Using story dice (which you can easily make or buy), children roll the dice to reveal random words, images, or themes. In pairs or small groups, they then create a short skit or performance based on the prompts. This activity encourages teamwork, oral language skills, and creativity — but it feels like pure fun! You can give the kids the freedom to use costumes, props, and even act out their story for the class. It’s an engaging way to revisit storytelling techniques, narrative structure, and public speaking skills, all while keeping the atmosphere light and joyful as the school year winds down.
 
 
 
