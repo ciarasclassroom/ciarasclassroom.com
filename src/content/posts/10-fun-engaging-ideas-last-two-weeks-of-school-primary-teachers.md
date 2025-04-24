@@ -43,14 +43,6 @@ You’re nearly there! The books are almost closed, the weather’s warming up (
     Take advantage of the nice weather by having an outdoor day full of fun challenges. From a class relay race to tug-of-war, these classic games are a great way to wrap up the school year while encouraging teamwork and physical activity.
 12. Create a Time Capsule
     Have the class create a time capsule to be opened the next year. Let them include items that represent the things they loved about this year: photos, drawings, a letter to their future selves, or a list of their favourite things. This is a great way to reflect on what the class has achieved and look ahead to the future.
-13.
-
-\
-\
-
-
-
-
 
 
 
