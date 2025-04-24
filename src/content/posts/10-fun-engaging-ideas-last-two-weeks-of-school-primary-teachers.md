@@ -17,9 +17,6 @@ draft: true
 
 You’re nearly there! The books are almost closed, the weather’s warming up (hopefully), and attention spans are starting to fade. But the last couple of weeks can still be some of the most memorable and joyful parts of the year. This post shares 10 teacher-loved activities that help you wrap up the term with fun, connection, and just a little bit of learning too.
 
-\
-
-
 
 1. The Countdown to Summer Jar
     Write fun, silly or meaningful prompts on slips of paper. Each day, pull one out and complete the activity as a class. From “desk swap day” to “write a compliment note for someone,” this is a class favourite!
@@ -31,6 +28,13 @@ You’re nearly there! The books are almost closed, the weather’s warming up (
     Optional plug: “If you want these ready-made, check out my Last Week of School Bundle!”
 4. Free Writing Fiesta
     Give kids free choice writing time – comic strips, summer stories, “Dear Me in 6 Months” letters… Add music and snacks for chilled-out vibes.
+5. Year in Review Mini-Documentary
+    Split into small groups and record short clips of “interviews,” skits or reenactments of moments from the year. Compile into a class video (or just watch them back raw for laughs!).
+6. Summer-Themed STEM Challenge
+    Build the best paper umbrella, design a water balloon launcher, or create a floating boat from recyclables. Lots of fun with a sneaky bit of science thrown in!
+
+
+
 
 
 
