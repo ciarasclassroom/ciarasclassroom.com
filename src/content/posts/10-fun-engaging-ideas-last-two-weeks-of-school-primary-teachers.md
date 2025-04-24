@@ -24,7 +24,7 @@ You’re nearly there! The books are almost closed, the weather’s warming up (
 2. Memory Sharing Circles
     Sit in a circle and share favourite memories from the year. You can make it themed (funniest moment, proudest moment, best book we read, etc.) or totally open-ended.
 3. Class Awards Ceremony
-    Create light-hearted, positive awards for each child (“Most Likely to Make You Laugh,” “Best Bookworm,” etc.).
+    Host a light-hearted, classroom awards ceremony with categories like ‘Best Laugh’ or ‘Most Likely to be a Future Artist.’ Not only does this let kids feel appreciated, but it also gives you a chance to celebrate their unique qualities and hard work. If you’re looking for a simple way to print out certificates for this, check out my Graduation Certificates for some inspiration!
     Optional plug: “If you want these ready-made, check out my Last Week of School Bundle!”
 4. Free Writing Fiesta
     Give kids free choice writing time – comic strips, summer stories, “Dear Me in 6 Months” letters… Add music and snacks for chilled-out vibes.
@@ -40,6 +40,25 @@ You’re nearly there! The books are almost closed, the weather’s warming up (
    Challenge your class to invent their own playground or board game in small groups. They’ll need to design the rules, draw a diagram or board, and come up with how someone “wins.” Then let them teach their game to another group and play! It’s a brilliant mix of creativity, collaboration, oral language, and critical thinking — and the kids barely realise they’re learning.
 10. Story Dice Theatre: Creative Drama Fun   \
     Story Dice Theatre is a fantastic way to combine imagination with drama in the classroom. Using story dice (which you can easily make or buy), children roll the dice to reveal random words, images, or themes. In pairs or small groups, they then create a short skit or performance based on the prompts. This activity encourages teamwork, oral language skills, and creativity — but it feels like pure fun! You can give the kids the freedom to use costumes, props, and even act out their story for the class. It’s an engaging way to revisit storytelling techniques, narrative structure, and public speaking skills, all while keeping the atmosphere light and joyful as the school year winds down.
+11. Outdoor Games and Challenges
+     Take advantage of the nice weather by having an outdoor day full of fun challenges. From a class relay race to tug-of-war, these classic games are a great way to wrap up the school year while encouraging teamwork and physical activity.
+12. Create a Time Capsule
+     Have the class create a time capsule to be opened the next year. Let them include items that represent the things they loved about this year: photos, drawings, a letter to their future selves, or a list of their favourite things. This is a great way to reflect on what the class has achieved and look ahead to the future.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.
 
 
 
