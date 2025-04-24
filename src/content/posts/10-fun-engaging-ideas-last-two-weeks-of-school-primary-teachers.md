@@ -39,7 +39,7 @@ You’re nearly there! The books are almost closed, the weather’s warming up (
 10. Story Dice Theatre: Creative Drama Fun   \
     Story Dice Theatre is a fantastic way to combine imagination with drama in the classroom. Using story dice (which you can easily make or buy), children roll the dice to reveal random words, images, or themes. In pairs or small groups, they then create a short skit or performance based on the prompts. This activity encourages teamwork, oral language skills, and creativity — but it feels like pure fun! You can give the kids the freedom to use costumes, props, and even act out their story for the class. It’s an engaging way to revisit storytelling techniques, narrative structure, and public speaking skills, all while keeping the atmosphere light and joyful as the school year winds down.
 
-<!---->
+##### 2 Bonus Ideas for Reading This Far!
 
 1. Outdoor Games and Challenges
    Take advantage of the nice weather by having an outdoor day full of fun challenges. From a class relay race to tug-of-war, these classic games are a great way to wrap up the school year while encouraging teamwork and physical activity.
