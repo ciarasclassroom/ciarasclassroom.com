@@ -18,7 +18,7 @@ draft: true
 You’re nearly there! The books are almost closed, the weather’s warming up (hopefully), and attention spans are starting to fade. But the last couple of weeks can still be some of the most memorable and joyful parts of the year. This post shares 10 teacher-loved activities that help you wrap up the term with fun, connection, and just a little bit of learning too.
 
 1. The Countdown to Summer Jar
-   Write fun, silly or meaningful prompts on slips of paper. Each day, pull one out and complete the activity as a class. From “desk swap day” to “Crazy Hair Day,” this is always a class favourite! Want an even easier way to bring this idea to life in your classroom?Countdown to Summer Jar.
+   Write fun, silly or meaningful prompts on slips of paper. Each day, pull one out and complete the activity as a class. From “desk swap day” to “Crazy Hair Day,” this is always a class favourite! Want an even easier way to bring this idea to life in your classroom?  Here are the activities I use in my own Countdown to Summer Jar. Just print and cut and you are ready to go!
 2. Memory Sharing Circles
    Sit in a circle and share favourite memories from the year. You can make it themed (funniest moment, proudest moment, best book we read, etc.) or totally open-ended.
 3. Class Awards Ceremony
