@@ -11,7 +11,7 @@ tags:
 categories:
   - 'Teacher Tips '
 date: 2025-04-30T23:00:00.000Z
-draft: true
+draft: false
 ---
 
 Writing end-of-year reports can feel like a huge task—especially if it’s your first or second time doing it. Whether you’re working off Aladdin or using NCCA templates, there’s a way to make the process manageable (and even a little enjoyable!). In this post, I’m sharing a few practical tips that will help you write honest, professional reports that celebrate your pupils while saving you time and stress.
@@ -34,9 +34,7 @@ For example:
 * “Alec has been working very hard on reading and writing this year. He is beginning to recognise common phonics patterns and benefits from regular revision and support.”
 * “With continued phonics practice and reading aloud at home, Sara will continue to build confidence and fluency.”
 
-
 #### 3. Create a Simple Template
-
 
 Use a structure that works across reports to save time. A typical paragraph might include:
 
@@ -88,7 +86,6 @@ Use digital tools to help streamline the process—such as voice-to-text feature
 You’re not alone in finding reports a challenge. But with a few smart strategies and the right mindset, you’ll get through them with confidence—and maybe even enjoy reflecting on all the progress your class has made. You’ve done an amazing job this year. Well done!
 
 ### Bonus Tip: End the Year on a High
-
 
 While reports are serious business, the end of the year is also a time to celebrate your students. If you’re looking for a simple way to do this, my Graduation Certificates for all class levels are a lovely way to mark the occasion. They’re editable, printable, and a great keepsake for students and parents. You can find them [here](https://www.teacherspayteachers.com/Product/End-of-Year-Graduation-Certificates-Ireland-9512681?utm_source=My%20blog\&utm_campaign=End%20of%20year%20reports%20blog%20post).
 
