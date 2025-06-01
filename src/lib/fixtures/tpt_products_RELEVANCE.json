@@ -26,10 +26,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     },
     "evaluations": [
@@ -369,16 +369,16 @@
     "currencies": {
       "USD": "3.75",
       "CAD": "5.16",
-      "GBP": "2.79",
+      "GBP": "2.78",
       "EUR": "3.31",
       "AUD": "5.83",
       "NZD": "6.29",
       "SGD": "4.84",
-      "HKD": "29.40",
-      "ZAR": "67.26",
-      "INR": "320.88",
+      "HKD": "29.41",
+      "ZAR": "67.24",
+      "INR": "320.85",
       "MYR": "15.94",
-      "PHP": "209.26",
+      "PHP": "209.20",
       "AED": "13.77"
     },
     "evaluations": [
@@ -1250,17 +1250,17 @@
     ],
     "currencies": {
       "USD": "22.44",
-      "CAD": "30.88",
-      "GBP": "16.67",
+      "CAD": "30.89",
+      "GBP": "16.66",
       "EUR": "19.78",
-      "AUD": "34.88",
+      "AUD": "34.87",
       "NZD": "37.61",
       "SGD": "28.95",
-      "HKD": "175.95",
-      "ZAR": "402.45",
-      "INR": "1920.13",
-      "MYR": "95.38",
-      "PHP": "1252.24",
+      "HKD": "175.96",
+      "ZAR": "402.38",
+      "INR": "1919.98",
+      "MYR": "95.37",
+      "PHP": "1251.88",
       "AED": "82.41"
     },
     "evaluations": [
@@ -1484,10 +1484,10 @@
       "NZD": "5.36",
       "SGD": "4.13",
       "HKD": "25.09",
-      "ZAR": "57.39",
-      "INR": "273.82",
+      "ZAR": "57.38",
+      "INR": "273.79",
       "MYR": "13.60",
-      "PHP": "178.57",
+      "PHP": "178.52",
       "AED": "11.75"
     },
     "evaluations": [
@@ -1634,15 +1634,15 @@
       "USD": "3.50",
       "CAD": "4.82",
       "GBP": "2.60",
-      "EUR": "3.08",
+      "EUR": "3.09",
       "AUD": "5.44",
       "NZD": "5.87",
       "SGD": "4.52",
       "HKD": "27.44",
-      "ZAR": "62.77",
-      "INR": "299.49",
+      "ZAR": "62.76",
+      "INR": "299.46",
       "MYR": "14.88",
-      "PHP": "195.31",
+      "PHP": "195.26",
       "AED": "12.85"
     },
     "evaluations": [
@@ -2158,10 +2158,10 @@
       "NZD": "6.69",
       "SGD": "5.15",
       "HKD": "31.29",
-      "ZAR": "71.56",
-      "INR": "341.41",
+      "ZAR": "71.55",
+      "INR": "341.39",
       "MYR": "16.96",
-      "PHP": "222.66",
+      "PHP": "222.59",
       "AED": "14.65"
     },
     "evaluations": [
@@ -2311,14 +2311,14 @@
       "CAD": "3.44",
       "GBP": "1.86",
       "EUR": "2.20",
-      "AUD": "3.89",
+      "AUD": "3.88",
       "NZD": "4.19",
       "SGD": "3.23",
       "HKD": "19.60",
-      "ZAR": "44.84",
-      "INR": "213.92",
+      "ZAR": "44.83",
+      "INR": "213.90",
       "MYR": "10.63",
-      "PHP": "139.51",
+      "PHP": "139.47",
       "AED": "9.18"
     },
     "evaluations": [
@@ -2510,10 +2510,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     },
     "evaluations": [
@@ -2705,10 +2705,10 @@
       "NZD": "5.45",
       "SGD": "4.19",
       "HKD": "25.48",
-      "ZAR": "58.29",
-      "INR": "278.09",
+      "ZAR": "58.28",
+      "INR": "278.07",
       "MYR": "13.81",
-      "PHP": "181.36",
+      "PHP": "181.31",
       "AED": "11.94"
     },
     "evaluations": [
@@ -2925,14 +2925,14 @@
       "CAD": "3.44",
       "GBP": "1.86",
       "EUR": "2.20",
-      "AUD": "3.89",
+      "AUD": "3.88",
       "NZD": "4.19",
       "SGD": "3.23",
       "HKD": "19.60",
-      "ZAR": "44.84",
-      "INR": "213.92",
+      "ZAR": "44.83",
+      "INR": "213.90",
       "MYR": "10.63",
-      "PHP": "139.51",
+      "PHP": "139.47",
       "AED": "9.18"
     },
     "evaluations": [
@@ -3080,10 +3080,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     },
     "evaluations": [
@@ -3185,15 +3185,15 @@
       "USD": "14.30",
       "CAD": "19.68",
       "GBP": "10.62",
-      "EUR": "12.60",
-      "AUD": "22.23",
+      "EUR": "12.61",
+      "AUD": "22.22",
       "NZD": "23.97",
       "SGD": "18.45",
       "HKD": "112.13",
-      "ZAR": "256.47",
-      "INR": "1223.62",
+      "ZAR": "256.42",
+      "INR": "1223.52",
       "MYR": "60.78",
-      "PHP": "797.99",
+      "PHP": "797.76",
       "AED": "52.52"
     },
     "evaluations": [
@@ -3294,15 +3294,15 @@
       "USD": "10.50",
       "CAD": "14.45",
       "GBP": "7.80",
-      "EUR": "9.25",
-      "AUD": "16.32",
+      "EUR": "9.26",
+      "AUD": "16.31",
       "NZD": "17.60",
       "SGD": "13.55",
       "HKD": "82.33",
-      "ZAR": "188.31",
-      "INR": "898.46",
+      "ZAR": "188.28",
+      "INR": "898.39",
       "MYR": "44.63",
-      "PHP": "585.94",
+      "PHP": "585.77",
       "AED": "38.56"
     },
     "evaluations": [
@@ -3421,14 +3421,14 @@
       "CAD": "10.32",
       "GBP": "5.57",
       "EUR": "6.61",
-      "AUD": "11.66",
+      "AUD": "11.65",
       "NZD": "12.57",
       "SGD": "9.68",
       "HKD": "58.81",
-      "ZAR": "134.51",
-      "INR": "641.76",
+      "ZAR": "134.49",
+      "INR": "641.70",
       "MYR": "31.88",
-      "PHP": "418.53",
+      "PHP": "418.41",
       "AED": "27.54"
     }
   },
@@ -3456,14 +3456,14 @@
       "CAD": "3.44",
       "GBP": "1.86",
       "EUR": "2.20",
-      "AUD": "3.89",
+      "AUD": "3.88",
       "NZD": "4.19",
       "SGD": "3.23",
       "HKD": "19.60",
-      "ZAR": "44.84",
-      "INR": "213.92",
+      "ZAR": "44.83",
+      "INR": "213.90",
       "MYR": "10.63",
-      "PHP": "139.51",
+      "PHP": "139.47",
       "AED": "9.18"
     },
     "evaluations": [
@@ -3708,17 +3708,17 @@
     ],
     "currencies": {
       "USD": "4.00",
-      "CAD": "5.50",
+      "CAD": "5.51",
       "GBP": "2.97",
       "EUR": "3.53",
       "AUD": "6.22",
       "NZD": "6.70",
       "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
       "MYR": "17.00",
-      "PHP": "223.22",
+      "PHP": "223.15",
       "AED": "14.69"
     },
     "evaluations": [
@@ -3794,10 +3794,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     },
     "evaluations": [
@@ -3855,10 +3855,10 @@
       "NZD": "4.36",
       "SGD": "3.35",
       "HKD": "20.39",
-      "ZAR": "46.63",
-      "INR": "222.48",
+      "ZAR": "46.62",
+      "INR": "222.46",
       "MYR": "11.05",
-      "PHP": "145.09",
+      "PHP": "145.05",
       "AED": "9.55"
     },
     "evaluations": [
@@ -3948,15 +3948,15 @@
       "USD": "3.50",
       "CAD": "4.82",
       "GBP": "2.60",
-      "EUR": "3.08",
+      "EUR": "3.09",
       "AUD": "5.44",
       "NZD": "5.87",
       "SGD": "4.52",
       "HKD": "27.44",
-      "ZAR": "62.77",
-      "INR": "299.49",
+      "ZAR": "62.76",
+      "INR": "299.46",
       "MYR": "14.88",
-      "PHP": "195.31",
+      "PHP": "195.26",
       "AED": "12.85"
     },
     "evaluations": [
@@ -3983,6 +3983,94 @@
           "id": "678768"
         },
         "userId": "678768"
+      }
+    ]
+  },
+  {
+    "id": "7944436",
+    "title": "World Peace Day Bundle",
+    "link": "https://ciarasclassroom.com/product/World-Peace-Day-Bundle-7944436",
+    "description": "<p>This bundle includes all you need to mark International World Peace Day in your classroom.  Included you will find Peace Day coloring activities, worksheets, bunting, display templates, wordsearches (with solutions) and poetry writing templates to engage your students.  All of the Peace themed resources can be used when exploring peace as a theme or unit, or specifically for marking World Peace Day.</p><p></p><p>If you would like to see some of the other resources that I love using with my students, check out my instagram account at <a href=\"https://www.instagram.com/ciarasclassroom/\">@ciarasclassroom</a>.</p><p></p><p><em>Also, I would really appreciate it if you could leave a review for this product on my store. Your feedback will help me to continue to make helpful resources for you and your students. You can also earn TpT credit to use towards future purchases on this website!</em></p><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/International-World-Peace-Day-Coloring-7867656?st=6c4d98699259d2af503ee9756af01c81\">International World Peace Day Coloring</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Culture-Project-and-Booklet-5931203\" target=\"_blank\" rel=\"noreferrer noopener\">My Culture Project</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Circle-Time-Conversation-Cards-for-Multicultural-Classrooms-5589695\" target=\"_blank\" rel=\"noreferrer noopener\">Circle Time Conversation Cards for Multicultural Classrooms</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Everyone-is-Welcome-Door-Display-Activity-5847028\" target=\"_blank\" rel=\"noreferrer noopener\">Everyone is Welcome Door Display</a></li></ul><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
+    "descriptionSnippet": "This bundle includes all you need to mark International World Peace Day in your classroom.  Included you will find Peace Day coloring activities, worksheets, bunting, display templates, wordsearches (with solutions) and poetry writing templates to engage your students.  All of the Peace themed resources can be used when exploring peace as a theme or unit, or specifically for marking World Peace Day. If you would like to see some of the other resources that I love using with my students, check ou",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/World-Peace-Day-Bundle-7944436-1730047410/750f-7944436-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/World-Peace-Day-Bundle-7944436-1730047410/750f-7944436-2.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/World-Peace-Day-Bundle-7944436-1730047410/750f-7944436-3.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/World-Peace-Day-Bundle-7944436-1730047410/750f-7944436-4.jpg"
+    ],
+    "slug": "World-Peace-Day-Bundle-7944436",
+    "reviews": 2,
+    "rating": 5,
+    "categories": [
+      "Activities",
+      "Printables",
+      "Graphic Organizers"
+    ],
+    "currencies": {
+      "USD": "9.80",
+      "CAD": "13.49",
+      "GBP": "7.28",
+      "EUR": "8.64",
+      "AUD": "15.23",
+      "NZD": "16.43",
+      "SGD": "12.64",
+      "HKD": "76.85",
+      "ZAR": "175.73",
+      "INR": "838.49",
+      "MYR": "41.65",
+      "PHP": "546.72",
+      "AED": "35.99"
+    },
+    "evaluations": [
+      {
+        "evaluationTypeId": "3",
+        "hasUserMarkedHelpful": false,
+        "helpfulCount": 0,
+        "id": "177098005",
+        "resourceId": "7944436",
+        "sellerId": "15522800",
+        "signals": {
+          "buyer_experience": "Such a great resource for International Peace Day! ",
+          "how_was_resource_used": "teacher_facing_resource",
+          "overall_qual_how_satisfied_stars": "extremely",
+          "standards_taught": [
+            "none"
+          ]
+        },
+        "updatedAt": "2023-09-27T00:18:13.000Z",
+        "user": {
+          "displayName": "Alexis Knowles",
+          "id": "645144"
+        },
+        "userId": "645144"
+      },
+      {
+        "evaluationTypeId": "3",
+        "hasUserMarkedHelpful": false,
+        "helpfulCount": 0,
+        "id": "176535350",
+        "resourceId": "7944436",
+        "sellerId": "15522800",
+        "signals": {
+          "buyer_experience": "This was a great resource.  Students were engaged and really enjoyed it.",
+          "how_was_resource_used": "student_facing_resource_in_class_learning",
+          "overall_qual_how_satisfied_stars": "extremely",
+          "standards_taught": [
+            "none"
+          ],
+          "this_resource_was_engaging_my_students": "agree_strong",
+          "which_grade_used_with": [
+            "4",
+            "3",
+            "5"
+          ]
+        },
+        "updatedAt": "2023-08-17T22:21:11.000Z",
+        "user": {
+          "displayName": "Kimberly C.",
+          "id": "9724353"
+        },
+        "userId": "9724353"
       }
     ]
   },
@@ -4533,94 +4621,6 @@
     ]
   },
   {
-    "id": "7944436",
-    "title": "World Peace Day Bundle",
-    "link": "https://ciarasclassroom.com/product/World-Peace-Day-Bundle-7944436",
-    "description": "<p>This bundle includes all you need to mark International World Peace Day in your classroom.  Included you will find Peace Day coloring activities, worksheets, bunting, display templates, wordsearches (with solutions) and poetry writing templates to engage your students.  All of the Peace themed resources can be used when exploring peace as a theme or unit, or specifically for marking World Peace Day.</p><p></p><p>If you would like to see some of the other resources that I love using with my students, check out my instagram account at <a href=\"https://www.instagram.com/ciarasclassroom/\">@ciarasclassroom</a>.</p><p></p><p><em>Also, I would really appreciate it if you could leave a review for this product on my store. Your feedback will help me to continue to make helpful resources for you and your students. You can also earn TpT credit to use towards future purchases on this website!</em></p><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/International-World-Peace-Day-Coloring-7867656?st=6c4d98699259d2af503ee9756af01c81\">International World Peace Day Coloring</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Culture-Project-and-Booklet-5931203\" target=\"_blank\" rel=\"noreferrer noopener\">My Culture Project</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Circle-Time-Conversation-Cards-for-Multicultural-Classrooms-5589695\" target=\"_blank\" rel=\"noreferrer noopener\">Circle Time Conversation Cards for Multicultural Classrooms</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Everyone-is-Welcome-Door-Display-Activity-5847028\" target=\"_blank\" rel=\"noreferrer noopener\">Everyone is Welcome Door Display</a></li></ul><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
-    "descriptionSnippet": "This bundle includes all you need to mark International World Peace Day in your classroom.  Included you will find Peace Day coloring activities, worksheets, bunting, display templates, wordsearches (with solutions) and poetry writing templates to engage your students.  All of the Peace themed resources can be used when exploring peace as a theme or unit, or specifically for marking World Peace Day. If you would like to see some of the other resources that I love using with my students, check ou",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/World-Peace-Day-Bundle-7944436-1730047410/750f-7944436-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/World-Peace-Day-Bundle-7944436-1730047410/750f-7944436-2.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/World-Peace-Day-Bundle-7944436-1730047410/750f-7944436-3.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/World-Peace-Day-Bundle-7944436-1730047410/750f-7944436-4.jpg"
-    ],
-    "slug": "World-Peace-Day-Bundle-7944436",
-    "reviews": 2,
-    "rating": 5,
-    "categories": [
-      "Activities",
-      "Printables",
-      "Graphic Organizers"
-    ],
-    "currencies": {
-      "USD": "9.80",
-      "CAD": "13.49",
-      "GBP": "7.28",
-      "EUR": "8.64",
-      "AUD": "15.23",
-      "NZD": "16.43",
-      "SGD": "12.64",
-      "HKD": "76.84",
-      "ZAR": "175.76",
-      "INR": "838.56",
-      "MYR": "41.65",
-      "PHP": "546.88",
-      "AED": "35.99"
-    },
-    "evaluations": [
-      {
-        "evaluationTypeId": "3",
-        "hasUserMarkedHelpful": false,
-        "helpfulCount": 0,
-        "id": "177098005",
-        "resourceId": "7944436",
-        "sellerId": "15522800",
-        "signals": {
-          "buyer_experience": "Such a great resource for International Peace Day! ",
-          "how_was_resource_used": "teacher_facing_resource",
-          "overall_qual_how_satisfied_stars": "extremely",
-          "standards_taught": [
-            "none"
-          ]
-        },
-        "updatedAt": "2023-09-27T00:18:13.000Z",
-        "user": {
-          "displayName": "Alexis Knowles",
-          "id": "645144"
-        },
-        "userId": "645144"
-      },
-      {
-        "evaluationTypeId": "3",
-        "hasUserMarkedHelpful": false,
-        "helpfulCount": 0,
-        "id": "176535350",
-        "resourceId": "7944436",
-        "sellerId": "15522800",
-        "signals": {
-          "buyer_experience": "This was a great resource.  Students were engaged and really enjoyed it.",
-          "how_was_resource_used": "student_facing_resource_in_class_learning",
-          "overall_qual_how_satisfied_stars": "extremely",
-          "standards_taught": [
-            "none"
-          ],
-          "this_resource_was_engaging_my_students": "agree_strong",
-          "which_grade_used_with": [
-            "4",
-            "3",
-            "5"
-          ]
-        },
-        "updatedAt": "2023-08-17T22:21:11.000Z",
-        "user": {
-          "displayName": "Kimberly C.",
-          "id": "9724353"
-        },
-        "userId": "9724353"
-      }
-    ]
-  },
-  {
     "id": "12318860",
     "title": "Bundle:  Back to School Collaborative Colouring Projects (as Gaeilge)",
     "link": "https://ciarasclassroom.com/product/Bundle-Back-to-School-Collaborative-Colouring-Projects-as-Gaeilge-12318860",
@@ -4641,17 +4641,17 @@
     ],
     "currencies": {
       "USD": "33.90",
-      "CAD": "46.65",
-      "GBP": "25.18",
+      "CAD": "46.66",
+      "GBP": "25.17",
       "EUR": "29.88",
-      "AUD": "52.69",
+      "AUD": "52.67",
       "NZD": "56.82",
       "SGD": "43.74",
-      "HKD": "265.81",
-      "ZAR": "607.99",
-      "INR": "2900.74",
-      "MYR": "144.09",
-      "PHP": "1891.75",
+      "HKD": "265.82",
+      "ZAR": "607.88",
+      "INR": "2900.50",
+      "MYR": "144.07",
+      "PHP": "1891.20",
       "AED": "124.50"
     }
   },
@@ -4677,17 +4677,17 @@
     ],
     "currencies": {
       "USD": "23.50",
-      "CAD": "32.34",
+      "CAD": "32.35",
       "GBP": "17.45",
-      "EUR": "20.71",
-      "AUD": "36.53",
+      "EUR": "20.72",
+      "AUD": "36.51",
       "NZD": "39.39",
       "SGD": "30.32",
-      "HKD": "184.26",
-      "ZAR": "421.47",
-      "INR": "2010.84",
+      "HKD": "184.27",
+      "ZAR": "421.39",
+      "INR": "2010.67",
       "MYR": "99.88",
-      "PHP": "1311.39",
+      "PHP": "1311.01",
       "AED": "86.30"
     }
   },
@@ -4713,14 +4713,14 @@
       "CAD": "3.44",
       "GBP": "1.86",
       "EUR": "2.20",
-      "AUD": "3.89",
+      "AUD": "3.88",
       "NZD": "4.19",
       "SGD": "3.23",
       "HKD": "19.60",
-      "ZAR": "44.84",
-      "INR": "213.92",
+      "ZAR": "44.83",
+      "INR": "213.90",
       "MYR": "10.63",
-      "PHP": "139.51",
+      "PHP": "139.47",
       "AED": "9.18"
     },
     "evaluations": [
@@ -4774,17 +4774,17 @@
     ],
     "currencies": {
       "USD": "4.00",
-      "CAD": "5.50",
+      "CAD": "5.51",
       "GBP": "2.97",
       "EUR": "3.53",
       "AUD": "6.22",
       "NZD": "6.70",
       "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
       "MYR": "17.00",
-      "PHP": "223.22",
+      "PHP": "223.15",
       "AED": "14.69"
     }
   },
@@ -4812,14 +4812,14 @@
       "CAD": "8.26",
       "GBP": "4.46",
       "EUR": "5.29",
-      "AUD": "9.33",
+      "AUD": "9.32",
       "NZD": "10.06",
       "SGD": "7.74",
       "HKD": "47.05",
-      "ZAR": "107.61",
-      "INR": "513.40",
+      "ZAR": "107.59",
+      "INR": "513.36",
       "MYR": "25.50",
-      "PHP": "334.82",
+      "PHP": "334.73",
       "AED": "22.04"
     },
     "evaluations": [
@@ -4870,17 +4870,17 @@
     ],
     "currencies": {
       "USD": "36.00",
-      "CAD": "49.54",
-      "GBP": "26.74",
+      "CAD": "49.55",
+      "GBP": "26.73",
       "EUR": "31.73",
-      "AUD": "55.96",
+      "AUD": "55.94",
       "NZD": "60.34",
       "SGD": "46.45",
-      "HKD": "282.28",
-      "ZAR": "645.65",
-      "INR": "3080.43",
-      "MYR": "153.01",
-      "PHP": "2008.94",
+      "HKD": "282.29",
+      "ZAR": "645.53",
+      "INR": "3080.18",
+      "MYR": "153.00",
+      "PHP": "2008.36",
       "AED": "132.21"
     }
   },
@@ -4905,17 +4905,17 @@
     ],
     "currencies": {
       "USD": "3.60",
-      "CAD": "4.95",
+      "CAD": "4.96",
       "GBP": "2.67",
       "EUR": "3.17",
-      "AUD": "5.60",
+      "AUD": "5.59",
       "NZD": "6.03",
       "SGD": "4.65",
       "HKD": "28.23",
-      "ZAR": "64.56",
-      "INR": "308.04",
+      "ZAR": "64.55",
+      "INR": "308.02",
       "MYR": "15.30",
-      "PHP": "200.89",
+      "PHP": "200.84",
       "AED": "13.22"
     },
     "evaluations": [
@@ -4969,17 +4969,17 @@
     ],
     "currencies": {
       "USD": "4.00",
-      "CAD": "5.50",
+      "CAD": "5.51",
       "GBP": "2.97",
       "EUR": "3.53",
       "AUD": "6.22",
       "NZD": "6.70",
       "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
       "MYR": "17.00",
-      "PHP": "223.22",
+      "PHP": "223.15",
       "AED": "14.69"
     },
     "evaluations": [
@@ -5029,17 +5029,17 @@
     ],
     "currencies": {
       "USD": "4.00",
-      "CAD": "5.50",
+      "CAD": "5.51",
       "GBP": "2.97",
       "EUR": "3.53",
       "AUD": "6.22",
       "NZD": "6.70",
       "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
       "MYR": "17.00",
-      "PHP": "223.22",
+      "PHP": "223.15",
       "AED": "14.69"
     },
     "evaluations": [
@@ -5093,14 +5093,14 @@
       "CAD": "3.44",
       "GBP": "1.86",
       "EUR": "2.20",
-      "AUD": "3.89",
+      "AUD": "3.88",
       "NZD": "4.19",
       "SGD": "3.23",
       "HKD": "19.60",
-      "ZAR": "44.84",
-      "INR": "213.92",
+      "ZAR": "44.83",
+      "INR": "213.90",
       "MYR": "10.63",
-      "PHP": "139.51",
+      "PHP": "139.47",
       "AED": "9.18"
     }
   },
@@ -5127,14 +5127,14 @@
       "CAD": "11.01",
       "GBP": "5.94",
       "EUR": "7.05",
-      "AUD": "12.44",
+      "AUD": "12.43",
       "NZD": "13.41",
       "SGD": "10.32",
       "HKD": "62.73",
-      "ZAR": "143.48",
-      "INR": "684.54",
+      "ZAR": "143.45",
+      "INR": "684.48",
       "MYR": "34.00",
-      "PHP": "446.43",
+      "PHP": "446.30",
       "AED": "29.38"
     }
   },
@@ -5157,17 +5157,17 @@
     ],
     "currencies": {
       "USD": "15.00",
-      "CAD": "20.64",
+      "CAD": "20.65",
       "GBP": "11.14",
       "EUR": "13.22",
-      "AUD": "23.32",
+      "AUD": "23.31",
       "NZD": "25.14",
       "SGD": "19.35",
       "HKD": "117.62",
-      "ZAR": "269.02",
-      "INR": "1283.51",
-      "MYR": "63.76",
-      "PHP": "837.06",
+      "ZAR": "268.97",
+      "INR": "1283.41",
+      "MYR": "63.75",
+      "PHP": "836.82",
       "AED": "55.09"
     },
     "evaluations": [
@@ -5221,10 +5221,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     },
     "evaluations": [
@@ -5274,17 +5274,17 @@
     ],
     "currencies": {
       "USD": "4.00",
-      "CAD": "5.50",
+      "CAD": "5.51",
       "GBP": "2.97",
       "EUR": "3.53",
       "AUD": "6.22",
       "NZD": "6.70",
       "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
       "MYR": "17.00",
-      "PHP": "223.22",
+      "PHP": "223.15",
       "AED": "14.69"
     },
     "evaluations": [
@@ -5335,17 +5335,17 @@
     ],
     "currencies": {
       "USD": "26.45",
-      "CAD": "36.40",
+      "CAD": "36.41",
       "GBP": "19.64",
-      "EUR": "23.31",
-      "AUD": "41.11",
-      "NZD": "44.33",
+      "EUR": "23.32",
+      "AUD": "41.10",
+      "NZD": "44.34",
       "SGD": "34.13",
-      "HKD": "207.39",
-      "ZAR": "474.37",
-      "INR": "2263.26",
-      "MYR": "112.42",
-      "PHP": "1476.01",
+      "HKD": "207.41",
+      "ZAR": "474.29",
+      "INR": "2263.08",
+      "MYR": "112.41",
+      "PHP": "1475.58",
       "AED": "97.14"
     }
   },
@@ -5371,16 +5371,16 @@
     "currencies": {
       "USD": "3.75",
       "CAD": "5.16",
-      "GBP": "2.79",
+      "GBP": "2.78",
       "EUR": "3.31",
       "AUD": "5.83",
       "NZD": "6.29",
       "SGD": "4.84",
-      "HKD": "29.40",
-      "ZAR": "67.26",
-      "INR": "320.88",
+      "HKD": "29.41",
+      "ZAR": "67.24",
+      "INR": "320.85",
       "MYR": "15.94",
-      "PHP": "209.26",
+      "PHP": "209.20",
       "AED": "13.77"
     }
   },
@@ -5412,68 +5412,13 @@
       "AUD": "7.77",
       "NZD": "8.38",
       "SGD": "6.45",
-      "HKD": "39.20",
-      "ZAR": "89.67",
-      "INR": "427.84",
+      "HKD": "39.21",
+      "ZAR": "89.66",
+      "INR": "427.80",
       "MYR": "21.25",
-      "PHP": "279.02",
+      "PHP": "278.94",
       "AED": "18.36"
     }
-  },
-  {
-    "id": "8456543",
-    "title": "Classroom Library Checklist for Diversity and Inclusion",
-    "link": "https://ciarasclassroom.com/product/Classroom-Library-Checklist-for-Diversity-and-Inclusion-8456543",
-    "description": "<p>Diversity, inclusion and representation are so important in your classroom library.  Use this class library checklist to complete an inclusion audit of the book available and identify any gaps in your library.  The inclusive classroom library checklist explores various aspects of diversity including viewpoints, images, characters, authors etc.  A student survey for gathering insights from students is also included in this pack, alongside a four page list of suggested books to help diversify your classroom library.</p><p><br /><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Inclusive-Classroom-Posters-for-Celebrating-Diversity-7174795\" target=\"_blank\" rel=\"noreferrer noopener\">Inclusive Classroom Posters for Celebrating Diversity</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Culture-Project-and-Booklet-5931203\" target=\"_blank\" rel=\"noreferrer noopener\">My Culture Project</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Circle-Time-Conversation-Cards-for-Multicultural-Classrooms-5589695\" target=\"_blank\" rel=\"noreferrer noopener\">Circle Time Conversation Cards for Multicultural Classrooms</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Everyone-is-Welcome-Door-Display-Activity-5847028\" target=\"_blank\" rel=\"noreferrer noopener\">Everyone is Welcome Door Display</a></li></ul><p></p><p>If you would like to see some of the other resources that I love using with my students, check out my instagram account at <a href=\"https://www.instagram.com/ciarasclassroom/\">@ciarasclassroom</a>.</p><p></p><p><em>Also, I would really appreciate it if you could leave a review for this product on my store. Your feedback will help me to continue to make helpful resources for you and your students. You can also earn TpT credit to use towards future purchases on this website!</em></p><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
-    "descriptionSnippet": "Diversity, inclusion and representation are so important in your classroom library.  Use this class library checklist to complete an inclusion audit of the book available and identify any gaps in your library.  The inclusive classroom library checklist explores various aspects of diversity including viewpoints, images, characters, authors etc.  A student survey for gathering insights from students is also included in this pack, alongside a four page list of suggested books to help diversify your",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/Classroom-Library-Checklist-for-Diversity-and-Inclusion-8456543-1723195107/750f-8456543-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Classroom-Library-Checklist-for-Diversity-and-Inclusion-8456543-1723195107/750f-8456543-2.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Classroom-Library-Checklist-for-Diversity-and-Inclusion-8456543-1723195107/750f-8456543-3.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Classroom-Library-Checklist-for-Diversity-and-Inclusion-8456543-1723195107/750f-8456543-4.jpg"
-    ],
-    "slug": "Classroom-Library-Checklist-for-Diversity-and-Inclusion-8456543",
-    "reviews": 1,
-    "rating": 5,
-    "categories": [
-      "Professional Documents"
-    ],
-    "currencies": {
-      "USD": "4.90",
-      "CAD": "6.74",
-      "GBP": "3.64",
-      "EUR": "4.32",
-      "AUD": "7.62",
-      "NZD": "8.21",
-      "SGD": "6.32",
-      "HKD": "38.42",
-      "ZAR": "87.88",
-      "INR": "419.28",
-      "MYR": "20.83",
-      "PHP": "273.44",
-      "AED": "18.00"
-    },
-    "evaluations": [
-      {
-        "evaluationTypeId": "3",
-        "hasUserMarkedHelpful": false,
-        "helpfulCount": 0,
-        "id": "175203638",
-        "resourceId": "8456543",
-        "sellerId": "15522800",
-        "signals": {
-          "buyer_experience": "I used the library checklist to re organize my classroom library. Thank you!",
-          "how_was_resource_used": "other",
-          "overall_qual_how_satisfied_stars": "extremely"
-        },
-        "updatedAt": "2023-05-13T11:35:14.000Z",
-        "user": {
-          "displayName": "THE ADVENTURES OF KINDERGARTEN",
-          "id": "4380863"
-        },
-        "userId": "4380863"
-      }
-    ]
   },
   {
     "id": "12096282",
@@ -5497,17 +5442,17 @@
     ],
     "currencies": {
       "USD": "4.00",
-      "CAD": "5.50",
+      "CAD": "5.51",
       "GBP": "2.97",
       "EUR": "3.53",
       "AUD": "6.22",
       "NZD": "6.70",
       "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
       "MYR": "17.00",
-      "PHP": "223.22",
+      "PHP": "223.15",
       "AED": "14.69"
     }
   },
@@ -5536,10 +5481,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -5565,15 +5510,15 @@
       "USD": "3.50",
       "CAD": "4.82",
       "GBP": "2.60",
-      "EUR": "3.08",
+      "EUR": "3.09",
       "AUD": "5.44",
       "NZD": "5.87",
       "SGD": "4.52",
       "HKD": "27.44",
-      "ZAR": "62.77",
-      "INR": "299.49",
+      "ZAR": "62.76",
+      "INR": "299.46",
       "MYR": "14.88",
-      "PHP": "195.31",
+      "PHP": "195.26",
       "AED": "12.85"
     },
     "evaluations": [
@@ -5624,17 +5569,17 @@
     ],
     "currencies": {
       "USD": "4.00",
-      "CAD": "5.50",
+      "CAD": "5.51",
       "GBP": "2.97",
       "EUR": "3.53",
       "AUD": "6.22",
       "NZD": "6.70",
       "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
       "MYR": "17.00",
-      "PHP": "223.22",
+      "PHP": "223.15",
       "AED": "14.69"
     }
   },
@@ -5660,17 +5605,17 @@
     ],
     "currencies": {
       "USD": "5.30",
-      "CAD": "7.29",
+      "CAD": "7.30",
       "GBP": "3.94",
       "EUR": "4.67",
       "AUD": "8.24",
       "NZD": "8.88",
       "SGD": "6.84",
       "HKD": "41.56",
-      "ZAR": "95.05",
-      "INR": "453.51",
-      "MYR": "22.53",
-      "PHP": "295.76",
+      "ZAR": "95.04",
+      "INR": "453.47",
+      "MYR": "22.52",
+      "PHP": "295.67",
       "AED": "19.46"
     },
     "evaluations": [
@@ -5737,9 +5682,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "17.93",
-      "INR": "85.57",
+      "INR": "85.56",
       "MYR": "4.25",
-      "PHP": "55.80",
+      "PHP": "55.79",
       "AED": "3.67"
     },
     "evaluations": [
@@ -5811,14 +5756,14 @@
       "CAD": "8.26",
       "GBP": "4.46",
       "EUR": "5.29",
-      "AUD": "9.33",
+      "AUD": "9.32",
       "NZD": "10.06",
       "SGD": "7.74",
       "HKD": "47.05",
-      "ZAR": "107.61",
-      "INR": "513.40",
+      "ZAR": "107.59",
+      "INR": "513.36",
       "MYR": "25.50",
-      "PHP": "334.82",
+      "PHP": "334.73",
       "AED": "22.04"
     },
     "evaluations": [
@@ -5894,10 +5839,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     }
   },
@@ -5928,10 +5873,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     },
     "evaluations": [
@@ -5989,6 +5934,61 @@
     ]
   },
   {
+    "id": "8456543",
+    "title": "Classroom Library Checklist for Diversity and Inclusion",
+    "link": "https://ciarasclassroom.com/product/Classroom-Library-Checklist-for-Diversity-and-Inclusion-8456543",
+    "description": "<p>Diversity, inclusion and representation are so important in your classroom library.  Use this class library checklist to complete an inclusion audit of the book available and identify any gaps in your library.  The inclusive classroom library checklist explores various aspects of diversity including viewpoints, images, characters, authors etc.  A student survey for gathering insights from students is also included in this pack, alongside a four page list of suggested books to help diversify your classroom library.</p><p><br /><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Inclusive-Classroom-Posters-for-Celebrating-Diversity-7174795\" target=\"_blank\" rel=\"noreferrer noopener\">Inclusive Classroom Posters for Celebrating Diversity</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Culture-Project-and-Booklet-5931203\" target=\"_blank\" rel=\"noreferrer noopener\">My Culture Project</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Circle-Time-Conversation-Cards-for-Multicultural-Classrooms-5589695\" target=\"_blank\" rel=\"noreferrer noopener\">Circle Time Conversation Cards for Multicultural Classrooms</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Everyone-is-Welcome-Door-Display-Activity-5847028\" target=\"_blank\" rel=\"noreferrer noopener\">Everyone is Welcome Door Display</a></li></ul><p></p><p>If you would like to see some of the other resources that I love using with my students, check out my instagram account at <a href=\"https://www.instagram.com/ciarasclassroom/\">@ciarasclassroom</a>.</p><p></p><p><em>Also, I would really appreciate it if you could leave a review for this product on my store. Your feedback will help me to continue to make helpful resources for you and your students. You can also earn TpT credit to use towards future purchases on this website!</em></p><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
+    "descriptionSnippet": "Diversity, inclusion and representation are so important in your classroom library.  Use this class library checklist to complete an inclusion audit of the book available and identify any gaps in your library.  The inclusive classroom library checklist explores various aspects of diversity including viewpoints, images, characters, authors etc.  A student survey for gathering insights from students is also included in this pack, alongside a four page list of suggested books to help diversify your",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/Classroom-Library-Checklist-for-Diversity-and-Inclusion-8456543-1723195107/750f-8456543-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Classroom-Library-Checklist-for-Diversity-and-Inclusion-8456543-1723195107/750f-8456543-2.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Classroom-Library-Checklist-for-Diversity-and-Inclusion-8456543-1723195107/750f-8456543-3.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Classroom-Library-Checklist-for-Diversity-and-Inclusion-8456543-1723195107/750f-8456543-4.jpg"
+    ],
+    "slug": "Classroom-Library-Checklist-for-Diversity-and-Inclusion-8456543",
+    "reviews": 1,
+    "rating": 5,
+    "categories": [
+      "Professional Documents"
+    ],
+    "currencies": {
+      "USD": "4.90",
+      "CAD": "6.74",
+      "GBP": "3.64",
+      "EUR": "4.32",
+      "AUD": "7.61",
+      "NZD": "8.21",
+      "SGD": "6.32",
+      "HKD": "38.42",
+      "ZAR": "87.86",
+      "INR": "419.25",
+      "MYR": "20.83",
+      "PHP": "273.36",
+      "AED": "18.00"
+    },
+    "evaluations": [
+      {
+        "evaluationTypeId": "3",
+        "hasUserMarkedHelpful": false,
+        "helpfulCount": 0,
+        "id": "175203638",
+        "resourceId": "8456543",
+        "sellerId": "15522800",
+        "signals": {
+          "buyer_experience": "I used the library checklist to re organize my classroom library. Thank you!",
+          "how_was_resource_used": "other",
+          "overall_qual_how_satisfied_stars": "extremely"
+        },
+        "updatedAt": "2023-05-13T11:35:14.000Z",
+        "user": {
+          "displayName": "THE ADVENTURES OF KINDERGARTEN",
+          "id": "4380863"
+        },
+        "userId": "4380863"
+      }
+    ]
+  },
+  {
     "id": "5639067",
     "title": "Proverb Posters from Around the World",
     "link": "https://ciarasclassroom.com/product/Proverb-Posters-from-Around-the-World-5639067",
@@ -6016,10 +6016,10 @@
       "NZD": "5.36",
       "SGD": "4.13",
       "HKD": "25.09",
-      "ZAR": "57.39",
-      "INR": "273.82",
+      "ZAR": "57.38",
+      "INR": "273.79",
       "MYR": "13.60",
-      "PHP": "178.57",
+      "PHP": "178.52",
       "AED": "11.75"
     },
     "evaluations": [
@@ -6045,6 +6045,39 @@
     ]
   },
   {
+    "id": "7100601",
+    "title": "Classroom Resources for Inclusive Education",
+    "link": "https://ciarasclassroom.com/product/Classroom-Resources-for-Inclusive-Education-7100601",
+    "description": "<p>This product is a bundle of 15 of my most used products for creating a positive and inclusive classroom for all students.  This inclusive resource pack includes displays, worksheets, PowerPoints, projects and templates relating to topics such as gender equality, religious diversity, cultural diversity, respectful conversation, mutual understanding, inclusion and classroom community.  If you are looking for ways to make your classroom welcoming and inclusive for children from all backgrounds, family structures, cultures, religions, ethnicities and walks of life, this bundle will be ideal for you!</p><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
+    "descriptionSnippet": "This product is a bundle of 15 of my most used products for creating a positive and inclusive classroom for all students.  This inclusive resource pack includes displays, worksheets, PowerPoints, projects and templates relating to topics such as gender equality, religious diversity, cultural diversity, respectful conversation, mutual understanding, inclusion and classroom community.  If you are looking for ways to make your classroom welcoming and inclusive for children from all backgrounds, fam",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/Classroom-Resources-for-Inclusive-Education-7100601-1727549009/750f-7100601-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Classroom-Resources-for-Inclusive-Education-7100601-1727549009/750f-7100601-2.jpg"
+    ],
+    "slug": "Classroom-Resources-for-Inclusive-Education-7100601",
+    "reviews": 0,
+    "rating": 0,
+    "categories": [
+      "Activities",
+      "Printables"
+    ],
+    "currencies": {
+      "USD": "42.00",
+      "CAD": "57.81",
+      "GBP": "31.19",
+      "EUR": "37.02",
+      "AUD": "65.26",
+      "NZD": "70.40",
+      "SGD": "54.19",
+      "HKD": "329.34",
+      "ZAR": "753.12",
+      "INR": "3593.54",
+      "MYR": "178.50",
+      "PHP": "2343.08",
+      "AED": "154.25"
+    }
+  },
+  {
     "id": "12098601",
     "title": "Fáilte go Rang a Dó - Collaborative Art Project",
     "link": "https://ciarasclassroom.com/product/Failte-go-Rang-a-Do-Collaborative-Art-Project-12098601",
@@ -6066,51 +6099,18 @@
     ],
     "currencies": {
       "USD": "4.00",
-      "CAD": "5.50",
+      "CAD": "5.51",
       "GBP": "2.97",
       "EUR": "3.53",
       "AUD": "6.22",
       "NZD": "6.70",
       "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
       "MYR": "17.00",
-      "PHP": "223.22",
+      "PHP": "223.15",
       "AED": "14.69"
-    }
-  },
-  {
-    "id": "7100601",
-    "title": "Classroom Resources for Inclusive Education",
-    "link": "https://ciarasclassroom.com/product/Classroom-Resources-for-Inclusive-Education-7100601",
-    "description": "<p>This product is a bundle of 15 of my most used products for creating a positive and inclusive classroom for all students.  This inclusive resource pack includes displays, worksheets, PowerPoints, projects and templates relating to topics such as gender equality, religious diversity, cultural diversity, respectful conversation, mutual understanding, inclusion and classroom community.  If you are looking for ways to make your classroom welcoming and inclusive for children from all backgrounds, family structures, cultures, religions, ethnicities and walks of life, this bundle will be ideal for you!</p><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
-    "descriptionSnippet": "This product is a bundle of 15 of my most used products for creating a positive and inclusive classroom for all students.  This inclusive resource pack includes displays, worksheets, PowerPoints, projects and templates relating to topics such as gender equality, religious diversity, cultural diversity, respectful conversation, mutual understanding, inclusion and classroom community.  If you are looking for ways to make your classroom welcoming and inclusive for children from all backgrounds, fam",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/Classroom-Resources-for-Inclusive-Education-7100601-1727549009/750f-7100601-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Classroom-Resources-for-Inclusive-Education-7100601-1727549009/750f-7100601-2.jpg"
-    ],
-    "slug": "Classroom-Resources-for-Inclusive-Education-7100601",
-    "reviews": 0,
-    "rating": 0,
-    "categories": [
-      "Activities",
-      "Printables"
-    ],
-    "currencies": {
-      "USD": "42.00",
-      "CAD": "57.80",
-      "GBP": "31.19",
-      "EUR": "37.02",
-      "AUD": "65.28",
-      "NZD": "70.40",
-      "SGD": "54.19",
-      "HKD": "329.32",
-      "ZAR": "753.26",
-      "INR": "3593.84",
-      "MYR": "178.52",
-      "PHP": "2343.76",
-      "AED": "154.25"
     }
   },
   {
@@ -6137,14 +6137,14 @@
       "CAD": "8.26",
       "GBP": "4.46",
       "EUR": "5.29",
-      "AUD": "9.33",
+      "AUD": "9.32",
       "NZD": "10.06",
       "SGD": "7.74",
       "HKD": "47.05",
-      "ZAR": "107.61",
-      "INR": "513.40",
+      "ZAR": "107.59",
+      "INR": "513.36",
       "MYR": "25.50",
-      "PHP": "334.82",
+      "PHP": "334.73",
       "AED": "22.04"
     }
   },
@@ -6172,14 +6172,14 @@
       "CAD": "1.65",
       "GBP": "0.89",
       "EUR": "1.06",
-      "AUD": "1.87",
+      "AUD": "1.86",
       "NZD": "2.01",
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "21.52",
-      "INR": "102.68",
+      "INR": "102.67",
       "MYR": "5.10",
-      "PHP": "66.96",
+      "PHP": "66.95",
       "AED": "4.41"
     },
     "evaluations": [
@@ -6231,17 +6231,17 @@
     ],
     "currencies": {
       "USD": "11.94",
-      "CAD": "16.43",
+      "CAD": "16.44",
       "GBP": "8.87",
-      "EUR": "10.52",
-      "AUD": "18.56",
+      "EUR": "10.53",
+      "AUD": "18.55",
       "NZD": "20.01",
       "SGD": "15.41",
-      "HKD": "93.62",
-      "ZAR": "214.14",
-      "INR": "1021.68",
-      "MYR": "50.75",
-      "PHP": "666.30",
+      "HKD": "93.63",
+      "ZAR": "214.10",
+      "INR": "1021.59",
+      "MYR": "50.74",
+      "PHP": "666.11",
       "AED": "43.85"
     },
     "evaluations": [
@@ -6296,17 +6296,17 @@
     ],
     "currencies": {
       "USD": "4.00",
-      "CAD": "5.50",
+      "CAD": "5.51",
       "GBP": "2.97",
       "EUR": "3.53",
       "AUD": "6.22",
       "NZD": "6.70",
       "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
       "MYR": "17.00",
-      "PHP": "223.22",
+      "PHP": "223.15",
       "AED": "14.69"
     }
   },
@@ -6332,17 +6332,17 @@
     ],
     "currencies": {
       "USD": "4.00",
-      "CAD": "5.50",
+      "CAD": "5.51",
       "GBP": "2.97",
       "EUR": "3.53",
       "AUD": "6.22",
       "NZD": "6.70",
       "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
       "MYR": "17.00",
-      "PHP": "223.22",
+      "PHP": "223.15",
       "AED": "14.69"
     }
   },
@@ -6368,18 +6368,53 @@
     ],
     "currencies": {
       "USD": "4.00",
-      "CAD": "5.50",
+      "CAD": "5.51",
       "GBP": "2.97",
       "EUR": "3.53",
       "AUD": "6.22",
       "NZD": "6.70",
       "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
       "MYR": "17.00",
-      "PHP": "223.22",
+      "PHP": "223.15",
       "AED": "14.69"
+    }
+  },
+  {
+    "id": "11660126",
+    "title": "Fingerprint Tree Thank You Gift",
+    "link": "https://ciarasclassroom.com/product/Fingerprint-Tree-Thank-You-Gift-11660126",
+    "description": "<p>This Fingerprint Tree is the perfect Thank You gift for any teacher or school staff member!  Simply print and invite the students to add a fingerprint as a leaf on the tree.  Names could also be added onto each leaf or at the bottom of the tree.  This would make a beautiful and personalised end of year teacher gift or Teacher Appreciation gift!  This pack includes 9 different font options to choose from.  </p><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/First-Day-and-Last-Day-of-School-Signs-for-Photos-Ireland-8166539\" target=\"_blank\" rel=\"noreferrer noopener\">First Day and Last Day of School Signs for Photos - Ireland</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Summer-Holiday-Plans-8097650\" target=\"_blank\" rel=\"noreferrer noopener\">My Summer Holiday Plans</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Last-Week-of-School-Bundle-8170932\" target=\"_blank\" rel=\"noreferrer noopener\">Last Week of School Bundle</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Countdown-to-Summer-Jar-Activity-6939806\" target=\"_blank\" rel=\"noreferrer noopener\">Countdown to Summer Jar Activity</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/I-Wish-My-Teacher-Knew-Notes-8092854\" target=\"_blank\" rel=\"noreferrer noopener\">I Wish My Teacher Knew Notes</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/End-of-Year-Graduation-Certificates-Ireland-9512681\" target=\"_blank\" rel=\"noreferrer noopener\">End of Year Graduation Certificates - Ireland</a></li></ul><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
+    "descriptionSnippet": "This Fingerprint Tree is the perfect Thank You gift for any teacher or school staff member!  Simply print and invite the students to add a fingerprint as a leaf on the tree.  Names could also be added onto each leaf or at the bottom of the tree.  This would make a beautiful and personalised end of year teacher gift or Teacher Appreciation gift!  This pack includes 9 different font options to choose from.   Other resources you may be interested in:First Day and Last Day of School Signs for Photos",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/Fingerprint-Tree-Thank-You-Gift-11660126-1748080858/750f-11660126-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Fingerprint-Tree-Thank-You-Gift-11660126-1748080858/750f-11660126-2.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Fingerprint-Tree-Thank-You-Gift-11660126-1748080858/750f-11660126-3.jpg"
+    ],
+    "slug": "Fingerprint-Tree-Thank-You-Gift-11660126",
+    "reviews": 0,
+    "rating": 0,
+    "categories": [
+      "Projects",
+      "Activities",
+      "Printables"
+    ],
+    "currencies": {
+      "USD": "1.95",
+      "CAD": "2.68",
+      "GBP": "1.45",
+      "EUR": "1.72",
+      "AUD": "3.03",
+      "NZD": "3.27",
+      "SGD": "2.52",
+      "HKD": "15.29",
+      "ZAR": "34.97",
+      "INR": "166.84",
+      "MYR": "8.29",
+      "PHP": "108.79",
+      "AED": "7.16"
     }
   },
   {
@@ -6407,10 +6442,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     },
     "evaluations": [
@@ -6460,17 +6495,17 @@
     ],
     "currencies": {
       "USD": "4.00",
-      "CAD": "5.50",
+      "CAD": "5.51",
       "GBP": "2.97",
       "EUR": "3.53",
       "AUD": "6.22",
       "NZD": "6.70",
       "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
       "MYR": "17.00",
-      "PHP": "223.22",
+      "PHP": "223.15",
       "AED": "14.69"
     }
   },
@@ -6496,53 +6531,17 @@
     ],
     "currencies": {
       "USD": "4.00",
-      "CAD": "5.50",
+      "CAD": "5.51",
       "GBP": "2.97",
       "EUR": "3.53",
       "AUD": "6.22",
       "NZD": "6.70",
       "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
       "MYR": "17.00",
-      "PHP": "223.22",
-      "AED": "14.69"
-    }
-  },
-  {
-    "id": "12093802",
-    "title": "Fáilte go Rang na Naíonáin Bheaga - Collaborative Art Project",
-    "link": "https://ciarasclassroom.com/product/Failte-go-Rang-na-Naionain-Bheaga-Collaborative-Art-Project-12093802",
-    "description": "<p>Start of the new school year with your Junior Infants students with our Welcome to Junior Infants Collaborative Art Project. This back to school collaborative colouring project allows your students to express their creativity and anticipation for the new school year ahead through collaborative artwork.</p><p></p><p><strong>Key Features:</strong></p><ul><li><strong>Collaborative Creativity: </strong>These artworks promote collaboration and teamwork, as students work together to create a beautiful, larger display. It's not just art; it's an opportunity for students to see how we all play an important part in our class community as we each contribute to the bigger picture.</li><li><strong>Multiple Options:  </strong>8, 16, 18, 25, 32 and 36 sheet versions included.</li><li><strong>Seasonal Classroom Decor:</strong> These collaborative artworks go beyond the usual 'Back to School' art activities. They create a beautiful collaborative piece of back-to-school classroom decor!</li><li><strong>No Prep, No Stress:</strong> We value teachers' time and have designed this project for ease of use. Simply print, distribute the pieces, and witness your students' creativity come to life.</li></ul><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Growing-Bundle-Collaborative-Art-Projects-10421818\" target=\"_blank\" rel=\"noreferrer noopener\">Growing Bundle: Collaborative Art Projects</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Back-to-School-Colouring-Pages-12052220?st=73658a55abc3928ad164413c0f550dd4\" target=\"_blank\" rel=\"noreferrer noopener\">Back to School Colouring Pages</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Back-to-School-To-Do-List-for-Teachers-9994432\" target=\"_blank\" rel=\"noreferrer noopener\">Back to School To Do List</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Editable-Class-Newsletter-Templates-9110432\" target=\"_blank\" rel=\"noreferrer noopener\">Editable Class Newsletter Templates</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Rainbow-Classroom-Door-Display-8878368\" target=\"_blank\" rel=\"noreferrer noopener\">Rainbow Classroom Door Display</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Everyone-is-Welcome-Door-Display-Activity-5847028\" target=\"_blank\" rel=\"noreferrer noopener\">Everyone is Welcome Door Display</a></li></ul><p><br />*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
-    "descriptionSnippet": "Start of the new school year with your Junior Infants students with our Welcome to Junior Infants Collaborative Art Project. This back to school collaborative colouring project allows your students to express their creativity and anticipation for the new school year ahead through collaborative artwork. Key Features:Collaborative Creativity: These artworks promote collaboration and teamwork, as students work together to create a beautiful, larger display. It's not just art; it's an opportunity fo",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-na-Naionain-Bheaga-Collaborative-Art-Project-12093802-1724606783/750f-12093802-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-na-Naionain-Bheaga-Collaborative-Art-Project-12093802-1724606783/750f-12093802-2.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-na-Naionain-Bheaga-Collaborative-Art-Project-12093802-1724606783/750f-12093802-3.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-na-Naionain-Bheaga-Collaborative-Art-Project-12093802-1724606783/750f-12093802-4.jpg"
-    ],
-    "slug": "Failte-go-Rang-na-Naionain-Bheaga-Collaborative-Art-Project-12093802",
-    "reviews": 0,
-    "rating": 0,
-    "categories": [
-      "Activities",
-      "Printables",
-      "Posters"
-    ],
-    "currencies": {
-      "USD": "4.00",
-      "CAD": "5.50",
-      "GBP": "2.97",
-      "EUR": "3.53",
-      "AUD": "6.22",
-      "NZD": "6.70",
-      "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
-      "MYR": "17.00",
-      "PHP": "223.22",
+      "PHP": "223.15",
       "AED": "14.69"
     }
   },
@@ -6568,18 +6567,54 @@
     ],
     "currencies": {
       "USD": "1.90",
-      "CAD": "2.61",
+      "CAD": "2.62",
       "GBP": "1.41",
       "EUR": "1.67",
       "AUD": "2.95",
       "NZD": "3.18",
       "SGD": "2.45",
       "HKD": "14.90",
-      "ZAR": "34.08",
-      "INR": "162.58",
-      "MYR": "8.08",
-      "PHP": "106.03",
+      "ZAR": "34.07",
+      "INR": "162.56",
+      "MYR": "8.07",
+      "PHP": "106.00",
       "AED": "6.98"
+    }
+  },
+  {
+    "id": "12093802",
+    "title": "Fáilte go Rang na Naíonáin Bheaga - Collaborative Art Project",
+    "link": "https://ciarasclassroom.com/product/Failte-go-Rang-na-Naionain-Bheaga-Collaborative-Art-Project-12093802",
+    "description": "<p>Start of the new school year with your Junior Infants students with our Welcome to Junior Infants Collaborative Art Project. This back to school collaborative colouring project allows your students to express their creativity and anticipation for the new school year ahead through collaborative artwork.</p><p></p><p><strong>Key Features:</strong></p><ul><li><strong>Collaborative Creativity: </strong>These artworks promote collaboration and teamwork, as students work together to create a beautiful, larger display. It's not just art; it's an opportunity for students to see how we all play an important part in our class community as we each contribute to the bigger picture.</li><li><strong>Multiple Options:  </strong>8, 16, 18, 25, 32 and 36 sheet versions included.</li><li><strong>Seasonal Classroom Decor:</strong> These collaborative artworks go beyond the usual 'Back to School' art activities. They create a beautiful collaborative piece of back-to-school classroom decor!</li><li><strong>No Prep, No Stress:</strong> We value teachers' time and have designed this project for ease of use. Simply print, distribute the pieces, and witness your students' creativity come to life.</li></ul><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Growing-Bundle-Collaborative-Art-Projects-10421818\" target=\"_blank\" rel=\"noreferrer noopener\">Growing Bundle: Collaborative Art Projects</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Back-to-School-Colouring-Pages-12052220?st=73658a55abc3928ad164413c0f550dd4\" target=\"_blank\" rel=\"noreferrer noopener\">Back to School Colouring Pages</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Back-to-School-To-Do-List-for-Teachers-9994432\" target=\"_blank\" rel=\"noreferrer noopener\">Back to School To Do List</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Editable-Class-Newsletter-Templates-9110432\" target=\"_blank\" rel=\"noreferrer noopener\">Editable Class Newsletter Templates</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Rainbow-Classroom-Door-Display-8878368\" target=\"_blank\" rel=\"noreferrer noopener\">Rainbow Classroom Door Display</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Everyone-is-Welcome-Door-Display-Activity-5847028\" target=\"_blank\" rel=\"noreferrer noopener\">Everyone is Welcome Door Display</a></li></ul><p><br />*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
+    "descriptionSnippet": "Start of the new school year with your Junior Infants students with our Welcome to Junior Infants Collaborative Art Project. This back to school collaborative colouring project allows your students to express their creativity and anticipation for the new school year ahead through collaborative artwork. Key Features:Collaborative Creativity: These artworks promote collaboration and teamwork, as students work together to create a beautiful, larger display. It's not just art; it's an opportunity fo",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-na-Naionain-Bheaga-Collaborative-Art-Project-12093802-1724606783/750f-12093802-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-na-Naionain-Bheaga-Collaborative-Art-Project-12093802-1724606783/750f-12093802-2.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-na-Naionain-Bheaga-Collaborative-Art-Project-12093802-1724606783/750f-12093802-3.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-na-Naionain-Bheaga-Collaborative-Art-Project-12093802-1724606783/750f-12093802-4.jpg"
+    ],
+    "slug": "Failte-go-Rang-na-Naionain-Bheaga-Collaborative-Art-Project-12093802",
+    "reviews": 0,
+    "rating": 0,
+    "categories": [
+      "Activities",
+      "Printables",
+      "Posters"
+    ],
+    "currencies": {
+      "USD": "4.00",
+      "CAD": "5.51",
+      "GBP": "2.97",
+      "EUR": "3.53",
+      "AUD": "6.22",
+      "NZD": "6.70",
+      "SGD": "5.16",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
+      "MYR": "17.00",
+      "PHP": "223.15",
+      "AED": "14.69"
     }
   },
   {
@@ -6606,15 +6641,15 @@
       "USD": "3.50",
       "CAD": "4.82",
       "GBP": "2.60",
-      "EUR": "3.08",
+      "EUR": "3.09",
       "AUD": "5.44",
       "NZD": "5.87",
       "SGD": "4.52",
       "HKD": "27.44",
-      "ZAR": "62.77",
-      "INR": "299.49",
+      "ZAR": "62.76",
+      "INR": "299.46",
       "MYR": "14.88",
-      "PHP": "195.31",
+      "PHP": "195.26",
       "AED": "12.85"
     },
     "evaluations": [
@@ -6644,78 +6679,6 @@
     ]
   },
   {
-    "id": "12099208",
-    "title": "Fáilte go Rang a Cúig - Collaborative Art Project",
-    "link": "https://ciarasclassroom.com/product/Failte-go-Rang-a-Cuig-Collaborative-Art-Project-12099208",
-    "description": "<p>Start of the new school year with your Fifth Class students with our Fáilte go Rang a Cúig Collaborative Art Project. This back to school collaborative colouring project allows your students to express their creativity and anticipation for the new school year ahead through collaborative artwork.</p><p></p><p><strong>Key Features:</strong></p><ul><li><strong>Collaborative Creativity: </strong>These artworks promote collaboration and teamwork, as students work together to create a beautiful, larger display. It's not just art; it's an opportunity for students to see how we all play an important part in our class community as we each contribute to the bigger picture.</li><li><strong>Multiple Options:  </strong>8, 16, 18, 25, 32 and 36 sheet versions included.</li><li><strong>Seasonal Classroom Decor:</strong> These collaborative artworks go beyond the usual 'Back to School' art activities. They create a beautiful collaborative piece of back-to-school classroom decor!</li><li><strong>No Prep, No Stress:</strong> We value teachers' time and have designed this project for ease of use. Simply print, distribute the pieces, and witness your students' creativity come to life.</li></ul><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Growing-Bundle-Collaborative-Art-Projects-10421818\" target=\"_blank\" rel=\"noreferrer noopener\">Growing Bundle: Collaborative Art Projects</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Back-to-School-Colouring-Pages-12052220?st=73658a55abc3928ad164413c0f550dd4\" target=\"_blank\" rel=\"noreferrer noopener\">Back to School Colouring Pages</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Back-to-School-To-Do-List-for-Teachers-9994432\" target=\"_blank\" rel=\"noreferrer noopener\">Back to School To Do List</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Editable-Class-Newsletter-Templates-9110432\" target=\"_blank\" rel=\"noreferrer noopener\">Editable Class Newsletter Templates</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Rainbow-Classroom-Door-Display-8878368\" target=\"_blank\" rel=\"noreferrer noopener\">Rainbow Classroom Door Display</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Everyone-is-Welcome-Door-Display-Activity-5847028\" target=\"_blank\" rel=\"noreferrer noopener\">Everyone is Welcome Door Display</a></li></ul><p><br />*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
-    "descriptionSnippet": "Start of the new school year with your Fifth Class students with our Fáilte go Rang a Cúig Collaborative Art Project. This back to school collaborative colouring project allows your students to express their creativity and anticipation for the new school year ahead through collaborative artwork. Key Features:Collaborative Creativity: These artworks promote collaboration and teamwork, as students work together to create a beautiful, larger display. It's not just art; it's an opportunity for stude",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-a-Cuig-Collaborative-Art-Project-12099208-1724684904/750f-12099208-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-a-Cuig-Collaborative-Art-Project-12099208-1724684904/750f-12099208-2.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-a-Cuig-Collaborative-Art-Project-12099208-1724684904/750f-12099208-3.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-a-Cuig-Collaborative-Art-Project-12099208-1724684904/750f-12099208-4.jpg"
-    ],
-    "slug": "Failte-go-Rang-a-Cuig-Collaborative-Art-Project-12099208",
-    "reviews": 0,
-    "rating": 0,
-    "categories": [
-      "Activities",
-      "Printables",
-      "Posters"
-    ],
-    "currencies": {
-      "USD": "4.00",
-      "CAD": "5.50",
-      "GBP": "2.97",
-      "EUR": "3.53",
-      "AUD": "6.22",
-      "NZD": "6.70",
-      "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
-      "MYR": "17.00",
-      "PHP": "223.22",
-      "AED": "14.69"
-    }
-  },
-  {
-    "id": "12096300",
-    "title": "Fáilte go Rang a hAon - Collaborative Art Project",
-    "link": "https://ciarasclassroom.com/product/Failte-go-Rang-a-hAon-Collaborative-Art-Project-12096300",
-    "description": "<p>Start of the new school year with your First Class students with our Fáilte go Rang a hAon Collaborative Art Project. This back to school collaborative colouring project allows your students to express their creativity and anticipation for the new school year ahead through collaborative artwork.</p><p></p><p><strong>Key Features:</strong></p><ul><li><strong>Collaborative Creativity: </strong>These artworks promote collaboration and teamwork, as students work together to create a beautiful, larger display. It's not just art; it's an opportunity for students to see how we all play an important part in our class community as we each contribute to the bigger picture.</li><li><strong>Multiple Options:  </strong>8, 16, 18, 25, 32 and 36 sheet versions included.</li><li><strong>Seasonal Classroom Decor:</strong> These collaborative artworks go beyond the usual 'Back to School' art activities. They create a beautiful collaborative piece of back-to-school classroom decor!</li><li><strong>No Prep, No Stress:</strong> We value teachers' time and have designed this project for ease of use. Simply print, distribute the pieces, and witness your students' creativity come to life.</li></ul><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Growing-Bundle-Collaborative-Art-Projects-10421818\" target=\"_blank\" rel=\"noreferrer noopener\">Growing Bundle: Collaborative Art Projects</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Back-to-School-Colouring-Pages-12052220?st=73658a55abc3928ad164413c0f550dd4\" target=\"_blank\" rel=\"noreferrer noopener\">Back to School Colouring Pages</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Back-to-School-To-Do-List-for-Teachers-9994432\" target=\"_blank\" rel=\"noreferrer noopener\">Back to School To Do List</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Editable-Class-Newsletter-Templates-9110432\" target=\"_blank\" rel=\"noreferrer noopener\">Editable Class Newsletter Templates</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Rainbow-Classroom-Door-Display-8878368\" target=\"_blank\" rel=\"noreferrer noopener\">Rainbow Classroom Door Display</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Everyone-is-Welcome-Door-Display-Activity-5847028\" target=\"_blank\" rel=\"noreferrer noopener\">Everyone is Welcome Door Display</a></li></ul><p><br />*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
-    "descriptionSnippet": "Start of the new school year with your First Class students with our Fáilte go Rang a hAon Collaborative Art Project. This back to school collaborative colouring project allows your students to express their creativity and anticipation for the new school year ahead through collaborative artwork. Key Features:Collaborative Creativity: These artworks promote collaboration and teamwork, as students work together to create a beautiful, larger display. It's not just art; it's an opportunity for stude",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-a-hAon-Collaborative-Art-Project-12096300-1724679695/750f-12096300-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-a-hAon-Collaborative-Art-Project-12096300-1724679695/750f-12096300-2.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-a-hAon-Collaborative-Art-Project-12096300-1724679695/750f-12096300-3.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-a-hAon-Collaborative-Art-Project-12096300-1724679695/750f-12096300-4.jpg"
-    ],
-    "slug": "Failte-go-Rang-a-hAon-Collaborative-Art-Project-12096300",
-    "reviews": 0,
-    "rating": 0,
-    "categories": [
-      "Activities",
-      "Printables",
-      "Posters"
-    ],
-    "currencies": {
-      "USD": "4.00",
-      "CAD": "5.50",
-      "GBP": "2.97",
-      "EUR": "3.53",
-      "AUD": "6.22",
-      "NZD": "6.70",
-      "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
-      "MYR": "17.00",
-      "PHP": "223.22",
-      "AED": "14.69"
-    }
-  },
-  {
     "id": "8614057",
     "title": "Student Council Nomination Form",
     "link": "https://ciarasclassroom.com/product/Student-Council-Nomination-Form-8614057",
@@ -6741,9 +6704,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "17.93",
-      "INR": "85.57",
+      "INR": "85.56",
       "MYR": "4.25",
-      "PHP": "55.80",
+      "PHP": "55.79",
       "AED": "3.67"
     },
     "evaluations": [
@@ -6777,6 +6740,78 @@
     ]
   },
   {
+    "id": "12099208",
+    "title": "Fáilte go Rang a Cúig - Collaborative Art Project",
+    "link": "https://ciarasclassroom.com/product/Failte-go-Rang-a-Cuig-Collaborative-Art-Project-12099208",
+    "description": "<p>Start of the new school year with your Fifth Class students with our Fáilte go Rang a Cúig Collaborative Art Project. This back to school collaborative colouring project allows your students to express their creativity and anticipation for the new school year ahead through collaborative artwork.</p><p></p><p><strong>Key Features:</strong></p><ul><li><strong>Collaborative Creativity: </strong>These artworks promote collaboration and teamwork, as students work together to create a beautiful, larger display. It's not just art; it's an opportunity for students to see how we all play an important part in our class community as we each contribute to the bigger picture.</li><li><strong>Multiple Options:  </strong>8, 16, 18, 25, 32 and 36 sheet versions included.</li><li><strong>Seasonal Classroom Decor:</strong> These collaborative artworks go beyond the usual 'Back to School' art activities. They create a beautiful collaborative piece of back-to-school classroom decor!</li><li><strong>No Prep, No Stress:</strong> We value teachers' time and have designed this project for ease of use. Simply print, distribute the pieces, and witness your students' creativity come to life.</li></ul><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Growing-Bundle-Collaborative-Art-Projects-10421818\" target=\"_blank\" rel=\"noreferrer noopener\">Growing Bundle: Collaborative Art Projects</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Back-to-School-Colouring-Pages-12052220?st=73658a55abc3928ad164413c0f550dd4\" target=\"_blank\" rel=\"noreferrer noopener\">Back to School Colouring Pages</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Back-to-School-To-Do-List-for-Teachers-9994432\" target=\"_blank\" rel=\"noreferrer noopener\">Back to School To Do List</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Editable-Class-Newsletter-Templates-9110432\" target=\"_blank\" rel=\"noreferrer noopener\">Editable Class Newsletter Templates</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Rainbow-Classroom-Door-Display-8878368\" target=\"_blank\" rel=\"noreferrer noopener\">Rainbow Classroom Door Display</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Everyone-is-Welcome-Door-Display-Activity-5847028\" target=\"_blank\" rel=\"noreferrer noopener\">Everyone is Welcome Door Display</a></li></ul><p><br />*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
+    "descriptionSnippet": "Start of the new school year with your Fifth Class students with our Fáilte go Rang a Cúig Collaborative Art Project. This back to school collaborative colouring project allows your students to express their creativity and anticipation for the new school year ahead through collaborative artwork. Key Features:Collaborative Creativity: These artworks promote collaboration and teamwork, as students work together to create a beautiful, larger display. It's not just art; it's an opportunity for stude",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-a-Cuig-Collaborative-Art-Project-12099208-1724684904/750f-12099208-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-a-Cuig-Collaborative-Art-Project-12099208-1724684904/750f-12099208-2.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-a-Cuig-Collaborative-Art-Project-12099208-1724684904/750f-12099208-3.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-a-Cuig-Collaborative-Art-Project-12099208-1724684904/750f-12099208-4.jpg"
+    ],
+    "slug": "Failte-go-Rang-a-Cuig-Collaborative-Art-Project-12099208",
+    "reviews": 0,
+    "rating": 0,
+    "categories": [
+      "Activities",
+      "Printables",
+      "Posters"
+    ],
+    "currencies": {
+      "USD": "4.00",
+      "CAD": "5.51",
+      "GBP": "2.97",
+      "EUR": "3.53",
+      "AUD": "6.22",
+      "NZD": "6.70",
+      "SGD": "5.16",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
+      "MYR": "17.00",
+      "PHP": "223.15",
+      "AED": "14.69"
+    }
+  },
+  {
+    "id": "12096300",
+    "title": "Fáilte go Rang a hAon - Collaborative Art Project",
+    "link": "https://ciarasclassroom.com/product/Failte-go-Rang-a-hAon-Collaborative-Art-Project-12096300",
+    "description": "<p>Start of the new school year with your First Class students with our Fáilte go Rang a hAon Collaborative Art Project. This back to school collaborative colouring project allows your students to express their creativity and anticipation for the new school year ahead through collaborative artwork.</p><p></p><p><strong>Key Features:</strong></p><ul><li><strong>Collaborative Creativity: </strong>These artworks promote collaboration and teamwork, as students work together to create a beautiful, larger display. It's not just art; it's an opportunity for students to see how we all play an important part in our class community as we each contribute to the bigger picture.</li><li><strong>Multiple Options:  </strong>8, 16, 18, 25, 32 and 36 sheet versions included.</li><li><strong>Seasonal Classroom Decor:</strong> These collaborative artworks go beyond the usual 'Back to School' art activities. They create a beautiful collaborative piece of back-to-school classroom decor!</li><li><strong>No Prep, No Stress:</strong> We value teachers' time and have designed this project for ease of use. Simply print, distribute the pieces, and witness your students' creativity come to life.</li></ul><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Growing-Bundle-Collaborative-Art-Projects-10421818\" target=\"_blank\" rel=\"noreferrer noopener\">Growing Bundle: Collaborative Art Projects</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Back-to-School-Colouring-Pages-12052220?st=73658a55abc3928ad164413c0f550dd4\" target=\"_blank\" rel=\"noreferrer noopener\">Back to School Colouring Pages</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Back-to-School-To-Do-List-for-Teachers-9994432\" target=\"_blank\" rel=\"noreferrer noopener\">Back to School To Do List</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Editable-Class-Newsletter-Templates-9110432\" target=\"_blank\" rel=\"noreferrer noopener\">Editable Class Newsletter Templates</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Rainbow-Classroom-Door-Display-8878368\" target=\"_blank\" rel=\"noreferrer noopener\">Rainbow Classroom Door Display</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Everyone-is-Welcome-Door-Display-Activity-5847028\" target=\"_blank\" rel=\"noreferrer noopener\">Everyone is Welcome Door Display</a></li></ul><p><br />*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
+    "descriptionSnippet": "Start of the new school year with your First Class students with our Fáilte go Rang a hAon Collaborative Art Project. This back to school collaborative colouring project allows your students to express their creativity and anticipation for the new school year ahead through collaborative artwork. Key Features:Collaborative Creativity: These artworks promote collaboration and teamwork, as students work together to create a beautiful, larger display. It's not just art; it's an opportunity for stude",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-a-hAon-Collaborative-Art-Project-12096300-1724679695/750f-12096300-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-a-hAon-Collaborative-Art-Project-12096300-1724679695/750f-12096300-2.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-a-hAon-Collaborative-Art-Project-12096300-1724679695/750f-12096300-3.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Failte-go-Rang-a-hAon-Collaborative-Art-Project-12096300-1724679695/750f-12096300-4.jpg"
+    ],
+    "slug": "Failte-go-Rang-a-hAon-Collaborative-Art-Project-12096300",
+    "reviews": 0,
+    "rating": 0,
+    "categories": [
+      "Activities",
+      "Printables",
+      "Posters"
+    ],
+    "currencies": {
+      "USD": "4.00",
+      "CAD": "5.51",
+      "GBP": "2.97",
+      "EUR": "3.53",
+      "AUD": "6.22",
+      "NZD": "6.70",
+      "SGD": "5.16",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
+      "MYR": "17.00",
+      "PHP": "223.15",
+      "AED": "14.69"
+    }
+  },
+  {
     "id": "8170635",
     "title": "While You Were Away Substitute Teacher Feedback Form",
     "link": "https://ciarasclassroom.com/product/While-You-Were-Away-Substitute-Teacher-Feedback-Form-8170635",
@@ -6802,9 +6837,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "17.93",
-      "INR": "85.57",
+      "INR": "85.56",
       "MYR": "4.25",
-      "PHP": "55.80",
+      "PHP": "55.79",
       "AED": "3.67"
     },
     "evaluations": [
@@ -6830,6 +6865,42 @@
     ]
   },
   {
+    "id": "8145798",
+    "title": "All About My Family Bundle",
+    "link": "https://ciarasclassroom.com/product/All-About-My-Family-Bundle-8145798",
+    "description": "<p>'All About My Family' is a bundle of writing resources for learning about families and celebrating all of the unique families in your class.  These print and go activities guide your students in writing about their family, what makes their family special and things they like to celebrate together.  They also provide opportunities for children to learn more about each other, family diversity, and discuss their similarities and differences in a positive and respectful way.  The resource includes two family project templates as well as worksheets and drawing/writing templates would make a wonderful Family display at the end of your unit about families.</p><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Inclusive-Resources-for-Fathers-Day-and-Mothers-Day-6832271\" target=\"_blank\" rel=\"noreferrer noopener\">Inclusive Resources for Father's Day and Mother's Day</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Identity-Projects-Bundle-6617122\" target=\"_blank\" rel=\"noreferrer noopener\">Identity Projects Bundle</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Inclusive-Classroom-Posters-for-Celebrating-Diversity-7174795\" target=\"_blank\" rel=\"noreferrer noopener\">Inclusive Classroom Posters for Celebrating Diversity</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/About-My-Culture-Flipbook-7375989\" target=\"_blank\" rel=\"noreferrer noopener\">About My Culture Flipbook</a></li></ul><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
+    "descriptionSnippet": "'All About My Family' is a bundle of writing resources for learning about families and celebrating all of the unique families in your class.  These print and go activities guide your students in writing about their family, what makes their family special and things they like to celebrate together.  They also provide opportunities for children to learn more about each other, family diversity, and discuss their similarities and differences in a positive and respectful way.  The resource includes t",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/All-About-My-Family-Bundle-8145798-1730105170/750f-8145798-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/All-About-My-Family-Bundle-8145798-1730105170/750f-8145798-2.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/All-About-My-Family-Bundle-8145798-1730105170/750f-8145798-3.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/All-About-My-Family-Bundle-8145798-1730105170/750f-8145798-4.jpg"
+    ],
+    "slug": "All-About-My-Family-Bundle-8145798",
+    "reviews": 0,
+    "rating": 0,
+    "categories": [
+      "Projects",
+      "Activities",
+      "Printables"
+    ],
+    "currencies": {
+      "USD": "6.74",
+      "CAD": "9.28",
+      "GBP": "5.00",
+      "EUR": "5.94",
+      "AUD": "10.47",
+      "NZD": "11.30",
+      "SGD": "8.70",
+      "HKD": "52.85",
+      "ZAR": "120.86",
+      "INR": "576.68",
+      "MYR": "28.64",
+      "PHP": "376.01",
+      "AED": "24.75"
+    }
+  },
+  {
     "id": "12054206",
     "title": "Welcome to Fifth Class - Collaborative Art Project",
     "link": "https://ciarasclassroom.com/product/Welcome-to-Fifth-Class-Collaborative-Art-Project-12054206",
@@ -6851,17 +6922,17 @@
     ],
     "currencies": {
       "USD": "4.00",
-      "CAD": "5.50",
+      "CAD": "5.51",
       "GBP": "2.97",
       "EUR": "3.53",
       "AUD": "6.22",
       "NZD": "6.70",
       "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
       "MYR": "17.00",
-      "PHP": "223.22",
+      "PHP": "223.15",
       "AED": "14.69"
     }
   },
@@ -6887,54 +6958,18 @@
     ],
     "currencies": {
       "USD": "4.00",
-      "CAD": "5.50",
+      "CAD": "5.51",
       "GBP": "2.97",
       "EUR": "3.53",
       "AUD": "6.22",
       "NZD": "6.70",
       "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
       "MYR": "17.00",
-      "PHP": "223.22",
+      "PHP": "223.15",
       "AED": "14.69"
-    }
-  },
-  {
-    "id": "8145798",
-    "title": "All About My Family Bundle",
-    "link": "https://ciarasclassroom.com/product/All-About-My-Family-Bundle-8145798",
-    "description": "<p>'All About My Family' is a bundle of writing resources for learning about families and celebrating all of the unique families in your class.  These print and go activities guide your students in writing about their family, what makes their family special and things they like to celebrate together.  They also provide opportunities for children to learn more about each other, family diversity, and discuss their similarities and differences in a positive and respectful way.  The resource includes two family project templates as well as worksheets and drawing/writing templates would make a wonderful Family display at the end of your unit about families.</p><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Inclusive-Resources-for-Fathers-Day-and-Mothers-Day-6832271\" target=\"_blank\" rel=\"noreferrer noopener\">Inclusive Resources for Father's Day and Mother's Day</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Identity-Projects-Bundle-6617122\" target=\"_blank\" rel=\"noreferrer noopener\">Identity Projects Bundle</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Inclusive-Classroom-Posters-for-Celebrating-Diversity-7174795\" target=\"_blank\" rel=\"noreferrer noopener\">Inclusive Classroom Posters for Celebrating Diversity</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/About-My-Culture-Flipbook-7375989\" target=\"_blank\" rel=\"noreferrer noopener\">About My Culture Flipbook</a></li></ul><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
-    "descriptionSnippet": "'All About My Family' is a bundle of writing resources for learning about families and celebrating all of the unique families in your class.  These print and go activities guide your students in writing about their family, what makes their family special and things they like to celebrate together.  They also provide opportunities for children to learn more about each other, family diversity, and discuss their similarities and differences in a positive and respectful way.  The resource includes t",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/All-About-My-Family-Bundle-8145798-1730105170/750f-8145798-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/All-About-My-Family-Bundle-8145798-1730105170/750f-8145798-2.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/All-About-My-Family-Bundle-8145798-1730105170/750f-8145798-3.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/All-About-My-Family-Bundle-8145798-1730105170/750f-8145798-4.jpg"
-    ],
-    "slug": "All-About-My-Family-Bundle-8145798",
-    "reviews": 0,
-    "rating": 0,
-    "categories": [
-      "Projects",
-      "Activities",
-      "Printables"
-    ],
-    "currencies": {
-      "USD": "6.74",
-      "CAD": "9.28",
-      "GBP": "5.01",
-      "EUR": "5.94",
-      "AUD": "10.48",
-      "NZD": "11.30",
-      "SGD": "8.70",
-      "HKD": "52.85",
-      "ZAR": "120.88",
-      "INR": "576.72",
-      "MYR": "28.65",
-      "PHP": "376.12",
-      "AED": "24.75"
     }
   },
   {
@@ -6959,17 +6994,17 @@
     ],
     "currencies": {
       "USD": "4.00",
-      "CAD": "5.50",
+      "CAD": "5.51",
       "GBP": "2.97",
       "EUR": "3.53",
       "AUD": "6.22",
       "NZD": "6.70",
       "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
       "MYR": "17.00",
-      "PHP": "223.22",
+      "PHP": "223.15",
       "AED": "14.69"
     }
   },
@@ -6995,17 +7030,17 @@
     ],
     "currencies": {
       "USD": "1.90",
-      "CAD": "2.61",
+      "CAD": "2.62",
       "GBP": "1.41",
       "EUR": "1.67",
       "AUD": "2.95",
       "NZD": "3.18",
       "SGD": "2.45",
       "HKD": "14.90",
-      "ZAR": "34.08",
-      "INR": "162.58",
-      "MYR": "8.08",
-      "PHP": "106.03",
+      "ZAR": "34.07",
+      "INR": "162.56",
+      "MYR": "8.07",
+      "PHP": "106.00",
       "AED": "6.98"
     }
   },
@@ -7036,9 +7071,9 @@
       "SGD": "2.32",
       "HKD": "14.11",
       "ZAR": "32.28",
-      "INR": "154.02",
+      "INR": "154.01",
       "MYR": "7.65",
-      "PHP": "100.45",
+      "PHP": "100.42",
       "AED": "6.61"
     }
   },
@@ -7070,10 +7105,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -7099,53 +7134,18 @@
     ],
     "currencies": {
       "USD": "8.09",
-      "CAD": "11.13",
+      "CAD": "11.14",
       "GBP": "6.01",
       "EUR": "7.13",
-      "AUD": "12.58",
+      "AUD": "12.57",
       "NZD": "13.56",
       "SGD": "10.44",
-      "HKD": "63.43",
-      "ZAR": "145.09",
-      "INR": "692.24",
-      "MYR": "34.39",
-      "PHP": "451.45",
+      "HKD": "63.44",
+      "ZAR": "145.07",
+      "INR": "692.18",
+      "MYR": "34.38",
+      "PHP": "451.32",
       "AED": "29.71"
-    }
-  },
-  {
-    "id": "11660126",
-    "title": "Fingerprint Tree Thank You Gift",
-    "link": "https://ciarasclassroom.com/product/Fingerprint-Tree-Thank-You-Gift-11660126",
-    "description": "<p>This Fingerprint Tree is the perfect Thank You gift for any teacher or school staff member!  Simply print and invite the students to add a fingerprint as a leaf on the tree.  Names could also be added onto each leaf or at the bottom of the tree.  This would make a beautiful and personalised end of year teacher gift or Teacher Appreciation gift!  This pack includes 9 different font options to choose from.  </p><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/First-Day-and-Last-Day-of-School-Signs-for-Photos-Ireland-8166539\" target=\"_blank\" rel=\"noreferrer noopener\">First Day and Last Day of School Signs for Photos - Ireland</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Summer-Holiday-Plans-8097650\" target=\"_blank\" rel=\"noreferrer noopener\">My Summer Holiday Plans</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Last-Week-of-School-Bundle-8170932\" target=\"_blank\" rel=\"noreferrer noopener\">Last Week of School Bundle</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Countdown-to-Summer-Jar-Activity-6939806\" target=\"_blank\" rel=\"noreferrer noopener\">Countdown to Summer Jar Activity</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/I-Wish-My-Teacher-Knew-Notes-8092854\" target=\"_blank\" rel=\"noreferrer noopener\">I Wish My Teacher Knew Notes</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/End-of-Year-Graduation-Certificates-Ireland-9512681\" target=\"_blank\" rel=\"noreferrer noopener\">End of Year Graduation Certificates - Ireland</a></li></ul><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
-    "descriptionSnippet": "This Fingerprint Tree is the perfect Thank You gift for any teacher or school staff member!  Simply print and invite the students to add a fingerprint as a leaf on the tree.  Names could also be added onto each leaf or at the bottom of the tree.  This would make a beautiful and personalised end of year teacher gift or Teacher Appreciation gift!  This pack includes 9 different font options to choose from.   Other resources you may be interested in:First Day and Last Day of School Signs for Photos",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/Fingerprint-Tree-Thank-You-Gift-11660126-1748080858/750f-11660126-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Fingerprint-Tree-Thank-You-Gift-11660126-1748080858/750f-11660126-2.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Fingerprint-Tree-Thank-You-Gift-11660126-1748080858/750f-11660126-3.jpg"
-    ],
-    "slug": "Fingerprint-Tree-Thank-You-Gift-11660126",
-    "reviews": 0,
-    "rating": 0,
-    "categories": [
-      "Projects",
-      "Activities",
-      "Printables"
-    ],
-    "currencies": {
-      "USD": "1.95",
-      "CAD": "2.68",
-      "GBP": "1.45",
-      "EUR": "1.72",
-      "AUD": "3.03",
-      "NZD": "3.27",
-      "SGD": "2.52",
-      "HKD": "15.29",
-      "ZAR": "34.97",
-      "INR": "166.86",
-      "MYR": "8.29",
-      "PHP": "108.82",
-      "AED": "7.16"
     }
   },
   {
@@ -7170,17 +7170,17 @@
     ],
     "currencies": {
       "USD": "31.00",
-      "CAD": "42.66",
+      "CAD": "42.67",
       "GBP": "23.02",
-      "EUR": "27.32",
-      "AUD": "48.19",
+      "EUR": "27.33",
+      "AUD": "48.17",
       "NZD": "51.96",
       "SGD": "40.00",
-      "HKD": "243.07",
-      "ZAR": "555.98",
-      "INR": "2652.59",
-      "MYR": "131.76",
-      "PHP": "1729.92",
+      "HKD": "243.08",
+      "ZAR": "555.88",
+      "INR": "2652.38",
+      "MYR": "131.75",
+      "PHP": "1729.42",
       "AED": "113.85"
     }
   },
@@ -7206,17 +7206,17 @@
     ],
     "currencies": {
       "USD": "14.89",
-      "CAD": "20.49",
+      "CAD": "20.50",
       "GBP": "11.06",
-      "EUR": "13.12",
-      "AUD": "23.15",
+      "EUR": "13.13",
+      "AUD": "23.14",
       "NZD": "24.96",
       "SGD": "19.21",
-      "HKD": "116.75",
-      "ZAR": "267.05",
-      "INR": "1274.10",
-      "MYR": "63.29",
-      "PHP": "830.92",
+      "HKD": "116.76",
+      "ZAR": "267.00",
+      "INR": "1274.00",
+      "MYR": "63.28",
+      "PHP": "830.68",
       "AED": "54.68"
     }
   },
@@ -7246,10 +7246,10 @@
       "NZD": "3.69",
       "SGD": "2.84",
       "HKD": "17.25",
-      "ZAR": "39.46",
-      "INR": "188.25",
+      "ZAR": "39.45",
+      "INR": "188.23",
       "MYR": "9.35",
-      "PHP": "122.77",
+      "PHP": "122.73",
       "AED": "8.08"
     },
     "evaluations": [
@@ -7308,15 +7308,15 @@
       "USD": "13.45",
       "CAD": "18.51",
       "GBP": "9.99",
-      "EUR": "11.85",
-      "AUD": "20.91",
+      "EUR": "11.86",
+      "AUD": "20.90",
       "NZD": "22.54",
       "SGD": "17.35",
-      "HKD": "105.46",
-      "ZAR": "241.22",
-      "INR": "1150.88",
-      "MYR": "57.17",
-      "PHP": "750.56",
+      "HKD": "105.47",
+      "ZAR": "241.18",
+      "INR": "1150.79",
+      "MYR": "57.16",
+      "PHP": "750.34",
       "AED": "49.40"
     },
     "evaluations": [
@@ -7371,15 +7371,15 @@
       "USD": "13.45",
       "CAD": "18.51",
       "GBP": "9.99",
-      "EUR": "11.85",
-      "AUD": "20.91",
+      "EUR": "11.86",
+      "AUD": "20.90",
       "NZD": "22.54",
       "SGD": "17.35",
-      "HKD": "105.46",
-      "ZAR": "241.22",
-      "INR": "1150.88",
-      "MYR": "57.17",
-      "PHP": "750.56",
+      "HKD": "105.47",
+      "ZAR": "241.18",
+      "INR": "1150.79",
+      "MYR": "57.16",
+      "PHP": "750.34",
       "AED": "49.40"
     },
     "evaluations": [
@@ -7409,72 +7409,6 @@
     ]
   },
   {
-    "id": "12476367",
-    "title": "Kwanzaa Word Scramble Activity",
-    "link": "https://ciarasclassroom.com/product/Kwanzaa-Word-Scramble-Activity-12476367",
-    "description": "<p>Introduce your students to the meaningful traditions of Kwanzaa with this engaging Word Scramble! This 2-page, no-prep activity offers students a fun way to explore vocabulary related to this week-long celebration while fostering cultural awareness and appreciation for African American heritage and traditions.</p><p></p><p><strong>What You'll Get:</strong></p><ul><li>10 Kwanzaa-Themed Words to Unscramble – Perfect for introducing key terms related to the seven principles (Nguzo Saba) and cultural traditions</li><li>Answer Key</li></ul><p></p><p><strong>Great for:</strong></p><ul><li>Cultural Education &amp; Holiday Activities: Support inclusive education by introducing students to Kwanzaa celebrations and values</li><li>Early Finishers or Brain Breaks: A simple activity that reinforces vocabulary and critical thinking</li><li>Homework or Take-Home Practice: Extend cultural learning beyond the classroom with this simple, festive worksheet</li></ul><p></p><p>If you would like to see some of the other resources that I love using with my students, check out my instagram account at <a href=\"https://www.instagram.com/ciarasclassroom/\" target=\"_blank\" rel=\"noreferrer noopener\">@ciarasclassroom</a>.</p><p></p><p><em>Also, I would really appreciate it if you could leave a review for this product on my store. Your feedback will help me to continue to make helpful resources for you and your students. You can also earn TpT credit to use towards future purchases on this website!</em></p><p></p><p><strong>Other seasonal resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Kwanzaa-Card-Templates-Collaborative-Art-Project-and-Kinara-Craft-Bundle-10747453\" target=\"_blank\" rel=\"noreferrer noopener\">Kwanzaa Card Templates, Collaborative Art Project and Kinara Craft Bundle</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Kinara-Cut-and-Paste-Kwanzaa-Craft-12276157\" target=\"_blank\" rel=\"noreferrer noopener\">Kinara Cut and Paste Kwanzaa Craft</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Kwanzaa-Collaborative-Art-Coloring-Project-10418966\" target=\"_blank\" rel=\"noreferrer noopener\">Kwanzaa Collaborative Art - Coloring Project</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Kwanzaa-Card-Templates-8849701\" target=\"_blank\" rel=\"noreferrer noopener\">Kwanzaa Card Templates</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/About-My-Culture-Flipbook-Celebrate-Cultural-Diversity-in-the-Classroom-7375989\" target=\"_blank\" rel=\"noreferrer noopener\">About My Culture Flipbook</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Family-Celebration-Project-6240175\" target=\"_blank\" rel=\"noreferrer noopener\">My Family Celebration Booklet</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/St-Patricks-Day-Word-Scramble-Activity-12476274\" target=\"_blank\" rel=\"noreferrer noopener\">St. Patrick's Day Word Scramble Activity</a></li></ul><!-- New description editor -->",
-    "descriptionSnippet": "Introduce your students to the meaningful traditions of Kwanzaa with this engaging Word Scramble! This 2-page, no-prep activity offers students a fun way to explore vocabulary related to this week-long celebration while fostering cultural awareness and appreciation for African American heritage and traditions. What You'll Get:10 Kwanzaa-Themed Words to Unscramble – Perfect for introducing key terms related to the seven principles (Nguzo Saba) and cultural traditionsAnswer KeyGreat for:Cultural E",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/Kwanzaa-Word-Scramble-Activity-12476367-1730728188/750f-12476367-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Kwanzaa-Word-Scramble-Activity-12476367-1730728188/750f-12476367-2.jpg"
-    ],
-    "slug": "Kwanzaa-Word-Scramble-Activity-12476367",
-    "reviews": 0,
-    "rating": 0,
-    "categories": [
-      "Worksheets",
-      "Assessment"
-    ],
-    "currencies": {
-      "USD": "1.00",
-      "CAD": "1.38",
-      "GBP": "0.74",
-      "EUR": "0.88",
-      "AUD": "1.55",
-      "NZD": "1.68",
-      "SGD": "1.29",
-      "HKD": "7.84",
-      "ZAR": "17.93",
-      "INR": "85.57",
-      "MYR": "4.25",
-      "PHP": "55.80",
-      "AED": "3.67"
-    }
-  },
-  {
-    "id": "12476274",
-    "title": "St. Patrick's Day Word Scramble Activity",
-    "link": "https://ciarasclassroom.com/product/St-Patricks-Day-Word-Scramble-Activity-12476274",
-    "description": "<p>Introduce your students to the festive traditions of St. Patrick's Day with this engaging Word Scramble! This 2-page, no-prep activity offers students a fun way to explore vocabulary related to this Irish celebration while fostering cultural awareness and appreciation for Irish heritage and traditions.</p><p></p><p><strong>What You'll Get:</strong></p><ul><li>10 St. Patrick's Day-Themed Words to Unscramble – Perfect for introducing key terms related to this lively holiday</li><li>Answer Key</li></ul><p></p><p><strong>Great for:</strong></p><ul><li>Cultural Education &amp; Holiday Activities: Support inclusive education by introducing students to Irish celebrations and folklore</li><li>Early Finishers or Brain Breaks: A simple activity that reinforces vocabulary and critical thinking</li><li>Homework or Take-Home Practice: Extend cultural learning beyond the classroom with this simple, festive worksheet</li></ul><p></p><p>If you would like to see some of the other resources that I love using with my students, check out my instagram account at <a href=\"https://www.instagram.com/ciarasclassroom/\" target=\"_blank\" rel=\"noreferrer noopener\">@ciarasclassroom</a>.</p><p></p><p><em>Also, I would really appreciate it if you could leave a review for this product on my store. Your feedback will help me to continue to make helpful resources for you and your students. You can also earn TpT credit to use towards future purchases on this website!</em></p><p></p><p><strong>Other seasonal resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/St-Patricks-Day-Reading-Comprehension-Task-Cards-and-Printables-6602695\" target=\"_blank\" rel=\"noreferrer noopener\">St. Patrick's Day Reading Comprehension, Task Cards and Printables</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Culture-Project-5931203\" target=\"_blank\" rel=\"noreferrer noopener\">My Culture Project</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/About-My-Culture-Flipbook-Celebrate-Cultural-Diversity-in-the-Classroom-7375989\" target=\"_blank\" rel=\"noreferrer noopener\">About My Culture Flipbook</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Spirituality-and-World-Religions-Project-with-Assessment-Rubric-7308050\" target=\"_blank\" rel=\"noreferrer noopener\">Spirituality and World Religions Project with Assessment Rubric</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Family-Celebration-Project-6240175\" target=\"_blank\" rel=\"noreferrer noopener\">My Family Celebration Booklet</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Lunar-New-Year-Word-Scramble-Activity-12470751\" target=\"_blank\" rel=\"noreferrer noopener\">Lunar New Year Word Scramble Activity</a></li></ul><!-- New description editor -->",
-    "descriptionSnippet": "Introduce your students to the festive traditions of St. Patrick's Day with this engaging Word Scramble! This 2-page, no-prep activity offers students a fun way to explore vocabulary related to this Irish celebration while fostering cultural awareness and appreciation for Irish heritage and traditions. What You'll Get:10 St. Patrick's Day-Themed Words to Unscramble – Perfect for introducing key terms related to this lively holidayAnswer KeyGreat for:Cultural Education & Holiday Activities: Suppo",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/St-Patrick-s-Day-Word-Scramble-Activity-12476274-1730727331/750f-12476274-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/St-Patrick-s-Day-Word-Scramble-Activity-12476274-1730727331/750f-12476274-2.jpg"
-    ],
-    "slug": "St-Patricks-Day-Word-Scramble-Activity-12476274",
-    "reviews": 0,
-    "rating": 0,
-    "categories": [
-      "Worksheets",
-      "Assessment"
-    ],
-    "currencies": {
-      "USD": "1.00",
-      "CAD": "1.38",
-      "GBP": "0.74",
-      "EUR": "0.88",
-      "AUD": "1.55",
-      "NZD": "1.68",
-      "SGD": "1.29",
-      "HKD": "7.84",
-      "ZAR": "17.93",
-      "INR": "85.57",
-      "MYR": "4.25",
-      "PHP": "55.80",
-      "AED": "3.67"
-    }
-  },
-  {
     "id": "9283922",
     "title": "Children's Rights Poem",
     "link": "https://ciarasclassroom.com/product/Childrens-Rights-Poem-9283922",
@@ -7501,9 +7435,9 @@
       "SGD": "1.94",
       "HKD": "11.76",
       "ZAR": "26.90",
-      "INR": "128.35",
+      "INR": "128.34",
       "MYR": "6.38",
-      "PHP": "83.71",
+      "PHP": "83.68",
       "AED": "5.51"
     }
   },
@@ -7534,11 +7468,77 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
+    }
+  },
+  {
+    "id": "12476367",
+    "title": "Kwanzaa Word Scramble Activity",
+    "link": "https://ciarasclassroom.com/product/Kwanzaa-Word-Scramble-Activity-12476367",
+    "description": "<p>Introduce your students to the meaningful traditions of Kwanzaa with this engaging Word Scramble! This 2-page, no-prep activity offers students a fun way to explore vocabulary related to this week-long celebration while fostering cultural awareness and appreciation for African American heritage and traditions.</p><p></p><p><strong>What You'll Get:</strong></p><ul><li>10 Kwanzaa-Themed Words to Unscramble – Perfect for introducing key terms related to the seven principles (Nguzo Saba) and cultural traditions</li><li>Answer Key</li></ul><p></p><p><strong>Great for:</strong></p><ul><li>Cultural Education &amp; Holiday Activities: Support inclusive education by introducing students to Kwanzaa celebrations and values</li><li>Early Finishers or Brain Breaks: A simple activity that reinforces vocabulary and critical thinking</li><li>Homework or Take-Home Practice: Extend cultural learning beyond the classroom with this simple, festive worksheet</li></ul><p></p><p>If you would like to see some of the other resources that I love using with my students, check out my instagram account at <a href=\"https://www.instagram.com/ciarasclassroom/\" target=\"_blank\" rel=\"noreferrer noopener\">@ciarasclassroom</a>.</p><p></p><p><em>Also, I would really appreciate it if you could leave a review for this product on my store. Your feedback will help me to continue to make helpful resources for you and your students. You can also earn TpT credit to use towards future purchases on this website!</em></p><p></p><p><strong>Other seasonal resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Kwanzaa-Card-Templates-Collaborative-Art-Project-and-Kinara-Craft-Bundle-10747453\" target=\"_blank\" rel=\"noreferrer noopener\">Kwanzaa Card Templates, Collaborative Art Project and Kinara Craft Bundle</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Kinara-Cut-and-Paste-Kwanzaa-Craft-12276157\" target=\"_blank\" rel=\"noreferrer noopener\">Kinara Cut and Paste Kwanzaa Craft</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Kwanzaa-Collaborative-Art-Coloring-Project-10418966\" target=\"_blank\" rel=\"noreferrer noopener\">Kwanzaa Collaborative Art - Coloring Project</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Kwanzaa-Card-Templates-8849701\" target=\"_blank\" rel=\"noreferrer noopener\">Kwanzaa Card Templates</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/About-My-Culture-Flipbook-Celebrate-Cultural-Diversity-in-the-Classroom-7375989\" target=\"_blank\" rel=\"noreferrer noopener\">About My Culture Flipbook</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Family-Celebration-Project-6240175\" target=\"_blank\" rel=\"noreferrer noopener\">My Family Celebration Booklet</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/St-Patricks-Day-Word-Scramble-Activity-12476274\" target=\"_blank\" rel=\"noreferrer noopener\">St. Patrick's Day Word Scramble Activity</a></li></ul><!-- New description editor -->",
+    "descriptionSnippet": "Introduce your students to the meaningful traditions of Kwanzaa with this engaging Word Scramble! This 2-page, no-prep activity offers students a fun way to explore vocabulary related to this week-long celebration while fostering cultural awareness and appreciation for African American heritage and traditions. What You'll Get:10 Kwanzaa-Themed Words to Unscramble – Perfect for introducing key terms related to the seven principles (Nguzo Saba) and cultural traditionsAnswer KeyGreat for:Cultural E",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/Kwanzaa-Word-Scramble-Activity-12476367-1730728188/750f-12476367-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Kwanzaa-Word-Scramble-Activity-12476367-1730728188/750f-12476367-2.jpg"
+    ],
+    "slug": "Kwanzaa-Word-Scramble-Activity-12476367",
+    "reviews": 0,
+    "rating": 0,
+    "categories": [
+      "Worksheets",
+      "Assessment"
+    ],
+    "currencies": {
+      "USD": "1.00",
+      "CAD": "1.38",
+      "GBP": "0.74",
+      "EUR": "0.88",
+      "AUD": "1.55",
+      "NZD": "1.68",
+      "SGD": "1.29",
+      "HKD": "7.84",
+      "ZAR": "17.93",
+      "INR": "85.56",
+      "MYR": "4.25",
+      "PHP": "55.79",
+      "AED": "3.67"
+    }
+  },
+  {
+    "id": "12476274",
+    "title": "St. Patrick's Day Word Scramble Activity",
+    "link": "https://ciarasclassroom.com/product/St-Patricks-Day-Word-Scramble-Activity-12476274",
+    "description": "<p>Introduce your students to the festive traditions of St. Patrick's Day with this engaging Word Scramble! This 2-page, no-prep activity offers students a fun way to explore vocabulary related to this Irish celebration while fostering cultural awareness and appreciation for Irish heritage and traditions.</p><p></p><p><strong>What You'll Get:</strong></p><ul><li>10 St. Patrick's Day-Themed Words to Unscramble – Perfect for introducing key terms related to this lively holiday</li><li>Answer Key</li></ul><p></p><p><strong>Great for:</strong></p><ul><li>Cultural Education &amp; Holiday Activities: Support inclusive education by introducing students to Irish celebrations and folklore</li><li>Early Finishers or Brain Breaks: A simple activity that reinforces vocabulary and critical thinking</li><li>Homework or Take-Home Practice: Extend cultural learning beyond the classroom with this simple, festive worksheet</li></ul><p></p><p>If you would like to see some of the other resources that I love using with my students, check out my instagram account at <a href=\"https://www.instagram.com/ciarasclassroom/\" target=\"_blank\" rel=\"noreferrer noopener\">@ciarasclassroom</a>.</p><p></p><p><em>Also, I would really appreciate it if you could leave a review for this product on my store. Your feedback will help me to continue to make helpful resources for you and your students. You can also earn TpT credit to use towards future purchases on this website!</em></p><p></p><p><strong>Other seasonal resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/St-Patricks-Day-Reading-Comprehension-Task-Cards-and-Printables-6602695\" target=\"_blank\" rel=\"noreferrer noopener\">St. Patrick's Day Reading Comprehension, Task Cards and Printables</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Culture-Project-5931203\" target=\"_blank\" rel=\"noreferrer noopener\">My Culture Project</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/About-My-Culture-Flipbook-Celebrate-Cultural-Diversity-in-the-Classroom-7375989\" target=\"_blank\" rel=\"noreferrer noopener\">About My Culture Flipbook</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Spirituality-and-World-Religions-Project-with-Assessment-Rubric-7308050\" target=\"_blank\" rel=\"noreferrer noopener\">Spirituality and World Religions Project with Assessment Rubric</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Family-Celebration-Project-6240175\" target=\"_blank\" rel=\"noreferrer noopener\">My Family Celebration Booklet</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Lunar-New-Year-Word-Scramble-Activity-12470751\" target=\"_blank\" rel=\"noreferrer noopener\">Lunar New Year Word Scramble Activity</a></li></ul><!-- New description editor -->",
+    "descriptionSnippet": "Introduce your students to the festive traditions of St. Patrick's Day with this engaging Word Scramble! This 2-page, no-prep activity offers students a fun way to explore vocabulary related to this Irish celebration while fostering cultural awareness and appreciation for Irish heritage and traditions. What You'll Get:10 St. Patrick's Day-Themed Words to Unscramble – Perfect for introducing key terms related to this lively holidayAnswer KeyGreat for:Cultural Education & Holiday Activities: Suppo",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/St-Patrick-s-Day-Word-Scramble-Activity-12476274-1730727331/750f-12476274-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/St-Patrick-s-Day-Word-Scramble-Activity-12476274-1730727331/750f-12476274-2.jpg"
+    ],
+    "slug": "St-Patricks-Day-Word-Scramble-Activity-12476274",
+    "reviews": 0,
+    "rating": 0,
+    "categories": [
+      "Worksheets",
+      "Assessment"
+    ],
+    "currencies": {
+      "USD": "1.00",
+      "CAD": "1.38",
+      "GBP": "0.74",
+      "EUR": "0.88",
+      "AUD": "1.55",
+      "NZD": "1.68",
+      "SGD": "1.29",
+      "HKD": "7.84",
+      "ZAR": "17.93",
+      "INR": "85.56",
+      "MYR": "4.25",
+      "PHP": "55.79",
+      "AED": "3.67"
     }
   },
   {
@@ -7568,9 +7568,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "17.93",
-      "INR": "85.57",
+      "INR": "85.56",
       "MYR": "4.25",
-      "PHP": "55.80",
+      "PHP": "55.79",
       "AED": "3.67"
     }
   },
@@ -7601,9 +7601,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "17.93",
-      "INR": "85.57",
+      "INR": "85.56",
       "MYR": "4.25",
-      "PHP": "55.80",
+      "PHP": "55.79",
       "AED": "3.67"
     }
   },
@@ -7634,9 +7634,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "17.93",
-      "INR": "85.57",
+      "INR": "85.56",
       "MYR": "4.25",
-      "PHP": "55.80",
+      "PHP": "55.79",
       "AED": "3.67"
     }
   },
@@ -7667,9 +7667,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "17.93",
-      "INR": "85.57",
+      "INR": "85.56",
       "MYR": "4.25",
-      "PHP": "55.80",
+      "PHP": "55.79",
       "AED": "3.67"
     }
   },
@@ -7700,9 +7700,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "17.93",
-      "INR": "85.57",
+      "INR": "85.56",
       "MYR": "4.25",
-      "PHP": "55.80",
+      "PHP": "55.79",
       "AED": "3.67"
     }
   },
@@ -7733,9 +7733,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "17.93",
-      "INR": "85.57",
+      "INR": "85.56",
       "MYR": "4.25",
-      "PHP": "55.80",
+      "PHP": "55.79",
       "AED": "3.67"
     }
   },
@@ -7764,14 +7764,14 @@
       "CAD": "9.55",
       "GBP": "5.15",
       "EUR": "6.12",
-      "AUD": "10.79",
+      "AUD": "10.78",
       "NZD": "11.63",
       "SGD": "8.95",
       "HKD": "54.42",
-      "ZAR": "124.47",
-      "INR": "593.84",
+      "ZAR": "124.44",
+      "INR": "593.79",
       "MYR": "29.50",
-      "PHP": "387.28",
+      "PHP": "387.17",
       "AED": "25.49"
     }
   },
@@ -7924,15 +7924,15 @@
       "USD": "3.50",
       "CAD": "4.82",
       "GBP": "2.60",
-      "EUR": "3.08",
+      "EUR": "3.09",
       "AUD": "5.44",
       "NZD": "5.87",
       "SGD": "4.52",
       "HKD": "27.44",
-      "ZAR": "62.77",
-      "INR": "299.49",
+      "ZAR": "62.76",
+      "INR": "299.46",
       "MYR": "14.88",
-      "PHP": "195.31",
+      "PHP": "195.26",
       "AED": "12.85"
     }
   },
@@ -7959,14 +7959,14 @@
       "CAD": "1.65",
       "GBP": "0.89",
       "EUR": "1.06",
-      "AUD": "1.87",
+      "AUD": "1.86",
       "NZD": "2.01",
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "21.52",
-      "INR": "102.68",
+      "INR": "102.67",
       "MYR": "5.10",
-      "PHP": "66.96",
+      "PHP": "66.95",
       "AED": "4.41"
     }
   },
@@ -7997,11 +7997,11 @@
       "AUD": "7.77",
       "NZD": "8.38",
       "SGD": "6.45",
-      "HKD": "39.20",
-      "ZAR": "89.67",
-      "INR": "427.84",
+      "HKD": "39.21",
+      "ZAR": "89.66",
+      "INR": "427.80",
       "MYR": "21.25",
-      "PHP": "279.02",
+      "PHP": "278.94",
       "AED": "18.36"
     },
     "evaluations": [
@@ -8069,9 +8069,9 @@
       "SGD": "2.90",
       "HKD": "17.64",
       "ZAR": "40.35",
-      "INR": "192.53",
+      "INR": "192.51",
       "MYR": "9.56",
-      "PHP": "125.56",
+      "PHP": "125.52",
       "AED": "8.26"
     }
   },
@@ -8102,10 +8102,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     },
     "evaluations": [
@@ -8188,9 +8188,9 @@
       "SGD": "2.90",
       "HKD": "17.64",
       "ZAR": "40.35",
-      "INR": "192.53",
+      "INR": "192.51",
       "MYR": "9.56",
-      "PHP": "125.56",
+      "PHP": "125.52",
       "AED": "8.26"
     },
     "evaluations": [
@@ -8333,17 +8333,17 @@
     ],
     "currencies": {
       "USD": "9.90",
-      "CAD": "13.62",
+      "CAD": "13.63",
       "GBP": "7.35",
       "EUR": "8.73",
-      "AUD": "15.39",
+      "AUD": "15.38",
       "NZD": "16.59",
       "SGD": "12.77",
       "HKD": "77.63",
-      "ZAR": "177.55",
-      "INR": "847.12",
+      "ZAR": "177.52",
+      "INR": "847.05",
       "MYR": "42.08",
-      "PHP": "552.46",
+      "PHP": "552.30",
       "AED": "36.36"
     }
   },
@@ -8370,14 +8370,14 @@
       "CAD": "15.83",
       "GBP": "8.54",
       "EUR": "10.14",
-      "AUD": "17.88",
+      "AUD": "17.87",
       "NZD": "19.28",
       "SGD": "14.84",
-      "HKD": "90.17",
-      "ZAR": "206.25",
-      "INR": "984.03",
+      "HKD": "90.18",
+      "ZAR": "206.21",
+      "INR": "983.95",
       "MYR": "48.88",
-      "PHP": "641.74",
+      "PHP": "641.56",
       "AED": "42.23"
     }
   },
@@ -8404,14 +8404,14 @@
       "CAD": "8.26",
       "GBP": "4.46",
       "EUR": "5.29",
-      "AUD": "9.33",
+      "AUD": "9.32",
       "NZD": "10.06",
       "SGD": "7.74",
       "HKD": "47.05",
-      "ZAR": "107.61",
-      "INR": "513.40",
+      "ZAR": "107.59",
+      "INR": "513.36",
       "MYR": "25.50",
-      "PHP": "334.82",
+      "PHP": "334.73",
       "AED": "22.04"
     }
   },
@@ -8440,13 +8440,13 @@
       "GBP": "7.46",
       "EUR": "8.86",
       "AUD": "15.62",
-      "NZD": "16.84",
+      "NZD": "16.85",
       "SGD": "12.97",
-      "HKD": "78.80",
-      "ZAR": "180.24",
-      "INR": "859.95",
-      "MYR": "42.72",
-      "PHP": "560.83",
+      "HKD": "78.81",
+      "ZAR": "180.21",
+      "INR": "859.88",
+      "MYR": "42.71",
+      "PHP": "560.67",
       "AED": "36.91"
     }
   },
@@ -8478,10 +8478,10 @@
       "NZD": "11.31",
       "SGD": "8.71",
       "HKD": "52.93",
-      "ZAR": "121.06",
-      "INR": "577.58",
+      "ZAR": "121.04",
+      "INR": "577.53",
       "MYR": "28.69",
-      "PHP": "376.68",
+      "PHP": "376.57",
       "AED": "24.79"
     }
   },
@@ -8505,17 +8505,17 @@
     ],
     "currencies": {
       "USD": "16.20",
-      "CAD": "22.29",
+      "CAD": "22.30",
       "GBP": "12.03",
       "EUR": "14.28",
-      "AUD": "25.18",
+      "AUD": "25.17",
       "NZD": "27.15",
       "SGD": "20.90",
-      "HKD": "127.02",
-      "ZAR": "290.54",
-      "INR": "1386.19",
-      "MYR": "68.86",
-      "PHP": "904.02",
+      "HKD": "127.03",
+      "ZAR": "290.49",
+      "INR": "1386.08",
+      "MYR": "68.85",
+      "PHP": "903.76",
       "AED": "59.49"
     }
   },
@@ -8544,14 +8544,14 @@
       "CAD": "16.83",
       "GBP": "9.08",
       "EUR": "10.78",
-      "AUD": "19.01",
+      "AUD": "19.00",
       "NZD": "20.50",
       "SGD": "15.78",
       "HKD": "95.90",
-      "ZAR": "219.34",
-      "INR": "1046.49",
+      "ZAR": "219.30",
+      "INR": "1046.40",
       "MYR": "51.98",
-      "PHP": "682.48",
+      "PHP": "682.28",
       "AED": "44.91"
     }
   },
@@ -8582,10 +8582,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     }
   },
@@ -8617,9 +8617,9 @@
       "SGD": "2.52",
       "HKD": "15.29",
       "ZAR": "34.97",
-      "INR": "166.86",
+      "INR": "166.84",
       "MYR": "8.29",
-      "PHP": "108.82",
+      "PHP": "108.79",
       "AED": "7.16"
     }
   },
@@ -8648,14 +8648,14 @@
       "CAD": "11.00",
       "GBP": "5.93",
       "EUR": "7.04",
-      "AUD": "12.42",
+      "AUD": "12.41",
       "NZD": "13.39",
       "SGD": "10.31",
       "HKD": "62.65",
-      "ZAR": "143.30",
-      "INR": "683.68",
+      "ZAR": "143.27",
+      "INR": "683.63",
       "MYR": "33.96",
-      "PHP": "445.87",
+      "PHP": "445.74",
       "AED": "29.34"
     }
   },
@@ -8688,9 +8688,9 @@
       "SGD": "2.90",
       "HKD": "17.64",
       "ZAR": "40.35",
-      "INR": "192.53",
+      "INR": "192.51",
       "MYR": "9.56",
-      "PHP": "125.56",
+      "PHP": "125.52",
       "AED": "8.26"
     },
     "evaluations": [
@@ -8747,10 +8747,10 @@
       "NZD": "11.70",
       "SGD": "9.01",
       "HKD": "54.73",
-      "ZAR": "125.18",
-      "INR": "597.26",
+      "ZAR": "125.16",
+      "INR": "597.21",
       "MYR": "29.67",
-      "PHP": "389.51",
+      "PHP": "389.40",
       "AED": "25.63"
     }
   },
@@ -8781,10 +8781,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     }
   },
@@ -8810,17 +8810,17 @@
     ],
     "currencies": {
       "USD": "23.08",
-      "CAD": "31.76",
+      "CAD": "31.77",
       "GBP": "17.14",
-      "EUR": "20.34",
-      "AUD": "35.88",
-      "NZD": "38.68",
+      "EUR": "20.35",
+      "AUD": "35.86",
+      "NZD": "38.69",
       "SGD": "29.78",
-      "HKD": "180.97",
-      "ZAR": "413.93",
-      "INR": "1974.90",
-      "MYR": "98.10",
-      "PHP": "1287.95",
+      "HKD": "180.98",
+      "ZAR": "413.86",
+      "INR": "1974.74",
+      "MYR": "98.09",
+      "PHP": "1287.58",
       "AED": "84.76"
     }
   },
@@ -8853,10 +8853,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -8889,10 +8889,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -8922,10 +8922,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -8958,10 +8958,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -8993,9 +8993,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "17.93",
-      "INR": "85.57",
+      "INR": "85.56",
       "MYR": "4.25",
-      "PHP": "55.80",
+      "PHP": "55.79",
       "AED": "3.67"
     }
   },
@@ -9021,17 +9021,17 @@
     ],
     "currencies": {
       "USD": "10.75",
-      "CAD": "14.79",
+      "CAD": "14.80",
       "GBP": "7.98",
       "EUR": "9.48",
-      "AUD": "16.71",
+      "AUD": "16.70",
       "NZD": "18.02",
       "SGD": "13.87",
-      "HKD": "84.29",
-      "ZAR": "192.80",
-      "INR": "919.85",
+      "HKD": "84.30",
+      "ZAR": "192.76",
+      "INR": "919.78",
       "MYR": "45.69",
-      "PHP": "599.89",
+      "PHP": "599.72",
       "AED": "39.48"
     }
   },
@@ -9062,11 +9062,11 @@
       "AUD": "6.99",
       "NZD": "7.54",
       "SGD": "5.81",
-      "HKD": "35.28",
-      "ZAR": "80.71",
-      "INR": "385.05",
+      "HKD": "35.29",
+      "ZAR": "80.69",
+      "INR": "385.02",
       "MYR": "19.13",
-      "PHP": "251.12",
+      "PHP": "251.04",
       "AED": "16.53"
     }
   },
@@ -9096,10 +9096,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     }
   },
@@ -9125,14 +9125,14 @@
       "CAD": "2.55",
       "GBP": "1.37",
       "EUR": "1.63",
-      "AUD": "2.88",
+      "AUD": "2.87",
       "NZD": "3.10",
       "SGD": "2.39",
       "HKD": "14.51",
-      "ZAR": "33.18",
-      "INR": "158.30",
+      "ZAR": "33.17",
+      "INR": "158.29",
       "MYR": "7.86",
-      "PHP": "103.24",
+      "PHP": "103.21",
       "AED": "6.79"
     }
   },
@@ -9158,17 +9158,17 @@
     ],
     "currencies": {
       "USD": "4.00",
-      "CAD": "5.50",
+      "CAD": "5.51",
       "GBP": "2.97",
       "EUR": "3.53",
       "AUD": "6.22",
       "NZD": "6.70",
       "SGD": "5.16",
-      "HKD": "31.36",
-      "ZAR": "71.74",
-      "INR": "342.27",
+      "HKD": "31.37",
+      "ZAR": "71.73",
+      "INR": "342.24",
       "MYR": "17.00",
-      "PHP": "223.22",
+      "PHP": "223.15",
       "AED": "14.69"
     },
     "evaluations": [
@@ -9242,17 +9242,17 @@
     ],
     "currencies": {
       "USD": "8.49",
-      "CAD": "11.68",
-      "GBP": "6.31",
+      "CAD": "11.69",
+      "GBP": "6.30",
       "EUR": "7.48",
-      "AUD": "13.20",
+      "AUD": "13.19",
       "NZD": "14.23",
       "SGD": "10.95",
       "HKD": "66.57",
-      "ZAR": "152.27",
-      "INR": "726.47",
-      "MYR": "36.09",
-      "PHP": "473.77",
+      "ZAR": "152.24",
+      "INR": "726.41",
+      "MYR": "36.08",
+      "PHP": "473.64",
       "AED": "31.18"
     }
   },
@@ -9279,17 +9279,53 @@
     "currencies": {
       "USD": "9.15",
       "CAD": "12.59",
-      "GBP": "6.80",
-      "EUR": "8.06",
+      "GBP": "6.79",
+      "EUR": "8.07",
       "AUD": "14.22",
       "NZD": "15.34",
       "SGD": "11.81",
       "HKD": "71.75",
-      "ZAR": "164.10",
-      "INR": "782.94",
+      "ZAR": "164.07",
+      "INR": "782.88",
       "MYR": "38.89",
-      "PHP": "510.60",
+      "PHP": "510.46",
       "AED": "33.60"
+    }
+  },
+  {
+    "id": "11020825",
+    "title": "Learning about Buddhism Resource Bundle",
+    "link": "https://ciarasclassroom.com/product/Learning-about-Buddhism-Resource-Bundle-11020825",
+    "description": "<p>Explore Buddhism as a World Religion with this engaging and interactive Buddhism resource bundle.  Students research various aspects of the Buddhist faith and then create their own flipbooks or collaborate with a partner to research and showcase their learning about Buddhism. The flipbook templates provide structure, guiding students through the origins, beliefs, practices, symbols, and influential figures of Buddhism. This resource promotes student engagement, research skills, cultural understanding, and fosters discussions on diversity and religious tolerance. Perfect for social studies and project based learning.  With this Buddhism resource pack, students can delve into research, expand their knowledge, and develop their writing skills while exploring the figures, objects, and traditions that shape Buddhism worldwide. </p><p></p><p>The graphic organizers and research writing templates include:</p><ul><li><strong>Buddhism KWL Chart:</strong> Encourage active learning as students document what they know, what they want to know, and what they have learned about Buddhism.</li><li><strong>Buddhism Graphic Organizer: </strong>Organize information and insights with this versatile graphic organizer, featuring five headings or topic areas to delve into different aspects of Buddhism.</li><li><strong>All About Meditation: </strong>Learn about the practice of meditation in Buddhism, its techniques, and its benefits.</li><li><strong>All About the Buddhist Endless Knot: </strong>Explore the symbolism and meaning behind the beautiful and intricate Buddhist symbol.</li><li><strong>All About the Buddhist Flag:</strong> Discover the significance of the colorful flag that represents Buddhism.</li><li><strong>All About Gautama Buddha: </strong>Gain insights into the life, teachings, and enlightenment of Siddhartha Gautama, the founder of Buddhism.</li><li><strong>All About Mount Kailash:</strong> Explore the sacred mountain revered in Buddhism and other religions.</li><li><strong>All About the Lotus Flower:</strong> Discover the symbolism and spiritual significance of the lotus flower in Buddhism.</li><li><strong>All About Mani Stones:</strong> Learn about the inscribed stones found in Buddhist regions and their cultural significance.</li><li><strong>All About the Dharma Wheel: </strong>Explore the symbolism and meaning of the Dharma Wheel, representing the teachings of the Buddha.</li><li><strong>All About the Enso Circle: </strong>Discover the art of the Zen Buddhist circle and its representation of enlightenment and the imperfections of existence.</li><li><strong>All About Buddhist Temples: </strong>Learn about the architecture, rituals, and practices associated with Buddhist temples.</li><li><strong>Symbols of Buddhism: </strong>Identify and explore the important symbols that represent Buddhism.</li><li><strong>Similarities and Differences between Buddhism and _____:</strong> Foster critical thinking by encouraging students to compare Buddhism with another world religion they are familiar with.</li></ul><p></p><p>If you would like to see some of the other resources that I love using with my students, check out my instagram account at <a href=\"https://www.instagram.com/ciarasclassroom/\">@ciarasclassroom</a>.</p><p></p><p><em>Also, I would really appreciate it if you could leave a review for this product on my store. Your feedback will help me to continue to make helpful resources for you and your students. You can also earn TpT credit to use towards future purchases on this website!</em></p><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/World-Religions-and-Spirituality-Project-7308050\" target=\"_blank\" rel=\"noreferrer noopener\">World Religions and Spirituality Project</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/World-Religions-Written-Activities-Pack-6547804\" target=\"_blank\" rel=\"noreferrer noopener\">World Religions Written Activities Pack</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/About-My-Culture-Flipbook-7375989\" target=\"_blank\" rel=\"noreferrer noopener\">About My Culture Flipbook</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Templates-for-Researching-World-Religions-6547804\" target=\"_blank\" rel=\"noreferrer noopener\">Templates for Researching World Religions</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Card-Template-Bundle-for-Special-Occasions-Growing-Bundle-8867174\" target=\"_blank\" rel=\"noreferrer noopener\">Card Template Bundle for Special Occasions - Growing Bundle</a></li></ul><p></p><p><br />*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
+    "descriptionSnippet": "Explore Buddhism as a World Religion with this engaging and interactive Buddhism resource bundle.  Students research various aspects of the Buddhist faith and then create their own flipbooks or collaborate with a partner to research and showcase their learning about Buddhism. The flipbook templates provide structure, guiding students through the origins, beliefs, practices, symbols, and influential figures of Buddhism. This resource promotes student engagement, research skills, cultural understa",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/Learning-about-Buddhism-Resource-Bundle-11020825-1707054015/750f-11020825-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Learning-about-Buddhism-Resource-Bundle-11020825-1707054015/750f-11020825-2.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Learning-about-Buddhism-Resource-Bundle-11020825-1707054015/750f-11020825-3.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Learning-about-Buddhism-Resource-Bundle-11020825-1707054015/750f-11020825-4.jpg"
+    ],
+    "slug": "Learning-about-Buddhism-Resource-Bundle-11020825",
+    "reviews": 0,
+    "rating": 0,
+    "categories": [
+      "Research",
+      "Projects",
+      "Graphic Organizers"
+    ],
+    "currencies": {
+      "USD": "4.99",
+      "CAD": "6.87",
+      "GBP": "3.71",
+      "EUR": "4.40",
+      "AUD": "7.75",
+      "NZD": "8.36",
+      "SGD": "6.44",
+      "HKD": "39.13",
+      "ZAR": "89.48",
+      "INR": "426.95",
+      "MYR": "21.21",
+      "PHP": "278.38",
+      "AED": "18.33"
     }
   },
   {
@@ -9423,42 +9459,6 @@
     ]
   },
   {
-    "id": "11020825",
-    "title": "Learning about Buddhism Resource Bundle",
-    "link": "https://ciarasclassroom.com/product/Learning-about-Buddhism-Resource-Bundle-11020825",
-    "description": "<p>Explore Buddhism as a World Religion with this engaging and interactive Buddhism resource bundle.  Students research various aspects of the Buddhist faith and then create their own flipbooks or collaborate with a partner to research and showcase their learning about Buddhism. The flipbook templates provide structure, guiding students through the origins, beliefs, practices, symbols, and influential figures of Buddhism. This resource promotes student engagement, research skills, cultural understanding, and fosters discussions on diversity and religious tolerance. Perfect for social studies and project based learning.  With this Buddhism resource pack, students can delve into research, expand their knowledge, and develop their writing skills while exploring the figures, objects, and traditions that shape Buddhism worldwide. </p><p></p><p>The graphic organizers and research writing templates include:</p><ul><li><strong>Buddhism KWL Chart:</strong> Encourage active learning as students document what they know, what they want to know, and what they have learned about Buddhism.</li><li><strong>Buddhism Graphic Organizer: </strong>Organize information and insights with this versatile graphic organizer, featuring five headings or topic areas to delve into different aspects of Buddhism.</li><li><strong>All About Meditation: </strong>Learn about the practice of meditation in Buddhism, its techniques, and its benefits.</li><li><strong>All About the Buddhist Endless Knot: </strong>Explore the symbolism and meaning behind the beautiful and intricate Buddhist symbol.</li><li><strong>All About the Buddhist Flag:</strong> Discover the significance of the colorful flag that represents Buddhism.</li><li><strong>All About Gautama Buddha: </strong>Gain insights into the life, teachings, and enlightenment of Siddhartha Gautama, the founder of Buddhism.</li><li><strong>All About Mount Kailash:</strong> Explore the sacred mountain revered in Buddhism and other religions.</li><li><strong>All About the Lotus Flower:</strong> Discover the symbolism and spiritual significance of the lotus flower in Buddhism.</li><li><strong>All About Mani Stones:</strong> Learn about the inscribed stones found in Buddhist regions and their cultural significance.</li><li><strong>All About the Dharma Wheel: </strong>Explore the symbolism and meaning of the Dharma Wheel, representing the teachings of the Buddha.</li><li><strong>All About the Enso Circle: </strong>Discover the art of the Zen Buddhist circle and its representation of enlightenment and the imperfections of existence.</li><li><strong>All About Buddhist Temples: </strong>Learn about the architecture, rituals, and practices associated with Buddhist temples.</li><li><strong>Symbols of Buddhism: </strong>Identify and explore the important symbols that represent Buddhism.</li><li><strong>Similarities and Differences between Buddhism and _____:</strong> Foster critical thinking by encouraging students to compare Buddhism with another world religion they are familiar with.</li></ul><p></p><p>If you would like to see some of the other resources that I love using with my students, check out my instagram account at <a href=\"https://www.instagram.com/ciarasclassroom/\">@ciarasclassroom</a>.</p><p></p><p><em>Also, I would really appreciate it if you could leave a review for this product on my store. Your feedback will help me to continue to make helpful resources for you and your students. You can also earn TpT credit to use towards future purchases on this website!</em></p><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/World-Religions-and-Spirituality-Project-7308050\" target=\"_blank\" rel=\"noreferrer noopener\">World Religions and Spirituality Project</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/World-Religions-Written-Activities-Pack-6547804\" target=\"_blank\" rel=\"noreferrer noopener\">World Religions Written Activities Pack</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/About-My-Culture-Flipbook-7375989\" target=\"_blank\" rel=\"noreferrer noopener\">About My Culture Flipbook</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Templates-for-Researching-World-Religions-6547804\" target=\"_blank\" rel=\"noreferrer noopener\">Templates for Researching World Religions</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Card-Template-Bundle-for-Special-Occasions-Growing-Bundle-8867174\" target=\"_blank\" rel=\"noreferrer noopener\">Card Template Bundle for Special Occasions - Growing Bundle</a></li></ul><p></p><p><br />*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
-    "descriptionSnippet": "Explore Buddhism as a World Religion with this engaging and interactive Buddhism resource bundle.  Students research various aspects of the Buddhist faith and then create their own flipbooks or collaborate with a partner to research and showcase their learning about Buddhism. The flipbook templates provide structure, guiding students through the origins, beliefs, practices, symbols, and influential figures of Buddhism. This resource promotes student engagement, research skills, cultural understa",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/Learning-about-Buddhism-Resource-Bundle-11020825-1707054015/750f-11020825-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Learning-about-Buddhism-Resource-Bundle-11020825-1707054015/750f-11020825-2.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Learning-about-Buddhism-Resource-Bundle-11020825-1707054015/750f-11020825-3.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Learning-about-Buddhism-Resource-Bundle-11020825-1707054015/750f-11020825-4.jpg"
-    ],
-    "slug": "Learning-about-Buddhism-Resource-Bundle-11020825",
-    "reviews": 0,
-    "rating": 0,
-    "categories": [
-      "Research",
-      "Projects",
-      "Graphic Organizers"
-    ],
-    "currencies": {
-      "USD": "4.99",
-      "CAD": "6.87",
-      "GBP": "3.71",
-      "EUR": "4.40",
-      "AUD": "7.76",
-      "NZD": "8.36",
-      "SGD": "6.44",
-      "HKD": "39.13",
-      "ZAR": "89.49",
-      "INR": "426.98",
-      "MYR": "21.21",
-      "PHP": "278.46",
-      "AED": "18.33"
-    }
-  },
-  {
     "id": "6503734",
     "title": "Gender Equality Writing Templates",
     "link": "https://ciarasclassroom.com/product/Gender-Equality-Writing-Templates-6503734",
@@ -9486,10 +9486,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -9517,44 +9517,11 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
-    }
-  },
-  {
-    "id": "8921468",
-    "title": "Tumble Math Game Bundle for Addition, Subtraction, Multiplication and Division",
-    "link": "https://ciarasclassroom.com/product/Tumble-Math-Game-Bundle-for-Addition-Subtraction-Multiplication-and-Division-8921468",
-    "description": "<p>'Tumble' is a fantastic tumbling towers math game for working on mental maths in a fun and engaging way, as part of your math centers or math rotations.  This resource contains all the addition, subtraction, multiplication and division cards you will need to play the mental math game and improve math fact fluency.  Instructions also included.</p><p><br /></p><p>The cards are categorised to make it as teacher friendly as possible:</p><ul><li>Doubles and Near Doubles</li><li>Addition and Subtraction within 10</li><li>Addition and Subtraction within 20</li><li>Advanced Addition and Subtraction with and without Renaming/Regrouping</li><li>x2</li><li>x3</li><li>x4</li><li>x5</li><li>x6</li><li>x7</li><li>x8</li><li>x9</li><li>x10</li><li>÷2</li><li>÷3</li><li>÷4</li><li>÷5</li><li>÷6</li><li>÷7</li><li>÷8</li><li>÷9</li><li>÷10</li></ul><p></p><p></p><p>If you would like to see some of the other resources that I love using with my students, check out my instagram account at <a href=\"https://www.instagram.com/ciarasclassroom/\" target=\"_blank\" rel=\"noreferrer noopener\">@ciarasclassroom</a>.</p><p></p><p><em>Also, I would really appreciate it if you could leave a review for this product on my store. Your feedback will help me to continue to make helpful resources for you and your students. You can also earn TpT credit to use towards future purchases on this website!</em></p><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Tumble-Addition-and-Subtraction-Game-8921309\" target=\"_blank\" rel=\"noreferrer noopener\">Tumble Addition and Subtraction Game</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Tumble-Multiplication-Game-8921388\" target=\"_blank\" rel=\"noreferrer noopener\">Tumble Multiplication Game</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Tumble-Division-Game-8921420\" target=\"_blank\" rel=\"noreferrer noopener\">Tumble Division Game</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Childrens-Rights-Word-Search-7729046\" target=\"_blank\" rel=\"noreferrer noopener\">Children's Rights Word Search</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/World-Peace-Day-Word-Searches-7871412\" target=\"_blank\" rel=\"noreferrer noopener\">World Peace Day Word Searches</a></li></ul><p></p><p><br />*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
-    "descriptionSnippet": "'Tumble' is a fantastic tumbling towers math game for working on mental maths in a fun and engaging way, as part of your math centers or math rotations.  This resource contains all the addition, subtraction, multiplication and division cards you will need to play the mental math game and improve math fact fluency.  Instructions also included. The cards are categorised to make it as teacher friendly as possible: Doubles and Near DoublesAddition and Subtraction within 10Addition and Subtraction wi",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/Tumble-Game-Addition-Subtraction-Multiplication-and-Division-Bundle-8921468-1717340631/750f-8921468-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Tumble-Game-Addition-Subtraction-Multiplication-and-Division-Bundle-8921468-1717340631/750f-8921468-2.jpg"
-    ],
-    "slug": "Tumble-Math-Game-Bundle-for-Addition-Subtraction-Multiplication-and-Division-8921468",
-    "reviews": 0,
-    "rating": 0,
-    "categories": [
-      "Activities",
-      "Games"
-    ],
-    "currencies": {
-      "USD": "9.00",
-      "CAD": "12.39",
-      "GBP": "6.68",
-      "EUR": "7.93",
-      "AUD": "13.99",
-      "NZD": "15.08",
-      "SGD": "11.61",
-      "HKD": "70.57",
-      "ZAR": "161.41",
-      "INR": "770.11",
-      "MYR": "38.25",
-      "PHP": "502.23",
-      "AED": "33.05"
     }
   },
   {
@@ -9621,6 +9588,39 @@
     ]
   },
   {
+    "id": "8921468",
+    "title": "Tumble Math Game Bundle for Addition, Subtraction, Multiplication and Division",
+    "link": "https://ciarasclassroom.com/product/Tumble-Math-Game-Bundle-for-Addition-Subtraction-Multiplication-and-Division-8921468",
+    "description": "<p>'Tumble' is a fantastic tumbling towers math game for working on mental maths in a fun and engaging way, as part of your math centers or math rotations.  This resource contains all the addition, subtraction, multiplication and division cards you will need to play the mental math game and improve math fact fluency.  Instructions also included.</p><p><br /></p><p>The cards are categorised to make it as teacher friendly as possible:</p><ul><li>Doubles and Near Doubles</li><li>Addition and Subtraction within 10</li><li>Addition and Subtraction within 20</li><li>Advanced Addition and Subtraction with and without Renaming/Regrouping</li><li>x2</li><li>x3</li><li>x4</li><li>x5</li><li>x6</li><li>x7</li><li>x8</li><li>x9</li><li>x10</li><li>÷2</li><li>÷3</li><li>÷4</li><li>÷5</li><li>÷6</li><li>÷7</li><li>÷8</li><li>÷9</li><li>÷10</li></ul><p></p><p></p><p>If you would like to see some of the other resources that I love using with my students, check out my instagram account at <a href=\"https://www.instagram.com/ciarasclassroom/\" target=\"_blank\" rel=\"noreferrer noopener\">@ciarasclassroom</a>.</p><p></p><p><em>Also, I would really appreciate it if you could leave a review for this product on my store. Your feedback will help me to continue to make helpful resources for you and your students. You can also earn TpT credit to use towards future purchases on this website!</em></p><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Tumble-Addition-and-Subtraction-Game-8921309\" target=\"_blank\" rel=\"noreferrer noopener\">Tumble Addition and Subtraction Game</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Tumble-Multiplication-Game-8921388\" target=\"_blank\" rel=\"noreferrer noopener\">Tumble Multiplication Game</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Tumble-Division-Game-8921420\" target=\"_blank\" rel=\"noreferrer noopener\">Tumble Division Game</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Childrens-Rights-Word-Search-7729046\" target=\"_blank\" rel=\"noreferrer noopener\">Children's Rights Word Search</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/World-Peace-Day-Word-Searches-7871412\" target=\"_blank\" rel=\"noreferrer noopener\">World Peace Day Word Searches</a></li></ul><p></p><p><br />*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
+    "descriptionSnippet": "'Tumble' is a fantastic tumbling towers math game for working on mental maths in a fun and engaging way, as part of your math centers or math rotations.  This resource contains all the addition, subtraction, multiplication and division cards you will need to play the mental math game and improve math fact fluency.  Instructions also included. The cards are categorised to make it as teacher friendly as possible: Doubles and Near DoublesAddition and Subtraction within 10Addition and Subtraction wi",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/Tumble-Game-Addition-Subtraction-Multiplication-and-Division-Bundle-8921468-1717340631/750f-8921468-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Tumble-Game-Addition-Subtraction-Multiplication-and-Division-Bundle-8921468-1717340631/750f-8921468-2.jpg"
+    ],
+    "slug": "Tumble-Math-Game-Bundle-for-Addition-Subtraction-Multiplication-and-Division-8921468",
+    "reviews": 0,
+    "rating": 0,
+    "categories": [
+      "Activities",
+      "Games"
+    ],
+    "currencies": {
+      "USD": "9.00",
+      "CAD": "12.39",
+      "GBP": "6.68",
+      "EUR": "7.93",
+      "AUD": "13.98",
+      "NZD": "15.09",
+      "SGD": "11.61",
+      "HKD": "70.57",
+      "ZAR": "161.38",
+      "INR": "770.04",
+      "MYR": "38.25",
+      "PHP": "502.09",
+      "AED": "33.05"
+    }
+  },
+  {
     "id": "8921309",
     "title": "Tumble Addition and Subtraction Game - Math Centers Game for Math Fact Fluency",
     "link": "https://ciarasclassroom.com/product/Tumble-Addition-and-Subtraction-Game-Math-Centers-Game-for-Math-Fact-Fluency-8921309",
@@ -9646,10 +9646,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -9680,10 +9680,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     }
   },
@@ -9715,10 +9715,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -9750,10 +9750,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -9785,10 +9785,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -9819,10 +9819,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     }
   },
@@ -9854,10 +9854,10 @@
       "NZD": "2.93",
       "SGD": "2.26",
       "HKD": "13.72",
-      "ZAR": "31.39",
-      "INR": "149.74",
+      "ZAR": "31.38",
+      "INR": "149.73",
       "MYR": "7.44",
-      "PHP": "97.66",
+      "PHP": "97.63",
       "AED": "6.43"
     },
     "evaluations": [
@@ -9908,17 +9908,17 @@
     ],
     "currencies": {
       "USD": "12.00",
-      "CAD": "16.51",
+      "CAD": "16.52",
       "GBP": "8.91",
       "EUR": "10.58",
       "AUD": "18.65",
       "NZD": "20.11",
       "SGD": "15.48",
-      "HKD": "94.09",
-      "ZAR": "215.22",
-      "INR": "1026.81",
+      "HKD": "94.10",
+      "ZAR": "215.18",
+      "INR": "1026.73",
       "MYR": "51.00",
-      "PHP": "669.65",
+      "PHP": "669.45",
       "AED": "44.07"
     }
   },
@@ -9950,11 +9950,11 @@
       "AUD": "6.12",
       "NZD": "6.60",
       "SGD": "5.08",
-      "HKD": "30.89",
-      "ZAR": "70.66",
-      "INR": "337.14",
+      "HKD": "30.90",
+      "ZAR": "70.65",
+      "INR": "337.11",
       "MYR": "16.75",
-      "PHP": "219.87",
+      "PHP": "219.80",
       "AED": "14.47"
     }
   },
@@ -9987,10 +9987,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -10023,10 +10023,10 @@
       "NZD": "3.35",
       "SGD": "2.58",
       "HKD": "15.68",
-      "ZAR": "35.87",
-      "INR": "171.13",
+      "ZAR": "35.86",
+      "INR": "171.12",
       "MYR": "8.50",
-      "PHP": "111.61",
+      "PHP": "111.58",
       "AED": "7.34"
     },
     "evaluations": [
@@ -10131,10 +10131,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     },
     "evaluations": [
@@ -10222,10 +10222,10 @@
       "NZD": "6.96",
       "SGD": "5.35",
       "HKD": "32.54",
-      "ZAR": "74.43",
-      "INR": "355.11",
+      "ZAR": "74.42",
+      "INR": "355.08",
       "MYR": "17.64",
-      "PHP": "231.59",
+      "PHP": "231.52",
       "AED": "15.24"
     }
   },
@@ -10253,15 +10253,15 @@
       "USD": "3.50",
       "CAD": "4.82",
       "GBP": "2.60",
-      "EUR": "3.08",
+      "EUR": "3.09",
       "AUD": "5.44",
       "NZD": "5.87",
       "SGD": "4.52",
       "HKD": "27.44",
-      "ZAR": "62.77",
-      "INR": "299.49",
+      "ZAR": "62.76",
+      "INR": "299.46",
       "MYR": "14.88",
-      "PHP": "195.31",
+      "PHP": "195.26",
       "AED": "12.85"
     }
   },
@@ -10289,10 +10289,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -10325,10 +10325,10 @@
       "NZD": "4.36",
       "SGD": "3.35",
       "HKD": "20.39",
-      "ZAR": "46.63",
-      "INR": "222.48",
+      "ZAR": "46.62",
+      "INR": "222.46",
       "MYR": "11.05",
-      "PHP": "145.09",
+      "PHP": "145.05",
       "AED": "9.55"
     }
   },
@@ -10357,14 +10357,14 @@
       "CAD": "7.09",
       "GBP": "3.82",
       "EUR": "4.54",
-      "AUD": "8.01",
+      "AUD": "8.00",
       "NZD": "8.63",
       "SGD": "6.65",
       "HKD": "40.38",
-      "ZAR": "92.36",
-      "INR": "440.67",
+      "ZAR": "92.35",
+      "INR": "440.64",
       "MYR": "21.89",
-      "PHP": "287.39",
+      "PHP": "287.31",
       "AED": "18.91"
     }
   },
@@ -10396,10 +10396,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     },
     "evaluations": [
@@ -10464,9 +10464,9 @@
       "SGD": "2.71",
       "HKD": "16.47",
       "ZAR": "37.66",
-      "INR": "179.69",
+      "INR": "179.68",
       "MYR": "8.93",
-      "PHP": "117.19",
+      "PHP": "117.15",
       "AED": "7.71"
     }
   },
@@ -10494,15 +10494,15 @@
       "USD": "3.50",
       "CAD": "4.82",
       "GBP": "2.60",
-      "EUR": "3.08",
+      "EUR": "3.09",
       "AUD": "5.44",
       "NZD": "5.87",
       "SGD": "4.52",
       "HKD": "27.44",
-      "ZAR": "62.77",
-      "INR": "299.49",
+      "ZAR": "62.76",
+      "INR": "299.46",
       "MYR": "14.88",
-      "PHP": "195.31",
+      "PHP": "195.26",
       "AED": "12.85"
     }
   },
@@ -10535,10 +10535,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -10570,10 +10570,10 @@
       "NZD": "12.55",
       "SGD": "9.66",
       "HKD": "58.73",
-      "ZAR": "134.33",
-      "INR": "640.90",
-      "MYR": "31.84",
-      "PHP": "417.97",
+      "ZAR": "134.31",
+      "INR": "640.85",
+      "MYR": "31.83",
+      "PHP": "417.85",
       "AED": "27.51"
     }
   },
@@ -10606,10 +10606,10 @@
       "NZD": "5.53",
       "SGD": "4.26",
       "HKD": "25.88",
-      "ZAR": "59.18",
-      "INR": "282.37",
-      "MYR": "14.03",
-      "PHP": "184.15",
+      "ZAR": "59.17",
+      "INR": "282.35",
+      "MYR": "14.02",
+      "PHP": "184.10",
       "AED": "12.12"
     }
   },
@@ -10642,10 +10642,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     }
   },
@@ -10676,10 +10676,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     }
   },
@@ -10710,10 +10710,10 @@
       "NZD": "5.45",
       "SGD": "4.19",
       "HKD": "25.48",
-      "ZAR": "58.29",
-      "INR": "278.09",
+      "ZAR": "58.28",
+      "INR": "278.07",
       "MYR": "13.81",
-      "PHP": "181.36",
+      "PHP": "181.31",
       "AED": "11.94"
     }
   },
@@ -10746,10 +10746,10 @@
       "NZD": "5.45",
       "SGD": "4.19",
       "HKD": "25.48",
-      "ZAR": "58.29",
-      "INR": "278.09",
+      "ZAR": "58.28",
+      "INR": "278.07",
       "MYR": "13.81",
-      "PHP": "181.36",
+      "PHP": "181.31",
       "AED": "11.94"
     }
   },
@@ -10782,10 +10782,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -10818,10 +10818,10 @@
       "NZD": "5.36",
       "SGD": "4.13",
       "HKD": "25.09",
-      "ZAR": "57.39",
-      "INR": "273.82",
+      "ZAR": "57.38",
+      "INR": "273.79",
       "MYR": "13.60",
-      "PHP": "178.57",
+      "PHP": "178.52",
       "AED": "11.75"
     }
   },
@@ -10852,9 +10852,9 @@
       "SGD": "1.94",
       "HKD": "11.76",
       "ZAR": "26.90",
-      "INR": "128.35",
+      "INR": "128.34",
       "MYR": "6.38",
-      "PHP": "83.71",
+      "PHP": "83.68",
       "AED": "5.51"
     }
   },
@@ -10881,14 +10881,14 @@
       "CAD": "6.87",
       "GBP": "3.71",
       "EUR": "4.40",
-      "AUD": "7.76",
+      "AUD": "7.75",
       "NZD": "8.36",
       "SGD": "6.44",
       "HKD": "39.13",
-      "ZAR": "89.49",
-      "INR": "426.98",
+      "ZAR": "89.48",
+      "INR": "426.95",
       "MYR": "21.21",
-      "PHP": "278.46",
+      "PHP": "278.38",
       "AED": "18.33"
     }
   },
@@ -10920,10 +10920,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -10955,10 +10955,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -10989,10 +10989,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -11025,10 +11025,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -11058,10 +11058,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -11094,10 +11094,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -11130,10 +11130,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -11166,10 +11166,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -11195,14 +11195,14 @@
       "CAD": "2.55",
       "GBP": "1.37",
       "EUR": "1.63",
-      "AUD": "2.88",
+      "AUD": "2.87",
       "NZD": "3.10",
       "SGD": "2.39",
       "HKD": "14.51",
-      "ZAR": "33.18",
-      "INR": "158.30",
+      "ZAR": "33.17",
+      "INR": "158.29",
       "MYR": "7.86",
-      "PHP": "103.24",
+      "PHP": "103.21",
       "AED": "6.79"
     }
   },
@@ -11231,10 +11231,10 @@
       "NZD": "3.35",
       "SGD": "2.58",
       "HKD": "15.68",
-      "ZAR": "35.87",
-      "INR": "171.13",
+      "ZAR": "35.86",
+      "INR": "171.12",
       "MYR": "8.50",
-      "PHP": "111.61",
+      "PHP": "111.58",
       "AED": "7.34"
     }
   },
@@ -11261,16 +11261,16 @@
     "currencies": {
       "USD": "7.09",
       "CAD": "9.76",
-      "GBP": "5.27",
+      "GBP": "5.26",
       "EUR": "6.25",
       "AUD": "11.02",
       "NZD": "11.88",
       "SGD": "9.15",
-      "HKD": "55.59",
-      "ZAR": "127.16",
-      "INR": "606.67",
-      "MYR": "30.14",
-      "PHP": "395.65",
+      "HKD": "55.60",
+      "ZAR": "127.13",
+      "INR": "606.62",
+      "MYR": "30.13",
+      "PHP": "395.53",
       "AED": "26.04"
     }
   },
@@ -11294,17 +11294,17 @@
     ],
     "currencies": {
       "USD": "5.78",
-      "CAD": "7.95",
+      "CAD": "7.96",
       "GBP": "4.29",
-      "EUR": "5.09",
+      "EUR": "5.10",
       "AUD": "8.98",
       "NZD": "9.69",
       "SGD": "7.46",
       "HKD": "45.32",
-      "ZAR": "103.66",
-      "INR": "494.58",
+      "ZAR": "103.64",
+      "INR": "494.54",
       "MYR": "24.57",
-      "PHP": "322.55",
+      "PHP": "322.45",
       "AED": "21.23"
     }
   },
@@ -11335,10 +11335,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     },
     "evaluations": [
@@ -11389,17 +11389,17 @@
     ],
     "currencies": {
       "USD": "7.00",
-      "CAD": "9.63",
+      "CAD": "9.64",
       "GBP": "5.20",
       "EUR": "6.17",
       "AUD": "10.88",
       "NZD": "11.73",
       "SGD": "9.03",
       "HKD": "54.89",
-      "ZAR": "125.54",
-      "INR": "598.97",
+      "ZAR": "125.52",
+      "INR": "598.92",
       "MYR": "29.75",
-      "PHP": "390.63",
+      "PHP": "390.51",
       "AED": "25.71"
     }
   },
@@ -11430,10 +11430,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     },
     "evaluations": [
@@ -11485,14 +11485,14 @@
       "CAD": "3.44",
       "GBP": "1.86",
       "EUR": "2.20",
-      "AUD": "3.89",
+      "AUD": "3.88",
       "NZD": "4.19",
       "SGD": "3.23",
       "HKD": "19.60",
-      "ZAR": "44.84",
-      "INR": "213.92",
+      "ZAR": "44.83",
+      "INR": "213.90",
       "MYR": "10.63",
-      "PHP": "139.51",
+      "PHP": "139.47",
       "AED": "9.18"
     }
   },
@@ -11520,14 +11520,14 @@
       "CAD": "3.44",
       "GBP": "1.86",
       "EUR": "2.20",
-      "AUD": "3.89",
+      "AUD": "3.88",
       "NZD": "4.19",
       "SGD": "3.23",
       "HKD": "19.60",
-      "ZAR": "44.84",
-      "INR": "213.92",
+      "ZAR": "44.83",
+      "INR": "213.90",
       "MYR": "10.63",
-      "PHP": "139.51",
+      "PHP": "139.47",
       "AED": "9.18"
     }
   },
@@ -11556,14 +11556,14 @@
       "CAD": "7.02",
       "GBP": "3.79",
       "EUR": "4.50",
-      "AUD": "7.93",
+      "AUD": "7.92",
       "NZD": "8.55",
       "SGD": "6.58",
       "HKD": "39.99",
-      "ZAR": "91.47",
-      "INR": "436.39",
-      "MYR": "21.68",
-      "PHP": "284.60",
+      "ZAR": "91.45",
+      "INR": "436.36",
+      "MYR": "21.67",
+      "PHP": "284.52",
       "AED": "18.73"
     }
   },
@@ -11595,10 +11595,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -11630,10 +11630,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -11666,10 +11666,10 @@
       "NZD": "3.35",
       "SGD": "2.58",
       "HKD": "15.68",
-      "ZAR": "35.87",
-      "INR": "171.13",
+      "ZAR": "35.86",
+      "INR": "171.12",
       "MYR": "8.50",
-      "PHP": "111.61",
+      "PHP": "111.58",
       "AED": "7.34"
     }
   },
@@ -11701,10 +11701,10 @@
       "NZD": "3.35",
       "SGD": "2.58",
       "HKD": "15.68",
-      "ZAR": "35.87",
-      "INR": "171.13",
+      "ZAR": "35.86",
+      "INR": "171.12",
       "MYR": "8.50",
-      "PHP": "111.61",
+      "PHP": "111.58",
       "AED": "7.34"
     }
   },
@@ -11736,10 +11736,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -11767,15 +11767,15 @@
       "USD": "3.50",
       "CAD": "4.82",
       "GBP": "2.60",
-      "EUR": "3.08",
+      "EUR": "3.09",
       "AUD": "5.44",
       "NZD": "5.87",
       "SGD": "4.52",
       "HKD": "27.44",
-      "ZAR": "62.77",
-      "INR": "299.49",
+      "ZAR": "62.76",
+      "INR": "299.46",
       "MYR": "14.88",
-      "PHP": "195.31",
+      "PHP": "195.26",
       "AED": "12.85"
     }
   },
@@ -11803,15 +11803,15 @@
       "USD": "3.50",
       "CAD": "4.82",
       "GBP": "2.60",
-      "EUR": "3.08",
+      "EUR": "3.09",
       "AUD": "5.44",
       "NZD": "5.87",
       "SGD": "4.52",
       "HKD": "27.44",
-      "ZAR": "62.77",
-      "INR": "299.49",
+      "ZAR": "62.76",
+      "INR": "299.46",
       "MYR": "14.88",
-      "PHP": "195.31",
+      "PHP": "195.26",
       "AED": "12.85"
     }
   },
@@ -11839,14 +11839,14 @@
       "CAD": "1.65",
       "GBP": "0.89",
       "EUR": "1.06",
-      "AUD": "1.87",
+      "AUD": "1.86",
       "NZD": "2.01",
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "21.52",
-      "INR": "102.68",
+      "INR": "102.67",
       "MYR": "5.10",
-      "PHP": "66.96",
+      "PHP": "66.95",
       "AED": "4.41"
     }
   },
@@ -11879,10 +11879,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -11915,10 +11915,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -11951,10 +11951,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -11987,10 +11987,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -12023,10 +12023,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -12059,10 +12059,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -12095,10 +12095,10 @@
       "NZD": "5.03",
       "SGD": "3.87",
       "HKD": "23.52",
-      "ZAR": "53.80",
-      "INR": "256.70",
+      "ZAR": "53.79",
+      "INR": "256.68",
       "MYR": "12.75",
-      "PHP": "167.41",
+      "PHP": "167.36",
       "AED": "11.02"
     }
   },
@@ -12129,9 +12129,9 @@
       "SGD": "1.94",
       "HKD": "11.76",
       "ZAR": "26.90",
-      "INR": "128.35",
+      "INR": "128.34",
       "MYR": "6.38",
-      "PHP": "83.71",
+      "PHP": "83.68",
       "AED": "5.51"
     },
     "evaluations": [
@@ -12182,9 +12182,9 @@
       "SGD": "1.94",
       "HKD": "11.76",
       "ZAR": "26.90",
-      "INR": "128.35",
+      "INR": "128.34",
       "MYR": "6.38",
-      "PHP": "83.71",
+      "PHP": "83.68",
       "AED": "5.51"
     }
   },
@@ -12212,14 +12212,14 @@
       "CAD": "3.44",
       "GBP": "1.86",
       "EUR": "2.20",
-      "AUD": "3.89",
+      "AUD": "3.88",
       "NZD": "4.19",
       "SGD": "3.23",
       "HKD": "19.60",
-      "ZAR": "44.84",
-      "INR": "213.92",
+      "ZAR": "44.83",
+      "INR": "213.90",
       "MYR": "10.63",
-      "PHP": "139.51",
+      "PHP": "139.47",
       "AED": "9.18"
     }
   },
@@ -12247,14 +12247,14 @@
       "CAD": "1.65",
       "GBP": "0.89",
       "EUR": "1.06",
-      "AUD": "1.87",
+      "AUD": "1.86",
       "NZD": "2.01",
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "21.52",
-      "INR": "102.68",
+      "INR": "102.67",
       "MYR": "5.10",
-      "PHP": "66.96",
+      "PHP": "66.95",
       "AED": "4.41"
     }
   },
@@ -12283,14 +12283,14 @@
       "CAD": "3.44",
       "GBP": "1.86",
       "EUR": "2.20",
-      "AUD": "3.89",
+      "AUD": "3.88",
       "NZD": "4.19",
       "SGD": "3.23",
       "HKD": "19.60",
-      "ZAR": "44.84",
-      "INR": "213.92",
+      "ZAR": "44.83",
+      "INR": "213.90",
       "MYR": "10.63",
-      "PHP": "139.51",
+      "PHP": "139.47",
       "AED": "9.18"
     }
   },
@@ -12318,14 +12318,14 @@
       "CAD": "1.65",
       "GBP": "0.89",
       "EUR": "1.06",
-      "AUD": "1.87",
+      "AUD": "1.86",
       "NZD": "2.01",
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "21.52",
-      "INR": "102.68",
+      "INR": "102.67",
       "MYR": "5.10",
-      "PHP": "66.96",
+      "PHP": "66.95",
       "AED": "4.41"
     },
     "evaluations": [
@@ -12388,9 +12388,9 @@
       "SGD": "2.71",
       "HKD": "16.47",
       "ZAR": "37.66",
-      "INR": "179.69",
+      "INR": "179.68",
       "MYR": "8.93",
-      "PHP": "117.19",
+      "PHP": "117.15",
       "AED": "7.71"
     }
   },
@@ -12423,9 +12423,9 @@
       "SGD": "2.90",
       "HKD": "17.64",
       "ZAR": "40.35",
-      "INR": "192.53",
+      "INR": "192.51",
       "MYR": "9.56",
-      "PHP": "125.56",
+      "PHP": "125.52",
       "AED": "8.26"
     }
   },
@@ -12457,9 +12457,9 @@
       "SGD": "2.90",
       "HKD": "17.64",
       "ZAR": "40.35",
-      "INR": "192.53",
+      "INR": "192.51",
       "MYR": "9.56",
-      "PHP": "125.56",
+      "PHP": "125.52",
       "AED": "8.26"
     }
   },
@@ -12490,10 +12490,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     }
   },
@@ -12527,9 +12527,9 @@
       "SGD": "2.71",
       "HKD": "16.47",
       "ZAR": "37.66",
-      "INR": "179.69",
+      "INR": "179.68",
       "MYR": "8.93",
-      "PHP": "117.19",
+      "PHP": "117.15",
       "AED": "7.71"
     }
   },
@@ -12555,17 +12555,17 @@
     ],
     "currencies": {
       "USD": "1.90",
-      "CAD": "2.61",
+      "CAD": "2.62",
       "GBP": "1.41",
       "EUR": "1.67",
       "AUD": "2.95",
       "NZD": "3.18",
       "SGD": "2.45",
       "HKD": "14.90",
-      "ZAR": "34.08",
-      "INR": "162.58",
-      "MYR": "8.08",
-      "PHP": "106.03",
+      "ZAR": "34.07",
+      "INR": "162.56",
+      "MYR": "8.07",
+      "PHP": "106.00",
       "AED": "6.98"
     }
   },
@@ -12596,10 +12596,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     }
   },
@@ -12629,10 +12629,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     }
   },
@@ -12664,10 +12664,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     }
   },
@@ -12698,10 +12698,10 @@
       "NZD": "3.34",
       "SGD": "2.57",
       "HKD": "15.60",
-      "ZAR": "35.69",
-      "INR": "170.28",
+      "ZAR": "35.68",
+      "INR": "170.27",
       "MYR": "8.46",
-      "PHP": "111.05",
+      "PHP": "111.02",
       "AED": "7.31"
     }
   },
@@ -12735,9 +12735,9 @@
       "SGD": "2.52",
       "HKD": "15.29",
       "ZAR": "34.97",
-      "INR": "166.86",
+      "INR": "166.84",
       "MYR": "8.29",
-      "PHP": "108.82",
+      "PHP": "108.79",
       "AED": "7.16"
     }
   },
@@ -12765,15 +12765,15 @@
       "USD": "3.50",
       "CAD": "4.82",
       "GBP": "2.60",
-      "EUR": "3.08",
+      "EUR": "3.09",
       "AUD": "5.44",
       "NZD": "5.87",
       "SGD": "4.52",
       "HKD": "27.44",
-      "ZAR": "62.77",
-      "INR": "299.49",
+      "ZAR": "62.76",
+      "INR": "299.46",
       "MYR": "14.88",
-      "PHP": "195.31",
+      "PHP": "195.26",
       "AED": "12.85"
     }
   },
@@ -12802,9 +12802,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "17.93",
-      "INR": "85.57",
+      "INR": "85.56",
       "MYR": "4.25",
-      "PHP": "55.80",
+      "PHP": "55.79",
       "AED": "3.67"
     }
   },
@@ -12832,14 +12832,14 @@
       "CAD": "1.65",
       "GBP": "0.89",
       "EUR": "1.06",
-      "AUD": "1.87",
+      "AUD": "1.86",
       "NZD": "2.01",
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "21.52",
-      "INR": "102.68",
+      "INR": "102.67",
       "MYR": "5.10",
-      "PHP": "66.96",
+      "PHP": "66.95",
       "AED": "4.41"
     }
   },
@@ -12867,14 +12867,14 @@
       "CAD": "1.65",
       "GBP": "0.89",
       "EUR": "1.06",
-      "AUD": "1.87",
+      "AUD": "1.86",
       "NZD": "2.01",
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "21.52",
-      "INR": "102.68",
+      "INR": "102.67",
       "MYR": "5.10",
-      "PHP": "66.96",
+      "PHP": "66.95",
       "AED": "4.41"
     }
   },
@@ -12902,14 +12902,14 @@
       "CAD": "1.65",
       "GBP": "0.89",
       "EUR": "1.06",
-      "AUD": "1.87",
+      "AUD": "1.86",
       "NZD": "2.01",
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "21.52",
-      "INR": "102.68",
+      "INR": "102.67",
       "MYR": "5.10",
-      "PHP": "66.96",
+      "PHP": "66.95",
       "AED": "4.41"
     }
   },
@@ -12937,14 +12937,14 @@
       "CAD": "1.65",
       "GBP": "0.89",
       "EUR": "1.06",
-      "AUD": "1.87",
+      "AUD": "1.86",
       "NZD": "2.01",
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "21.52",
-      "INR": "102.68",
+      "INR": "102.67",
       "MYR": "5.10",
-      "PHP": "66.96",
+      "PHP": "66.95",
       "AED": "4.41"
     }
   },
@@ -12972,14 +12972,14 @@
       "CAD": "1.65",
       "GBP": "0.89",
       "EUR": "1.06",
-      "AUD": "1.87",
+      "AUD": "1.86",
       "NZD": "2.01",
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "21.52",
-      "INR": "102.68",
+      "INR": "102.67",
       "MYR": "5.10",
-      "PHP": "66.96",
+      "PHP": "66.95",
       "AED": "4.41"
     }
   },
@@ -13007,14 +13007,14 @@
       "CAD": "1.65",
       "GBP": "0.89",
       "EUR": "1.06",
-      "AUD": "1.87",
+      "AUD": "1.86",
       "NZD": "2.01",
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "21.52",
-      "INR": "102.68",
+      "INR": "102.67",
       "MYR": "5.10",
-      "PHP": "66.96",
+      "PHP": "66.95",
       "AED": "4.41"
     }
   },
@@ -13042,14 +13042,14 @@
       "CAD": "1.65",
       "GBP": "0.89",
       "EUR": "1.06",
-      "AUD": "1.87",
+      "AUD": "1.86",
       "NZD": "2.01",
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "21.52",
-      "INR": "102.68",
+      "INR": "102.67",
       "MYR": "5.10",
-      "PHP": "66.96",
+      "PHP": "66.95",
       "AED": "4.41"
     }
   },
