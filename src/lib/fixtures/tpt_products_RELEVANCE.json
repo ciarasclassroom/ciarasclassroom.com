@@ -29,7 +29,7 @@
       "SGD": "4.85",
       "HKD": "29.18",
       "ZAR": "62.87",
-      "INR": "337.11",
+      "INR": "337.21",
       "MYR": "15.29",
       "PHP": "220.05",
       "AED": "13.77"
@@ -968,11 +968,11 @@
       "AUD": "33.94",
       "NZD": "38.99",
       "SGD": "29.00",
-      "HKD": "174.62",
+      "HKD": "174.61",
       "ZAR": "376.23",
-      "INR": "2017.27",
-      "MYR": "91.51",
-      "PHP": "1316.77",
+      "INR": "2017.89",
+      "MYR": "91.52",
+      "PHP": "1316.78",
       "AED": "82.41"
     },
     "evaluations": [
@@ -1195,9 +1195,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -1393,8 +1393,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     },
@@ -1763,9 +1763,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -1924,9 +1924,9 @@
       "SGD": "4.14",
       "HKD": "24.90",
       "ZAR": "53.65",
-      "INR": "287.67",
+      "INR": "287.76",
       "MYR": "13.05",
-      "PHP": "187.77",
+      "PHP": "187.78",
       "AED": "11.75"
     },
     "evaluations": [
@@ -2077,9 +2077,9 @@
       "AUD": "5.29",
       "NZD": "6.08",
       "SGD": "4.52",
-      "HKD": "27.24",
+      "HKD": "27.23",
       "ZAR": "58.68",
-      "INR": "314.64",
+      "INR": "314.73",
       "MYR": "14.27",
       "PHP": "205.38",
       "AED": "12.85"
@@ -2594,8 +2594,8 @@
       "NZD": "4.34",
       "SGD": "3.23",
       "HKD": "19.45",
-      "ZAR": "41.92",
-      "INR": "224.74",
+      "ZAR": "41.91",
+      "INR": "224.81",
       "MYR": "10.20",
       "PHP": "146.70",
       "AED": "9.18"
@@ -2791,7 +2791,7 @@
       "SGD": "5.16",
       "HKD": "31.05",
       "ZAR": "66.90",
-      "INR": "358.69",
+      "INR": "358.80",
       "MYR": "16.27",
       "PHP": "234.13",
       "AED": "14.65"
@@ -2977,8 +2977,8 @@
       "NZD": "13.03",
       "SGD": "9.69",
       "HKD": "58.36",
-      "ZAR": "125.75",
-      "INR": "674.22",
+      "ZAR": "125.74",
+      "INR": "674.43",
       "MYR": "30.59",
       "PHP": "440.10",
       "AED": "27.54"
@@ -3036,7 +3036,7 @@
       "SGD": "4.20",
       "HKD": "25.29",
       "ZAR": "54.49",
-      "INR": "292.16",
+      "INR": "292.25",
       "MYR": "13.25",
       "PHP": "190.71",
       "AED": "11.94"
@@ -3261,9 +3261,9 @@
       "AUD": "5.29",
       "NZD": "6.08",
       "SGD": "4.52",
-      "HKD": "27.24",
+      "HKD": "27.23",
       "ZAR": "58.68",
-      "INR": "314.64",
+      "INR": "314.73",
       "MYR": "14.27",
       "PHP": "205.38",
       "AED": "12.85"
@@ -3320,11 +3320,11 @@
       "GBP": "7.85",
       "EUR": "8.96",
       "AUD": "15.88",
-      "NZD": "18.24",
+      "NZD": "18.25",
       "SGD": "13.57",
-      "HKD": "81.71",
-      "ZAR": "176.05",
-      "INR": "943.91",
+      "HKD": "81.70",
+      "ZAR": "176.04",
+      "INR": "944.20",
       "MYR": "42.82",
       "PHP": "616.14",
       "AED": "38.56"
@@ -3446,11 +3446,11 @@
       "GBP": "10.69",
       "EUR": "12.21",
       "AUD": "21.63",
-      "NZD": "24.84",
+      "NZD": "24.85",
       "SGD": "18.48",
-      "HKD": "111.28",
-      "ZAR": "239.76",
-      "INR": "1285.52",
+      "HKD": "111.27",
+      "ZAR": "239.75",
+      "INR": "1285.91",
       "MYR": "58.32",
       "PHP": "839.12",
       "AED": "52.52"
@@ -3558,8 +3558,8 @@
       "NZD": "4.34",
       "SGD": "3.23",
       "HKD": "19.45",
-      "ZAR": "41.92",
-      "INR": "224.74",
+      "ZAR": "41.91",
+      "INR": "224.81",
       "MYR": "10.20",
       "PHP": "146.70",
       "AED": "9.18"
@@ -3834,8 +3834,8 @@
       "NZD": "4.34",
       "SGD": "3.23",
       "HKD": "19.45",
-      "ZAR": "41.92",
-      "INR": "224.74",
+      "ZAR": "41.91",
+      "INR": "224.81",
       "MYR": "10.20",
       "PHP": "146.70",
       "AED": "9.18"
@@ -3982,11 +3982,11 @@
       "GBP": "4.49",
       "EUR": "5.12",
       "AUD": "9.07",
-      "NZD": "10.42",
+      "NZD": "10.43",
       "SGD": "7.75",
       "HKD": "46.69",
       "ZAR": "100.60",
-      "INR": "539.38",
+      "INR": "539.54",
       "MYR": "24.47",
       "PHP": "352.08",
       "AED": "22.04"
@@ -4599,7 +4599,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -4675,8 +4675,8 @@
       "NZD": "4.34",
       "SGD": "3.23",
       "HKD": "19.45",
-      "ZAR": "41.92",
-      "INR": "224.74",
+      "ZAR": "41.91",
+      "INR": "224.81",
       "MYR": "10.20",
       "PHP": "146.70",
       "AED": "9.18"
@@ -4735,11 +4735,11 @@
       "GBP": "4.49",
       "EUR": "5.12",
       "AUD": "9.07",
-      "NZD": "10.42",
+      "NZD": "10.43",
       "SGD": "7.75",
       "HKD": "46.69",
       "ZAR": "100.60",
-      "INR": "539.38",
+      "INR": "539.54",
       "MYR": "24.47",
       "PHP": "352.08",
       "AED": "22.04"
@@ -4803,7 +4803,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -4863,8 +4863,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     },
@@ -4919,11 +4919,11 @@
       "GBP": "4.49",
       "EUR": "5.12",
       "AUD": "9.07",
-      "NZD": "10.42",
+      "NZD": "10.43",
       "SGD": "7.75",
       "HKD": "46.69",
       "ZAR": "100.60",
-      "INR": "539.38",
+      "INR": "539.54",
       "MYR": "24.47",
       "PHP": "352.08",
       "AED": "22.04"
@@ -4984,8 +4984,8 @@
       "SGD": "12.66",
       "HKD": "76.26",
       "ZAR": "164.31",
-      "INR": "880.98",
-      "MYR": "39.96",
+      "INR": "881.25",
+      "MYR": "39.97",
       "PHP": "575.06",
       "AED": "35.99"
     },
@@ -5062,16 +5062,16 @@
     "currencies": {
       "USD": "42.00",
       "CAD": "57.91",
-      "GBP": "31.41",
+      "GBP": "31.40",
       "EUR": "35.85",
       "AUD": "63.52",
-      "NZD": "72.97",
+      "NZD": "72.98",
       "SGD": "54.28",
       "HKD": "326.82",
-      "ZAR": "704.18",
-      "INR": "3775.64",
-      "MYR": "171.28",
-      "PHP": "2464.54",
+      "ZAR": "704.17",
+      "INR": "3776.80",
+      "MYR": "171.29",
+      "PHP": "2464.56",
       "AED": "154.25"
     }
   },
@@ -5105,7 +5105,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -5140,7 +5140,7 @@
       "SGD": "4.85",
       "HKD": "29.18",
       "ZAR": "62.87",
-      "INR": "337.11",
+      "INR": "337.21",
       "MYR": "15.29",
       "PHP": "220.05",
       "AED": "13.77"
@@ -5203,10 +5203,10 @@
       "NZD": "23.37",
       "SGD": "17.38",
       "HKD": "104.66",
-      "ZAR": "225.51",
-      "INR": "1209.10",
+      "ZAR": "225.50",
+      "INR": "1209.48",
       "MYR": "54.85",
-      "PHP": "789.24",
+      "PHP": "789.25",
       "AED": "49.40"
     },
     "evaluations": [
@@ -5265,7 +5265,7 @@
       "SGD": "3.36",
       "HKD": "20.23",
       "ZAR": "43.59",
-      "INR": "233.73",
+      "INR": "233.80",
       "MYR": "10.60",
       "PHP": "152.57",
       "AED": "9.55"
@@ -5361,45 +5361,10 @@
       "SGD": "2.52",
       "HKD": "15.17",
       "ZAR": "32.69",
-      "INR": "175.30",
+      "INR": "175.35",
       "MYR": "7.95",
       "PHP": "114.43",
       "AED": "7.16"
-    }
-  },
-  {
-    "id": "12318860",
-    "title": "Bundle:  Back to School Collaborative Colouring Projects (as Gaeilge)",
-    "link": "https://ciarasclassroom.com/product/Bundle-Back-to-School-Collaborative-Colouring-Projects-as-Gaeilge-12318860",
-    "description": "<p>Start the new school year with your students with our Back to School Collaborative Colouring Projects. These back to school collaborative art projects allows your students to express their creativity and anticipation for the new school year ahead through collaborative artwork. The bundle includes each of the following:</p><ul><li>Fáilte go Rang na Naíonáin Bheaga!</li><li>Fáilte go Rang na Naíonáin Mhóra!</li><li>Fáilte go Rang a hAon!</li><li>Fáilte go Rang a Dó!</li><li>Fáilte go Rang a Trí!</li><li>Fáilte go Rang a Ceathair!</li><li>Fáilte go Rang a Cúig!</li><li>Fáilte go Rang a Sé!</li></ul><p></p><p></p><p><strong>Key Features:</strong></p><ul><li><strong>Collaborative Creativity: </strong>These artworks promote collaboration and teamwork, as students work together to create a beautiful, larger display. It's not just art; it's an opportunity for students to see how we all play an important part in our class community as we each contribute to the bigger picture.</li><li><strong>Multiple Options: </strong>8, 16, 18, 25, 32 and 36 sheet versions included.</li><li><strong>Seasonal Classroom Decor:</strong> These collaborative artworks go beyond the usual 'Back to School' art activities. They create a beautiful collaborative piece of back-to-school classroom decor!</li><li><strong>No Prep, No Stress:</strong> We value teachers' time and have designed this project for ease of use. Simply print, distribute the pieces, and witness your students' creativity come to life.</li></ul><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Bundle-Back-to-School-Collaborative-Colouring-Projects-12057119?st=41ad4340d027004a29041f27daed566d\" target=\"_blank\" rel=\"noreferrer noopener\">Bundle: Back to School Collaborative Colouring Projects (English)</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Growing-Bundle-Collaborative-Art-Projects-10421818\" target=\"_blank\" rel=\"noreferrer noopener\">Growing Bundle: Collaborative Art Projects</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Back-to-School-Colouring-Pages-12052220?st=73658a55abc3928ad164413c0f550dd4\" target=\"_blank\" rel=\"noreferrer noopener\">Back to School Colouring Pages</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Back-to-School-To-Do-List-for-Teachers-9994432\" target=\"_blank\" rel=\"noreferrer noopener\">Back to School To Do List</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Editable-Class-Newsletter-Templates-9110432\" target=\"_blank\" rel=\"noreferrer noopener\">Editable Class Newsletter Templates</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Rainbow-Classroom-Door-Display-8878368\" target=\"_blank\" rel=\"noreferrer noopener\">Rainbow Classroom Door Display</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Everyone-is-Welcome-Door-Display-Activity-5847028\" target=\"_blank\" rel=\"noreferrer noopener\">Everyone is Welcome Door Display</a></li></ul><p><br />*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
-    "descriptionSnippet": "Start the new school year with your students with our Back to School Collaborative Colouring Projects. These back to school collaborative art projects allows your students to express their creativity and anticipation for the new school year ahead through collaborative artwork. The bundle includes each of the following: Fáilte go Rang na Naíonáin Bheaga!Fáilte go Rang na Naíonáin Mhóra!Fáilte go Rang a hAon!Fáilte go Rang a Dó!Fáilte go Rang a Trí!Fáilte go Rang a Ceathair!Fáilte go Rang a Cúig!F",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/Bundle-Back-to-School-Collaborative-Colouring-Projects-as-Gaeilge--12318860-1745514144/750f-12318860-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Bundle-Back-to-School-Collaborative-Colouring-Projects-as-Gaeilge--12318860-1745514144/750f-12318860-2.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Bundle-Back-to-School-Collaborative-Colouring-Projects-as-Gaeilge--12318860-1745514144/750f-12318860-3.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Bundle-Back-to-School-Collaborative-Colouring-Projects-as-Gaeilge--12318860-1745514144/750f-12318860-4.jpg"
-    ],
-    "slug": "Bundle-Back-to-School-Collaborative-Colouring-Projects-as-Gaeilge-12318860",
-    "reviews": 0,
-    "rating": 0,
-    "categories": [
-      "Projects",
-      "Bulletin Board Ideas"
-    ],
-    "currencies": {
-      "USD": "33.90",
-      "CAD": "46.74",
-      "GBP": "25.35",
-      "EUR": "28.93",
-      "AUD": "51.27",
-      "NZD": "58.90",
-      "SGD": "43.81",
-      "HKD": "263.79",
-      "ZAR": "568.37",
-      "INR": "3047.48",
-      "MYR": "138.24",
-      "PHP": "1989.24",
-      "AED": "124.50"
     }
   },
   {
@@ -5432,7 +5397,7 @@
       "SGD": "2.91",
       "HKD": "17.51",
       "ZAR": "37.72",
-      "INR": "202.27",
+      "INR": "202.33",
       "MYR": "9.18",
       "PHP": "132.03",
       "AED": "8.26"
@@ -5475,6 +5440,41 @@
     ]
   },
   {
+    "id": "12318860",
+    "title": "Bundle:  Back to School Collaborative Colouring Projects (as Gaeilge)",
+    "link": "https://ciarasclassroom.com/product/Bundle-Back-to-School-Collaborative-Colouring-Projects-as-Gaeilge-12318860",
+    "description": "<p>Start the new school year with your students with our Back to School Collaborative Colouring Projects. These back to school collaborative art projects allows your students to express their creativity and anticipation for the new school year ahead through collaborative artwork. The bundle includes each of the following:</p><ul><li>Fáilte go Rang na Naíonáin Bheaga!</li><li>Fáilte go Rang na Naíonáin Mhóra!</li><li>Fáilte go Rang a hAon!</li><li>Fáilte go Rang a Dó!</li><li>Fáilte go Rang a Trí!</li><li>Fáilte go Rang a Ceathair!</li><li>Fáilte go Rang a Cúig!</li><li>Fáilte go Rang a Sé!</li></ul><p></p><p></p><p><strong>Key Features:</strong></p><ul><li><strong>Collaborative Creativity: </strong>These artworks promote collaboration and teamwork, as students work together to create a beautiful, larger display. It's not just art; it's an opportunity for students to see how we all play an important part in our class community as we each contribute to the bigger picture.</li><li><strong>Multiple Options: </strong>8, 16, 18, 25, 32 and 36 sheet versions included.</li><li><strong>Seasonal Classroom Decor:</strong> These collaborative artworks go beyond the usual 'Back to School' art activities. They create a beautiful collaborative piece of back-to-school classroom decor!</li><li><strong>No Prep, No Stress:</strong> We value teachers' time and have designed this project for ease of use. Simply print, distribute the pieces, and witness your students' creativity come to life.</li></ul><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Bundle-Back-to-School-Collaborative-Colouring-Projects-12057119?st=41ad4340d027004a29041f27daed566d\" target=\"_blank\" rel=\"noreferrer noopener\">Bundle: Back to School Collaborative Colouring Projects (English)</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Growing-Bundle-Collaborative-Art-Projects-10421818\" target=\"_blank\" rel=\"noreferrer noopener\">Growing Bundle: Collaborative Art Projects</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Back-to-School-Colouring-Pages-12052220?st=73658a55abc3928ad164413c0f550dd4\" target=\"_blank\" rel=\"noreferrer noopener\">Back to School Colouring Pages</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Back-to-School-To-Do-List-for-Teachers-9994432\" target=\"_blank\" rel=\"noreferrer noopener\">Back to School To Do List</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Editable-Class-Newsletter-Templates-9110432\" target=\"_blank\" rel=\"noreferrer noopener\">Editable Class Newsletter Templates</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Rainbow-Classroom-Door-Display-8878368\" target=\"_blank\" rel=\"noreferrer noopener\">Rainbow Classroom Door Display</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Everyone-is-Welcome-Door-Display-Activity-5847028\" target=\"_blank\" rel=\"noreferrer noopener\">Everyone is Welcome Door Display</a></li></ul><p><br />*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
+    "descriptionSnippet": "Start the new school year with your students with our Back to School Collaborative Colouring Projects. These back to school collaborative art projects allows your students to express their creativity and anticipation for the new school year ahead through collaborative artwork. The bundle includes each of the following: Fáilte go Rang na Naíonáin Bheaga!Fáilte go Rang na Naíonáin Mhóra!Fáilte go Rang a hAon!Fáilte go Rang a Dó!Fáilte go Rang a Trí!Fáilte go Rang a Ceathair!Fáilte go Rang a Cúig!F",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/Bundle-Back-to-School-Collaborative-Colouring-Projects-as-Gaeilge--12318860-1745514144/750f-12318860-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Bundle-Back-to-School-Collaborative-Colouring-Projects-as-Gaeilge--12318860-1745514144/750f-12318860-2.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Bundle-Back-to-School-Collaborative-Colouring-Projects-as-Gaeilge--12318860-1745514144/750f-12318860-3.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Bundle-Back-to-School-Collaborative-Colouring-Projects-as-Gaeilge--12318860-1745514144/750f-12318860-4.jpg"
+    ],
+    "slug": "Bundle-Back-to-School-Collaborative-Colouring-Projects-as-Gaeilge-12318860",
+    "reviews": 0,
+    "rating": 0,
+    "categories": [
+      "Projects",
+      "Bulletin Board Ideas"
+    ],
+    "currencies": {
+      "USD": "33.90",
+      "CAD": "46.74",
+      "GBP": "25.35",
+      "EUR": "28.93",
+      "AUD": "51.27",
+      "NZD": "58.91",
+      "SGD": "43.81",
+      "HKD": "263.79",
+      "ZAR": "568.36",
+      "INR": "3048.42",
+      "MYR": "138.26",
+      "PHP": "1989.25",
+      "AED": "124.50"
+    }
+  },
+  {
     "id": "9542377",
     "title": "Student Council Charter",
     "link": "https://ciarasclassroom.com/product/Student-Council-Charter-9542377",
@@ -5504,8 +5504,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     },
@@ -5563,9 +5563,9 @@
       "SGD": "4.14",
       "HKD": "24.90",
       "ZAR": "53.65",
-      "INR": "287.67",
+      "INR": "287.76",
       "MYR": "13.05",
-      "PHP": "187.77",
+      "PHP": "187.78",
       "AED": "11.75"
     },
     "evaluations": [
@@ -5616,13 +5616,13 @@
       "GBP": "19.78",
       "EUR": "22.58",
       "AUD": "40.01",
-      "NZD": "45.95",
+      "NZD": "45.96",
       "SGD": "34.18",
       "HKD": "205.82",
-      "ZAR": "443.47",
-      "INR": "2377.75",
-      "MYR": "107.86",
-      "PHP": "1552.08",
+      "ZAR": "443.46",
+      "INR": "2378.49",
+      "MYR": "107.87",
+      "PHP": "1552.09",
       "AED": "97.14"
     }
   },
@@ -5656,7 +5656,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -5713,9 +5713,9 @@
       "AUD": "5.29",
       "NZD": "6.08",
       "SGD": "4.52",
-      "HKD": "27.24",
+      "HKD": "27.23",
       "ZAR": "58.68",
-      "INR": "314.64",
+      "INR": "314.73",
       "MYR": "14.27",
       "PHP": "205.38",
       "AED": "12.85"
@@ -5776,7 +5776,7 @@
       "SGD": "2.46",
       "HKD": "14.78",
       "ZAR": "31.86",
-      "INR": "170.80",
+      "INR": "170.86",
       "MYR": "7.75",
       "PHP": "111.49",
       "AED": "6.98"
@@ -5811,7 +5811,7 @@
       "SGD": "1.29",
       "HKD": "7.78",
       "ZAR": "16.77",
-      "INR": "89.90",
+      "INR": "89.92",
       "MYR": "4.08",
       "PHP": "58.68",
       "AED": "3.67"
@@ -5889,8 +5889,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     },
@@ -5973,11 +5973,11 @@
       "GBP": "2.69",
       "EUR": "3.07",
       "AUD": "5.45",
-      "NZD": "6.25",
+      "NZD": "6.26",
       "SGD": "4.65",
       "HKD": "28.01",
       "ZAR": "60.36",
-      "INR": "323.63",
+      "INR": "323.73",
       "MYR": "14.68",
       "PHP": "211.25",
       "AED": "13.22"
@@ -6041,7 +6041,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -6076,8 +6076,8 @@
       "NZD": "4.34",
       "SGD": "3.23",
       "HKD": "19.45",
-      "ZAR": "41.92",
-      "INR": "224.74",
+      "ZAR": "41.91",
+      "INR": "224.81",
       "MYR": "10.20",
       "PHP": "146.70",
       "AED": "9.18"
@@ -6109,7 +6109,7 @@
       "SGD": "1.29",
       "HKD": "7.78",
       "ZAR": "16.77",
-      "INR": "89.90",
+      "INR": "89.92",
       "MYR": "4.08",
       "PHP": "58.68",
       "AED": "3.67"
@@ -6169,11 +6169,11 @@
       "GBP": "4.49",
       "EUR": "5.12",
       "AUD": "9.07",
-      "NZD": "10.42",
+      "NZD": "10.43",
       "SGD": "7.75",
       "HKD": "46.69",
       "ZAR": "100.60",
-      "INR": "539.38",
+      "INR": "539.54",
       "MYR": "24.47",
       "PHP": "352.08",
       "AED": "22.04"
@@ -6251,7 +6251,7 @@
       "SGD": "6.45",
       "HKD": "38.83",
       "ZAR": "83.66",
-      "INR": "448.58",
+      "INR": "448.72",
       "MYR": "20.35",
       "PHP": "292.81",
       "AED": "18.33"
@@ -6282,11 +6282,11 @@
       "GBP": "0.90",
       "EUR": "1.02",
       "AUD": "1.81",
-      "NZD": "2.08",
+      "NZD": "2.09",
       "SGD": "1.55",
       "HKD": "9.34",
       "ZAR": "20.12",
-      "INR": "107.88",
+      "INR": "107.91",
       "MYR": "4.89",
       "PHP": "70.42",
       "AED": "4.41"
@@ -6344,11 +6344,11 @@
       "GBP": "1.50",
       "EUR": "1.71",
       "AUD": "3.02",
-      "NZD": "3.47",
+      "NZD": "3.48",
       "SGD": "2.58",
       "HKD": "15.56",
       "ZAR": "33.53",
-      "INR": "179.79",
+      "INR": "179.85",
       "MYR": "8.16",
       "PHP": "117.36",
       "AED": "7.34"
@@ -6384,7 +6384,7 @@
       "SGD": "2.46",
       "HKD": "14.78",
       "ZAR": "31.86",
-      "INR": "170.80",
+      "INR": "170.86",
       "MYR": "7.75",
       "PHP": "111.49",
       "AED": "6.98"
@@ -6419,7 +6419,7 @@
       "SGD": "2.91",
       "HKD": "17.51",
       "ZAR": "37.72",
-      "INR": "202.27",
+      "INR": "202.33",
       "MYR": "9.18",
       "PHP": "132.03",
       "AED": "8.26"
@@ -6480,8 +6480,8 @@
       "SGD": "6.85",
       "HKD": "41.24",
       "ZAR": "88.86",
-      "INR": "476.45",
-      "MYR": "21.61",
+      "INR": "476.60",
+      "MYR": "21.62",
       "PHP": "311.00",
       "AED": "19.46"
     },
@@ -6547,8 +6547,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -6575,15 +6575,15 @@
     "currencies": {
       "USD": "10.05",
       "CAD": "13.86",
-      "GBP": "7.52",
+      "GBP": "7.51",
       "EUR": "8.58",
       "AUD": "15.20",
       "NZD": "17.46",
       "SGD": "12.99",
       "HKD": "78.20",
       "ZAR": "168.50",
-      "INR": "903.46",
-      "MYR": "40.98",
+      "INR": "903.74",
+      "MYR": "40.99",
       "PHP": "589.73",
       "AED": "36.91"
     }
@@ -6614,8 +6614,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -6648,7 +6648,7 @@
       "SGD": "6.33",
       "HKD": "38.13",
       "ZAR": "82.15",
-      "INR": "440.49",
+      "INR": "440.63",
       "MYR": "19.98",
       "PHP": "287.53",
       "AED": "18.00"
@@ -6728,9 +6728,9 @@
       "AUD": "5.29",
       "NZD": "6.08",
       "SGD": "4.52",
-      "HKD": "27.24",
+      "HKD": "27.23",
       "ZAR": "58.68",
-      "INR": "314.64",
+      "INR": "314.73",
       "MYR": "14.27",
       "PHP": "205.38",
       "AED": "12.85"
@@ -6760,11 +6760,11 @@
       "GBP": "4.49",
       "EUR": "5.12",
       "AUD": "9.07",
-      "NZD": "10.42",
+      "NZD": "10.43",
       "SGD": "7.75",
       "HKD": "46.69",
       "ZAR": "100.60",
-      "INR": "539.38",
+      "INR": "539.54",
       "MYR": "24.47",
       "PHP": "352.08",
       "AED": "22.04"
@@ -6921,13 +6921,13 @@
       "GBP": "23.18",
       "EUR": "26.46",
       "AUD": "46.89",
-      "NZD": "53.86",
+      "NZD": "53.87",
       "SGD": "40.06",
-      "HKD": "241.23",
-      "ZAR": "519.75",
-      "INR": "2786.78",
-      "MYR": "126.42",
-      "PHP": "1819.07",
+      "HKD": "241.22",
+      "ZAR": "519.74",
+      "INR": "2787.64",
+      "MYR": "126.43",
+      "PHP": "1819.08",
       "AED": "113.85"
     }
   },
@@ -6954,13 +6954,13 @@
       "GBP": "11.22",
       "EUR": "12.80",
       "AUD": "22.69",
-      "NZD": "26.06",
+      "NZD": "26.07",
       "SGD": "19.38",
       "HKD": "116.72",
       "ZAR": "251.49",
-      "INR": "1348.44",
-      "MYR": "61.17",
-      "PHP": "880.19",
+      "INR": "1348.86",
+      "MYR": "61.18",
+      "PHP": "880.20",
       "AED": "55.09"
     },
     "evaluations": [
@@ -7010,13 +7010,13 @@
       "GBP": "8.93",
       "EUR": "10.19",
       "AUD": "18.06",
-      "NZD": "20.74",
+      "NZD": "20.75",
       "SGD": "15.43",
       "HKD": "92.91",
-      "ZAR": "200.19",
-      "INR": "1073.36",
-      "MYR": "48.69",
-      "PHP": "700.63",
+      "ZAR": "200.18",
+      "INR": "1073.69",
+      "MYR": "48.70",
+      "PHP": "700.64",
       "AED": "43.85"
     },
     "evaluations": [
@@ -7186,10 +7186,10 @@
       "NZD": "23.37",
       "SGD": "17.38",
       "HKD": "104.66",
-      "ZAR": "225.51",
-      "INR": "1209.10",
+      "ZAR": "225.50",
+      "INR": "1209.48",
       "MYR": "54.85",
-      "PHP": "789.24",
+      "PHP": "789.25",
       "AED": "49.40"
     },
     "evaluations": [
@@ -7240,14 +7240,14 @@
     "currencies": {
       "USD": "2.20",
       "CAD": "3.03",
-      "GBP": "1.65",
+      "GBP": "1.64",
       "EUR": "1.88",
       "AUD": "3.33",
       "NZD": "3.82",
       "SGD": "2.84",
       "HKD": "17.12",
-      "ZAR": "36.89",
-      "INR": "197.77",
+      "ZAR": "36.88",
+      "INR": "197.83",
       "MYR": "8.97",
       "PHP": "129.10",
       "AED": "8.08"
@@ -7314,9 +7314,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -7407,7 +7407,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -7442,7 +7442,7 @@
       "SGD": "2.52",
       "HKD": "15.17",
       "ZAR": "32.69",
-      "INR": "175.30",
+      "INR": "175.35",
       "MYR": "7.95",
       "PHP": "114.43",
       "AED": "7.16"
@@ -7478,8 +7478,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -7514,8 +7514,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -7549,7 +7549,7 @@
       "SGD": "6.46",
       "HKD": "38.91",
       "ZAR": "83.83",
-      "INR": "449.48",
+      "INR": "449.62",
       "MYR": "20.39",
       "PHP": "293.40",
       "AED": "18.36"
@@ -7618,8 +7618,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     },
@@ -7699,13 +7699,13 @@
       "GBP": "26.92",
       "EUR": "30.73",
       "AUD": "54.45",
-      "NZD": "62.55",
+      "NZD": "62.56",
       "SGD": "46.52",
       "HKD": "280.13",
-      "ZAR": "603.58",
-      "INR": "3236.26",
-      "MYR": "146.81",
-      "PHP": "2112.47",
+      "ZAR": "603.57",
+      "INR": "3237.26",
+      "MYR": "146.82",
+      "PHP": "2112.48",
       "AED": "132.21"
     }
   },
@@ -7738,8 +7738,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -7774,7 +7774,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -7834,9 +7834,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -7893,11 +7893,11 @@
       "GBP": "1.50",
       "EUR": "1.71",
       "AUD": "3.02",
-      "NZD": "3.47",
+      "NZD": "3.48",
       "SGD": "2.58",
       "HKD": "15.56",
       "ZAR": "33.53",
-      "INR": "179.79",
+      "INR": "179.85",
       "MYR": "8.16",
       "PHP": "117.36",
       "AED": "7.34"
@@ -8004,9 +8004,9 @@
       "NZD": "17.20",
       "SGD": "12.79",
       "HKD": "77.04",
-      "ZAR": "165.99",
-      "INR": "889.97",
-      "MYR": "40.37",
+      "ZAR": "165.98",
+      "INR": "890.25",
+      "MYR": "40.38",
       "PHP": "580.93",
       "AED": "36.36"
     }
@@ -8039,7 +8039,7 @@
       "SGD": "14.86",
       "HKD": "89.49",
       "ZAR": "192.81",
-      "INR": "1033.81",
+      "INR": "1034.12",
       "MYR": "46.90",
       "PHP": "674.82",
       "AED": "42.23"
@@ -8072,7 +8072,7 @@
       "SGD": "2.33",
       "HKD": "14.01",
       "ZAR": "30.18",
-      "INR": "161.81",
+      "INR": "161.86",
       "MYR": "7.34",
       "PHP": "105.62",
       "AED": "6.61"
@@ -8108,7 +8108,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -8141,9 +8141,9 @@
       "AUD": "10.21",
       "NZD": "11.73",
       "SGD": "8.72",
-      "HKD": "52.53",
+      "HKD": "52.52",
       "ZAR": "113.17",
-      "INR": "606.80",
+      "INR": "606.99",
       "MYR": "27.53",
       "PHP": "396.09",
       "AED": "24.79"
@@ -8176,9 +8176,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -8212,9 +8212,9 @@
       "AUD": "5.29",
       "NZD": "6.08",
       "SGD": "4.52",
-      "HKD": "27.24",
+      "HKD": "27.23",
       "ZAR": "58.68",
-      "INR": "314.64",
+      "INR": "314.73",
       "MYR": "14.27",
       "PHP": "205.38",
       "AED": "12.85"
@@ -8271,13 +8271,13 @@
       "GBP": "17.57",
       "EUR": "20.06",
       "AUD": "35.54",
-      "NZD": "40.83",
+      "NZD": "40.84",
       "SGD": "30.37",
-      "HKD": "182.87",
-      "ZAR": "394.01",
-      "INR": "2112.56",
-      "MYR": "95.83",
-      "PHP": "1378.97",
+      "HKD": "182.86",
+      "ZAR": "394.00",
+      "INR": "2113.21",
+      "MYR": "95.84",
+      "PHP": "1378.98",
       "AED": "86.30"
     }
   },
@@ -8311,7 +8311,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -8373,9 +8373,9 @@
       "SGD": "20.94",
       "HKD": "126.06",
       "ZAR": "271.61",
-      "INR": "1456.32",
-      "MYR": "66.06",
-      "PHP": "950.61",
+      "INR": "1456.77",
+      "MYR": "66.07",
+      "PHP": "950.62",
       "AED": "59.49"
     }
   },
@@ -8402,16 +8402,16 @@
     "currencies": {
       "USD": "12.23",
       "CAD": "16.86",
-      "GBP": "9.15",
+      "GBP": "9.14",
       "EUR": "10.44",
       "AUD": "18.50",
       "NZD": "21.25",
       "SGD": "15.80",
       "HKD": "95.17",
       "ZAR": "205.05",
-      "INR": "1099.43",
-      "MYR": "49.87",
-      "PHP": "717.65",
+      "INR": "1099.77",
+      "MYR": "49.88",
+      "PHP": "717.66",
       "AED": "44.91"
     }
   },
@@ -8445,7 +8445,7 @@
       "SGD": "8.71",
       "HKD": "52.45",
       "ZAR": "113.00",
-      "INR": "605.90",
+      "INR": "606.09",
       "MYR": "27.49",
       "PHP": "395.50",
       "AED": "24.75"
@@ -8477,9 +8477,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -8512,7 +8512,7 @@
       "SGD": "1.94",
       "HKD": "11.67",
       "ZAR": "25.15",
-      "INR": "134.84",
+      "INR": "134.89",
       "MYR": "6.12",
       "PHP": "88.02",
       "AED": "5.51"
@@ -8544,12 +8544,12 @@
       "GBP": "17.26",
       "EUR": "19.70",
       "AUD": "34.91",
-      "NZD": "40.10",
+      "NZD": "40.11",
       "SGD": "29.83",
-      "HKD": "179.60",
+      "HKD": "179.59",
       "ZAR": "386.96",
-      "INR": "2074.80",
-      "MYR": "94.12",
+      "INR": "2075.44",
+      "MYR": "94.13",
       "PHP": "1354.33",
       "AED": "84.76"
     }
@@ -8580,9 +8580,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -8614,9 +8614,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -8652,8 +8652,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -8688,8 +8688,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -8720,7 +8720,7 @@
       "SGD": "1.29",
       "HKD": "7.78",
       "ZAR": "16.77",
-      "INR": "89.90",
+      "INR": "89.92",
       "MYR": "4.08",
       "PHP": "58.68",
       "AED": "3.67"
@@ -8776,8 +8776,8 @@
       "NZD": "18.68",
       "SGD": "13.89",
       "HKD": "83.65",
-      "ZAR": "180.24",
-      "INR": "966.38",
+      "ZAR": "180.23",
+      "INR": "966.68",
       "MYR": "43.84",
       "PHP": "630.81",
       "AED": "39.48"
@@ -8811,7 +8811,7 @@
       "SGD": "1.29",
       "HKD": "7.78",
       "ZAR": "16.77",
-      "INR": "89.90",
+      "INR": "89.92",
       "MYR": "4.08",
       "PHP": "58.68",
       "AED": "3.67"
@@ -8846,7 +8846,7 @@
       "SGD": "2.91",
       "HKD": "17.51",
       "ZAR": "37.72",
-      "INR": "202.27",
+      "INR": "202.33",
       "MYR": "9.18",
       "PHP": "132.03",
       "AED": "8.26"
@@ -8874,14 +8874,14 @@
     "currencies": {
       "USD": "4.50",
       "CAD": "6.21",
-      "GBP": "3.37",
+      "GBP": "3.36",
       "EUR": "3.84",
       "AUD": "6.81",
       "NZD": "7.82",
       "SGD": "5.82",
       "HKD": "35.02",
       "ZAR": "75.45",
-      "INR": "404.53",
+      "INR": "404.66",
       "MYR": "18.35",
       "PHP": "264.06",
       "AED": "16.53"
@@ -8912,9 +8912,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -8947,8 +8947,8 @@
       "SGD": "2.39",
       "HKD": "14.40",
       "ZAR": "31.02",
-      "INR": "166.31",
-      "MYR": "7.54",
+      "INR": "166.36",
+      "MYR": "7.55",
       "PHP": "108.56",
       "AED": "6.79"
     }
@@ -9044,8 +9044,8 @@
       "NZD": "4.34",
       "SGD": "3.23",
       "HKD": "19.45",
-      "ZAR": "41.92",
-      "INR": "224.74",
+      "ZAR": "41.91",
+      "INR": "224.81",
       "MYR": "10.20",
       "PHP": "146.70",
       "AED": "9.18"
@@ -9080,10 +9080,10 @@
       "NZD": "25.87",
       "SGD": "19.24",
       "HKD": "115.87",
-      "ZAR": "249.65",
-      "INR": "1338.55",
-      "MYR": "60.72",
-      "PHP": "873.74",
+      "ZAR": "249.64",
+      "INR": "1338.97",
+      "MYR": "60.73",
+      "PHP": "873.75",
       "AED": "54.68"
     }
   },
@@ -9117,7 +9117,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -9200,9 +9200,9 @@
       "NZD": "14.75",
       "SGD": "10.97",
       "HKD": "66.06",
-      "ZAR": "142.35",
-      "INR": "763.22",
-      "MYR": "34.62",
+      "ZAR": "142.34",
+      "INR": "763.45",
+      "MYR": "34.63",
       "PHP": "498.19",
       "AED": "31.18"
     }
@@ -9237,8 +9237,8 @@
       "SGD": "11.82",
       "HKD": "71.20",
       "ZAR": "153.41",
-      "INR": "822.55",
-      "MYR": "37.31",
+      "INR": "822.80",
+      "MYR": "37.32",
       "PHP": "536.92",
       "AED": "33.60"
     }
@@ -9273,7 +9273,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -9305,9 +9305,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -9364,9 +9364,9 @@
       "NZD": "15.64",
       "SGD": "11.63",
       "HKD": "70.03",
-      "ZAR": "150.90",
-      "INR": "809.07",
-      "MYR": "36.70",
+      "ZAR": "150.89",
+      "INR": "809.32",
+      "MYR": "36.71",
       "PHP": "528.12",
       "AED": "33.05"
     }
@@ -9397,9 +9397,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -9431,9 +9431,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -9468,8 +9468,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -9503,8 +9503,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -9539,7 +9539,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -9575,7 +9575,7 @@
       "SGD": "15.51",
       "HKD": "93.38",
       "ZAR": "201.19",
-      "INR": "1078.75",
+      "INR": "1079.09",
       "MYR": "48.94",
       "PHP": "704.16",
       "AED": "44.07"
@@ -9610,8 +9610,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -9646,7 +9646,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -9707,8 +9707,8 @@
       "SGD": "5.36",
       "HKD": "32.29",
       "ZAR": "69.58",
-      "INR": "373.07",
-      "MYR": "16.92",
+      "INR": "373.18",
+      "MYR": "16.93",
       "PHP": "243.52",
       "AED": "15.24"
     }
@@ -9742,7 +9742,7 @@
       "SGD": "2.26",
       "HKD": "13.62",
       "ZAR": "29.34",
-      "INR": "157.32",
+      "INR": "157.37",
       "MYR": "7.14",
       "PHP": "102.69",
       "AED": "6.43"
@@ -9798,8 +9798,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -9833,8 +9833,8 @@
       "NZD": "8.95",
       "SGD": "6.66",
       "HKD": "40.07",
-      "ZAR": "86.35",
-      "INR": "462.97",
+      "ZAR": "86.34",
+      "INR": "463.11",
       "MYR": "21.00",
       "PHP": "302.20",
       "AED": "18.91"
@@ -9997,9 +9997,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -10066,7 +10066,7 @@
       "SGD": "10.45",
       "HKD": "62.95",
       "ZAR": "135.64",
-      "INR": "727.26",
+      "INR": "727.48",
       "MYR": "32.99",
       "PHP": "474.72",
       "AED": "29.71"
@@ -10096,11 +10096,11 @@
       "GBP": "0.90",
       "EUR": "1.02",
       "AUD": "1.81",
-      "NZD": "2.08",
+      "NZD": "2.09",
       "SGD": "1.55",
       "HKD": "9.34",
       "ZAR": "20.12",
-      "INR": "107.88",
+      "INR": "107.91",
       "MYR": "4.89",
       "PHP": "70.42",
       "AED": "4.41"
@@ -10134,9 +10134,9 @@
       "AUD": "5.29",
       "NZD": "6.08",
       "SGD": "4.52",
-      "HKD": "27.24",
+      "HKD": "27.23",
       "ZAR": "58.68",
-      "INR": "314.64",
+      "INR": "314.73",
       "MYR": "14.27",
       "PHP": "205.38",
       "AED": "12.85"
@@ -10168,9 +10168,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -10206,8 +10206,8 @@
       "SGD": "10.33",
       "HKD": "62.17",
       "ZAR": "133.96",
-      "INR": "718.27",
-      "MYR": "32.58",
+      "INR": "718.49",
+      "MYR": "32.59",
       "PHP": "468.85",
       "AED": "29.34"
     }
@@ -10237,12 +10237,12 @@
       "GBP": "5.60",
       "EUR": "6.39",
       "AUD": "11.33",
-      "NZD": "13.01",
+      "NZD": "13.02",
       "SGD": "9.68",
       "HKD": "58.28",
       "ZAR": "125.58",
-      "INR": "673.32",
-      "MYR": "30.54",
+      "INR": "673.53",
+      "MYR": "30.55",
       "PHP": "439.51",
       "AED": "27.51"
     }
@@ -10275,8 +10275,8 @@
       "SGD": "10.34",
       "HKD": "62.25",
       "ZAR": "134.13",
-      "INR": "719.17",
-      "MYR": "32.62",
+      "INR": "719.39",
+      "MYR": "32.63",
       "PHP": "469.44",
       "AED": "29.38"
     }
@@ -10311,7 +10311,7 @@
       "SGD": "4.26",
       "HKD": "25.68",
       "ZAR": "55.33",
-      "INR": "296.66",
+      "INR": "296.75",
       "MYR": "13.46",
       "PHP": "193.64",
       "AED": "12.12"
@@ -10345,7 +10345,7 @@
       "SGD": "4.20",
       "HKD": "25.29",
       "ZAR": "54.49",
-      "INR": "292.16",
+      "INR": "292.25",
       "MYR": "13.25",
       "PHP": "190.71",
       "AED": "11.94"
@@ -10381,7 +10381,7 @@
       "SGD": "4.20",
       "HKD": "25.29",
       "ZAR": "54.49",
-      "INR": "292.16",
+      "INR": "292.25",
       "MYR": "13.25",
       "PHP": "190.71",
       "AED": "11.94"
@@ -10416,9 +10416,9 @@
       "SGD": "9.02",
       "HKD": "54.31",
       "ZAR": "117.03",
-      "INR": "627.48",
-      "MYR": "28.46",
-      "PHP": "409.58",
+      "INR": "627.67",
+      "MYR": "28.47",
+      "PHP": "409.59",
       "AED": "25.63"
     }
   },
@@ -10452,9 +10452,9 @@
       "SGD": "4.14",
       "HKD": "24.90",
       "ZAR": "53.65",
-      "INR": "287.67",
+      "INR": "287.76",
       "MYR": "13.05",
-      "PHP": "187.77",
+      "PHP": "187.78",
       "AED": "11.75"
     }
   },
@@ -10484,9 +10484,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -10520,9 +10520,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -10558,7 +10558,7 @@
       "SGD": "8.97",
       "HKD": "54.00",
       "ZAR": "116.36",
-      "INR": "623.88",
+      "INR": "624.07",
       "MYR": "28.30",
       "PHP": "407.24",
       "AED": "25.49"
@@ -10589,11 +10589,11 @@
       "GBP": "0.90",
       "EUR": "1.02",
       "AUD": "1.81",
-      "NZD": "2.08",
+      "NZD": "2.09",
       "SGD": "1.55",
       "HKD": "9.34",
       "ZAR": "20.12",
-      "INR": "107.88",
+      "INR": "107.91",
       "MYR": "4.89",
       "PHP": "70.42",
       "AED": "4.41"
@@ -10628,8 +10628,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -10663,8 +10663,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -10697,8 +10697,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -10733,8 +10733,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -10766,8 +10766,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -10799,8 +10799,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -10835,8 +10835,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -10871,8 +10871,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -10907,8 +10907,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -10940,8 +10940,8 @@
       "SGD": "2.39",
       "HKD": "14.40",
       "ZAR": "31.02",
-      "INR": "166.31",
-      "MYR": "7.54",
+      "INR": "166.36",
+      "MYR": "7.55",
       "PHP": "108.56",
       "AED": "6.79"
     }
@@ -10976,7 +10976,7 @@
       "SGD": "6.46",
       "HKD": "38.91",
       "ZAR": "83.83",
-      "INR": "449.48",
+      "INR": "449.62",
       "MYR": "20.39",
       "PHP": "293.40",
       "AED": "18.36"
@@ -11012,8 +11012,8 @@
       "SGD": "9.16",
       "HKD": "55.17",
       "ZAR": "118.87",
-      "INR": "637.36",
-      "MYR": "28.91",
+      "INR": "637.56",
+      "MYR": "28.92",
       "PHP": "416.04",
       "AED": "26.04"
     }
@@ -11046,7 +11046,7 @@
       "SGD": "7.47",
       "HKD": "44.98",
       "ZAR": "96.91",
-      "INR": "519.60",
+      "INR": "519.76",
       "MYR": "23.57",
       "PHP": "339.17",
       "AED": "21.23"
@@ -11082,7 +11082,7 @@
       "SGD": "9.05",
       "HKD": "54.47",
       "ZAR": "117.36",
-      "INR": "629.27",
+      "INR": "629.47",
       "MYR": "28.55",
       "PHP": "410.76",
       "AED": "25.71"
@@ -11115,8 +11115,8 @@
       "NZD": "4.34",
       "SGD": "3.23",
       "HKD": "19.45",
-      "ZAR": "41.92",
-      "INR": "224.74",
+      "ZAR": "41.91",
+      "INR": "224.81",
       "MYR": "10.20",
       "PHP": "146.70",
       "AED": "9.18"
@@ -11152,7 +11152,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -11188,7 +11188,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -11224,7 +11224,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -11260,7 +11260,7 @@
       "SGD": "6.59",
       "HKD": "39.69",
       "ZAR": "85.51",
-      "INR": "458.47",
+      "INR": "458.61",
       "MYR": "20.80",
       "PHP": "299.27",
       "AED": "18.73"
@@ -11295,8 +11295,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -11331,7 +11331,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -11367,7 +11367,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -11403,7 +11403,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -11439,7 +11439,7 @@
       "SGD": "5.17",
       "HKD": "31.13",
       "ZAR": "67.06",
-      "INR": "359.58",
+      "INR": "359.70",
       "MYR": "16.31",
       "PHP": "234.72",
       "AED": "14.69"
@@ -11475,7 +11475,7 @@
       "SGD": "6.45",
       "HKD": "38.83",
       "ZAR": "83.66",
-      "INR": "448.58",
+      "INR": "448.72",
       "MYR": "20.35",
       "PHP": "292.81",
       "AED": "18.33"
@@ -11504,9 +11504,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -11536,9 +11536,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -11594,11 +11594,11 @@
       "GBP": "1.50",
       "EUR": "1.71",
       "AUD": "3.02",
-      "NZD": "3.47",
+      "NZD": "3.48",
       "SGD": "2.58",
       "HKD": "15.56",
       "ZAR": "33.53",
-      "INR": "179.79",
+      "INR": "179.85",
       "MYR": "8.16",
       "PHP": "117.36",
       "AED": "7.34"
@@ -11632,9 +11632,9 @@
       "AUD": "5.29",
       "NZD": "6.08",
       "SGD": "4.52",
-      "HKD": "27.24",
+      "HKD": "27.23",
       "ZAR": "58.68",
-      "INR": "314.64",
+      "INR": "314.73",
       "MYR": "14.27",
       "PHP": "205.38",
       "AED": "12.85"
@@ -11668,9 +11668,9 @@
       "AUD": "5.29",
       "NZD": "6.08",
       "SGD": "4.52",
-      "HKD": "27.24",
+      "HKD": "27.23",
       "ZAR": "58.68",
-      "INR": "314.64",
+      "INR": "314.73",
       "MYR": "14.27",
       "PHP": "205.38",
       "AED": "12.85"
@@ -11704,9 +11704,9 @@
       "AUD": "5.29",
       "NZD": "6.08",
       "SGD": "4.52",
-      "HKD": "27.24",
+      "HKD": "27.23",
       "ZAR": "58.68",
-      "INR": "314.64",
+      "INR": "314.73",
       "MYR": "14.27",
       "PHP": "205.38",
       "AED": "12.85"
@@ -11740,9 +11740,9 @@
       "AUD": "5.29",
       "NZD": "6.08",
       "SGD": "4.52",
-      "HKD": "27.24",
+      "HKD": "27.23",
       "ZAR": "58.68",
-      "INR": "314.64",
+      "INR": "314.73",
       "MYR": "14.27",
       "PHP": "205.38",
       "AED": "12.85"
@@ -11773,11 +11773,11 @@
       "GBP": "0.90",
       "EUR": "1.02",
       "AUD": "1.81",
-      "NZD": "2.08",
+      "NZD": "2.09",
       "SGD": "1.55",
       "HKD": "9.34",
       "ZAR": "20.12",
-      "INR": "107.88",
+      "INR": "107.91",
       "MYR": "4.89",
       "PHP": "70.42",
       "AED": "4.41"
@@ -11808,11 +11808,11 @@
       "GBP": "0.90",
       "EUR": "1.02",
       "AUD": "1.81",
-      "NZD": "2.08",
+      "NZD": "2.09",
       "SGD": "1.55",
       "HKD": "9.34",
       "ZAR": "20.12",
-      "INR": "107.88",
+      "INR": "107.91",
       "MYR": "4.89",
       "PHP": "70.42",
       "AED": "4.41"
@@ -11843,11 +11843,11 @@
       "GBP": "0.90",
       "EUR": "1.02",
       "AUD": "1.81",
-      "NZD": "2.08",
+      "NZD": "2.09",
       "SGD": "1.55",
       "HKD": "9.34",
       "ZAR": "20.12",
-      "INR": "107.88",
+      "INR": "107.91",
       "MYR": "4.89",
       "PHP": "70.42",
       "AED": "4.41"
@@ -11882,8 +11882,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -11917,8 +11917,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -11952,8 +11952,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -11988,8 +11988,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -12024,8 +12024,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -12060,8 +12060,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -12096,7 +12096,7 @@
       "SGD": "5.09",
       "HKD": "30.66",
       "ZAR": "66.06",
-      "INR": "354.19",
+      "INR": "354.30",
       "MYR": "16.07",
       "PHP": "231.20",
       "AED": "14.47"
@@ -12132,8 +12132,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -12168,8 +12168,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -12204,8 +12204,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -12240,8 +12240,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -12276,8 +12276,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -12312,8 +12312,8 @@
       "SGD": "3.88",
       "HKD": "23.34",
       "ZAR": "50.30",
-      "INR": "269.69",
-      "MYR": "12.23",
+      "INR": "269.77",
+      "MYR": "12.24",
       "PHP": "176.04",
       "AED": "11.02"
     }
@@ -12345,7 +12345,7 @@
       "SGD": "1.94",
       "HKD": "11.67",
       "ZAR": "25.15",
-      "INR": "134.84",
+      "INR": "134.89",
       "MYR": "6.12",
       "PHP": "88.02",
       "AED": "5.51"
@@ -12398,7 +12398,7 @@
       "SGD": "1.94",
       "HKD": "11.67",
       "ZAR": "25.15",
-      "INR": "134.84",
+      "INR": "134.89",
       "MYR": "6.12",
       "PHP": "88.02",
       "AED": "5.51"
@@ -12432,8 +12432,8 @@
       "NZD": "4.34",
       "SGD": "3.23",
       "HKD": "19.45",
-      "ZAR": "41.92",
-      "INR": "224.74",
+      "ZAR": "41.91",
+      "INR": "224.81",
       "MYR": "10.20",
       "PHP": "146.70",
       "AED": "9.18"
@@ -12469,7 +12469,7 @@
       "SGD": "3.36",
       "HKD": "20.23",
       "ZAR": "43.59",
-      "INR": "233.73",
+      "INR": "233.80",
       "MYR": "10.60",
       "PHP": "152.57",
       "AED": "9.55"
@@ -12497,11 +12497,11 @@
       "GBP": "1.50",
       "EUR": "1.71",
       "AUD": "3.02",
-      "NZD": "3.47",
+      "NZD": "3.48",
       "SGD": "2.58",
       "HKD": "15.56",
       "ZAR": "33.53",
-      "INR": "179.79",
+      "INR": "179.85",
       "MYR": "8.16",
       "PHP": "117.36",
       "AED": "7.34"
@@ -12536,8 +12536,8 @@
       "NZD": "4.34",
       "SGD": "3.23",
       "HKD": "19.45",
-      "ZAR": "41.92",
-      "INR": "224.74",
+      "ZAR": "41.91",
+      "INR": "224.81",
       "MYR": "10.20",
       "PHP": "146.70",
       "AED": "9.18"
@@ -12568,11 +12568,11 @@
       "GBP": "0.90",
       "EUR": "1.02",
       "AUD": "1.81",
-      "NZD": "2.08",
+      "NZD": "2.09",
       "SGD": "1.55",
       "HKD": "9.34",
       "ZAR": "20.12",
-      "INR": "107.88",
+      "INR": "107.91",
       "MYR": "4.89",
       "PHP": "70.42",
       "AED": "4.41"
@@ -12636,7 +12636,7 @@
       "SGD": "2.91",
       "HKD": "17.51",
       "ZAR": "37.72",
-      "INR": "202.27",
+      "INR": "202.33",
       "MYR": "9.18",
       "PHP": "132.03",
       "AED": "8.26"
@@ -12670,7 +12670,7 @@
       "SGD": "2.91",
       "HKD": "17.51",
       "ZAR": "37.72",
-      "INR": "202.27",
+      "INR": "202.33",
       "MYR": "9.18",
       "PHP": "132.03",
       "AED": "8.26"
@@ -12706,7 +12706,7 @@
       "SGD": "2.71",
       "HKD": "16.34",
       "ZAR": "35.21",
-      "INR": "188.78",
+      "INR": "188.84",
       "MYR": "8.56",
       "PHP": "123.23",
       "AED": "7.71"
@@ -12742,7 +12742,7 @@
       "SGD": "2.71",
       "HKD": "16.34",
       "ZAR": "35.21",
-      "INR": "188.78",
+      "INR": "188.84",
       "MYR": "8.56",
       "PHP": "123.23",
       "AED": "7.71"
@@ -12778,7 +12778,7 @@
       "SGD": "2.71",
       "HKD": "16.34",
       "ZAR": "35.21",
-      "INR": "188.78",
+      "INR": "188.84",
       "MYR": "8.56",
       "PHP": "123.23",
       "AED": "7.71"
@@ -12809,9 +12809,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -12844,9 +12844,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -12878,9 +12878,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -12913,7 +12913,7 @@
       "SGD": "1.94",
       "HKD": "11.67",
       "ZAR": "25.15",
-      "INR": "134.84",
+      "INR": "134.89",
       "MYR": "6.12",
       "PHP": "88.02",
       "AED": "5.51"
@@ -12945,9 +12945,9 @@
       "AUD": "3.01",
       "NZD": "3.46",
       "SGD": "2.57",
-      "HKD": "15.49",
+      "HKD": "15.48",
       "ZAR": "33.36",
-      "INR": "178.89",
+      "INR": "178.95",
       "MYR": "8.12",
       "PHP": "116.77",
       "AED": "7.31"
@@ -12983,7 +12983,7 @@
       "SGD": "2.52",
       "HKD": "15.17",
       "ZAR": "32.69",
-      "INR": "175.30",
+      "INR": "175.35",
       "MYR": "7.95",
       "PHP": "114.43",
       "AED": "7.16"
@@ -13019,7 +13019,7 @@
       "SGD": "2.46",
       "HKD": "14.78",
       "ZAR": "31.86",
-      "INR": "170.80",
+      "INR": "170.86",
       "MYR": "7.75",
       "PHP": "111.49",
       "AED": "6.98"
@@ -13050,7 +13050,7 @@
       "SGD": "1.29",
       "HKD": "7.78",
       "ZAR": "16.77",
-      "INR": "89.90",
+      "INR": "89.92",
       "MYR": "4.08",
       "PHP": "58.68",
       "AED": "3.67"
@@ -13081,11 +13081,11 @@
       "GBP": "0.90",
       "EUR": "1.02",
       "AUD": "1.81",
-      "NZD": "2.08",
+      "NZD": "2.09",
       "SGD": "1.55",
       "HKD": "9.34",
       "ZAR": "20.12",
-      "INR": "107.88",
+      "INR": "107.91",
       "MYR": "4.89",
       "PHP": "70.42",
       "AED": "4.41"
@@ -13116,11 +13116,11 @@
       "GBP": "0.90",
       "EUR": "1.02",
       "AUD": "1.81",
-      "NZD": "2.08",
+      "NZD": "2.09",
       "SGD": "1.55",
       "HKD": "9.34",
       "ZAR": "20.12",
-      "INR": "107.88",
+      "INR": "107.91",
       "MYR": "4.89",
       "PHP": "70.42",
       "AED": "4.41"
@@ -13151,11 +13151,11 @@
       "GBP": "0.90",
       "EUR": "1.02",
       "AUD": "1.81",
-      "NZD": "2.08",
+      "NZD": "2.09",
       "SGD": "1.55",
       "HKD": "9.34",
       "ZAR": "20.12",
-      "INR": "107.88",
+      "INR": "107.91",
       "MYR": "4.89",
       "PHP": "70.42",
       "AED": "4.41"
@@ -13186,11 +13186,11 @@
       "GBP": "0.90",
       "EUR": "1.02",
       "AUD": "1.81",
-      "NZD": "2.08",
+      "NZD": "2.09",
       "SGD": "1.55",
       "HKD": "9.34",
       "ZAR": "20.12",
-      "INR": "107.88",
+      "INR": "107.91",
       "MYR": "4.89",
       "PHP": "70.42",
       "AED": "4.41"
@@ -13221,11 +13221,11 @@
       "GBP": "0.90",
       "EUR": "1.02",
       "AUD": "1.81",
-      "NZD": "2.08",
+      "NZD": "2.09",
       "SGD": "1.55",
       "HKD": "9.34",
       "ZAR": "20.12",
-      "INR": "107.88",
+      "INR": "107.91",
       "MYR": "4.89",
       "PHP": "70.42",
       "AED": "4.41"
@@ -13258,7 +13258,7 @@
       "SGD": "1.29",
       "HKD": "7.78",
       "ZAR": "16.77",
-      "INR": "89.90",
+      "INR": "89.92",
       "MYR": "4.08",
       "PHP": "58.68",
       "AED": "3.67"
@@ -13291,7 +13291,7 @@
       "SGD": "1.29",
       "HKD": "7.78",
       "ZAR": "16.77",
-      "INR": "89.90",
+      "INR": "89.92",
       "MYR": "4.08",
       "PHP": "58.68",
       "AED": "3.67"
@@ -13324,7 +13324,7 @@
       "SGD": "1.29",
       "HKD": "7.78",
       "ZAR": "16.77",
-      "INR": "89.90",
+      "INR": "89.92",
       "MYR": "4.08",
       "PHP": "58.68",
       "AED": "3.67"
@@ -13357,7 +13357,7 @@
       "SGD": "1.29",
       "HKD": "7.78",
       "ZAR": "16.77",
-      "INR": "89.90",
+      "INR": "89.92",
       "MYR": "4.08",
       "PHP": "58.68",
       "AED": "3.67"
@@ -13390,7 +13390,7 @@
       "SGD": "1.29",
       "HKD": "7.78",
       "ZAR": "16.77",
-      "INR": "89.90",
+      "INR": "89.92",
       "MYR": "4.08",
       "PHP": "58.68",
       "AED": "3.67"
@@ -13423,7 +13423,7 @@
       "SGD": "1.29",
       "HKD": "7.78",
       "ZAR": "16.77",
-      "INR": "89.90",
+      "INR": "89.92",
       "MYR": "4.08",
       "PHP": "58.68",
       "AED": "3.67"
@@ -13456,7 +13456,7 @@
       "SGD": "1.29",
       "HKD": "7.78",
       "ZAR": "16.77",
-      "INR": "89.90",
+      "INR": "89.92",
       "MYR": "4.08",
       "PHP": "58.68",
       "AED": "3.67"
@@ -13489,7 +13489,7 @@
       "SGD": "1.29",
       "HKD": "7.78",
       "ZAR": "16.77",
-      "INR": "89.90",
+      "INR": "89.92",
       "MYR": "4.08",
       "PHP": "58.68",
       "AED": "3.67"
