@@ -26,12 +26,12 @@
       "EUR": "3.22",
       "AUD": "5.61",
       "NZD": "6.54",
-      "SGD": "4.83",
+      "SGD": "4.82",
       "HKD": "29.23",
       "ZAR": "61.89",
-      "INR": "338.32",
+      "INR": "338.18",
       "MYR": "15.26",
-      "PHP": "222.32",
+      "PHP": "222.25",
       "AED": "13.77"
     },
     "evaluations": []
@@ -58,17 +58,17 @@
     ],
     "currencies": {
       "USD": "22.44",
-      "CAD": "31.18",
+      "CAD": "31.17",
       "GBP": "16.73",
       "EUR": "19.28",
       "AUD": "33.56",
       "NZD": "39.16",
-      "SGD": "28.88",
-      "HKD": "174.91",
-      "ZAR": "370.33",
-      "INR": "2024.50",
-      "MYR": "91.33",
-      "PHP": "1330.36",
+      "SGD": "28.87",
+      "HKD": "174.90",
+      "ZAR": "370.34",
+      "INR": "2023.64",
+      "MYR": "91.30",
+      "PHP": "1329.94",
       "AED": "82.41"
     },
     "evaluations": []
@@ -101,9 +101,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     },
     "evaluations": [
@@ -473,9 +473,9 @@
       "SGD": "4.12",
       "HKD": "24.94",
       "ZAR": "52.81",
-      "INR": "288.70",
+      "INR": "288.58",
       "MYR": "13.02",
-      "PHP": "189.71",
+      "PHP": "189.65",
       "AED": "11.75"
     },
     "evaluations": [
@@ -628,9 +628,9 @@
       "SGD": "4.50",
       "HKD": "27.28",
       "ZAR": "57.76",
-      "INR": "315.76",
+      "INR": "315.63",
       "MYR": "14.24",
-      "PHP": "207.50",
+      "PHP": "207.43",
       "AED": "12.85"
     },
     "evaluations": [
@@ -1144,9 +1144,9 @@
       "SGD": "3.22",
       "HKD": "19.49",
       "ZAR": "41.26",
-      "INR": "225.55",
+      "INR": "225.45",
       "MYR": "10.17",
-      "PHP": "148.21",
+      "PHP": "148.17",
       "AED": "9.18"
     },
     "evaluations": [
@@ -1331,7 +1331,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -1339,9 +1339,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     },
     "evaluations": []
@@ -1367,7 +1367,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -1375,9 +1375,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     },
     "evaluations": [
@@ -1528,16 +1528,16 @@
     "currencies": {
       "USD": "3.99",
       "CAD": "5.54",
-      "GBP": "2.98",
+      "GBP": "2.97",
       "EUR": "3.43",
       "AUD": "5.97",
       "NZD": "6.96",
       "SGD": "5.13",
       "HKD": "31.10",
       "ZAR": "65.85",
-      "INR": "359.97",
-      "MYR": "16.24",
-      "PHP": "236.55",
+      "INR": "359.82",
+      "MYR": "16.23",
+      "PHP": "236.47",
       "AED": "14.65"
     },
     "evaluations": [
@@ -1721,10 +1721,10 @@
       "NZD": "13.09",
       "SGD": "9.65",
       "HKD": "58.46",
-      "ZAR": "123.77",
-      "INR": "676.64",
+      "ZAR": "123.78",
+      "INR": "676.35",
       "MYR": "30.52",
-      "PHP": "444.64",
+      "PHP": "444.50",
       "AED": "27.54"
     },
     "evaluations": [
@@ -1772,17 +1772,17 @@
     ],
     "currencies": {
       "USD": "3.25",
-      "CAD": "4.52",
+      "CAD": "4.51",
       "GBP": "2.42",
       "EUR": "2.79",
       "AUD": "4.86",
       "NZD": "5.67",
       "SGD": "4.18",
       "HKD": "25.33",
-      "ZAR": "53.63",
-      "INR": "293.21",
-      "MYR": "13.23",
-      "PHP": "192.68",
+      "ZAR": "53.64",
+      "INR": "293.09",
+      "MYR": "13.22",
+      "PHP": "192.62",
       "AED": "11.94"
     },
     "evaluations": [
@@ -2005,10 +2005,10 @@
       "NZD": "18.32",
       "SGD": "13.51",
       "HKD": "81.84",
-      "ZAR": "173.28",
-      "INR": "947.29",
-      "MYR": "42.73",
-      "PHP": "622.50",
+      "ZAR": "173.29",
+      "INR": "946.89",
+      "MYR": "42.72",
+      "PHP": "622.30",
       "AED": "38.56"
     },
     "evaluations": [
@@ -2131,9 +2131,9 @@
       "SGD": "3.22",
       "HKD": "19.49",
       "ZAR": "41.26",
-      "INR": "225.55",
+      "INR": "225.45",
       "MYR": "10.17",
-      "PHP": "148.21",
+      "PHP": "148.17",
       "AED": "9.18"
     },
     "evaluations": [
@@ -2402,17 +2402,17 @@
     ],
     "currencies": {
       "USD": "14.30",
-      "CAD": "19.87",
+      "CAD": "19.86",
       "GBP": "10.66",
       "EUR": "12.29",
       "AUD": "21.39",
       "NZD": "24.95",
       "SGD": "18.40",
       "HKD": "111.46",
-      "ZAR": "235.99",
-      "INR": "1290.12",
-      "MYR": "58.20",
-      "PHP": "847.78",
+      "ZAR": "236.00",
+      "INR": "1289.58",
+      "MYR": "58.18",
+      "PHP": "847.51",
       "AED": "52.52"
     },
     "evaluations": [
@@ -2520,9 +2520,9 @@
       "SGD": "4.50",
       "HKD": "27.28",
       "ZAR": "57.76",
-      "INR": "315.76",
+      "INR": "315.63",
       "MYR": "14.24",
-      "PHP": "207.50",
+      "PHP": "207.43",
       "AED": "12.85"
     },
     "evaluations": [
@@ -2579,9 +2579,9 @@
       "SGD": "3.22",
       "HKD": "19.49",
       "ZAR": "41.26",
-      "INR": "225.55",
+      "INR": "225.45",
       "MYR": "10.17",
-      "PHP": "148.21",
+      "PHP": "148.17",
       "AED": "9.18"
     },
     "evaluations": [
@@ -3268,17 +3268,17 @@
     ],
     "currencies": {
       "USD": "6.00",
-      "CAD": "8.34",
+      "CAD": "8.33",
       "GBP": "4.47",
-      "EUR": "5.16",
+      "EUR": "5.15",
       "AUD": "8.97",
       "NZD": "10.47",
       "SGD": "7.72",
       "HKD": "46.77",
       "ZAR": "99.02",
-      "INR": "541.31",
-      "MYR": "24.42",
-      "PHP": "355.71",
+      "INR": "541.08",
+      "MYR": "24.41",
+      "PHP": "355.60",
       "AED": "22.04"
     },
     "evaluations": [
@@ -3343,9 +3343,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     },
     "evaluations": [
@@ -3420,9 +3420,9 @@
       "SGD": "3.22",
       "HKD": "19.49",
       "ZAR": "41.26",
-      "INR": "225.55",
+      "INR": "225.45",
       "MYR": "10.17",
-      "PHP": "148.21",
+      "PHP": "148.17",
       "AED": "9.18"
     },
     "evaluations": [
@@ -3475,17 +3475,17 @@
     ],
     "currencies": {
       "USD": "6.00",
-      "CAD": "8.34",
+      "CAD": "8.33",
       "GBP": "4.47",
-      "EUR": "5.16",
+      "EUR": "5.15",
       "AUD": "8.97",
       "NZD": "10.47",
       "SGD": "7.72",
       "HKD": "46.77",
       "ZAR": "99.02",
-      "INR": "541.31",
-      "MYR": "24.42",
-      "PHP": "355.71",
+      "INR": "541.08",
+      "MYR": "24.41",
+      "PHP": "355.60",
       "AED": "22.04"
     },
     "evaluations": [
@@ -3547,9 +3547,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     },
     "evaluations": [
@@ -3607,9 +3607,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     },
     "evaluations": [
@@ -3659,17 +3659,17 @@
     ],
     "currencies": {
       "USD": "6.00",
-      "CAD": "8.34",
+      "CAD": "8.33",
       "GBP": "4.47",
-      "EUR": "5.16",
+      "EUR": "5.15",
       "AUD": "8.97",
       "NZD": "10.47",
       "SGD": "7.72",
       "HKD": "46.77",
       "ZAR": "99.02",
-      "INR": "541.31",
-      "MYR": "24.42",
-      "PHP": "355.71",
+      "INR": "541.08",
+      "MYR": "24.41",
+      "PHP": "355.60",
       "AED": "22.04"
     },
     "evaluations": [
@@ -3720,17 +3720,17 @@
     ],
     "currencies": {
       "USD": "9.80",
-      "CAD": "13.62",
+      "CAD": "13.61",
       "GBP": "7.31",
       "EUR": "8.42",
       "AUD": "14.66",
       "NZD": "17.10",
       "SGD": "12.61",
-      "HKD": "76.39",
+      "HKD": "76.38",
       "ZAR": "161.73",
-      "INR": "884.14",
-      "MYR": "39.88",
-      "PHP": "581.00",
+      "INR": "883.77",
+      "MYR": "39.87",
+      "PHP": "580.81",
       "AED": "35.99"
     },
     "evaluations": [
@@ -3807,17 +3807,17 @@
     ],
     "currencies": {
       "USD": "6.00",
-      "CAD": "8.34",
+      "CAD": "8.33",
       "GBP": "4.47",
-      "EUR": "5.16",
+      "EUR": "5.15",
       "AUD": "8.97",
       "NZD": "10.47",
       "SGD": "7.72",
       "HKD": "46.77",
       "ZAR": "99.02",
-      "INR": "541.31",
-      "MYR": "24.42",
-      "PHP": "355.71",
+      "INR": "541.08",
+      "MYR": "24.41",
+      "PHP": "355.60",
       "AED": "22.04"
     },
     "evaluations": [
@@ -3884,17 +3884,17 @@
     ],
     "currencies": {
       "USD": "42.00",
-      "CAD": "58.37",
-      "GBP": "31.32",
-      "EUR": "36.09",
-      "AUD": "62.82",
+      "CAD": "58.34",
+      "GBP": "31.31",
+      "EUR": "36.08",
+      "AUD": "62.81",
       "NZD": "73.29",
-      "SGD": "54.05",
-      "HKD": "327.37",
-      "ZAR": "693.13",
-      "INR": "3789.18",
-      "MYR": "170.93",
-      "PHP": "2489.99",
+      "SGD": "54.04",
+      "HKD": "327.36",
+      "ZAR": "693.15",
+      "INR": "3787.57",
+      "MYR": "170.89",
+      "PHP": "2489.20",
       "AED": "154.25"
     }
   },
@@ -3928,9 +3928,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     }
   },
@@ -3960,12 +3960,12 @@
       "EUR": "3.22",
       "AUD": "5.61",
       "NZD": "6.54",
-      "SGD": "4.83",
+      "SGD": "4.82",
       "HKD": "29.23",
       "ZAR": "61.89",
-      "INR": "338.32",
+      "INR": "338.18",
       "MYR": "15.26",
-      "PHP": "222.32",
+      "PHP": "222.25",
       "AED": "13.77"
     },
     "evaluations": [
@@ -4019,17 +4019,17 @@
     ],
     "currencies": {
       "USD": "13.45",
-      "CAD": "18.69",
+      "CAD": "18.68",
       "GBP": "10.03",
-      "EUR": "11.56",
-      "AUD": "20.12",
+      "EUR": "11.55",
+      "AUD": "20.11",
       "NZD": "23.47",
-      "SGD": "17.31",
-      "HKD": "104.84",
+      "SGD": "17.30",
+      "HKD": "104.83",
       "ZAR": "221.97",
-      "INR": "1213.44",
-      "MYR": "54.74",
-      "PHP": "797.39",
+      "INR": "1212.92",
+      "MYR": "54.73",
+      "PHP": "797.14",
       "AED": "49.40"
     },
     "evaluations": [
@@ -4088,9 +4088,9 @@
       "SGD": "3.35",
       "HKD": "20.27",
       "ZAR": "42.91",
-      "INR": "234.57",
+      "INR": "234.47",
       "MYR": "10.58",
-      "PHP": "154.14",
+      "PHP": "154.09",
       "AED": "9.55"
     },
     "evaluations": [
@@ -4184,9 +4184,9 @@
       "SGD": "2.51",
       "HKD": "15.20",
       "ZAR": "32.18",
-      "INR": "175.93",
-      "MYR": "7.94",
-      "PHP": "115.61",
+      "INR": "175.85",
+      "MYR": "7.93",
+      "PHP": "115.57",
       "AED": "7.16"
     }
   },
@@ -4215,14 +4215,14 @@
       "CAD": "3.13",
       "GBP": "1.68",
       "EUR": "1.93",
-      "AUD": "3.37",
+      "AUD": "3.36",
       "NZD": "3.93",
-      "SGD": "2.90",
+      "SGD": "2.89",
       "HKD": "17.54",
       "ZAR": "37.13",
-      "INR": "202.99",
-      "MYR": "9.16",
-      "PHP": "133.39",
+      "INR": "202.91",
+      "MYR": "9.15",
+      "PHP": "133.35",
       "AED": "8.26"
     },
     "evaluations": [
@@ -4283,17 +4283,17 @@
     ],
     "currencies": {
       "USD": "33.90",
-      "CAD": "47.11",
-      "GBP": "25.28",
-      "EUR": "29.13",
+      "CAD": "47.09",
+      "GBP": "25.27",
+      "EUR": "29.12",
       "AUD": "50.70",
       "NZD": "59.16",
-      "SGD": "43.63",
+      "SGD": "43.62",
       "HKD": "264.23",
-      "ZAR": "559.45",
-      "INR": "3058.41",
-      "MYR": "137.97",
-      "PHP": "2009.78",
+      "ZAR": "559.47",
+      "INR": "3057.11",
+      "MYR": "137.93",
+      "PHP": "2009.14",
       "AED": "124.50"
     }
   },
@@ -4326,9 +4326,9 @@
       "SGD": "4.12",
       "HKD": "24.94",
       "ZAR": "52.81",
-      "INR": "288.70",
+      "INR": "288.58",
       "MYR": "13.02",
-      "PHP": "189.71",
+      "PHP": "189.65",
       "AED": "11.75"
     },
     "evaluations": [
@@ -4375,17 +4375,17 @@
     ],
     "currencies": {
       "USD": "26.45",
-      "CAD": "36.76",
+      "CAD": "36.74",
       "GBP": "19.72",
-      "EUR": "22.73",
+      "EUR": "22.72",
       "AUD": "39.56",
       "NZD": "46.16",
-      "SGD": "34.04",
+      "SGD": "34.03",
       "HKD": "206.16",
-      "ZAR": "436.50",
-      "INR": "2386.28",
-      "MYR": "107.65",
-      "PHP": "1568.10",
+      "ZAR": "436.52",
+      "INR": "2385.27",
+      "MYR": "107.62",
+      "PHP": "1567.60",
       "AED": "97.14"
     }
   },
@@ -4419,9 +4419,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     },
     "evaluations": [
@@ -4478,9 +4478,9 @@
       "SGD": "4.50",
       "HKD": "27.28",
       "ZAR": "57.76",
-      "INR": "315.76",
+      "INR": "315.63",
       "MYR": "14.24",
-      "PHP": "207.50",
+      "PHP": "207.43",
       "AED": "12.85"
     },
     "evaluations": [
@@ -4536,12 +4536,12 @@
       "EUR": "1.63",
       "AUD": "2.84",
       "NZD": "3.32",
-      "SGD": "2.45",
+      "SGD": "2.44",
       "HKD": "14.81",
       "ZAR": "31.36",
-      "INR": "171.42",
+      "INR": "171.34",
       "MYR": "7.73",
-      "PHP": "112.64",
+      "PHP": "112.61",
       "AED": "6.98"
     }
   },
@@ -4574,9 +4574,9 @@
       "SGD": "1.29",
       "HKD": "7.79",
       "ZAR": "16.50",
-      "INR": "90.22",
+      "INR": "90.18",
       "MYR": "4.07",
-      "PHP": "59.29",
+      "PHP": "59.27",
       "AED": "3.67"
     },
     "evaluations": [
@@ -4652,9 +4652,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     },
     "evaluations": [
@@ -4740,9 +4740,9 @@
       "SGD": "4.63",
       "HKD": "28.06",
       "ZAR": "59.41",
-      "INR": "324.79",
+      "INR": "324.65",
       "MYR": "14.65",
-      "PHP": "213.43",
+      "PHP": "213.36",
       "AED": "13.22"
     },
     "evaluations": [
@@ -4804,9 +4804,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     },
     "evaluations": [
@@ -4864,9 +4864,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     }
   },
@@ -4900,9 +4900,9 @@
       "SGD": "3.22",
       "HKD": "19.49",
       "ZAR": "41.26",
-      "INR": "225.55",
+      "INR": "225.45",
       "MYR": "10.17",
-      "PHP": "148.21",
+      "PHP": "148.17",
       "AED": "9.18"
     }
   },
@@ -4932,9 +4932,9 @@
       "SGD": "1.29",
       "HKD": "7.79",
       "ZAR": "16.50",
-      "INR": "90.22",
+      "INR": "90.18",
       "MYR": "4.07",
-      "PHP": "59.29",
+      "PHP": "59.27",
       "AED": "3.67"
     },
     "evaluations": [
@@ -4995,9 +4995,9 @@
       "SGD": "6.42",
       "HKD": "38.89",
       "ZAR": "82.35",
-      "INR": "450.19",
-      "MYR": "20.31",
-      "PHP": "295.83",
+      "INR": "450.00",
+      "MYR": "20.30",
+      "PHP": "295.74",
       "AED": "18.33"
     }
   },
@@ -5030,9 +5030,9 @@
       "SGD": "1.54",
       "HKD": "9.35",
       "ZAR": "19.80",
-      "INR": "108.26",
+      "INR": "108.22",
       "MYR": "4.88",
-      "PHP": "71.14",
+      "PHP": "71.12",
       "AED": "4.41"
     },
     "evaluations": [
@@ -5092,9 +5092,9 @@
       "SGD": "2.57",
       "HKD": "15.59",
       "ZAR": "33.01",
-      "INR": "180.44",
+      "INR": "180.36",
       "MYR": "8.14",
-      "PHP": "118.57",
+      "PHP": "118.53",
       "AED": "7.34"
     }
   },
@@ -5125,12 +5125,12 @@
       "EUR": "1.63",
       "AUD": "2.84",
       "NZD": "3.32",
-      "SGD": "2.45",
+      "SGD": "2.44",
       "HKD": "14.81",
       "ZAR": "31.36",
-      "INR": "171.42",
+      "INR": "171.34",
       "MYR": "7.73",
-      "PHP": "112.64",
+      "PHP": "112.61",
       "AED": "6.98"
     }
   },
@@ -5158,14 +5158,14 @@
       "CAD": "3.13",
       "GBP": "1.68",
       "EUR": "1.93",
-      "AUD": "3.37",
+      "AUD": "3.36",
       "NZD": "3.93",
-      "SGD": "2.90",
+      "SGD": "2.89",
       "HKD": "17.54",
       "ZAR": "37.13",
-      "INR": "202.99",
-      "MYR": "9.16",
-      "PHP": "133.39",
+      "INR": "202.91",
+      "MYR": "9.15",
+      "PHP": "133.35",
       "AED": "8.26"
     },
     "evaluations": [
@@ -5216,7 +5216,7 @@
     ],
     "currencies": {
       "USD": "5.30",
-      "CAD": "7.37",
+      "CAD": "7.36",
       "GBP": "3.95",
       "EUR": "4.55",
       "AUD": "7.93",
@@ -5224,9 +5224,9 @@
       "SGD": "6.82",
       "HKD": "41.31",
       "ZAR": "87.47",
-      "INR": "478.16",
-      "MYR": "21.57",
-      "PHP": "314.21",
+      "INR": "477.96",
+      "MYR": "21.56",
+      "PHP": "314.11",
       "AED": "19.46"
     },
     "evaluations": [
@@ -5291,9 +5291,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -5318,17 +5318,17 @@
     ],
     "currencies": {
       "USD": "10.05",
-      "CAD": "13.97",
+      "CAD": "13.96",
       "GBP": "7.49",
-      "EUR": "8.64",
+      "EUR": "8.63",
       "AUD": "15.03",
       "NZD": "17.54",
       "SGD": "12.93",
       "HKD": "78.33",
       "ZAR": "165.86",
-      "INR": "906.70",
-      "MYR": "40.90",
-      "PHP": "595.82",
+      "INR": "906.31",
+      "MYR": "40.89",
+      "PHP": "595.63",
       "AED": "36.91"
     }
   },
@@ -5358,9 +5358,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -5389,12 +5389,12 @@
       "EUR": "4.21",
       "AUD": "7.33",
       "NZD": "8.55",
-      "SGD": "6.31",
+      "SGD": "6.30",
       "HKD": "38.19",
-      "ZAR": "80.86",
-      "INR": "442.07",
+      "ZAR": "80.87",
+      "INR": "441.88",
       "MYR": "19.94",
-      "PHP": "290.50",
+      "PHP": "290.41",
       "AED": "18.00"
     },
     "evaluations": [
@@ -5443,6 +5443,42 @@
         "userId": "4380863"
       }
     ]
+  },
+  {
+    "id": "8776275",
+    "title": "The Philosophers' Bag - Teaching Philosophy for Kids",
+    "link": "https://ciarasclassroom.com/product/The-Philosophers-Bag-Teaching-Philosophy-for-Kids-8776275",
+    "description": "<p>Interested in teaching philosophy for kids?   The Philosophers' Bag is the perfect way to teach philosophy while sparking meaningful discussions and encouraging critical thinking, or even marking World Philosophy Day with your students each November. This Philosophy for Kids pack includes two printable labels/covers that can be attached to a paper bag or gift bag, as well as 44 thought-provoking philosophical questions for kids. Simply print and place inside the bag.  A student can put their hand in and pull out a question card for the class to think about and discuss.  You could also invite your students to add their own questions to the bag for group discussion. This resource is perfect for any Irish teachers using the Learn Together, or Goodness Me Goodness You Curriculum, both of which include elements of philosophy for kids.</p><p></p><p>World Philosophy Day is celebrated on the third Thursday of November each year, so mark your calendar and get ready to inspire your students with this exciting 'philosophy for children' activity. </p><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Wonder-Wall-Philosophy-Interactive-Bulletin-Board-8665037\" target=\"_blank\" rel=\"noreferrer noopener\">Wonder Wall Philosophy Interactive Bulletin Board</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Multicultural-Conversation-Cards-5589695\" target=\"_blank\" rel=\"noreferrer noopener\">Multicultural Conversation Cards</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Identity-Iceberg-7749077\" target=\"_blank\" rel=\"noreferrer noopener\">My Identity Iceberg</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Classroom-Library-Checklist-for-Diversity-and-Inclusion-8456543\" target=\"_blank\" rel=\"noreferrer noopener\">Classroom Library Checklist for Diversity and Inclusion</a></li></ul><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
+    "descriptionSnippet": "Interested in teaching philosophy for kids?   The Philosophers' Bag is the perfect way to teach philosophy while sparking meaningful discussions and encouraging critical thinking, or even marking World Philosophy Day with your students each November. This Philosophy for Kids pack includes two printable labels/covers that can be attached to a paper bag or gift bag, as well as 44 thought-provoking philosophical questions for kids. Simply print and place inside the bag.  A student can put their han",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/The-Philosophers-Bag-Teaching-Philosophy-for-Kids-8776275-1714829614/750f-8776275-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/The-Philosophers-Bag-Teaching-Philosophy-for-Kids-8776275-1714829614/750f-8776275-2.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/The-Philosophers-Bag-Teaching-Philosophy-for-Kids-8776275-1714829614/750f-8776275-3.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/The-Philosophers-Bag-Teaching-Philosophy-for-Kids-8776275-1714829614/750f-8776275-4.jpg"
+    ],
+    "slug": "The-Philosophers-Bag-Teaching-Philosophy-for-Kids-8776275",
+    "reviews": 0,
+    "rating": 0,
+    "categories": [
+      "Projects",
+      "Activities",
+      "Lesson"
+    ],
+    "currencies": {
+      "USD": "3.50",
+      "CAD": "4.86",
+      "GBP": "2.61",
+      "EUR": "3.01",
+      "AUD": "5.23",
+      "NZD": "6.11",
+      "SGD": "4.50",
+      "HKD": "27.28",
+      "ZAR": "57.76",
+      "INR": "315.63",
+      "MYR": "14.24",
+      "PHP": "207.43",
+      "AED": "12.85"
+    }
   },
   {
     "id": "7749077",
@@ -5570,42 +5606,6 @@
     ]
   },
   {
-    "id": "8776275",
-    "title": "The Philosophers' Bag - Teaching Philosophy for Kids",
-    "link": "https://ciarasclassroom.com/product/The-Philosophers-Bag-Teaching-Philosophy-for-Kids-8776275",
-    "description": "<p>Interested in teaching philosophy for kids?   The Philosophers' Bag is the perfect way to teach philosophy while sparking meaningful discussions and encouraging critical thinking, or even marking World Philosophy Day with your students each November. This Philosophy for Kids pack includes two printable labels/covers that can be attached to a paper bag or gift bag, as well as 44 thought-provoking philosophical questions for kids. Simply print and place inside the bag.  A student can put their hand in and pull out a question card for the class to think about and discuss.  You could also invite your students to add their own questions to the bag for group discussion. This resource is perfect for any Irish teachers using the Learn Together, or Goodness Me Goodness You Curriculum, both of which include elements of philosophy for kids.</p><p></p><p>World Philosophy Day is celebrated on the third Thursday of November each year, so mark your calendar and get ready to inspire your students with this exciting 'philosophy for children' activity. </p><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Wonder-Wall-Philosophy-Interactive-Bulletin-Board-8665037\" target=\"_blank\" rel=\"noreferrer noopener\">Wonder Wall Philosophy Interactive Bulletin Board</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Multicultural-Conversation-Cards-5589695\" target=\"_blank\" rel=\"noreferrer noopener\">Multicultural Conversation Cards</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Identity-Iceberg-7749077\" target=\"_blank\" rel=\"noreferrer noopener\">My Identity Iceberg</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Classroom-Library-Checklist-for-Diversity-and-Inclusion-8456543\" target=\"_blank\" rel=\"noreferrer noopener\">Classroom Library Checklist for Diversity and Inclusion</a></li></ul><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
-    "descriptionSnippet": "Interested in teaching philosophy for kids?   The Philosophers' Bag is the perfect way to teach philosophy while sparking meaningful discussions and encouraging critical thinking, or even marking World Philosophy Day with your students each November. This Philosophy for Kids pack includes two printable labels/covers that can be attached to a paper bag or gift bag, as well as 44 thought-provoking philosophical questions for kids. Simply print and place inside the bag.  A student can put their han",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/The-Philosophers-Bag-Teaching-Philosophy-for-Kids-8776275-1714829614/750f-8776275-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/The-Philosophers-Bag-Teaching-Philosophy-for-Kids-8776275-1714829614/750f-8776275-2.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/The-Philosophers-Bag-Teaching-Philosophy-for-Kids-8776275-1714829614/750f-8776275-3.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/The-Philosophers-Bag-Teaching-Philosophy-for-Kids-8776275-1714829614/750f-8776275-4.jpg"
-    ],
-    "slug": "The-Philosophers-Bag-Teaching-Philosophy-for-Kids-8776275",
-    "reviews": 0,
-    "rating": 0,
-    "categories": [
-      "Projects",
-      "Activities",
-      "Lesson"
-    ],
-    "currencies": {
-      "USD": "3.50",
-      "CAD": "4.86",
-      "GBP": "2.61",
-      "EUR": "3.01",
-      "AUD": "5.23",
-      "NZD": "6.11",
-      "SGD": "4.50",
-      "HKD": "27.28",
-      "ZAR": "57.76",
-      "INR": "315.76",
-      "MYR": "14.24",
-      "PHP": "207.50",
-      "AED": "12.85"
-    }
-  },
-  {
     "id": "6832271",
     "title": "Inclusive Father's Day and Mother's Day Resources",
     "link": "https://ciarasclassroom.com/product/Inclusive-Fathers-Day-and-Mothers-Day-Resources-6832271",
@@ -5625,17 +5625,17 @@
     ],
     "currencies": {
       "USD": "6.00",
-      "CAD": "8.34",
+      "CAD": "8.33",
       "GBP": "4.47",
-      "EUR": "5.16",
+      "EUR": "5.15",
       "AUD": "8.97",
       "NZD": "10.47",
       "SGD": "7.72",
       "HKD": "46.77",
       "ZAR": "99.02",
-      "INR": "541.31",
-      "MYR": "24.42",
-      "PHP": "355.71",
+      "INR": "541.08",
+      "MYR": "24.41",
+      "PHP": "355.60",
       "AED": "22.04"
     }
   },
@@ -5771,17 +5771,17 @@
     ],
     "currencies": {
       "USD": "31.00",
-      "CAD": "43.08",
-      "GBP": "23.12",
-      "EUR": "26.64",
+      "CAD": "43.06",
+      "GBP": "23.11",
+      "EUR": "26.63",
       "AUD": "46.36",
       "NZD": "54.10",
-      "SGD": "39.89",
-      "HKD": "241.63",
-      "ZAR": "511.59",
-      "INR": "2796.77",
-      "MYR": "126.16",
-      "PHP": "1837.85",
+      "SGD": "39.88",
+      "HKD": "241.62",
+      "ZAR": "511.61",
+      "INR": "2795.59",
+      "MYR": "126.13",
+      "PHP": "1837.26",
       "AED": "113.85"
     }
   },
@@ -5804,17 +5804,17 @@
     ],
     "currencies": {
       "USD": "15.00",
-      "CAD": "20.85",
-      "GBP": "11.19",
+      "CAD": "20.84",
+      "GBP": "11.18",
       "EUR": "12.89",
       "AUD": "22.43",
       "NZD": "26.18",
       "SGD": "19.30",
-      "HKD": "116.92",
+      "HKD": "116.91",
       "ZAR": "247.55",
-      "INR": "1353.28",
-      "MYR": "61.05",
-      "PHP": "889.28",
+      "INR": "1352.70",
+      "MYR": "61.03",
+      "PHP": "889.00",
       "AED": "55.09"
     },
     "evaluations": [
@@ -5865,12 +5865,12 @@
       "EUR": "10.26",
       "AUD": "17.86",
       "NZD": "20.84",
-      "SGD": "15.37",
-      "HKD": "93.07",
+      "SGD": "15.36",
+      "HKD": "93.06",
       "ZAR": "197.05",
-      "INR": "1077.21",
-      "MYR": "48.59",
-      "PHP": "707.87",
+      "INR": "1076.75",
+      "MYR": "48.58",
+      "PHP": "707.64",
       "AED": "43.85"
     },
     "evaluations": [
@@ -5923,17 +5923,17 @@
     ],
     "currencies": {
       "USD": "13.45",
-      "CAD": "18.69",
+      "CAD": "18.68",
       "GBP": "10.03",
-      "EUR": "11.56",
-      "AUD": "20.12",
+      "EUR": "11.55",
+      "AUD": "20.11",
       "NZD": "23.47",
-      "SGD": "17.31",
-      "HKD": "104.84",
+      "SGD": "17.30",
+      "HKD": "104.83",
       "ZAR": "221.97",
-      "INR": "1213.44",
-      "MYR": "54.74",
-      "PHP": "797.39",
+      "INR": "1212.92",
+      "MYR": "54.73",
+      "PHP": "797.14",
       "AED": "49.40"
     },
     "evaluations": [
@@ -5991,9 +5991,9 @@
       "SGD": "2.83",
       "HKD": "17.15",
       "ZAR": "36.31",
-      "INR": "198.48",
+      "INR": "198.40",
       "MYR": "8.95",
-      "PHP": "130.43",
+      "PHP": "130.39",
       "AED": "8.08"
     },
     "evaluations": [
@@ -6060,9 +6060,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     }
   },
@@ -6095,9 +6095,9 @@
       "SGD": "2.51",
       "HKD": "15.20",
       "ZAR": "32.18",
-      "INR": "175.93",
-      "MYR": "7.94",
-      "PHP": "115.61",
+      "INR": "175.85",
+      "MYR": "7.93",
+      "PHP": "115.57",
       "AED": "7.16"
     }
   },
@@ -6131,9 +6131,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -6167,9 +6167,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -6202,9 +6202,9 @@
       "SGD": "6.43",
       "HKD": "38.97",
       "ZAR": "82.52",
-      "INR": "451.09",
-      "MYR": "20.35",
-      "PHP": "296.43",
+      "INR": "450.90",
+      "MYR": "20.34",
+      "PHP": "296.33",
       "AED": "18.36"
     },
     "evaluations": [
@@ -6271,9 +6271,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     },
     "evaluations": [
@@ -6348,17 +6348,17 @@
     ],
     "currencies": {
       "USD": "36.00",
-      "CAD": "50.03",
-      "GBP": "26.85",
+      "CAD": "50.01",
+      "GBP": "26.84",
       "EUR": "30.93",
       "AUD": "53.84",
       "NZD": "62.82",
-      "SGD": "46.33",
-      "HKD": "280.60",
-      "ZAR": "594.11",
-      "INR": "3247.87",
-      "MYR": "146.51",
-      "PHP": "2134.27",
+      "SGD": "46.32",
+      "HKD": "280.59",
+      "ZAR": "594.13",
+      "INR": "3246.49",
+      "MYR": "146.48",
+      "PHP": "2133.60",
       "AED": "132.21"
     }
   },
@@ -6391,9 +6391,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -6427,9 +6427,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     },
     "evaluations": [
@@ -6481,7 +6481,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -6489,9 +6489,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     },
     "evaluations": [
@@ -6550,9 +6550,9 @@
       "SGD": "2.57",
       "HKD": "15.59",
       "ZAR": "33.01",
-      "INR": "180.44",
+      "INR": "180.36",
       "MYR": "8.14",
-      "PHP": "118.57",
+      "PHP": "118.53",
       "AED": "7.34"
     },
     "evaluations": [
@@ -6650,17 +6650,17 @@
     ],
     "currencies": {
       "USD": "9.90",
-      "CAD": "13.76",
+      "CAD": "13.75",
       "GBP": "7.38",
       "EUR": "8.51",
       "AUD": "14.81",
       "NZD": "17.28",
       "SGD": "12.74",
-      "HKD": "77.17",
+      "HKD": "77.16",
       "ZAR": "163.38",
-      "INR": "893.16",
-      "MYR": "40.29",
-      "PHP": "586.93",
+      "INR": "892.78",
+      "MYR": "40.28",
+      "PHP": "586.74",
       "AED": "36.36"
     }
   },
@@ -6684,17 +6684,17 @@
     ],
     "currencies": {
       "USD": "11.50",
-      "CAD": "15.98",
-      "GBP": "8.58",
+      "CAD": "15.97",
+      "GBP": "8.57",
       "EUR": "9.88",
       "AUD": "17.20",
       "NZD": "20.07",
       "SGD": "14.80",
-      "HKD": "89.64",
-      "ZAR": "189.78",
-      "INR": "1037.51",
-      "MYR": "46.80",
-      "PHP": "681.78",
+      "HKD": "89.63",
+      "ZAR": "189.79",
+      "INR": "1037.07",
+      "MYR": "46.79",
+      "PHP": "681.57",
       "AED": "42.23"
     }
   },
@@ -6720,7 +6720,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -6728,9 +6728,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     },
     "evaluations": [
@@ -6816,9 +6816,9 @@
       "SGD": "2.32",
       "HKD": "14.03",
       "ZAR": "29.71",
-      "INR": "162.39",
-      "MYR": "7.33",
-      "PHP": "106.71",
+      "INR": "162.32",
+      "MYR": "7.32",
+      "PHP": "106.68",
       "AED": "6.61"
     }
   },
@@ -6852,9 +6852,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     }
   },
@@ -6882,14 +6882,14 @@
       "CAD": "9.38",
       "GBP": "5.03",
       "EUR": "5.80",
-      "AUD": "10.10",
+      "AUD": "10.09",
       "NZD": "11.78",
-      "SGD": "8.69",
+      "SGD": "8.68",
       "HKD": "52.61",
       "ZAR": "111.40",
-      "INR": "608.97",
-      "MYR": "27.47",
-      "PHP": "400.18",
+      "INR": "608.72",
+      "MYR": "27.46",
+      "PHP": "400.05",
       "AED": "24.79"
     }
   },
@@ -6914,7 +6914,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -6922,9 +6922,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     }
   },
@@ -6958,9 +6958,9 @@
       "SGD": "4.50",
       "HKD": "27.28",
       "ZAR": "57.76",
-      "INR": "315.76",
+      "INR": "315.63",
       "MYR": "14.24",
-      "PHP": "207.50",
+      "PHP": "207.43",
       "AED": "12.85"
     },
     "evaluations": [
@@ -7011,17 +7011,17 @@
     ],
     "currencies": {
       "USD": "23.50",
-      "CAD": "32.66",
+      "CAD": "32.64",
       "GBP": "17.52",
       "EUR": "20.19",
-      "AUD": "35.15",
+      "AUD": "35.14",
       "NZD": "41.01",
       "SGD": "30.24",
       "HKD": "183.17",
-      "ZAR": "387.82",
-      "INR": "2120.13",
-      "MYR": "95.64",
-      "PHP": "1393.21",
+      "ZAR": "387.83",
+      "INR": "2119.23",
+      "MYR": "95.62",
+      "PHP": "1392.77",
       "AED": "86.30"
     }
   },
@@ -7055,9 +7055,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     },
     "evaluations": [
@@ -7109,17 +7109,17 @@
     ],
     "currencies": {
       "USD": "16.20",
-      "CAD": "22.51",
+      "CAD": "22.50",
       "GBP": "12.08",
       "EUR": "13.92",
       "AUD": "24.23",
       "NZD": "28.27",
-      "SGD": "20.85",
+      "SGD": "20.84",
       "HKD": "126.27",
-      "ZAR": "267.35",
-      "INR": "1461.54",
-      "MYR": "65.93",
-      "PHP": "960.42",
+      "ZAR": "267.36",
+      "INR": "1460.92",
+      "MYR": "65.91",
+      "PHP": "960.12",
       "AED": "59.49"
     }
   },
@@ -7145,17 +7145,17 @@
     ],
     "currencies": {
       "USD": "12.23",
-      "CAD": "17.00",
+      "CAD": "16.99",
       "GBP": "9.12",
       "EUR": "10.51",
       "AUD": "18.29",
       "NZD": "21.34",
       "SGD": "15.74",
-      "HKD": "95.33",
-      "ZAR": "201.83",
-      "INR": "1103.37",
-      "MYR": "49.77",
-      "PHP": "725.06",
+      "HKD": "95.32",
+      "ZAR": "201.84",
+      "INR": "1102.90",
+      "MYR": "49.76",
+      "PHP": "724.83",
       "AED": "44.91"
     }
   },
@@ -7181,17 +7181,17 @@
     ],
     "currencies": {
       "USD": "6.74",
-      "CAD": "9.37",
-      "GBP": "5.03",
+      "CAD": "9.36",
+      "GBP": "5.02",
       "EUR": "5.79",
       "AUD": "10.08",
       "NZD": "11.76",
       "SGD": "8.67",
       "HKD": "52.53",
       "ZAR": "111.23",
-      "INR": "608.07",
-      "MYR": "27.43",
-      "PHP": "399.58",
+      "INR": "607.81",
+      "MYR": "27.42",
+      "PHP": "399.46",
       "AED": "24.75"
     }
   },
@@ -7215,7 +7215,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -7223,9 +7223,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     }
   },
@@ -7251,17 +7251,17 @@
     ],
     "currencies": {
       "USD": "23.08",
-      "CAD": "32.07",
+      "CAD": "32.06",
       "GBP": "17.21",
       "EUR": "19.83",
       "AUD": "34.52",
       "NZD": "40.27",
-      "SGD": "29.70",
-      "HKD": "179.90",
-      "ZAR": "380.89",
-      "INR": "2082.24",
-      "MYR": "93.93",
-      "PHP": "1368.31",
+      "SGD": "29.69",
+      "HKD": "179.89",
+      "ZAR": "380.90",
+      "INR": "2081.36",
+      "MYR": "93.91",
+      "PHP": "1367.87",
       "AED": "84.76"
     }
   },
@@ -7285,7 +7285,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -7293,9 +7293,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     }
   },
@@ -7319,7 +7319,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -7327,9 +7327,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     }
   },
@@ -7363,9 +7363,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -7399,9 +7399,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -7431,9 +7431,9 @@
       "SGD": "1.29",
       "HKD": "7.79",
       "ZAR": "16.50",
-      "INR": "90.22",
+      "INR": "90.18",
       "MYR": "4.07",
-      "PHP": "59.29",
+      "PHP": "59.27",
       "AED": "3.67"
     },
     "evaluations": [
@@ -7480,17 +7480,17 @@
     ],
     "currencies": {
       "USD": "10.75",
-      "CAD": "14.94",
-      "GBP": "8.02",
+      "CAD": "14.93",
+      "GBP": "8.01",
       "EUR": "9.24",
       "AUD": "16.08",
       "NZD": "18.76",
       "SGD": "13.83",
       "HKD": "83.79",
       "ZAR": "177.41",
-      "INR": "969.85",
-      "MYR": "43.75",
-      "PHP": "637.32",
+      "INR": "969.44",
+      "MYR": "43.74",
+      "PHP": "637.12",
       "AED": "39.48"
     }
   },
@@ -7522,9 +7522,9 @@
       "SGD": "1.29",
       "HKD": "7.79",
       "ZAR": "16.50",
-      "INR": "90.22",
+      "INR": "90.18",
       "MYR": "4.07",
-      "PHP": "59.29",
+      "PHP": "59.27",
       "AED": "3.67"
     }
   },
@@ -7552,14 +7552,14 @@
       "CAD": "3.13",
       "GBP": "1.68",
       "EUR": "1.93",
-      "AUD": "3.37",
+      "AUD": "3.36",
       "NZD": "3.93",
-      "SGD": "2.90",
+      "SGD": "2.89",
       "HKD": "17.54",
       "ZAR": "37.13",
-      "INR": "202.99",
-      "MYR": "9.16",
-      "PHP": "133.39",
+      "INR": "202.91",
+      "MYR": "9.15",
+      "PHP": "133.35",
       "AED": "8.26"
     }
   },
@@ -7585,16 +7585,16 @@
     "currencies": {
       "USD": "4.50",
       "CAD": "6.25",
-      "GBP": "3.36",
+      "GBP": "3.35",
       "EUR": "3.87",
       "AUD": "6.73",
       "NZD": "7.85",
       "SGD": "5.79",
-      "HKD": "35.08",
-      "ZAR": "74.26",
-      "INR": "405.98",
+      "HKD": "35.07",
+      "ZAR": "74.27",
+      "INR": "405.81",
       "MYR": "18.31",
-      "PHP": "266.78",
+      "PHP": "266.70",
       "AED": "16.53"
     }
   },
@@ -7617,7 +7617,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -7625,10 +7625,78 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
+    }
+  },
+  {
+    "id": "8092854",
+    "title": "I Wish My Teacher Knew Notes",
+    "link": "https://ciarasclassroom.com/product/I-Wish-My-Teacher-Knew-Notes-8092854",
+    "description": "<p>These I Wish My Teacher Knew notes offer your students an easy way to share news, worries and ideas with you through a Teacher Mail system.  The resource includes signs for your teacher mail box/basket/folder as well as 4 different varieties of the templates.  Once you have chosen a template, simply print and go!  There are 4 copies of the template per page to reduce printing.  These are simple black and white forms which could be printed on coloured paper without the need for color printing.  This resource would be the perfect addition to your classroom management toolkit and will help you to further develop positive relationships with your students.</p><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Teacher-Organisation-Printables-7076336\" target=\"_blank\" rel=\"noreferrer noopener\">Teacher Organisation Printables</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Inclusive-Classroom-Posters-for-Celebrating-Diversity-7174795\" target=\"_blank\" rel=\"noreferrer noopener\">Inclusive Classroom Posters for Celebrating Diversity</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Circle-Time-Conversation-Cards-for-Multicultural-Classrooms-5589695\" target=\"_blank\" rel=\"noreferrer noopener\">Circle Time Conversation Cards for Multicultural Classrooms</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Everyone-is-Welcome-Door-Display-Activity-5847028\" target=\"_blank\" rel=\"noreferrer noopener\">Everyone is Welcome Door Display</a></li></ul><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
+    "descriptionSnippet": "These I Wish My Teacher Knew notes offer your students an easy way to share news, worries and ideas with you through a Teacher Mail system.  The resource includes signs for your teacher mail box/basket/folder as well as 4 different varieties of the templates.  Once you have chosen a template, simply print and go!  There are 4 copies of the template per page to reduce printing.  These are simple black and white forms which could be printed on coloured paper without the need for color printing.  T",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/I-Wish-My-Teacher-Knew-Notes-8092854-1730055648/750f-8092854-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/I-Wish-My-Teacher-Knew-Notes-8092854-1730055648/750f-8092854-2.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/I-Wish-My-Teacher-Knew-Notes-8092854-1730055648/750f-8092854-3.jpg"
+    ],
+    "slug": "I-Wish-My-Teacher-Knew-Notes-8092854",
+    "reviews": 0,
+    "rating": 0,
+    "categories": [
+      "Classroom Forms"
+    ],
+    "currencies": {
+      "USD": "1.85",
+      "CAD": "2.57",
+      "GBP": "1.38",
+      "EUR": "1.59",
+      "AUD": "2.77",
+      "NZD": "3.23",
+      "SGD": "2.38",
+      "HKD": "14.42",
+      "ZAR": "30.53",
+      "INR": "166.83",
+      "MYR": "7.53",
+      "PHP": "109.64",
+      "AED": "6.79"
+    }
+  },
+  {
+    "id": "8665037",
+    "title": "Philosophy for Kids - Wonder Wall Interactive Bulletin Board",
+    "link": "https://ciarasclassroom.com/product/Philosophy-for-Kids-Wonder-Wall-Interactive-Bulletin-Board-8665037",
+    "description": "<p>Explore Philosophy for Kids in your classroom or school with a special Wonder Wall interactive philosophy bulletin board.  Our Wonder Wall interactive philosophy bulletin board is the perfect tool for encouraging deep thinking and meaningful conversations during philosophy lessons for kids. With this pack, your students can add their big questions and ideas to the wall, and you can use them to prompt philosophical discussions and debates during Philosophy for Children activities. This classroom philosophy display can be used throughout the year or specifically to celebrate World Philosophy Day (celebrated annually on the third Thursday of November) at school. </p><p></p><p>The philosophy pack includes two sets of bunting/banners (one in blue and one in black), three templates for the 'I wonder' cards, and a set of question words on speech bubbles to decorate the bulletin board and prompt some thoughts and questions.</p><p></p><p>This resource aligns with the Learn Together and Goodness Me Goodness You curricula of Ireland.</p><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Multicultural-Conversation-Cards-5589695\" target=\"_blank\" rel=\"noreferrer noopener\">Multicultural Conversation Cards</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Identity-Iceberg-7749077\" target=\"_blank\" rel=\"noreferrer noopener\">My Identity Iceberg</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Inclusive-Classroom-Posters-for-Celebrating-Diversity-7174795\" target=\"_blank\" rel=\"noreferrer noopener\">Inclusive Classroom Posters for Celebrating Diversity</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Classroom-Library-Checklist-for-Diversity-and-Inclusion-8456543\" target=\"_blank\" rel=\"noreferrer noopener\">Classroom Library Checklist for Diversity and Inclusion</a></li></ul><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
+    "descriptionSnippet": "Explore Philosophy for Kids in your classroom or school with a special Wonder Wall interactive philosophy bulletin board.  Our Wonder Wall interactive philosophy bulletin board is the perfect tool for encouraging deep thinking and meaningful conversations during philosophy lessons for kids. With this pack, your students can add their big questions and ideas to the wall, and you can use them to prompt philosophical discussions and debates during Philosophy for Children activities. This classroom",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/Wonder-Wall-Philosophy-Interactive-Bulletin-Board-8665037-1714829435/750f-8665037-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Wonder-Wall-Philosophy-Interactive-Bulletin-Board-8665037-1714829435/750f-8665037-2.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Wonder-Wall-Philosophy-Interactive-Bulletin-Board-8665037-1714829435/750f-8665037-3.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Wonder-Wall-Philosophy-Interactive-Bulletin-Board-8665037-1714829435/750f-8665037-4.jpg"
+    ],
+    "slug": "Philosophy-for-Kids-Wonder-Wall-Interactive-Bulletin-Board-8665037",
+    "reviews": 0,
+    "rating": 0,
+    "categories": [
+      "Activities",
+      "Bulletin Board Ideas"
+    ],
+    "currencies": {
+      "USD": "2.50",
+      "CAD": "3.47",
+      "GBP": "1.86",
+      "EUR": "2.15",
+      "AUD": "3.74",
+      "NZD": "4.36",
+      "SGD": "3.22",
+      "HKD": "19.49",
+      "ZAR": "41.26",
+      "INR": "225.45",
+      "MYR": "10.17",
+      "PHP": "148.17",
+      "AED": "9.18"
     }
   },
   {
@@ -7695,74 +7763,6 @@
     ]
   },
   {
-    "id": "8092854",
-    "title": "I Wish My Teacher Knew Notes",
-    "link": "https://ciarasclassroom.com/product/I-Wish-My-Teacher-Knew-Notes-8092854",
-    "description": "<p>These I Wish My Teacher Knew notes offer your students an easy way to share news, worries and ideas with you through a Teacher Mail system.  The resource includes signs for your teacher mail box/basket/folder as well as 4 different varieties of the templates.  Once you have chosen a template, simply print and go!  There are 4 copies of the template per page to reduce printing.  These are simple black and white forms which could be printed on coloured paper without the need for color printing.  This resource would be the perfect addition to your classroom management toolkit and will help you to further develop positive relationships with your students.</p><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Teacher-Organisation-Printables-7076336\" target=\"_blank\" rel=\"noreferrer noopener\">Teacher Organisation Printables</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Inclusive-Classroom-Posters-for-Celebrating-Diversity-7174795\" target=\"_blank\" rel=\"noreferrer noopener\">Inclusive Classroom Posters for Celebrating Diversity</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Circle-Time-Conversation-Cards-for-Multicultural-Classrooms-5589695\" target=\"_blank\" rel=\"noreferrer noopener\">Circle Time Conversation Cards for Multicultural Classrooms</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Everyone-is-Welcome-Door-Display-Activity-5847028\" target=\"_blank\" rel=\"noreferrer noopener\">Everyone is Welcome Door Display</a></li></ul><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
-    "descriptionSnippet": "These I Wish My Teacher Knew notes offer your students an easy way to share news, worries and ideas with you through a Teacher Mail system.  The resource includes signs for your teacher mail box/basket/folder as well as 4 different varieties of the templates.  Once you have chosen a template, simply print and go!  There are 4 copies of the template per page to reduce printing.  These are simple black and white forms which could be printed on coloured paper without the need for color printing.  T",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/I-Wish-My-Teacher-Knew-Notes-8092854-1730055648/750f-8092854-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/I-Wish-My-Teacher-Knew-Notes-8092854-1730055648/750f-8092854-2.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/I-Wish-My-Teacher-Knew-Notes-8092854-1730055648/750f-8092854-3.jpg"
-    ],
-    "slug": "I-Wish-My-Teacher-Knew-Notes-8092854",
-    "reviews": 0,
-    "rating": 0,
-    "categories": [
-      "Classroom Forms"
-    ],
-    "currencies": {
-      "USD": "1.85",
-      "CAD": "2.57",
-      "GBP": "1.38",
-      "EUR": "1.59",
-      "AUD": "2.77",
-      "NZD": "3.23",
-      "SGD": "2.38",
-      "HKD": "14.42",
-      "ZAR": "30.53",
-      "INR": "166.90",
-      "MYR": "7.53",
-      "PHP": "109.68",
-      "AED": "6.79"
-    }
-  },
-  {
-    "id": "8665037",
-    "title": "Philosophy for Kids - Wonder Wall Interactive Bulletin Board",
-    "link": "https://ciarasclassroom.com/product/Philosophy-for-Kids-Wonder-Wall-Interactive-Bulletin-Board-8665037",
-    "description": "<p>Explore Philosophy for Kids in your classroom or school with a special Wonder Wall interactive philosophy bulletin board.  Our Wonder Wall interactive philosophy bulletin board is the perfect tool for encouraging deep thinking and meaningful conversations during philosophy lessons for kids. With this pack, your students can add their big questions and ideas to the wall, and you can use them to prompt philosophical discussions and debates during Philosophy for Children activities. This classroom philosophy display can be used throughout the year or specifically to celebrate World Philosophy Day (celebrated annually on the third Thursday of November) at school. </p><p></p><p>The philosophy pack includes two sets of bunting/banners (one in blue and one in black), three templates for the 'I wonder' cards, and a set of question words on speech bubbles to decorate the bulletin board and prompt some thoughts and questions.</p><p></p><p>This resource aligns with the Learn Together and Goodness Me Goodness You curricula of Ireland.</p><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Multicultural-Conversation-Cards-5589695\" target=\"_blank\" rel=\"noreferrer noopener\">Multicultural Conversation Cards</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Identity-Iceberg-7749077\" target=\"_blank\" rel=\"noreferrer noopener\">My Identity Iceberg</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Inclusive-Classroom-Posters-for-Celebrating-Diversity-7174795\" target=\"_blank\" rel=\"noreferrer noopener\">Inclusive Classroom Posters for Celebrating Diversity</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Classroom-Library-Checklist-for-Diversity-and-Inclusion-8456543\" target=\"_blank\" rel=\"noreferrer noopener\">Classroom Library Checklist for Diversity and Inclusion</a></li></ul><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
-    "descriptionSnippet": "Explore Philosophy for Kids in your classroom or school with a special Wonder Wall interactive philosophy bulletin board.  Our Wonder Wall interactive philosophy bulletin board is the perfect tool for encouraging deep thinking and meaningful conversations during philosophy lessons for kids. With this pack, your students can add their big questions and ideas to the wall, and you can use them to prompt philosophical discussions and debates during Philosophy for Children activities. This classroom",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/Wonder-Wall-Philosophy-Interactive-Bulletin-Board-8665037-1714829435/750f-8665037-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Wonder-Wall-Philosophy-Interactive-Bulletin-Board-8665037-1714829435/750f-8665037-2.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Wonder-Wall-Philosophy-Interactive-Bulletin-Board-8665037-1714829435/750f-8665037-3.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Wonder-Wall-Philosophy-Interactive-Bulletin-Board-8665037-1714829435/750f-8665037-4.jpg"
-    ],
-    "slug": "Philosophy-for-Kids-Wonder-Wall-Interactive-Bulletin-Board-8665037",
-    "reviews": 0,
-    "rating": 0,
-    "categories": [
-      "Activities",
-      "Bulletin Board Ideas"
-    ],
-    "currencies": {
-      "USD": "2.50",
-      "CAD": "3.47",
-      "GBP": "1.86",
-      "EUR": "2.15",
-      "AUD": "3.74",
-      "NZD": "4.36",
-      "SGD": "3.22",
-      "HKD": "19.49",
-      "ZAR": "41.26",
-      "INR": "225.55",
-      "MYR": "10.17",
-      "PHP": "148.21",
-      "AED": "9.18"
-    }
-  },
-  {
     "id": "9289141",
     "title": "Resource BUNDLE for Teaching and Learning About Judaism",
     "link": "https://ciarasclassroom.com/product/Resource-BUNDLE-for-Teaching-and-Learning-About-Judaism-9289141",
@@ -7784,17 +7784,17 @@
     ],
     "currencies": {
       "USD": "14.89",
-      "CAD": "20.69",
+      "CAD": "20.68",
       "GBP": "11.10",
       "EUR": "12.79",
       "AUD": "22.27",
       "NZD": "25.98",
       "SGD": "19.16",
       "HKD": "116.06",
-      "ZAR": "245.73",
-      "INR": "1343.35",
-      "MYR": "60.60",
-      "PHP": "882.76",
+      "ZAR": "245.74",
+      "INR": "1342.78",
+      "MYR": "60.58",
+      "PHP": "882.48",
       "AED": "54.68"
     }
   },
@@ -7828,9 +7828,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     },
     "evaluations": [
@@ -7904,17 +7904,17 @@
     ],
     "currencies": {
       "USD": "8.49",
-      "CAD": "11.80",
+      "CAD": "11.79",
       "GBP": "6.33",
-      "EUR": "7.30",
+      "EUR": "7.29",
       "AUD": "12.70",
       "NZD": "14.82",
-      "SGD": "10.93",
-      "HKD": "66.18",
+      "SGD": "10.92",
+      "HKD": "66.17",
       "ZAR": "140.11",
-      "INR": "765.96",
-      "MYR": "34.55",
-      "PHP": "503.33",
+      "INR": "765.63",
+      "MYR": "34.54",
+      "PHP": "503.17",
       "AED": "31.18"
     }
   },
@@ -7940,17 +7940,17 @@
     ],
     "currencies": {
       "USD": "9.15",
-      "CAD": "12.72",
+      "CAD": "12.71",
       "GBP": "6.82",
       "EUR": "7.86",
       "AUD": "13.68",
       "NZD": "15.97",
-      "SGD": "11.78",
+      "SGD": "11.77",
       "HKD": "71.32",
-      "ZAR": "151.00",
-      "INR": "825.50",
-      "MYR": "37.24",
-      "PHP": "542.46",
+      "ZAR": "151.01",
+      "INR": "825.15",
+      "MYR": "37.23",
+      "PHP": "542.29",
       "AED": "33.60"
     }
   },
@@ -7980,10 +7980,10 @@
       "NZD": "2.62",
       "SGD": "1.93",
       "HKD": "11.69",
-      "ZAR": "24.75",
-      "INR": "135.33",
+      "ZAR": "24.76",
+      "INR": "135.27",
       "MYR": "6.10",
-      "PHP": "88.93",
+      "PHP": "88.90",
       "AED": "5.51"
     }
   },
@@ -8017,9 +8017,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     }
   },
@@ -8043,7 +8043,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -8051,9 +8051,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     },
     "evaluations": [
@@ -8101,7 +8101,7 @@
     ],
     "currencies": {
       "USD": "9.00",
-      "CAD": "12.51",
+      "CAD": "12.50",
       "GBP": "6.71",
       "EUR": "7.73",
       "AUD": "13.46",
@@ -8109,9 +8109,9 @@
       "SGD": "11.58",
       "HKD": "70.15",
       "ZAR": "148.53",
-      "INR": "811.97",
-      "MYR": "36.63",
-      "PHP": "533.57",
+      "INR": "811.62",
+      "MYR": "36.62",
+      "PHP": "533.40",
       "AED": "33.05"
     }
   },
@@ -8135,7 +8135,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -8143,9 +8143,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     }
   },
@@ -8169,7 +8169,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -8177,9 +8177,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     }
   },
@@ -8212,9 +8212,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -8247,9 +8247,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -8283,9 +8283,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     }
   },
@@ -8311,7 +8311,7 @@
     ],
     "currencies": {
       "USD": "12.00",
-      "CAD": "16.68",
+      "CAD": "16.67",
       "GBP": "8.95",
       "EUR": "10.31",
       "AUD": "17.95",
@@ -8319,9 +8319,9 @@
       "SGD": "15.44",
       "HKD": "93.53",
       "ZAR": "198.04",
-      "INR": "1082.62",
-      "MYR": "48.84",
-      "PHP": "711.42",
+      "INR": "1082.16",
+      "MYR": "48.83",
+      "PHP": "711.20",
       "AED": "44.07"
     }
   },
@@ -8354,9 +8354,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -8520,9 +8520,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     },
     "evaluations": [
@@ -8573,7 +8573,7 @@
     ],
     "currencies": {
       "USD": "4.15",
-      "CAD": "5.77",
+      "CAD": "5.76",
       "GBP": "3.09",
       "EUR": "3.57",
       "AUD": "6.21",
@@ -8581,9 +8581,9 @@
       "SGD": "5.34",
       "HKD": "32.35",
       "ZAR": "68.49",
-      "INR": "374.41",
+      "INR": "374.25",
       "MYR": "16.89",
-      "PHP": "246.03",
+      "PHP": "245.96",
       "AED": "15.24"
     }
   },
@@ -8616,9 +8616,9 @@
       "SGD": "2.25",
       "HKD": "13.64",
       "ZAR": "28.88",
-      "INR": "157.88",
+      "INR": "157.82",
       "MYR": "7.12",
-      "PHP": "103.75",
+      "PHP": "103.72",
       "AED": "6.43"
     },
     "evaluations": [
@@ -8672,9 +8672,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -8700,17 +8700,17 @@
     ],
     "currencies": {
       "USD": "5.15",
-      "CAD": "7.16",
+      "CAD": "7.15",
       "GBP": "3.84",
-      "EUR": "4.43",
+      "EUR": "4.42",
       "AUD": "7.70",
       "NZD": "8.99",
       "SGD": "6.63",
       "HKD": "40.14",
       "ZAR": "84.99",
-      "INR": "464.63",
-      "MYR": "20.96",
-      "PHP": "305.32",
+      "INR": "464.43",
+      "MYR": "20.95",
+      "PHP": "305.22",
       "AED": "18.91"
     }
   },
@@ -8735,7 +8735,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -8743,9 +8743,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     },
     "evaluations": [
@@ -8810,9 +8810,9 @@
       "SGD": "10.41",
       "HKD": "63.06",
       "ZAR": "133.51",
-      "INR": "729.87",
+      "INR": "729.56",
       "MYR": "32.92",
-      "PHP": "479.62",
+      "PHP": "479.47",
       "AED": "29.71"
     }
   },
@@ -8844,9 +8844,9 @@
       "SGD": "1.54",
       "HKD": "9.35",
       "ZAR": "19.80",
-      "INR": "108.26",
+      "INR": "108.22",
       "MYR": "4.88",
-      "PHP": "71.14",
+      "PHP": "71.12",
       "AED": "4.41"
     }
   },
@@ -8880,9 +8880,9 @@
       "SGD": "4.50",
       "HKD": "27.28",
       "ZAR": "57.76",
-      "INR": "315.76",
+      "INR": "315.63",
       "MYR": "14.24",
-      "PHP": "207.50",
+      "PHP": "207.43",
       "AED": "12.85"
     }
   },
@@ -8906,7 +8906,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -8914,9 +8914,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     }
   },
@@ -8944,15 +8944,15 @@
       "USD": "7.99",
       "CAD": "11.10",
       "GBP": "5.96",
-      "EUR": "6.87",
+      "EUR": "6.86",
       "AUD": "11.95",
       "NZD": "13.94",
       "SGD": "10.28",
       "HKD": "62.28",
       "ZAR": "131.86",
-      "INR": "720.85",
-      "MYR": "32.52",
-      "PHP": "473.69",
+      "INR": "720.54",
+      "MYR": "32.51",
+      "PHP": "473.54",
       "AED": "29.34"
     }
   },
@@ -8977,17 +8977,17 @@
     ],
     "currencies": {
       "USD": "7.49",
-      "CAD": "10.41",
-      "GBP": "5.59",
-      "EUR": "6.44",
+      "CAD": "10.40",
+      "GBP": "5.58",
+      "EUR": "6.43",
       "AUD": "11.20",
       "NZD": "13.07",
       "SGD": "9.64",
       "HKD": "58.38",
       "ZAR": "123.61",
-      "INR": "675.74",
+      "INR": "675.45",
       "MYR": "30.48",
-      "PHP": "444.05",
+      "PHP": "443.91",
       "AED": "27.51"
     }
   },
@@ -9011,17 +9011,17 @@
     ],
     "currencies": {
       "USD": "8.00",
-      "CAD": "11.12",
-      "GBP": "5.97",
+      "CAD": "11.11",
+      "GBP": "5.96",
       "EUR": "6.87",
       "AUD": "11.96",
       "NZD": "13.96",
-      "SGD": "10.30",
-      "HKD": "62.36",
-      "ZAR": "132.02",
-      "INR": "721.75",
-      "MYR": "32.56",
-      "PHP": "474.28",
+      "SGD": "10.29",
+      "HKD": "62.35",
+      "ZAR": "132.03",
+      "INR": "721.44",
+      "MYR": "32.55",
+      "PHP": "474.13",
       "AED": "29.38"
     }
   },
@@ -9047,7 +9047,7 @@
     ],
     "currencies": {
       "USD": "3.30",
-      "CAD": "4.59",
+      "CAD": "4.58",
       "GBP": "2.46",
       "EUR": "2.84",
       "AUD": "4.94",
@@ -9055,9 +9055,9 @@
       "SGD": "4.25",
       "HKD": "25.72",
       "ZAR": "54.46",
-      "INR": "297.72",
+      "INR": "297.59",
       "MYR": "13.43",
-      "PHP": "195.64",
+      "PHP": "195.58",
       "AED": "12.12"
     }
   },
@@ -9081,17 +9081,17 @@
     ],
     "currencies": {
       "USD": "3.25",
-      "CAD": "4.52",
+      "CAD": "4.51",
       "GBP": "2.42",
       "EUR": "2.79",
       "AUD": "4.86",
       "NZD": "5.67",
       "SGD": "4.18",
       "HKD": "25.33",
-      "ZAR": "53.63",
-      "INR": "293.21",
-      "MYR": "13.23",
-      "PHP": "192.68",
+      "ZAR": "53.64",
+      "INR": "293.09",
+      "MYR": "13.22",
+      "PHP": "192.62",
       "AED": "11.94"
     }
   },
@@ -9117,17 +9117,17 @@
     ],
     "currencies": {
       "USD": "3.25",
-      "CAD": "4.52",
+      "CAD": "4.51",
       "GBP": "2.42",
       "EUR": "2.79",
       "AUD": "4.86",
       "NZD": "5.67",
       "SGD": "4.18",
       "HKD": "25.33",
-      "ZAR": "53.63",
-      "INR": "293.21",
-      "MYR": "13.23",
-      "PHP": "192.68",
+      "ZAR": "53.64",
+      "INR": "293.09",
+      "MYR": "13.22",
+      "PHP": "192.62",
       "AED": "11.94"
     }
   },
@@ -9158,11 +9158,11 @@
       "AUD": "10.44",
       "NZD": "12.18",
       "SGD": "8.98",
-      "HKD": "54.41",
+      "HKD": "54.40",
       "ZAR": "115.19",
-      "INR": "629.73",
-      "MYR": "28.41",
-      "PHP": "413.81",
+      "INR": "629.46",
+      "MYR": "28.40",
+      "PHP": "413.68",
       "AED": "25.63"
     }
   },
@@ -9196,9 +9196,9 @@
       "SGD": "4.12",
       "HKD": "24.94",
       "ZAR": "52.81",
-      "INR": "288.70",
+      "INR": "288.58",
       "MYR": "13.02",
-      "PHP": "189.71",
+      "PHP": "189.65",
       "AED": "11.75"
     }
   },
@@ -9222,7 +9222,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -9230,9 +9230,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     }
   },
@@ -9258,7 +9258,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -9266,9 +9266,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     }
   },
@@ -9295,16 +9295,16 @@
     "currencies": {
       "USD": "6.94",
       "CAD": "9.64",
-      "GBP": "5.18",
+      "GBP": "5.17",
       "EUR": "5.96",
       "AUD": "10.38",
       "NZD": "12.11",
       "SGD": "8.93",
       "HKD": "54.09",
       "ZAR": "114.53",
-      "INR": "626.12",
+      "INR": "625.85",
       "MYR": "28.24",
-      "PHP": "411.44",
+      "PHP": "411.31",
       "AED": "25.49"
     }
   },
@@ -9337,9 +9337,9 @@
       "SGD": "1.54",
       "HKD": "9.35",
       "ZAR": "19.80",
-      "INR": "108.26",
+      "INR": "108.22",
       "MYR": "4.88",
-      "PHP": "71.14",
+      "PHP": "71.12",
       "AED": "4.41"
     }
   },
@@ -9372,9 +9372,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -9407,9 +9407,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -9441,9 +9441,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -9477,9 +9477,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -9510,9 +9510,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -9543,9 +9543,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -9579,9 +9579,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -9615,9 +9615,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -9651,9 +9651,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -9684,9 +9684,9 @@
       "SGD": "2.38",
       "HKD": "14.42",
       "ZAR": "30.53",
-      "INR": "166.90",
+      "INR": "166.83",
       "MYR": "7.53",
-      "PHP": "109.68",
+      "PHP": "109.64",
       "AED": "6.79"
     }
   },
@@ -9720,9 +9720,9 @@
       "SGD": "6.43",
       "HKD": "38.97",
       "ZAR": "82.52",
-      "INR": "451.09",
-      "MYR": "20.35",
-      "PHP": "296.43",
+      "INR": "450.90",
+      "MYR": "20.34",
+      "PHP": "296.33",
       "AED": "18.36"
     }
   },
@@ -9756,9 +9756,9 @@
       "SGD": "9.12",
       "HKD": "55.26",
       "ZAR": "117.01",
-      "INR": "639.65",
+      "INR": "639.38",
       "MYR": "28.85",
-      "PHP": "420.33",
+      "PHP": "420.20",
       "AED": "26.04"
     }
   },
@@ -9790,9 +9790,9 @@
       "SGD": "7.44",
       "HKD": "45.05",
       "ZAR": "95.39",
-      "INR": "521.46",
+      "INR": "521.24",
       "MYR": "23.52",
-      "PHP": "342.67",
+      "PHP": "342.56",
       "AED": "21.23"
     }
   },
@@ -9818,17 +9818,17 @@
     ],
     "currencies": {
       "USD": "7.00",
-      "CAD": "9.73",
+      "CAD": "9.72",
       "GBP": "5.22",
-      "EUR": "6.02",
+      "EUR": "6.01",
       "AUD": "10.47",
       "NZD": "12.21",
       "SGD": "9.01",
       "HKD": "54.56",
       "ZAR": "115.52",
-      "INR": "631.53",
-      "MYR": "28.49",
-      "PHP": "415.00",
+      "INR": "631.26",
+      "MYR": "28.48",
+      "PHP": "414.87",
       "AED": "25.71"
     }
   },
@@ -9860,9 +9860,9 @@
       "SGD": "3.22",
       "HKD": "19.49",
       "ZAR": "41.26",
-      "INR": "225.55",
+      "INR": "225.45",
       "MYR": "10.17",
-      "PHP": "148.21",
+      "PHP": "148.17",
       "AED": "9.18"
     }
   },
@@ -9896,9 +9896,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     }
   },
@@ -9932,9 +9932,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     }
   },
@@ -9968,9 +9968,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     }
   },
@@ -9996,7 +9996,7 @@
     ],
     "currencies": {
       "USD": "5.10",
-      "CAD": "7.09",
+      "CAD": "7.08",
       "GBP": "3.80",
       "EUR": "4.38",
       "AUD": "7.63",
@@ -10004,9 +10004,9 @@
       "SGD": "6.56",
       "HKD": "39.75",
       "ZAR": "84.17",
-      "INR": "460.11",
-      "MYR": "20.76",
-      "PHP": "302.36",
+      "INR": "459.92",
+      "MYR": "20.75",
+      "PHP": "302.26",
       "AED": "18.73"
     }
   },
@@ -10039,9 +10039,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -10075,9 +10075,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     }
   },
@@ -10111,9 +10111,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     }
   },
@@ -10147,9 +10147,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     }
   },
@@ -10183,9 +10183,9 @@
       "SGD": "5.15",
       "HKD": "31.18",
       "ZAR": "66.01",
-      "INR": "360.87",
+      "INR": "360.72",
       "MYR": "16.28",
-      "PHP": "237.14",
+      "PHP": "237.07",
       "AED": "14.69"
     }
   },
@@ -10219,9 +10219,9 @@
       "SGD": "6.42",
       "HKD": "38.89",
       "ZAR": "82.35",
-      "INR": "450.19",
-      "MYR": "20.31",
-      "PHP": "295.83",
+      "INR": "450.00",
+      "MYR": "20.30",
+      "PHP": "295.74",
       "AED": "18.33"
     }
   },
@@ -10242,7 +10242,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -10250,9 +10250,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     }
   },
@@ -10274,7 +10274,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -10282,9 +10282,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     },
     "evaluations": [
@@ -10342,9 +10342,9 @@
       "SGD": "2.57",
       "HKD": "15.59",
       "ZAR": "33.01",
-      "INR": "180.44",
+      "INR": "180.36",
       "MYR": "8.14",
-      "PHP": "118.57",
+      "PHP": "118.53",
       "AED": "7.34"
     }
   },
@@ -10378,9 +10378,9 @@
       "SGD": "4.50",
       "HKD": "27.28",
       "ZAR": "57.76",
-      "INR": "315.76",
+      "INR": "315.63",
       "MYR": "14.24",
-      "PHP": "207.50",
+      "PHP": "207.43",
       "AED": "12.85"
     }
   },
@@ -10414,9 +10414,9 @@
       "SGD": "4.50",
       "HKD": "27.28",
       "ZAR": "57.76",
-      "INR": "315.76",
+      "INR": "315.63",
       "MYR": "14.24",
-      "PHP": "207.50",
+      "PHP": "207.43",
       "AED": "12.85"
     }
   },
@@ -10450,9 +10450,9 @@
       "SGD": "4.50",
       "HKD": "27.28",
       "ZAR": "57.76",
-      "INR": "315.76",
+      "INR": "315.63",
       "MYR": "14.24",
-      "PHP": "207.50",
+      "PHP": "207.43",
       "AED": "12.85"
     }
   },
@@ -10486,9 +10486,9 @@
       "SGD": "4.50",
       "HKD": "27.28",
       "ZAR": "57.76",
-      "INR": "315.76",
+      "INR": "315.63",
       "MYR": "14.24",
-      "PHP": "207.50",
+      "PHP": "207.43",
       "AED": "12.85"
     }
   },
@@ -10521,9 +10521,9 @@
       "SGD": "1.54",
       "HKD": "9.35",
       "ZAR": "19.80",
-      "INR": "108.26",
+      "INR": "108.22",
       "MYR": "4.88",
-      "PHP": "71.14",
+      "PHP": "71.12",
       "AED": "4.41"
     }
   },
@@ -10556,9 +10556,9 @@
       "SGD": "1.54",
       "HKD": "9.35",
       "ZAR": "19.80",
-      "INR": "108.26",
+      "INR": "108.22",
       "MYR": "4.88",
-      "PHP": "71.14",
+      "PHP": "71.12",
       "AED": "4.41"
     }
   },
@@ -10591,9 +10591,9 @@
       "SGD": "1.54",
       "HKD": "9.35",
       "ZAR": "19.80",
-      "INR": "108.26",
+      "INR": "108.22",
       "MYR": "4.88",
-      "PHP": "71.14",
+      "PHP": "71.12",
       "AED": "4.41"
     }
   },
@@ -10626,9 +10626,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -10661,9 +10661,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -10696,9 +10696,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -10732,9 +10732,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -10768,9 +10768,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -10804,9 +10804,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -10832,17 +10832,17 @@
     ],
     "currencies": {
       "USD": "3.94",
-      "CAD": "5.48",
+      "CAD": "5.47",
       "GBP": "2.94",
-      "EUR": "3.39",
+      "EUR": "3.38",
       "AUD": "5.89",
       "NZD": "6.88",
       "SGD": "5.07",
       "HKD": "30.71",
       "ZAR": "65.02",
-      "INR": "355.46",
-      "MYR": "16.04",
-      "PHP": "233.58",
+      "INR": "355.31",
+      "MYR": "16.03",
+      "PHP": "233.51",
       "AED": "14.47"
     }
   },
@@ -10876,9 +10876,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -10912,9 +10912,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -10948,9 +10948,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -10984,9 +10984,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -11020,9 +11020,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -11056,9 +11056,9 @@
       "SGD": "3.86",
       "HKD": "23.38",
       "ZAR": "49.51",
-      "INR": "270.66",
+      "INR": "270.54",
       "MYR": "12.21",
-      "PHP": "177.86",
+      "PHP": "177.80",
       "AED": "11.02"
     }
   },
@@ -11088,10 +11088,10 @@
       "NZD": "2.62",
       "SGD": "1.93",
       "HKD": "11.69",
-      "ZAR": "24.75",
-      "INR": "135.33",
+      "ZAR": "24.76",
+      "INR": "135.27",
       "MYR": "6.10",
-      "PHP": "88.93",
+      "PHP": "88.90",
       "AED": "5.51"
     },
     "evaluations": [
@@ -11143,9 +11143,9 @@
       "SGD": "1.29",
       "HKD": "7.79",
       "ZAR": "16.50",
-      "INR": "90.22",
+      "INR": "90.18",
       "MYR": "4.07",
-      "PHP": "59.29",
+      "PHP": "59.27",
       "AED": "3.67"
     }
   },
@@ -11174,10 +11174,10 @@
       "NZD": "2.62",
       "SGD": "1.93",
       "HKD": "11.69",
-      "ZAR": "24.75",
-      "INR": "135.33",
+      "ZAR": "24.76",
+      "INR": "135.27",
       "MYR": "6.10",
-      "PHP": "88.93",
+      "PHP": "88.90",
       "AED": "5.51"
     }
   },
@@ -11210,9 +11210,9 @@
       "SGD": "3.22",
       "HKD": "19.49",
       "ZAR": "41.26",
-      "INR": "225.55",
+      "INR": "225.45",
       "MYR": "10.17",
-      "PHP": "148.21",
+      "PHP": "148.17",
       "AED": "9.18"
     }
   },
@@ -11246,9 +11246,9 @@
       "SGD": "3.35",
       "HKD": "20.27",
       "ZAR": "42.91",
-      "INR": "234.57",
+      "INR": "234.47",
       "MYR": "10.58",
-      "PHP": "154.14",
+      "PHP": "154.09",
       "AED": "9.55"
     }
   },
@@ -11278,9 +11278,9 @@
       "SGD": "2.57",
       "HKD": "15.59",
       "ZAR": "33.01",
-      "INR": "180.44",
+      "INR": "180.36",
       "MYR": "8.14",
-      "PHP": "118.57",
+      "PHP": "118.53",
       "AED": "7.34"
     }
   },
@@ -11314,9 +11314,9 @@
       "SGD": "3.22",
       "HKD": "19.49",
       "ZAR": "41.26",
-      "INR": "225.55",
+      "INR": "225.45",
       "MYR": "10.17",
-      "PHP": "148.21",
+      "PHP": "148.17",
       "AED": "9.18"
     }
   },
@@ -11349,9 +11349,9 @@
       "SGD": "1.54",
       "HKD": "9.35",
       "ZAR": "19.80",
-      "INR": "108.26",
+      "INR": "108.22",
       "MYR": "4.88",
-      "PHP": "71.14",
+      "PHP": "71.12",
       "AED": "4.41"
     },
     "evaluations": [
@@ -11408,14 +11408,14 @@
       "CAD": "3.13",
       "GBP": "1.68",
       "EUR": "1.93",
-      "AUD": "3.37",
+      "AUD": "3.36",
       "NZD": "3.93",
-      "SGD": "2.90",
+      "SGD": "2.89",
       "HKD": "17.54",
       "ZAR": "37.13",
-      "INR": "202.99",
-      "MYR": "9.16",
-      "PHP": "133.39",
+      "INR": "202.91",
+      "MYR": "9.15",
+      "PHP": "133.35",
       "AED": "8.26"
     }
   },
@@ -11442,14 +11442,14 @@
       "CAD": "3.13",
       "GBP": "1.68",
       "EUR": "1.93",
-      "AUD": "3.37",
+      "AUD": "3.36",
       "NZD": "3.93",
-      "SGD": "2.90",
+      "SGD": "2.89",
       "HKD": "17.54",
       "ZAR": "37.13",
-      "INR": "202.99",
-      "MYR": "9.16",
-      "PHP": "133.39",
+      "INR": "202.91",
+      "MYR": "9.15",
+      "PHP": "133.35",
       "AED": "8.26"
     }
   },
@@ -11483,9 +11483,9 @@
       "SGD": "2.70",
       "HKD": "16.37",
       "ZAR": "34.66",
-      "INR": "189.46",
-      "MYR": "8.55",
-      "PHP": "124.50",
+      "INR": "189.38",
+      "MYR": "8.54",
+      "PHP": "124.46",
       "AED": "7.71"
     }
   },
@@ -11519,9 +11519,9 @@
       "SGD": "2.70",
       "HKD": "16.37",
       "ZAR": "34.66",
-      "INR": "189.46",
-      "MYR": "8.55",
-      "PHP": "124.50",
+      "INR": "189.38",
+      "MYR": "8.54",
+      "PHP": "124.46",
       "AED": "7.71"
     }
   },
@@ -11555,9 +11555,9 @@
       "SGD": "2.70",
       "HKD": "16.37",
       "ZAR": "34.66",
-      "INR": "189.46",
-      "MYR": "8.55",
-      "PHP": "124.50",
+      "INR": "189.38",
+      "MYR": "8.54",
+      "PHP": "124.46",
       "AED": "7.71"
     }
   },
@@ -11580,7 +11580,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -11588,9 +11588,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     }
   },
@@ -11615,7 +11615,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -11623,9 +11623,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     }
   },
@@ -11649,7 +11649,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -11657,9 +11657,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     }
   },
@@ -11689,10 +11689,10 @@
       "NZD": "2.62",
       "SGD": "1.93",
       "HKD": "11.69",
-      "ZAR": "24.75",
-      "INR": "135.33",
+      "ZAR": "24.76",
+      "INR": "135.27",
       "MYR": "6.10",
-      "PHP": "88.93",
+      "PHP": "88.90",
       "AED": "5.51"
     }
   },
@@ -11716,7 +11716,7 @@
     ],
     "currencies": {
       "USD": "1.99",
-      "CAD": "2.77",
+      "CAD": "2.76",
       "GBP": "1.48",
       "EUR": "1.71",
       "AUD": "2.98",
@@ -11724,9 +11724,9 @@
       "SGD": "2.56",
       "HKD": "15.51",
       "ZAR": "32.84",
-      "INR": "179.53",
+      "INR": "179.46",
       "MYR": "8.10",
-      "PHP": "117.98",
+      "PHP": "117.94",
       "AED": "7.31"
     }
   },
@@ -11760,9 +11760,9 @@
       "SGD": "2.51",
       "HKD": "15.20",
       "ZAR": "32.18",
-      "INR": "175.93",
-      "MYR": "7.94",
-      "PHP": "115.61",
+      "INR": "175.85",
+      "MYR": "7.93",
+      "PHP": "115.57",
       "AED": "7.16"
     }
   },
@@ -11793,12 +11793,12 @@
       "EUR": "1.63",
       "AUD": "2.84",
       "NZD": "3.32",
-      "SGD": "2.45",
+      "SGD": "2.44",
       "HKD": "14.81",
       "ZAR": "31.36",
-      "INR": "171.42",
+      "INR": "171.34",
       "MYR": "7.73",
-      "PHP": "112.64",
+      "PHP": "112.61",
       "AED": "6.98"
     }
   },
@@ -11827,9 +11827,9 @@
       "SGD": "1.29",
       "HKD": "7.79",
       "ZAR": "16.50",
-      "INR": "90.22",
+      "INR": "90.18",
       "MYR": "4.07",
-      "PHP": "59.29",
+      "PHP": "59.27",
       "AED": "3.67"
     }
   },
@@ -11862,9 +11862,9 @@
       "SGD": "1.54",
       "HKD": "9.35",
       "ZAR": "19.80",
-      "INR": "108.26",
+      "INR": "108.22",
       "MYR": "4.88",
-      "PHP": "71.14",
+      "PHP": "71.12",
       "AED": "4.41"
     }
   },
@@ -11897,9 +11897,9 @@
       "SGD": "1.54",
       "HKD": "9.35",
       "ZAR": "19.80",
-      "INR": "108.26",
+      "INR": "108.22",
       "MYR": "4.88",
-      "PHP": "71.14",
+      "PHP": "71.12",
       "AED": "4.41"
     }
   },
@@ -11932,9 +11932,9 @@
       "SGD": "1.54",
       "HKD": "9.35",
       "ZAR": "19.80",
-      "INR": "108.26",
+      "INR": "108.22",
       "MYR": "4.88",
-      "PHP": "71.14",
+      "PHP": "71.12",
       "AED": "4.41"
     }
   },
@@ -11967,9 +11967,9 @@
       "SGD": "1.54",
       "HKD": "9.35",
       "ZAR": "19.80",
-      "INR": "108.26",
+      "INR": "108.22",
       "MYR": "4.88",
-      "PHP": "71.14",
+      "PHP": "71.12",
       "AED": "4.41"
     }
   },
@@ -12002,9 +12002,9 @@
       "SGD": "1.54",
       "HKD": "9.35",
       "ZAR": "19.80",
-      "INR": "108.26",
+      "INR": "108.22",
       "MYR": "4.88",
-      "PHP": "71.14",
+      "PHP": "71.12",
       "AED": "4.41"
     }
   },
@@ -12035,9 +12035,9 @@
       "SGD": "1.29",
       "HKD": "7.79",
       "ZAR": "16.50",
-      "INR": "90.22",
+      "INR": "90.18",
       "MYR": "4.07",
-      "PHP": "59.29",
+      "PHP": "59.27",
       "AED": "3.67"
     }
   },
@@ -12068,9 +12068,9 @@
       "SGD": "1.29",
       "HKD": "7.79",
       "ZAR": "16.50",
-      "INR": "90.22",
+      "INR": "90.18",
       "MYR": "4.07",
-      "PHP": "59.29",
+      "PHP": "59.27",
       "AED": "3.67"
     }
   },
@@ -12101,9 +12101,9 @@
       "SGD": "1.29",
       "HKD": "7.79",
       "ZAR": "16.50",
-      "INR": "90.22",
+      "INR": "90.18",
       "MYR": "4.07",
-      "PHP": "59.29",
+      "PHP": "59.27",
       "AED": "3.67"
     }
   },
@@ -12134,9 +12134,9 @@
       "SGD": "1.29",
       "HKD": "7.79",
       "ZAR": "16.50",
-      "INR": "90.22",
+      "INR": "90.18",
       "MYR": "4.07",
-      "PHP": "59.29",
+      "PHP": "59.27",
       "AED": "3.67"
     }
   },
@@ -12167,9 +12167,9 @@
       "SGD": "1.29",
       "HKD": "7.79",
       "ZAR": "16.50",
-      "INR": "90.22",
+      "INR": "90.18",
       "MYR": "4.07",
-      "PHP": "59.29",
+      "PHP": "59.27",
       "AED": "3.67"
     }
   },
@@ -12200,9 +12200,9 @@
       "SGD": "1.29",
       "HKD": "7.79",
       "ZAR": "16.50",
-      "INR": "90.22",
+      "INR": "90.18",
       "MYR": "4.07",
-      "PHP": "59.29",
+      "PHP": "59.27",
       "AED": "3.67"
     }
   },
@@ -12233,9 +12233,9 @@
       "SGD": "1.29",
       "HKD": "7.79",
       "ZAR": "16.50",
-      "INR": "90.22",
+      "INR": "90.18",
       "MYR": "4.07",
-      "PHP": "59.29",
+      "PHP": "59.27",
       "AED": "3.67"
     }
   },
