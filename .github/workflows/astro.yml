@@ -47,12 +47,13 @@ jobs:
           
       - name: Fetch external data
         env:
-          # Route TPT/Instagram fetches through the home tailnet privoxy so they
-          # egress from a residential IP (both block GitHub datacenter IPs).
-          # The tag:ci Tailscale node reaches the gateway's privoxy at this address.
+          # Route only the TPT/Instagram fetches through the home tailnet privoxy so
+          # they egress from a residential IP (both block GitHub datacenter IPs). Those
+          # calls set an explicit proxy agent from HTTP_PROXY. HTTPS_PROXY is intentionally
+          # NOT set, so plain HTTPS calls (e.g. the exchange-rate API, which allows
+          # datacenter IPs) go direct instead of being broken by the ad-filter proxy.
           HTTP_PROXY: "http://100.119.88.63:8118"
-          HTTPS_PROXY: "http://100.119.88.63:8118"
-          NO_PROXY: "localhost,127.0.0.1"
+          NO_PROXY: "localhost,127.0.0.1,v6.exchangerate-api.com"
           EXCHANGE_RATE_API_KEY: ${{ secrets.EXCHANGE_RATE_API_KEY }}
         run: |
           echo "Checking proxy reachability ($HTTP_PROXY)..."
