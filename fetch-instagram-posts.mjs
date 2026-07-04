@@ -10,34 +10,33 @@ import { getProxyAgent, INSTAGRAM_BASE_URL, USER_AGENT, saveJSONToFile, fetchWit
 dotenv.config();
 
 // Constants
-const INSTAGRAM_USER_ID = process.env.INSTAGRAM_USER_ID || "8453018622";
-const INSTAGRAM_QUERY_HASH = process.env.INSTAGRAM_QUERY_HASH || "58b6785bea111c67129decbe6a448951";
+const INSTAGRAM_USERNAME = process.env.INSTAGRAM_USERNAME || "ciarasclassroom";
+// Public web app id used by instagram.com's own frontend for the web_profile_info endpoint.
+const INSTAGRAM_APP_ID = process.env.INSTAGRAM_APP_ID || "936619743392459";
+const INSTAGRAM_API_USER_AGENT =
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
 const IMAGE_WIDTH = 200;
-const POSTS_TO_FETCH = 7;
 const POSTS_TO_PROCESS = 4;
 const MAX_RETRIES = 3;
 const RETRY_DELAY = 1000; // 1 second
 
 /**
- * Fetches Instagram posts using the Instagram Graph API
+ * Fetches the latest Instagram posts via the public web_profile_info endpoint
+ * (the same one instagram.com's web frontend uses; the old graphql/query_hash
+ * API was retired by Meta and now returns HTTP 400).
  * @returns {Promise<Array>} Array of Instagram post objects
  */
 async function fetchInstagramPosts() {
   try {
     const response = await fetchWithRetry(
       {
-        url: `${INSTAGRAM_BASE_URL}/graphql/query/`,
+        url: "https://i.instagram.com/api/v1/users/web_profile_info/",
         method: "get",
-        params: {
-          query_hash: INSTAGRAM_QUERY_HASH,
-          variables: JSON.stringify({
-            id: INSTAGRAM_USER_ID,
-            first: POSTS_TO_FETCH,
-          }),
-        },
+        params: { username: INSTAGRAM_USERNAME },
         httpsAgent: getProxyAgent(),
         headers: {
-          "User-Agent": USER_AGENT,
+          "User-Agent": INSTAGRAM_API_USER_AGENT,
+          "x-ig-app-id": INSTAGRAM_APP_ID,
         },
       },
       MAX_RETRIES,
@@ -45,8 +44,9 @@ async function fetchInstagramPosts() {
     );
 
     const edges = response.data.data.user.edge_owner_to_timeline_media.edges;
-    return edges.slice(POSTS_TO_FETCH - POSTS_TO_PROCESS).map((edge, index) => {
-      const { thumbnail_src: imageUrl, shortcode } = edge.node;
+    return edges.slice(0, POSTS_TO_PROCESS).map((edge, index) => {
+      const { shortcode } = edge.node;
+      const imageUrl = edge.node.display_url || edge.node.thumbnail_src;
       const caption = edge.node.edge_media_to_caption.edges[0]?.node?.text || "";
       const postUrl = `${INSTAGRAM_BASE_URL}/p/${shortcode}/`;
       return { imageUrl, caption, postUrl, index };
