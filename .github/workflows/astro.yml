@@ -146,5 +146,11 @@ jobs:
           MERCHANT_ID: ${{ secrets.MERCHANT_ID }}
         run: |
           echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_TOKEN }}' > token.json
-          node delete-google-merchant.mjs
-          node google-merchent.mjs
+          PRODUCT_COUNT=$(node -e "try { const d = require('./src/lib/fixtures/tpt_products_MOST_RECENT.json'); console.log(Array.isArray(d) ? d.length : 0); } catch { console.log(0); }")
+          echo "Fetched product count: $PRODUCT_COUNT"
+          if [ "$PRODUCT_COUNT" -gt 0 ]; then
+            node delete-google-merchant.mjs
+            node google-merchent.mjs
+          else
+            echo "No products were fetched — skipping Google Merchant sync to avoid wiping existing listings."
+          fi
