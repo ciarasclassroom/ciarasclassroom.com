@@ -47,13 +47,21 @@ jobs:
           
       - name: Fetch external data
         env:
-          # HTTP_PROXY: ${{ secrets.HTTP_PROXY }}
-          # HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
+          # Route TPT/Instagram fetches through the home tailnet privoxy so they
+          # egress from a residential IP (both block GitHub datacenter IPs).
+          # The tag:ci Tailscale node reaches the gateway's privoxy at this address.
+          HTTP_PROXY: "http://100.119.88.63:8118"
+          HTTPS_PROXY: "http://100.119.88.63:8118"
+          NO_PROXY: "localhost,127.0.0.1"
           EXCHANGE_RATE_API_KEY: ${{ secrets.EXCHANGE_RATE_API_KEY }}
         run: |
+          echo "Checking proxy reachability ($HTTP_PROXY)..."
+          curl -s -o /dev/null -w "  TPT via proxy -> http=%{http_code}\n" --max-time 25 -x "$HTTP_PROXY" https://www.teacherspayteachers.com/robots.txt || echo "  WARNING: proxy unreachable from CI"
           node fetch-instagram-posts.mjs || true
           node fetch-tpt-products.mjs RELEVANCE || true
           node fetch-tpt-products.mjs MOST_RECENT || true
+          echo "Fetched record counts:"
+          node -e "for (const f of ['instagram_posts','tpt_products_RELEVANCE','tpt_products_MOST_RECENT']) { try { const d = require('./src/lib/fixtures/'+f+'.json'); console.log('  '+f+': '+(Array.isArray(d)?d.length:'n/a')); } catch { console.log('  '+f+': missing'); } }"
 
       - name: Upload fetched data
         uses: actions/upload-artifact@v4
