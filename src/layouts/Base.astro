@@ -39,12 +39,89 @@ export interface Props {
 
 // distructure frontmatters
 const { title, meta_title, description, image, noindex, canonical, date, tags, weight, external_image } = Astro.props;
+
+// resolved metadata helpers
+const pageTitle = plainify(meta_title ? meta_title : title ? title : config.site.title).trim();
+const pageDescription = plainify(description ? description : config.metadata.meta_description).trim();
+const canonicalURL = canonical || new URL(Astro.url.pathname, config.site.base_url).href;
+const ogImage = encodeURI(
+  `${!external_image ? config.site.base_url : ""}${image ? image : config.metadata.meta_image}`,
+);
+// a page with a date is a blog article, otherwise a regular page
+const isArticle = !!date;
+const publishedISO = date ? new Date(date).toISOString() : undefined;
+
+// structured data (JSON-LD)
+const organization = {
+  "@type": "Organization",
+  "@id": `${config.site.base_url}/#organization`,
+  name: config.site.title,
+  url: config.site.base_url,
+  logo: {
+    "@type": "ImageObject",
+    url: `${config.site.base_url}${config.site.logo}`,
+  },
+  sameAs: [
+    "https://www.instagram.com/ciarasclassroom",
+    "https://www.facebook.com/ciarasclassroom/",
+    "https://ie.pinterest.com/ciarasclassroom",
+    "https://www.tiktok.com/@ciarasclassroom",
+    "https://ie.linkedin.com/in/ciarasclassroom",
+    "https://www.teacherspayteachers.com/Store/Ciaras-Classroom",
+  ],
+};
+
+const website = {
+  "@type": "WebSite",
+  "@id": `${config.site.base_url}/#website`,
+  url: config.site.base_url,
+  name: config.site.title,
+  description: config.metadata.meta_description,
+  publisher: { "@id": `${config.site.base_url}/#organization` },
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: `${config.site.base_url}/search?q={search_term_string}`,
+    },
+    "query-input": "required name=search_term_string",
+  },
+};
+
+const graph: any[] = [organization, website];
+
+if (isArticle) {
+  graph.push({
+    "@type": "BlogPosting",
+    "@id": `${canonicalURL}#article`,
+    mainEntityOfPage: { "@type": "WebPage", "@id": canonicalURL },
+    headline: pageTitle,
+    description: pageDescription,
+    image: ogImage,
+    datePublished: publishedISO,
+    dateModified: publishedISO,
+    author: {
+      "@type": "Person",
+      name: "Ciara Lynch",
+      url: `${config.site.base_url}/about`,
+    },
+    publisher: { "@id": `${config.site.base_url}/#organization` },
+    ...(tags && tags.length ? { keywords: tags.join(", ") } : {}),
+  });
+}
+
+const jsonLd = JSON.stringify({ "@context": "https://schema.org", "@graph": graph });
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="application/rss+xml" title={config.site.title} href="/rss.xml" />
+
+    <!-- speed up google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <meta name="google-site-verification" content="-OBHGm_Nls9yR0u8lq1aqZLYDFw_dUU1qwfFT5vfVFg" />
     <meta name="p:domain_verify" content="3f05bbb83118856ab395237ec971d550" />
@@ -79,60 +156,57 @@ const { title, meta_title, description, image, noindex, canonical, date, tags, w
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
 
     <!-- title -->
-    <title>
-      {plainify(meta_title ? meta_title : title ? title : config.site.title).trim()}
-    </title>
+    <title>{pageTitle}</title>
 
     <!-- canonical url -->
-    {canonical && <link rel="canonical" href={canonical} item-prop="url" />}
+    <link rel="canonical" href={canonicalURL} />
 
     <!-- meta-description -->
-    <meta name="description" content={plainify(description ? description : config.metadata.meta_description)} />
+    <meta name="description" content={pageDescription} />
 
     <meta name="keywords" content={tags ? tags.join(", ") : config.metadata.meta_tags.join(", ")} />
 
-    <!-- meta-published-date -->
-    {date && <meta name="og:publish_date" content={new Date(date).toISOString()} />}
-
     <ViewTransitions />
 
-    <!-- author from config.json -->
-    <meta name="author" content={config.metadata.meta_author} />
+    <!-- author -->
+    <meta name="author" content={isArticle ? "Ciara Lynch" : config.metadata.meta_author} />
+
+    <!-- robots -->
+    <meta name="robots" content={noindex ? "noindex, nofollow" : "index, follow"} />
+    <meta name="language" content="English" />
 
     <!-- og-title -->
-    <meta property="og:title" content={plainify(meta_title ? meta_title : title ? title : config.site.title).trim()} />
+    <meta property="og:title" content={pageTitle} />
 
     <!-- og-description -->
-    <meta property="og:description" content={plainify(description ? description : config.metadata.meta_description).trim()} />
-    <meta property="og:type" content="website" />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:type" content={isArticle ? "article" : "website"} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:site_name" content={config.site.title} />
+    <meta property="og:locale" content="en_IE" />
 
-    <meta property="og:url" content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`} />
-
-    <meta property="og:site_name" content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`} />
+    <!-- article meta -->
+    {isArticle && publishedISO && <meta property="article:published_time" content={publishedISO} />}
+    {isArticle && publishedISO && <meta property="article:modified_time" content={publishedISO} />}
+    {isArticle && <meta property="article:author" content="Ciara Lynch" />}
+    {isArticle && tags && tags.map((tag: string) => <meta property="article:tag" content={tag} />)}
 
     <!-- twitter-title -->
-    <meta name="twitter:title" content={plainify(meta_title ? meta_title : title ? title : config.site.title).trim()} />
+    <meta name="twitter:title" content={pageTitle} />
 
     <!-- twitter-description -->
-    <meta name="twitter:description" content={plainify(description ? description : config.metadata.meta_description).trim()} />
+    <meta name="twitter:description" content={pageDescription} />
 
     <!-- og-image -->
-    <meta
-      property="og:image"
-      content={encodeURI(`${!external_image ? config.site.base_url : ""}${image ? image : config.metadata.meta_image}`)}
-    />
-    <meta property="og:image:alt" content={plainify(meta_title ? meta_title : title ? title : config.site.title)} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:alt" content={pageTitle} />
 
     <!-- twitter-image -->
-    <meta
-      name="twitter:image"
-      content={encodeURI(`${!external_image ? config.site.base_url : ""}${image ? image : config.metadata.meta_image}`)}
-    />
+    <meta name="twitter:image" content={ogImage} />
     <meta name="twitter:card" content="summary_large_image" />
 
-    <meta name="robots" content="index, follow" />
-    <meta name="language" content="English" />
-    <meta name="author" content="Ciara Lynch" />
+    <!-- structured data -->
+    <script type="application/ld+json" set:html={jsonLd} />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=1723991838" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=1723991838" />
@@ -149,16 +223,27 @@ const { title, meta_title, description, image, noindex, canonical, date, tags, w
       <slot />
     </main>
     <Footer />
-    <script>
-      window.ga = function () {
-        ga.q.push(arguments);
-      };
-      ga.q = [];
-      ga.l = +new Date();
-      ga("create", "G-H0SPRG8BKN", "auto");
-      ga("send", "pageview");
-      ga("set", "anonymizeIp", true);
+    <!-- Google Analytics 4 (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0SPRG8BKN"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-H0SPRG8BKN", { anonymize_ip: true });
     </script>
-    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    <!-- track client-side navigations from Astro View Transitions -->
+    <script>
+      document.addEventListener("astro:page-load", () => {
+        if (typeof window.gtag === "function") {
+          window.gtag("event", "page_view", {
+            page_path: window.location.pathname + window.location.search,
+            page_location: window.location.href,
+            page_title: document.title,
+          });
+        }
+      });
+    </script>
   </body>
 </html>

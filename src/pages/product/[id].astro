@@ -146,7 +146,7 @@ const ProductSchema = JSON.stringify({
     url: canonicalURL.toString(),
     priceCurrency: countryInfo.currency,
     price: product.currencies[countryInfo.currency],
-    priceValidUntil: "2024-12-31",
+    priceValidUntil: `${new Date().getFullYear() + 1}-12-31`,
     itemCondition: "https://schema.org/NewCondition",
     availability: "https://schema.org/InStock",
     areaServed: {

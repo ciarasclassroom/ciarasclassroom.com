@@ -31,9 +31,14 @@ const indexOfFirstPost = indexOfLastPost - config.settings.pagination;
 const currentPosts = sortedPosts.slice(indexOfFirstPost, indexOfLastPost);
 ---
 
-<Base>
+<Base
+  title={`Blog - Page ${currentPage}`}
+  meta_title={`Blog (Page ${currentPage}) | Ciara's Classroom`}
+  description="Ideas, resources and inspiration for supporting inclusion in diverse and multicultural primary classrooms — from Ciara's Classroom."
+>
   <section class="section">
     <div class="container">
+      <h1 class="h2 mb-12 text-center">Blog</h1>
       <Posts className="mb-16" posts={currentPosts} />
       <Pagination totalPages={totalPages} currentPage={currentPage} />
     </div>

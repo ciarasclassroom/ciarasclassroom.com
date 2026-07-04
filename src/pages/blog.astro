@@ -12,9 +12,14 @@ const totalPages = Math.ceil(posts.length / config.settings.pagination);
 const currentPosts = sortedPosts.slice(0, config.settings.pagination);
 ---
 
-<Base>
+<Base
+  title="Blog"
+  meta_title="Blog | Ciara's Classroom"
+  description="Ideas, resources and inspiration for supporting inclusion in diverse and multicultural primary classrooms — from Ciara's Classroom."
+>
   <section class="section">
     <div class="container">
+      <h1 class="h2 mb-12 text-center">Blog</h1>
       <Posts posts={currentPosts} className="mb-16" />
       <Pagination currentPage={1} totalPages={totalPages} />
     </div>
