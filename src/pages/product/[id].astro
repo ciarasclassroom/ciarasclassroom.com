@@ -76,7 +76,11 @@ export async function getStaticPaths() {
 }
 
 const { product } = Astro.props;
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+// Every currency variant (-US, -IE, -AU, …) is a near-duplicate of the base
+// (suffix-less) product page — which is the only version linked internally.
+// Point them all at the base URL so search engines consolidate ranking signals
+// onto one canonical page instead of splitting them across ~14 duplicates.
+const canonicalURL = new URL(`/product/${product.slug}`, Astro.site);
 
 const price = product.currencies[product.currency];
 
@@ -215,7 +219,13 @@ const formatPrice = (price: number | string): string => {
 };
 ---
 
-<Base title={product.title} description={product.descriptionSnippet} image={product.images[0]} external_image={true}>
+<Base
+  title={product.title}
+  description={product.descriptionSnippet}
+  image={product.images[0]}
+  external_image={true}
+  canonical={canonicalURL.toString()}
+>
   <script type="application/ld+json" set:html={ProductSchema} />
 
   <div class="container mx-auto px-4 py-8">

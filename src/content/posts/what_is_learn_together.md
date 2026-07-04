@@ -1,12 +1,6 @@
 ---
 title: What is Learn Together?
-description: >-
-  Ireland's Educate Together schools are unique in their approach to creating
-  inclusive, diverse, and respectful learning environments. Central to their
-  mission is the Learn Together curriculum, an ethics and values program that
-  helps guide students not only academically but also socially and morally. In
-  this post, we’ll dive into the Educate Together ethos, explore the Learn
-  Together curriculum, and explore how it fosters inclusive education.
+description: "An introduction to Ireland's Educate Together ethos and the Learn Together curriculum, and how they foster inclusive, diverse and respectful classrooms."
 image: /What-is-Learn-Together-Banner.png
 tags: []
 categories:

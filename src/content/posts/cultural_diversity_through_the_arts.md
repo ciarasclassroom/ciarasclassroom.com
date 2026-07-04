@@ -2,7 +2,7 @@
 title: >-
   Exploring and Celebrating Cultural Diversity Through the Arts in the Primary
   School Classroom
-description: "This blogpost explores some engaging and respectful ideas for incorporating cultural diversity through the arts in your classroom.  The arts have a unique ability to bring people together, spark creativity, and foster understanding. In the primary school classroom, they offer an engaging way to celebrate cultural diversity while nurturing inclusivity. By incorporating diverse traditions, stories, and perspectives into art, music, drama, literature, and dance, you create a welcoming environment where every child feels seen and valued.\_ Reflecting diversity in your lesson content also helps students develop empathy, respect, and a broader understanding of the world—a cornerstone of anti-racist education.\_"
+description: "Engaging, respectful ideas for celebrating cultural diversity through art, music, drama and dance in the primary classroom to build empathy and inclusion."
 image: /Cultural Diversity in Arts Lessons Banner.png
 tags:
   - Arts

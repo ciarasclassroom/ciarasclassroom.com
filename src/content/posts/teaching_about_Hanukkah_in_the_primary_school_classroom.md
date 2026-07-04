@@ -1,15 +1,6 @@
 ---
 title: "Hanukkah in the Classroom: Activities, Tips, and Resources for Teachers"
-description: >-
-  Discover creative ways to teach Hanukkah in your primary classroom with this
-  resource-packed blog post! Perfect for teachers seeking to foster inclusivity
-  and cultural awareness, this blog post features engaging activities like
-  collaborative art, menorah crafts, dreidel math, and storytelling. Learn about
-  Hanukkah traditions from Jewish culture and access ready-to-use resources like
-  vocabulary posters, greeting card templates, and a word scramble. Inspire your
-  students with lessons on hope, resilience, and diversity. Don’t miss the
-  ultimate Hanukkah resource bundle to make your planning seamless and
-  stress-free!
+description: "Creative ways to teach Hanukkah in your primary classroom: collaborative art, menorah crafts, dreidel math, storytelling and ready-to-use free resources."
 image: /Hanukkah Banner (1).png
 tags:
   - Judaism

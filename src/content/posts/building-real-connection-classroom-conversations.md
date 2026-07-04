@@ -1,13 +1,6 @@
 ---
 title: 'Building Real Connection in the Classroom: Why Conversations Matter'
-description: >-
-  As teachers, we know that building relationships with our students is an
-  important part of creating a positive classroom culture and warm community
-  where everyone feels valued and appreciated.  This blog post explores how to
-  start having meaningful conversations in the classroom which will help your
-  students to develop respectful communication, empathy and connection with each
-  other and with you as their teacher.  Check out the link at the bottom of the
-  post for a helpful resource for starting these conversations!
+description: "How to start meaningful conversations in the classroom that build respectful communication, empathy and real connection between students and their teacher."
 image: /Building real connection in the classroom Blog Banner.png
 tags:
   - Teacher Resources

@@ -1,10 +1,6 @@
 ---
 title: Why Every Classroom Needs Skin Tone Art Supplies
-description: >-
-  Let's chat about something that might seem small but can make a huge
-  difference in your classroom: skin tone crayons, pencils and paints. Stick
-  with me, and I'll show you why these little tools are secretly superstars in
-  creating an inclusive, respectful, and vibrant learning space…
+description: "Why skin tone crayons, pencils and paints belong in every classroom—simple art supplies that make a big difference to inclusion, respect and representation."
 image: /Skin_Colours_Banner.png
 tags:
   - Inclusion

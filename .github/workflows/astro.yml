@@ -127,6 +127,11 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
+      - name: Ping IndexNow (Bing / Yandex / Seznam …)
+        # Notifies the IndexNow ecosystem that URLs changed so they recrawl
+        # within minutes. Reads ./dist/sitemap-index.xml; never fails the deploy.
+        run: node submit-indexnow.mjs || true
+
   upload_google_products:
     name: Upload Google Products
     needs: fetch_data

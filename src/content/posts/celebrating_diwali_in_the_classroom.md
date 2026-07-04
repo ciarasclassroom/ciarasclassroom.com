@@ -1,9 +1,6 @@
 ---
 title: Celebrating Diwali in the Classroom
-description: >-
-  Looking for some ways to learn about and celebrate Diwali in the classroom
-  with your students?  This blogpost will outline some key information for you
-  as a teacher, as well as some ideas you can use in your classroom.
+description: "Key information and classroom-ready ideas for learning about and celebrating Diwali with your primary students in an inclusive, respectful way."
 image: /Celebrating_Diwali_in_the_Classroom Banner.png
 tags:
   - Religions

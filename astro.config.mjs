@@ -32,7 +32,13 @@ export default defineConfig({
   integrations: [
     react(),
     sitemap({
-      filter: (page) => !page.includes("/admin") && !page.endsWith("/search"),
+      filter: (page) =>
+        !page.includes("/admin") &&
+        !page.endsWith("/search") &&
+        // Exclude per-currency product variants (…-US, …-IE, …-AU, …). They are
+        // orphaned near-duplicates that canonicalise to the base product URL, so
+        // only the base page belongs in the sitemap.
+        !/\/product\/.+-(US|CA|IE|UK|AU|NZ|SG|HK|ZA|IN|MY|PH|AE)\/?$/.test(page),
       changefreq: "weekly",
       priority: 0.7,
       lastmod: new Date(),

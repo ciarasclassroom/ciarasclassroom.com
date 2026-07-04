@@ -2,15 +2,7 @@
 title: >-
   Welcome to Ciara's Classroom: Why Inclusive Education is More Than Just a
   Buzzword
-description: >-
-  Let’s face it—“inclusive education” has become quite the buzzword in recent
-  years. But here’s the thing: it’s so much more than that. It’s about creating
-  learning environments where every child, regardless of their culture,
-  religion, race, family structure, socioeconomic background, abilities, or
-  challenges, feels valued, respected, and empowered to succeed.  I’ve been
-  lucky enough in my career so far to have witnessed firsthand how inclusive
-  practices can transform not just individual students, but entire school
-  communities.
+description: "Inclusive education is more than a buzzword—how to build classrooms where every child, whatever their background or abilities, feels valued and empowered."
 image: /Buzzword Banner.jpg
 tags:
   - Welcome
