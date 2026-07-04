@@ -39,14 +39,20 @@ async function fetchInstagramPosts() {
           "x-ig-app-id": INSTAGRAM_APP_ID,
         },
       },
-      // Instagram rate-limits (HTTP 429) bursts from a single IP, so retry more
-      // times with a longer delay to ride out a transient limit.
-      5,
-      6000,
+      // One request gets all posts. Keep the footprint tiny (a single retry) —
+      // hammering with retries on a 429 only makes the rate limit worse; on
+      // failure we just keep the previously fetched posts.
+      1,
+      3000,
     );
 
     const edges = response.data.data.user.edge_owner_to_timeline_media.edges;
-    return edges.slice(0, POSTS_TO_PROCESS).map((edge, index) => {
+    // The endpoint returns pinned posts first (which can be years old), so sort by
+    // post date to get the genuinely latest posts rather than pinned ones.
+    const latest = [...edges].sort(
+      (a, b) => (b.node.taken_at_timestamp || 0) - (a.node.taken_at_timestamp || 0),
+    );
+    return latest.slice(0, POSTS_TO_PROCESS).map((edge, index) => {
       const { shortcode } = edge.node;
       const imageUrl = edge.node.display_url || edge.node.thumbnail_src;
       const caption = edge.node.edge_media_to_caption.edges[0]?.node?.text || "";
