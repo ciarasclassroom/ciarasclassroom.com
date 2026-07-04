@@ -39,8 +39,10 @@ async function fetchInstagramPosts() {
           "x-ig-app-id": INSTAGRAM_APP_ID,
         },
       },
-      MAX_RETRIES,
-      RETRY_DELAY,
+      // Instagram rate-limits (HTTP 429) bursts from a single IP, so retry more
+      // times with a longer delay to ride out a transient limit.
+      5,
+      6000,
     );
 
     const edges = response.data.data.user.edge_owner_to_timeline_media.edges;
