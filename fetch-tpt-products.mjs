@@ -62,7 +62,8 @@ function parseProducts(products, exchangeRates) {
       slug: product.canonicalSlug,
       reviews: product.totalEvaluations,
       rating: product.overallQualityScore,
-      categories: product.resourceCategories.map((resourceCategory) => resourceCategory.name),
+      // TpT removed the per-resource `resourceCategories` field from their GraphQL schema.
+      categories: [],
       currencies: currencies,
     };
   });
@@ -139,11 +140,6 @@ async function fetchTpTProducts(sortParam, products, exchangeRates) {
           description
           descriptionSnippet
           canonicalSlug
-          resourceCategories {
-            id
-            name
-            __typename
-          }
           pricing {
             nonTransferableLicenses {
               price
