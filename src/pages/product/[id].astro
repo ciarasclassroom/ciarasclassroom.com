@@ -58,7 +58,9 @@ export async function getStaticPaths() {
           id: `${product.slug.split("-").pop()}${variant.suffix ? `-${variant.suffix}` : ""}`,
           currency: variant.currency,
           currencySymbol: variant.symbol,
-          reviews: formatReviews(product.evaluations),
+          // Keep the numeric `reviews` count (from ...product) for the rating
+          // summary and AggregateRating; detailed review bodies live separately.
+          reviewList: formatReviews(product.evaluations),
         },
       },
       params: {
@@ -295,7 +297,7 @@ const formatPrice = (price: number | string): string => {
                   {"☆".repeat(5 - Math.round(product.rating))}
                 </span>
                 <span class="ml-2 text-gray-500">
-                  ({product.rating}/5 based on {product.reviews} reviews)
+                  ({product.rating}/5 based on {product.reviews} {product.reviews === 1 ? "review" : "reviews"})
                 </span>
               </div>
             )
@@ -314,7 +316,7 @@ const formatPrice = (price: number | string): string => {
               <meta itemprop="price" content={price} />
               <meta itemprop="priceCurrency" content={product.currency} />
               <link itemprop="availability" href="https://schema.org/InStock" />
-              <meta itemprop="priceValidUntil" content="2024-12-31" />
+              <meta itemprop="priceValidUntil" content={`${new Date().getFullYear() + 1}-12-31`} />
               <div itemprop="areaServed" itemscope itemtype="https://schema.org/Country">
                 <meta itemprop="name" content={countryInfo.name} />
                 <meta itemprop="identifier" content={countryInfo.identifier} />
@@ -377,12 +379,12 @@ const formatPrice = (price: number | string): string => {
     </article>
 
     {
-      product.reviews && product.reviews.length > 0 && (
+      product.reviewList && product.reviewList.length > 0 && (
         <div class="mt-4 bg-white shadow-lg rounded-lg overflow-hidden">
           <div class="md:flex">
             <div class="md p-4">
               <h2 class="text-2xl font-bold mb-4">Customer Reviews</h2>
-              {product.reviews.map((review) => (
+              {product.reviewList.map((review) => (
                 <div
                   id={`review-${review.id}-${product.currency}`}
                   class="mb-4 pb-4 border-b border-gray-300 last:border-b-0"

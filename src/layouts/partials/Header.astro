@@ -27,9 +27,7 @@ const pages = (await getSinglePage("pages"))
     };
   });
 
-let main: { main: NavigationLink[] } = [...menu.main, ...pages];
-
-console.log(main);
+let main: NavigationLink[] = [...menu.main, ...pages];
 
 main.sort((a, b) => {
   if (a.weight === undefined) return 1;
@@ -102,8 +100,8 @@ main.sort((a, b) => {
       <a
         class="mr-4 inline-block cursor-pointer p-2 text-xl text-dark transition hover:text-primary md:mr-0"
         href="/search"
-        title="seach"
-        aria-label="seach"
+        title="Search"
+        aria-label="Search"
       >
         <IoSearch />
       </a>

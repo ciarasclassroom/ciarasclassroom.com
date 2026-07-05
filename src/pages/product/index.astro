@@ -1,9 +1,5 @@
 ---
 import Base from "@/layouts/Base.astro";
-import Product from "@/layouts/components/Product.astro";
-
-import axios from "axios";
-import * as cheerio from "cheerio";
 
 import products from "@/lib/fixtures/tpt_products_RELEVANCE.json";
 const formatPrice = (price: number | string): string => {
@@ -17,16 +13,25 @@ const formatPrice = (price: number | string): string => {
 };
 ---
 
-<Base>
+<Base
+  title="Resources"
+  meta_title="Teaching Resources | Ciara's Classroom"
+  description="Browse inclusive, multicultural teaching resources for the primary classroom — printables, activities and lesson ideas from Ciara's Classroom."
+>
   <section class="section">
     <div class="container mx-auto px-4 py-8">
+      <header class="mb-10 max-w-2xl text-center mx-auto">
+        <h1 class="h2 mb-3">Teaching Resources</h1>
+        <p class="text-text">
+          Inclusive, multicultural printables and activities for the primary classroom.
+        </p>
+      </header>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {
           products.map((resource, index) => (
             <a
               href={resource.link}
-              key={resource.title}
-              class="block bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+              class="group flex flex-col bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
             >
               <img
                 src={resource.images[0]}
@@ -37,10 +42,23 @@ const formatPrice = (price: number | string): string => {
                 decoding="async"
                 class="w-full h-48 object-cover"
               />
-              <div class="p-4">
-                <h2 class="text-lg font-semibold mb-2">{resource.title}</h2>
-                <p class="text-gray-600 mb-2 line-clamp-5">{resource.descriptionSnippet}</p>
-                <p class="text-gray-800 font-bold mb-2">{formatPrice(resource.currencies?.USD || 0)}</p>
+              <div class="flex flex-col grow p-4">
+                <h2 class="text-lg font-semibold mb-2 group-hover:text-primary transition-colors">
+                  {resource.title}
+                </h2>
+                <p class="text-gray-600 mb-3 line-clamp-4">{resource.descriptionSnippet}</p>
+                {resource.reviews > 0 && (
+                  <div class="mb-2 flex items-center text-sm">
+                    <span class="text-yellow-500" aria-hidden="true">
+                      {"★".repeat(Math.round(resource.rating))}
+                      {"☆".repeat(5 - Math.round(resource.rating))}
+                    </span>
+                    <span class="ml-2 text-gray-500">
+                      {resource.rating}/5 ({resource.reviews})
+                    </span>
+                  </div>
+                )}
+                <p class="mt-auto text-gray-900 font-bold">{formatPrice(resource.currencies?.USD || 0)}</p>
               </div>
             </a>
           ))
