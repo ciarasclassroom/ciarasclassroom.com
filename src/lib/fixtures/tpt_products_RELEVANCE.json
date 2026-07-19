@@ -24,10 +24,10 @@
       "NZD": "6.42",
       "SGD": "4.84",
       "HKD": "29.40",
-      "ZAR": "61.89",
-      "INR": "361.54",
+      "ZAR": "61.88",
+      "INR": "361.42",
       "MYR": "15.30",
-      "PHP": "231.27",
+      "PHP": "231.19",
       "AED": "13.77"
     },
     "evaluations": []
@@ -55,12 +55,12 @@
       "EUR": "19.62",
       "AUD": "32.14",
       "NZD": "38.42",
-      "SGD": "28.98",
+      "SGD": "28.97",
       "HKD": "175.93",
-      "ZAR": "370.33",
-      "INR": "2163.44",
-      "MYR": "91.56",
-      "PHP": "1383.92",
+      "ZAR": "370.30",
+      "INR": "2162.75",
+      "MYR": "91.58",
+      "PHP": "1383.47",
       "AED": "82.41"
     },
     "evaluations": []
@@ -91,9 +91,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     },
     "evaluations": []
@@ -124,9 +124,9 @@
       "SGD": "4.13",
       "HKD": "25.09",
       "ZAR": "52.81",
-      "INR": "308.51",
+      "INR": "308.41",
       "MYR": "13.06",
-      "PHP": "197.35",
+      "PHP": "197.29",
       "AED": "11.75"
     },
     "evaluations": []
@@ -156,9 +156,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     },
     "evaluations": []
@@ -188,9 +188,9 @@
       "SGD": "4.52",
       "HKD": "27.44",
       "ZAR": "57.76",
-      "INR": "337.44",
+      "INR": "337.33",
       "MYR": "14.28",
-      "PHP": "215.85",
+      "PHP": "215.78",
       "AED": "12.85"
     },
     "evaluations": []
@@ -211,17 +211,17 @@
     "categories": [],
     "currencies": {
       "USD": "2.50",
-      "CAD": "3.50",
+      "CAD": "3.51",
       "GBP": "1.86",
       "EUR": "2.19",
       "AUD": "3.58",
       "NZD": "4.28",
       "SGD": "3.23",
       "HKD": "19.60",
-      "ZAR": "41.26",
-      "INR": "241.03",
+      "ZAR": "41.25",
+      "INR": "240.95",
       "MYR": "10.20",
-      "PHP": "154.18",
+      "PHP": "154.13",
       "AED": "9.18"
     },
     "evaluations": []
@@ -251,10 +251,10 @@
       "NZD": "6.83",
       "SGD": "5.15",
       "HKD": "31.28",
-      "ZAR": "65.85",
-      "INR": "384.68",
+      "ZAR": "65.84",
+      "INR": "384.55",
       "MYR": "16.28",
-      "PHP": "246.07",
+      "PHP": "245.99",
       "AED": "14.65"
     },
     "evaluations": []
@@ -284,9 +284,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     },
     "evaluations": []
@@ -309,17 +309,17 @@
     "categories": [],
     "currencies": {
       "USD": "7.50",
-      "CAD": "10.51",
+      "CAD": "10.52",
       "GBP": "5.58",
       "EUR": "6.56",
       "AUD": "10.74",
       "NZD": "12.84",
       "SGD": "9.68",
       "HKD": "58.80",
-      "ZAR": "123.77",
-      "INR": "723.08",
-      "MYR": "30.60",
-      "PHP": "462.54",
+      "ZAR": "123.76",
+      "INR": "722.84",
+      "MYR": "30.61",
+      "PHP": "462.39",
       "AED": "27.54"
     },
     "evaluations": []
@@ -348,10 +348,10 @@
       "NZD": "5.56",
       "SGD": "4.20",
       "HKD": "25.48",
-      "ZAR": "53.64",
-      "INR": "313.33",
+      "ZAR": "53.63",
+      "INR": "313.23",
       "MYR": "13.26",
-      "PHP": "200.43",
+      "PHP": "200.37",
       "AED": "11.94"
     },
     "evaluations": []
@@ -376,15 +376,15 @@
       "USD": "14.30",
       "CAD": "20.05",
       "GBP": "10.64",
-      "EUR": "12.50",
+      "EUR": "12.51",
       "AUD": "20.48",
       "NZD": "24.48",
-      "SGD": "18.47",
+      "SGD": "18.46",
       "HKD": "112.11",
-      "ZAR": "235.99",
-      "INR": "1378.67",
-      "MYR": "58.35",
-      "PHP": "881.91",
+      "ZAR": "235.98",
+      "INR": "1378.22",
+      "MYR": "58.36",
+      "PHP": "881.62",
       "AED": "52.52"
     },
     "evaluations": []
@@ -415,9 +415,9 @@
       "SGD": "4.52",
       "HKD": "27.44",
       "ZAR": "57.76",
-      "INR": "337.44",
+      "INR": "337.33",
       "MYR": "14.28",
-      "PHP": "215.85",
+      "PHP": "215.78",
       "AED": "12.85"
     },
     "evaluations": []
@@ -446,10 +446,10 @@
       "NZD": "17.97",
       "SGD": "13.56",
       "HKD": "82.32",
-      "ZAR": "173.28",
-      "INR": "1012.31",
-      "MYR": "42.84",
-      "PHP": "647.56",
+      "ZAR": "173.27",
+      "INR": "1011.98",
+      "MYR": "42.85",
+      "PHP": "647.34",
       "AED": "38.56"
     },
     "evaluations": []
@@ -471,17 +471,17 @@
     "categories": [],
     "currencies": {
       "USD": "2.50",
-      "CAD": "3.50",
+      "CAD": "3.51",
       "GBP": "1.86",
       "EUR": "2.19",
       "AUD": "3.58",
       "NZD": "4.28",
       "SGD": "3.23",
       "HKD": "19.60",
-      "ZAR": "41.26",
-      "INR": "241.03",
+      "ZAR": "41.25",
+      "INR": "240.95",
       "MYR": "10.20",
-      "PHP": "154.18",
+      "PHP": "154.13",
       "AED": "9.18"
     },
     "evaluations": []
@@ -534,17 +534,17 @@
     "categories": [],
     "currencies": {
       "USD": "2.50",
-      "CAD": "3.50",
+      "CAD": "3.51",
       "GBP": "1.86",
       "EUR": "2.19",
       "AUD": "3.58",
       "NZD": "4.28",
       "SGD": "3.23",
       "HKD": "19.60",
-      "ZAR": "41.26",
-      "INR": "241.03",
+      "ZAR": "41.25",
+      "INR": "240.95",
       "MYR": "10.20",
-      "PHP": "154.18",
+      "PHP": "154.13",
       "AED": "9.18"
     },
     "evaluations": []
@@ -574,10 +574,10 @@
       "NZD": "10.27",
       "SGD": "7.75",
       "HKD": "47.04",
-      "ZAR": "99.02",
-      "INR": "578.46",
-      "MYR": "24.48",
-      "PHP": "370.03",
+      "ZAR": "99.01",
+      "INR": "578.28",
+      "MYR": "24.49",
+      "PHP": "369.91",
       "AED": "22.04"
     },
     "evaluations": []
@@ -605,12 +605,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     },
     "evaluations": []
@@ -633,17 +633,17 @@
     "categories": [],
     "currencies": {
       "USD": "2.60",
-      "CAD": "3.64",
+      "CAD": "3.65",
       "GBP": "1.93",
       "EUR": "2.27",
       "AUD": "3.72",
       "NZD": "4.45",
       "SGD": "3.36",
       "HKD": "20.38",
-      "ZAR": "42.91",
-      "INR": "250.67",
+      "ZAR": "42.90",
+      "INR": "250.59",
       "MYR": "10.61",
-      "PHP": "160.35",
+      "PHP": "160.29",
       "AED": "9.55"
     },
     "evaluations": []
@@ -672,10 +672,10 @@
       "NZD": "6.42",
       "SGD": "4.84",
       "HKD": "29.40",
-      "ZAR": "61.89",
-      "INR": "361.54",
+      "ZAR": "61.88",
+      "INR": "361.42",
       "MYR": "15.30",
-      "PHP": "231.27",
+      "PHP": "231.19",
       "AED": "13.77"
     },
     "evaluations": []
@@ -706,9 +706,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     },
     "evaluations": []
@@ -729,17 +729,17 @@
     "categories": [],
     "currencies": {
       "USD": "42.00",
-      "CAD": "58.88",
+      "CAD": "58.89",
       "GBP": "31.24",
-      "EUR": "36.72",
+      "EUR": "36.73",
       "AUD": "60.15",
       "NZD": "71.90",
       "SGD": "54.23",
-      "HKD": "329.27",
-      "ZAR": "693.13",
-      "INR": "4049.23",
-      "MYR": "171.36",
-      "PHP": "2590.22",
+      "HKD": "329.28",
+      "ZAR": "693.08",
+      "INR": "4047.93",
+      "MYR": "171.40",
+      "PHP": "2589.38",
       "AED": "154.25"
     }
   },
@@ -759,17 +759,17 @@
     "categories": [],
     "currencies": {
       "USD": "2.50",
-      "CAD": "3.50",
+      "CAD": "3.51",
       "GBP": "1.86",
       "EUR": "2.19",
       "AUD": "3.58",
       "NZD": "4.28",
       "SGD": "3.23",
       "HKD": "19.60",
-      "ZAR": "41.26",
-      "INR": "241.03",
+      "ZAR": "41.25",
+      "INR": "240.95",
       "MYR": "10.20",
-      "PHP": "154.18",
+      "PHP": "154.13",
       "AED": "9.18"
     },
     "evaluations": []
@@ -797,12 +797,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     }
   },
@@ -831,10 +831,10 @@
       "NZD": "10.27",
       "SGD": "7.75",
       "HKD": "47.04",
-      "ZAR": "99.02",
-      "INR": "578.46",
-      "MYR": "24.48",
-      "PHP": "370.03",
+      "ZAR": "99.01",
+      "INR": "578.28",
+      "MYR": "24.49",
+      "PHP": "369.91",
       "AED": "22.04"
     },
     "evaluations": []
@@ -864,10 +864,10 @@
       "NZD": "23.03",
       "SGD": "17.37",
       "HKD": "105.45",
-      "ZAR": "221.97",
-      "INR": "1296.72",
-      "MYR": "54.88",
-      "PHP": "829.49",
+      "ZAR": "221.95",
+      "INR": "1296.30",
+      "MYR": "54.89",
+      "PHP": "829.22",
       "AED": "49.40"
     },
     "evaluations": []
@@ -898,9 +898,9 @@
       "SGD": "2.91",
       "HKD": "17.64",
       "ZAR": "37.13",
-      "INR": "216.92",
+      "INR": "216.85",
       "MYR": "9.18",
-      "PHP": "138.76",
+      "PHP": "138.72",
       "AED": "8.26"
     },
     "evaluations": []
@@ -926,14 +926,14 @@
       "CAD": "13.74",
       "GBP": "7.29",
       "EUR": "8.57",
-      "AUD": "14.04",
+      "AUD": "14.03",
       "NZD": "16.78",
       "SGD": "12.65",
       "HKD": "76.83",
-      "ZAR": "161.73",
-      "INR": "944.82",
-      "MYR": "39.98",
-      "PHP": "604.39",
+      "ZAR": "161.72",
+      "INR": "944.52",
+      "MYR": "39.99",
+      "PHP": "604.19",
       "AED": "35.99"
     },
     "evaluations": []
@@ -963,9 +963,9 @@
       "SGD": "2.52",
       "HKD": "15.29",
       "ZAR": "32.18",
-      "INR": "188.00",
+      "INR": "187.94",
       "MYR": "7.96",
-      "PHP": "120.26",
+      "PHP": "120.22",
       "AED": "7.16"
     }
   },
@@ -987,17 +987,17 @@
     "categories": [],
     "currencies": {
       "USD": "33.90",
-      "CAD": "47.52",
+      "CAD": "47.53",
       "GBP": "25.21",
-      "EUR": "29.64",
+      "EUR": "29.65",
       "AUD": "48.55",
       "NZD": "58.03",
-      "SGD": "43.78",
+      "SGD": "43.77",
       "HKD": "265.77",
-      "ZAR": "559.46",
-      "INR": "3268.31",
-      "MYR": "138.32",
-      "PHP": "2090.68",
+      "ZAR": "559.41",
+      "INR": "3267.26",
+      "MYR": "138.35",
+      "PHP": "2090.00",
       "AED": "124.50"
     }
   },
@@ -1025,10 +1025,10 @@
       "NZD": "20.44",
       "SGD": "15.42",
       "HKD": "93.61",
-      "ZAR": "197.05",
-      "INR": "1151.14",
-      "MYR": "48.72",
-      "PHP": "736.36",
+      "ZAR": "197.03",
+      "INR": "1150.77",
+      "MYR": "48.73",
+      "PHP": "736.12",
       "AED": "43.85"
     },
     "evaluations": []
@@ -1051,17 +1051,17 @@
     "categories": [],
     "currencies": {
       "USD": "26.45",
-      "CAD": "37.08",
+      "CAD": "37.09",
       "GBP": "19.67",
       "EUR": "23.13",
       "AUD": "37.88",
       "NZD": "45.28",
       "SGD": "34.15",
-      "HKD": "207.36",
-      "ZAR": "436.51",
-      "INR": "2550.05",
-      "MYR": "107.92",
-      "PHP": "1631.22",
+      "HKD": "207.37",
+      "ZAR": "436.48",
+      "INR": "2549.23",
+      "MYR": "107.94",
+      "PHP": "1630.69",
       "AED": "97.14"
     }
   },
@@ -1090,10 +1090,10 @@
       "NZD": "10.27",
       "SGD": "7.75",
       "HKD": "47.04",
-      "ZAR": "99.02",
-      "INR": "578.46",
-      "MYR": "24.48",
-      "PHP": "370.03",
+      "ZAR": "99.01",
+      "INR": "578.28",
+      "MYR": "24.49",
+      "PHP": "369.91",
       "AED": "22.04"
     },
     "evaluations": []
@@ -1123,10 +1123,10 @@
       "NZD": "3.25",
       "SGD": "2.45",
       "HKD": "14.90",
-      "ZAR": "31.36",
-      "INR": "183.18",
+      "ZAR": "31.35",
+      "INR": "183.12",
       "MYR": "7.75",
-      "PHP": "117.18",
+      "PHP": "117.14",
       "AED": "6.98"
     }
   },
@@ -1156,9 +1156,9 @@
       "SGD": "4.65",
       "HKD": "28.22",
       "ZAR": "59.41",
-      "INR": "347.08",
+      "INR": "346.97",
       "MYR": "14.69",
-      "PHP": "222.02",
+      "PHP": "221.95",
       "AED": "13.22"
     },
     "evaluations": []
@@ -1186,12 +1186,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     }
   },
@@ -1218,12 +1218,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     },
     "evaluations": []
@@ -1246,17 +1246,17 @@
     "categories": [],
     "currencies": {
       "USD": "2.50",
-      "CAD": "3.50",
+      "CAD": "3.51",
       "GBP": "1.86",
       "EUR": "2.19",
       "AUD": "3.58",
       "NZD": "4.28",
       "SGD": "3.23",
       "HKD": "19.60",
-      "ZAR": "41.26",
-      "INR": "241.03",
+      "ZAR": "41.25",
+      "INR": "240.95",
       "MYR": "10.20",
-      "PHP": "154.18",
+      "PHP": "154.13",
       "AED": "9.18"
     }
   },
@@ -1284,10 +1284,10 @@
       "NZD": "10.27",
       "SGD": "7.75",
       "HKD": "47.04",
-      "ZAR": "99.02",
-      "INR": "578.46",
-      "MYR": "24.48",
-      "PHP": "370.03",
+      "ZAR": "99.01",
+      "INR": "578.28",
+      "MYR": "24.49",
+      "PHP": "369.91",
       "AED": "22.04"
     },
     "evaluations": []
@@ -1315,12 +1315,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     },
     "evaluations": []
@@ -1350,9 +1350,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "16.50",
-      "INR": "96.41",
+      "INR": "96.38",
       "MYR": "4.08",
-      "PHP": "61.67",
+      "PHP": "61.65",
       "AED": "3.67"
     },
     "evaluations": []
@@ -1382,10 +1382,10 @@
       "NZD": "14.53",
       "SGD": "10.96",
       "HKD": "66.56",
-      "ZAR": "140.11",
-      "INR": "818.52",
-      "MYR": "34.64",
-      "PHP": "523.60",
+      "ZAR": "140.10",
+      "INR": "818.26",
+      "MYR": "34.65",
+      "PHP": "523.42",
       "AED": "31.18"
     }
   },
@@ -1415,9 +1415,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -1447,9 +1447,9 @@
       "SGD": "4.13",
       "HKD": "25.09",
       "ZAR": "52.81",
-      "INR": "308.51",
+      "INR": "308.41",
       "MYR": "13.06",
-      "PHP": "197.35",
+      "PHP": "197.29",
       "AED": "11.75"
     },
     "evaluations": []
@@ -1507,9 +1507,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -1531,17 +1531,17 @@
     "categories": [],
     "currencies": {
       "USD": "23.50",
-      "CAD": "32.94",
+      "CAD": "32.95",
       "GBP": "17.48",
       "EUR": "20.55",
-      "AUD": "33.66",
+      "AUD": "33.65",
       "NZD": "40.23",
-      "SGD": "30.35",
+      "SGD": "30.34",
       "HKD": "184.24",
-      "ZAR": "387.82",
-      "INR": "2265.64",
-      "MYR": "95.88",
-      "PHP": "1449.29",
+      "ZAR": "387.79",
+      "INR": "2264.91",
+      "MYR": "95.90",
+      "PHP": "1448.82",
       "AED": "86.30"
     }
   },
@@ -1568,9 +1568,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "16.50",
-      "INR": "96.41",
+      "INR": "96.38",
       "MYR": "4.08",
-      "PHP": "61.67",
+      "PHP": "61.65",
       "AED": "3.67"
     },
     "evaluations": []
@@ -1599,10 +1599,10 @@
       "NZD": "3.42",
       "SGD": "2.58",
       "HKD": "15.68",
-      "ZAR": "33.01",
-      "INR": "192.82",
+      "ZAR": "33.00",
+      "INR": "192.76",
       "MYR": "8.16",
-      "PHP": "123.34",
+      "PHP": "123.30",
       "AED": "7.34"
     }
   },
@@ -1662,10 +1662,10 @@
       "NZD": "9.07",
       "SGD": "6.84",
       "HKD": "41.55",
-      "ZAR": "87.47",
-      "INR": "510.97",
-      "MYR": "21.62",
-      "PHP": "326.86",
+      "ZAR": "87.46",
+      "INR": "510.81",
+      "MYR": "21.63",
+      "PHP": "326.75",
       "AED": "19.46"
     },
     "evaluations": []
@@ -1695,10 +1695,10 @@
       "NZD": "17.20",
       "SGD": "12.98",
       "HKD": "78.79",
-      "ZAR": "165.86",
-      "INR": "968.92",
+      "ZAR": "165.84",
+      "INR": "968.61",
       "MYR": "41.01",
-      "PHP": "619.80",
+      "PHP": "619.60",
       "AED": "36.91"
     }
   },
@@ -1728,9 +1728,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     },
     "evaluations": []
@@ -1790,10 +1790,10 @@
       "NZD": "3.25",
       "SGD": "2.45",
       "HKD": "14.90",
-      "ZAR": "31.36",
-      "INR": "183.18",
+      "ZAR": "31.35",
+      "INR": "183.12",
       "MYR": "7.75",
-      "PHP": "117.18",
+      "PHP": "117.14",
       "AED": "6.98"
     }
   },
@@ -1815,17 +1815,17 @@
     "categories": [],
     "currencies": {
       "USD": "31.00",
-      "CAD": "43.46",
+      "CAD": "43.47",
       "GBP": "23.06",
       "EUR": "27.11",
       "AUD": "44.40",
       "NZD": "53.07",
       "SGD": "40.03",
-      "HKD": "243.03",
-      "ZAR": "511.60",
-      "INR": "2988.72",
-      "MYR": "126.48",
-      "PHP": "1911.83",
+      "HKD": "243.04",
+      "ZAR": "511.56",
+      "INR": "2987.76",
+      "MYR": "126.51",
+      "PHP": "1911.21",
       "AED": "113.85"
     }
   },
@@ -1851,10 +1851,10 @@
       "NZD": "25.68",
       "SGD": "19.37",
       "HKD": "117.60",
-      "ZAR": "247.55",
-      "INR": "1446.15",
-      "MYR": "61.20",
-      "PHP": "925.08",
+      "ZAR": "247.53",
+      "INR": "1445.69",
+      "MYR": "61.22",
+      "PHP": "924.78",
       "AED": "55.09"
     },
     "evaluations": []
@@ -1884,10 +1884,10 @@
       "NZD": "23.03",
       "SGD": "17.37",
       "HKD": "105.45",
-      "ZAR": "221.97",
-      "INR": "1296.72",
-      "MYR": "54.88",
-      "PHP": "829.49",
+      "ZAR": "221.95",
+      "INR": "1296.30",
+      "MYR": "54.89",
+      "PHP": "829.22",
       "AED": "49.40"
     },
     "evaluations": []
@@ -1918,9 +1918,9 @@
       "SGD": "2.91",
       "HKD": "17.64",
       "ZAR": "37.13",
-      "INR": "216.92",
+      "INR": "216.85",
       "MYR": "9.18",
-      "PHP": "138.76",
+      "PHP": "138.72",
       "AED": "8.26"
     },
     "evaluations": []
@@ -1948,12 +1948,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     }
   },
@@ -1983,9 +1983,9 @@
       "SGD": "4.52",
       "HKD": "27.44",
       "ZAR": "57.76",
-      "INR": "337.44",
+      "INR": "337.33",
       "MYR": "14.28",
-      "PHP": "215.85",
+      "PHP": "215.78",
       "AED": "12.85"
     }
   },
@@ -2014,9 +2014,9 @@
       "SGD": "2.52",
       "HKD": "15.29",
       "ZAR": "32.18",
-      "INR": "188.00",
+      "INR": "187.94",
       "MYR": "7.96",
-      "PHP": "120.26",
+      "PHP": "120.22",
       "AED": "7.16"
     }
   },
@@ -2046,9 +2046,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -2076,10 +2076,10 @@
       "NZD": "8.56",
       "SGD": "6.46",
       "HKD": "39.20",
-      "ZAR": "82.52",
-      "INR": "482.05",
-      "MYR": "20.40",
-      "PHP": "308.36",
+      "ZAR": "82.51",
+      "INR": "481.90",
+      "MYR": "20.41",
+      "PHP": "308.26",
       "AED": "18.36"
     },
     "evaluations": []
@@ -2110,9 +2110,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     },
     "evaluations": []
@@ -2135,17 +2135,17 @@
     "categories": [],
     "currencies": {
       "USD": "36.00",
-      "CAD": "50.47",
+      "CAD": "50.48",
       "GBP": "26.78",
       "EUR": "31.48",
       "AUD": "51.56",
       "NZD": "61.63",
-      "SGD": "46.49",
-      "HKD": "282.23",
-      "ZAR": "594.11",
-      "INR": "3470.77",
-      "MYR": "146.88",
-      "PHP": "2220.19",
+      "SGD": "46.48",
+      "HKD": "282.24",
+      "ZAR": "594.07",
+      "INR": "3469.65",
+      "MYR": "146.92",
+      "PHP": "2219.46",
       "AED": "132.21"
     }
   },
@@ -2174,9 +2174,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     },
     "evaluations": []
@@ -2204,12 +2204,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     },
     "evaluations": []
@@ -2238,11 +2238,11 @@
       "AUD": "14.18",
       "NZD": "16.95",
       "SGD": "12.78",
-      "HKD": "77.61",
-      "ZAR": "163.38",
-      "INR": "954.46",
-      "MYR": "40.39",
-      "PHP": "610.55",
+      "HKD": "77.62",
+      "ZAR": "163.37",
+      "INR": "954.16",
+      "MYR": "40.40",
+      "PHP": "610.35",
       "AED": "36.36"
     }
   },
@@ -2272,9 +2272,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     },
     "evaluations": []
@@ -2302,12 +2302,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     }
   },
@@ -2335,10 +2335,10 @@
       "NZD": "10.27",
       "SGD": "7.75",
       "HKD": "47.04",
-      "ZAR": "99.02",
-      "INR": "578.46",
-      "MYR": "24.48",
-      "PHP": "370.03",
+      "ZAR": "99.01",
+      "INR": "578.28",
+      "MYR": "24.49",
+      "PHP": "369.91",
       "AED": "22.04"
     }
   },
@@ -2366,9 +2366,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -2396,10 +2396,10 @@
       "NZD": "11.56",
       "SGD": "8.72",
       "HKD": "52.92",
-      "ZAR": "111.40",
-      "INR": "650.77",
-      "MYR": "27.54",
-      "PHP": "416.29",
+      "ZAR": "111.39",
+      "INR": "650.56",
+      "MYR": "27.55",
+      "PHP": "416.15",
       "AED": "24.79"
     }
   },
@@ -2428,9 +2428,9 @@
       "SGD": "4.52",
       "HKD": "27.44",
       "ZAR": "57.76",
-      "INR": "337.44",
+      "INR": "337.33",
       "MYR": "14.28",
-      "PHP": "215.85",
+      "PHP": "215.78",
       "AED": "12.85"
     },
     "evaluations": []
@@ -2461,9 +2461,9 @@
       "SGD": "4.52",
       "HKD": "27.44",
       "ZAR": "57.76",
-      "INR": "337.44",
+      "INR": "337.33",
       "MYR": "14.28",
-      "PHP": "215.85",
+      "PHP": "215.78",
       "AED": "12.85"
     },
     "evaluations": []
@@ -2491,12 +2491,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     },
     "evaluations": []
@@ -2527,9 +2527,9 @@
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "19.80",
-      "INR": "115.69",
+      "INR": "115.66",
       "MYR": "4.90",
-      "PHP": "74.01",
+      "PHP": "73.98",
       "AED": "4.41"
     },
     "evaluations": []
@@ -2558,11 +2558,11 @@
       "AUD": "23.20",
       "NZD": "27.73",
       "SGD": "20.92",
-      "HKD": "127.00",
-      "ZAR": "267.35",
-      "INR": "1561.85",
-      "MYR": "66.10",
-      "PHP": "999.09",
+      "HKD": "127.01",
+      "ZAR": "267.33",
+      "INR": "1561.34",
+      "MYR": "66.11",
+      "PHP": "998.76",
       "AED": "59.49"
     }
   },
@@ -2586,15 +2586,15 @@
       "USD": "12.23",
       "CAD": "17.15",
       "GBP": "9.10",
-      "EUR": "10.69",
-      "AUD": "17.52",
+      "EUR": "10.70",
+      "AUD": "17.51",
       "NZD": "20.94",
       "SGD": "15.79",
       "HKD": "95.88",
-      "ZAR": "201.83",
-      "INR": "1179.10",
-      "MYR": "49.90",
-      "PHP": "754.25",
+      "ZAR": "201.82",
+      "INR": "1178.72",
+      "MYR": "49.91",
+      "PHP": "754.00",
       "AED": "44.91"
     }
   },
@@ -2623,9 +2623,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     }
   },
@@ -2650,14 +2650,14 @@
       "CAD": "32.36",
       "GBP": "17.17",
       "EUR": "20.18",
-      "AUD": "33.06",
+      "AUD": "33.05",
       "NZD": "39.51",
       "SGD": "29.80",
       "HKD": "180.94",
-      "ZAR": "380.89",
-      "INR": "2225.15",
-      "MYR": "94.17",
-      "PHP": "1423.39",
+      "ZAR": "380.86",
+      "INR": "2224.43",
+      "MYR": "94.19",
+      "PHP": "1422.92",
       "AED": "84.76"
     }
   },
@@ -2687,9 +2687,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -2719,9 +2719,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -2751,9 +2751,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     },
     "evaluations": []
@@ -2778,15 +2778,15 @@
       "USD": "4.90",
       "CAD": "6.87",
       "GBP": "3.64",
-      "EUR": "4.28",
+      "EUR": "4.29",
       "AUD": "7.02",
       "NZD": "8.39",
       "SGD": "6.33",
       "HKD": "38.42",
-      "ZAR": "80.87",
-      "INR": "472.41",
-      "MYR": "19.99",
-      "PHP": "302.19",
+      "ZAR": "80.86",
+      "INR": "472.26",
+      "MYR": "20.00",
+      "PHP": "302.09",
       "AED": "18.00"
     },
     "evaluations": []
@@ -2816,10 +2816,10 @@
       "NZD": "18.40",
       "SGD": "13.88",
       "HKD": "84.28",
-      "ZAR": "177.41",
-      "INR": "1036.41",
-      "MYR": "43.86",
-      "PHP": "662.97",
+      "ZAR": "177.40",
+      "INR": "1036.08",
+      "MYR": "43.87",
+      "PHP": "662.76",
       "AED": "39.48"
     }
   },
@@ -2843,15 +2843,15 @@
       "USD": "4.50",
       "CAD": "6.31",
       "GBP": "3.35",
-      "EUR": "3.93",
+      "EUR": "3.94",
       "AUD": "6.44",
       "NZD": "7.70",
       "SGD": "5.81",
       "HKD": "35.28",
       "ZAR": "74.26",
-      "INR": "433.85",
+      "INR": "433.71",
       "MYR": "18.36",
-      "PHP": "277.52",
+      "PHP": "277.43",
       "AED": "16.53"
     }
   },
@@ -2880,9 +2880,9 @@
       "SGD": "2.39",
       "HKD": "14.50",
       "ZAR": "30.53",
-      "INR": "178.36",
+      "INR": "178.30",
       "MYR": "7.55",
-      "PHP": "114.09",
+      "PHP": "114.06",
       "AED": "6.79"
     }
   },
@@ -2904,17 +2904,17 @@
     "categories": [],
     "currencies": {
       "USD": "14.89",
-      "CAD": "20.87",
+      "CAD": "20.88",
       "GBP": "11.08",
       "EUR": "13.02",
-      "AUD": "21.33",
+      "AUD": "21.32",
       "NZD": "25.49",
       "SGD": "19.23",
-      "HKD": "116.73",
-      "ZAR": "245.73",
-      "INR": "1435.55",
-      "MYR": "60.75",
-      "PHP": "918.30",
+      "HKD": "116.74",
+      "ZAR": "245.71",
+      "INR": "1435.09",
+      "MYR": "60.77",
+      "PHP": "918.00",
       "AED": "54.68"
     }
   },
@@ -2941,12 +2941,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     },
     "evaluations": []
@@ -2976,9 +2976,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     },
     "evaluations": []
@@ -3006,12 +3006,12 @@
       "EUR": "8.00",
       "AUD": "13.10",
       "NZD": "15.66",
-      "SGD": "11.82",
-      "HKD": "71.73",
-      "ZAR": "151.00",
-      "INR": "882.15",
-      "MYR": "37.33",
-      "PHP": "564.30",
+      "SGD": "11.81",
+      "HKD": "71.74",
+      "ZAR": "150.99",
+      "INR": "881.87",
+      "MYR": "37.34",
+      "PHP": "564.11",
       "AED": "33.60"
     }
   },
@@ -3040,9 +3040,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     }
   },
@@ -3071,10 +3071,10 @@
       "NZD": "8.54",
       "SGD": "6.44",
       "HKD": "39.12",
-      "ZAR": "82.35",
-      "INR": "481.09",
+      "ZAR": "82.34",
+      "INR": "480.93",
       "MYR": "20.36",
-      "PHP": "307.74",
+      "PHP": "307.64",
       "AED": "18.33"
     }
   },
@@ -3101,10 +3101,10 @@
       "NZD": "3.08",
       "SGD": "2.32",
       "HKD": "14.11",
-      "ZAR": "29.71",
-      "INR": "173.54",
-      "MYR": "7.34",
-      "PHP": "111.01",
+      "ZAR": "29.70",
+      "INR": "173.48",
+      "MYR": "7.35",
+      "PHP": "110.97",
       "AED": "6.61"
     }
   },
@@ -3131,10 +3131,10 @@
       "NZD": "15.41",
       "SGD": "11.62",
       "HKD": "70.56",
-      "ZAR": "148.53",
-      "INR": "867.69",
-      "MYR": "36.72",
-      "PHP": "555.05",
+      "ZAR": "148.52",
+      "INR": "867.41",
+      "MYR": "36.73",
+      "PHP": "554.87",
       "AED": "33.05"
     }
   },
@@ -3162,9 +3162,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     }
   },
@@ -3193,9 +3193,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     }
   },
@@ -3222,13 +3222,109 @@
       "NZD": "3.77",
       "SGD": "2.84",
       "HKD": "17.25",
-      "ZAR": "36.31",
-      "INR": "212.10",
+      "ZAR": "36.30",
+      "INR": "212.03",
       "MYR": "8.98",
-      "PHP": "135.68",
+      "PHP": "135.63",
       "AED": "8.08"
     },
     "evaluations": []
+  },
+  {
+    "id": "10538189",
+    "title": "Christmas Homework Passes",
+    "link": "https://ciarasclassroom.com/product/Christmas-Homework-Passes-10538189",
+    "description": "<p>Add a dash of seasonal joy to your classroom routine with our Christmas Homework Passes!  This set of ten festive homework passes bring a touch of Christmas excitement to your classroom throughout December.  The set includes options with and without lines to guide cutting.</p><p></p><p>Use these Christmas homework passes strategically as a classroom reward system. Whether acknowledging good behavior, encouraging participation, or celebrating progress/achievements, these seasonal homework passes make your classroom management a breeze. It's a simple yet powerful way to infuse positivity and motivation into your teaching environment.</p><p></p><p>If you would like to see some of the other resources that I love using with my students, check out my instagram account at <a href=\"https://www.instagram.com/ciarasclassroom/\">@ciarasclassroom</a>.</p><p></p><p><em>Also, I would really appreciate it if you could leave a review for this product on my store. Your feedback will help me to continue to make helpful resources for you and your students. You can also earn TpT credit to use towards future purchases on this website!</em></p><p></p><p><strong>Related resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Christmas-Card-Templates-8849297\" target=\"_blank\" rel=\"noreferrer noopener\">Christmas Card Templates</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Christmas-Collaborative-Art-Coloring-Project-10413814\" target=\"_blank\" rel=\"noreferrer noopener\">Christmas Collaborative Art - Coloring Project</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Family-Celebration-Project-6240175\" target=\"_blank\" rel=\"noreferrer noopener\">My Family Celebration Project</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Birthday-Homework-Passes-9380551\" target=\"_blank\" rel=\"noreferrer noopener\">Birthday Homework Passes</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Colorful-Homework-Passes-9367235\" target=\"_blank\" rel=\"noreferrer noopener\">Colorful Homework Passes</a></li></ul><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
+    "descriptionSnippet": "Add a dash of seasonal joy to your classroom routine with our Christmas Homework Passes!  This set of ten festive homework passes bring a touch of Christmas excitement to your classroom throughout December.  The set includes options with and without lines to guide cutting. Use these Christmas homework passes strategically as a classroom reward system. Whether acknowledging good behavior, encouraging participation, or celebrating progress/achievements, these seasonal homework passes make your cla",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/Christmas-Homework-Passes-10538189-1711536821/750f-10538189-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Christmas-Homework-Passes-10538189-1711536821/750f-10538189-2.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Christmas-Homework-Passes-10538189-1711536821/750f-10538189-3.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Christmas-Homework-Passes-10538189-1711536821/750f-10538189-4.jpg"
+    ],
+    "slug": "Christmas-Homework-Passes-10538189",
+    "reviews": 0,
+    "rating": 0,
+    "categories": [],
+    "currencies": {
+      "USD": "1.99",
+      "CAD": "2.79",
+      "GBP": "1.48",
+      "EUR": "1.74",
+      "AUD": "2.85",
+      "NZD": "3.41",
+      "SGD": "2.57",
+      "HKD": "15.60",
+      "ZAR": "32.84",
+      "INR": "191.79",
+      "MYR": "8.12",
+      "PHP": "122.69",
+      "AED": "7.31"
+    }
+  },
+  {
+    "id": "8921174",
+    "title": "Rosa Parks Activities Pack",
+    "link": "https://ciarasclassroom.com/product/Rosa-Parks-Activities-Pack-8921174",
+    "description": "<p><em>People Who Changed the World: </em> Rosa Parks.  </p><p></p><p>Trying to find useful resources for Black History Month? This Rosa Parks Activity Pack includes 28 pages of activities based on Rosa Parks, the mother of the Civil Rights Movement.  The pack includes poetry templates, sheets for recording information, fact file templates, a wordsearch (and solution), scaffolded writing task, a bus craftivity, brainstorming templates and bunting which can be used as a bulletin board banner.</p><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Childrens-Rights-Activities-Bundle-7488005\" target=\"_blank\" rel=\"noreferrer noopener\">Children's Rights Activities Bundle</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Inclusive-Classroom-Posters-for-Celebrating-Diversity-7174795\" target=\"_blank\" rel=\"noreferrer noopener\">Inclusive Classroom Posters for Celebrating Diversity</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Circle-Time-Conversation-Cards-for-Multicultural-Classrooms-5589695\" target=\"_blank\" rel=\"noreferrer noopener\">Circle Time Conversation Cards for Multicultural Classrooms</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Everyone-is-Welcome-Door-Display-Activity-5847028\" target=\"_blank\" rel=\"noreferrer noopener\">Everyone is Welcome Door Display</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/I-Wish-My-Teacher-Knew-Notes-8092854\" target=\"_blank\" rel=\"noreferrer noopener\">I Wish My Teacher Knew Notes</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Identity-Iceberg-7749077\" target=\"_blank\" rel=\"noreferrer noopener\">My Identity Iceberg</a></li></ul><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
+    "descriptionSnippet": "People Who Changed the World:  Rosa Parks.   Trying to find useful resources for Black History Month? This Rosa Parks Activity Pack includes 28 pages of activities based on Rosa Parks, the mother of the Civil Rights Movement.  The pack includes poetry templates, sheets for recording information, fact file templates, a wordsearch (and solution), scaffolded writing task, a bus craftivity, brainstorming templates and bunting which can be used as a bulletin board banner. Other resources you may be i",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/Rosa-Parks-Activities-Pack-8921174-1729435474/750f-8921174-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Rosa-Parks-Activities-Pack-8921174-1729435474/750f-8921174-2.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Rosa-Parks-Activities-Pack-8921174-1729435474/750f-8921174-3.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/Rosa-Parks-Activities-Pack-8921174-1729435474/750f-8921174-4.jpg"
+    ],
+    "slug": "Rosa-Parks-Activities-Pack-8921174",
+    "reviews": 0,
+    "rating": 0,
+    "categories": [],
+    "currencies": {
+      "USD": "3.50",
+      "CAD": "4.91",
+      "GBP": "2.60",
+      "EUR": "3.06",
+      "AUD": "5.01",
+      "NZD": "5.99",
+      "SGD": "4.52",
+      "HKD": "27.44",
+      "ZAR": "57.76",
+      "INR": "337.33",
+      "MYR": "14.28",
+      "PHP": "215.78",
+      "AED": "12.85"
+    }
+  },
+  {
+    "id": "5939911",
+    "title": "Buddhism Research Templates",
+    "link": "https://ciarasclassroom.com/product/Buddhism-Research-Templates-5939911",
+    "description": "<p>These research templates would be perfect for exploring Buddhism as a World Religion with your students.  Each research template is available in both colored and black and white versions, allowing for flexibility and customization. With this Buddhism resource pack, students can delve into research, expand their knowledge, and develop their writing skills while exploring the figures, objects, and traditions that shape Buddhism worldwide.</p><p></p><p>The Buddhism KWL chart and graphic organizer provide a structured framework for inquiry, while sheets on topics such as Meditation, the Buddhist Endless Knot, Buddhist Flag, Gautama Buddha, Mount Kailash, Lotus Flower, Mani Stones, Dharma Wheel, Enso Circle, Buddhist Temples, and more offer valuable insights into the rich tapestry of Buddhism. Encourage comparative analysis with the \"Similarities and Differences between Buddhism and _____\" sheet, inviting students to draw connections with other world religions.</p><p></p><p><strong>Product includes:</strong></p><ul><li><strong>Buddhism KWL Chart:</strong> Encourage active learning as students document what they know, what they want to know, and what they have learned about Buddhism.</li><li><strong>Buddhism Graphic Organizer: </strong>Organize information and insights with this versatile graphic organizer, featuring five headings or topic areas to delve into different aspects of Buddhism.</li><li><strong>All About Meditation: </strong>Learn about the practice of meditation in Buddhism, its techniques, and its benefits.</li><li><strong>All About the Buddhist Endless Knot: </strong>Explore the symbolism and meaning behind the beautiful and intricate Buddhist symbol.</li><li><strong>All About the Buddhist Flag:</strong> Discover the significance of the colorful flag that represents Buddhism.</li><li><strong>All About Gautama Buddha: </strong>Gain insights into the life, teachings, and enlightenment of Siddhartha Gautama, the founder of Buddhism.</li><li><strong>All About Mount Kailash:</strong> Explore the sacred mountain revered in Buddhism and other religions.</li><li><strong>All About the Lotus Flower:</strong> Discover the symbolism and spiritual significance of the lotus flower in Buddhism.</li><li><strong>All About Mani Stones:</strong> Learn about the inscribed stones found in Buddhist regions and their cultural significance.</li><li><strong>All About the Dharma Wheel: </strong>Explore the symbolism and meaning of the Dharma Wheel, representing the teachings of the Buddha.</li><li><strong>All About the Enso Circle: </strong>Discover the art of the Zen Buddhist circle and its representation of enlightenment and the imperfections of existence.</li><li><strong>All About Buddhist Temples: </strong>Learn about the architecture, rituals, and practices associated with Buddhist temples.</li><li><strong>Symbols of Buddhism: </strong>Identify and explore the important symbols that represent Buddhism.</li><li><strong>Similarities and Differences between Buddhism and _____:</strong> Foster critical thinking by encouraging students to compare Buddhism with another world religion they are familiar with.</li></ul><p></p><p>If you would like to see some of the other resources that I love using with my students, check out my instagram account at <a href=\"https://www.instagram.com/ciarasclassroom/\">@ciarasclassroom</a>.</p><p></p><p><em>Also, I would really appreciate it if you could leave a review for this product on my store. Your feedback will help me to continue to make helpful resources for you and your students. You can also earn TpT credit to use towards future purchases on this website!</em></p><p></p><p><strong>Other World Religion resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/World-Religion-Christianity-Research-and-Written-Activities-Pack-5936430\" target=\"_blank\" rel=\"noreferrer noopener\">World Religion: Christianity Research and Written Activities Pack</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/World-Religion-Hinduism-Research-and-Written-Activities-Pack-6216380\" target=\"_blank\" rel=\"noreferrer noopener\">World Religion: Hinduism Research and Written Activities Pack</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/World-Religion-Judaism-Research-and-Written-Activities-Pack-6202039\" target=\"_blank\" rel=\"noreferrer noopener\">World Religion: Judaism Research and Written Activities Pack</a></li></ul><p></p><p><br />*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login). </li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product. </li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases. </li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store.  &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
+    "descriptionSnippet": "These research templates would be perfect for exploring Buddhism as a World Religion with your students.  Each research template is available in both colored and black and white versions, allowing for flexibility and customization. With this Buddhism resource pack, students can delve into research, expand their knowledge, and develop their writing skills while exploring the figures, objects, and traditions that shape Buddhism worldwide. The Buddhism KWL chart and graphic organizer provide a stru",
+    "images": [
+      "https://ecdn.teacherspayteachers.com/thumbitem/World-Religion-Buddhism-Written-Activities-Pack-5939911-1689766291/750f-5939911-1.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/World-Religion-Buddhism-Written-Activities-Pack-5939911-1689766291/750f-5939911-2.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/World-Religion-Buddhism-Written-Activities-Pack-5939911-1689766291/750f-5939911-3.jpg",
+      "https://ecdn.teacherspayteachers.com/thumbitem/World-Religion-Buddhism-Written-Activities-Pack-5939911-1689766291/750f-5939911-4.jpg"
+    ],
+    "slug": "Buddhism-Research-Templates-5939911",
+    "reviews": 0,
+    "rating": 0,
+    "categories": [],
+    "currencies": {
+      "USD": "3.00",
+      "CAD": "4.21",
+      "GBP": "2.23",
+      "EUR": "2.62",
+      "AUD": "4.30",
+      "NZD": "5.14",
+      "SGD": "3.87",
+      "HKD": "23.52",
+      "ZAR": "49.51",
+      "INR": "289.14",
+      "MYR": "12.24",
+      "PHP": "184.96",
+      "AED": "11.02"
+    }
   },
   {
     "id": "7729080",
@@ -3261,102 +3357,6 @@
     "evaluations": []
   },
   {
-    "id": "10538189",
-    "title": "Christmas Homework Passes",
-    "link": "https://ciarasclassroom.com/product/Christmas-Homework-Passes-10538189",
-    "description": "<p>Add a dash of seasonal joy to your classroom routine with our Christmas Homework Passes!  This set of ten festive homework passes bring a touch of Christmas excitement to your classroom throughout December.  The set includes options with and without lines to guide cutting.</p><p></p><p>Use these Christmas homework passes strategically as a classroom reward system. Whether acknowledging good behavior, encouraging participation, or celebrating progress/achievements, these seasonal homework passes make your classroom management a breeze. It's a simple yet powerful way to infuse positivity and motivation into your teaching environment.</p><p></p><p>If you would like to see some of the other resources that I love using with my students, check out my instagram account at <a href=\"https://www.instagram.com/ciarasclassroom/\">@ciarasclassroom</a>.</p><p></p><p><em>Also, I would really appreciate it if you could leave a review for this product on my store. Your feedback will help me to continue to make helpful resources for you and your students. You can also earn TpT credit to use towards future purchases on this website!</em></p><p></p><p><strong>Related resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Christmas-Card-Templates-8849297\" target=\"_blank\" rel=\"noreferrer noopener\">Christmas Card Templates</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Christmas-Collaborative-Art-Coloring-Project-10413814\" target=\"_blank\" rel=\"noreferrer noopener\">Christmas Collaborative Art - Coloring Project</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Family-Celebration-Project-6240175\" target=\"_blank\" rel=\"noreferrer noopener\">My Family Celebration Project</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Birthday-Homework-Passes-9380551\" target=\"_blank\" rel=\"noreferrer noopener\">Birthday Homework Passes</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Colorful-Homework-Passes-9367235\" target=\"_blank\" rel=\"noreferrer noopener\">Colorful Homework Passes</a></li></ul><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
-    "descriptionSnippet": "Add a dash of seasonal joy to your classroom routine with our Christmas Homework Passes!  This set of ten festive homework passes bring a touch of Christmas excitement to your classroom throughout December.  The set includes options with and without lines to guide cutting. Use these Christmas homework passes strategically as a classroom reward system. Whether acknowledging good behavior, encouraging participation, or celebrating progress/achievements, these seasonal homework passes make your cla",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/Christmas-Homework-Passes-10538189-1711536821/750f-10538189-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Christmas-Homework-Passes-10538189-1711536821/750f-10538189-2.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Christmas-Homework-Passes-10538189-1711536821/750f-10538189-3.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Christmas-Homework-Passes-10538189-1711536821/750f-10538189-4.jpg"
-    ],
-    "slug": "Christmas-Homework-Passes-10538189",
-    "reviews": 0,
-    "rating": 0,
-    "categories": [],
-    "currencies": {
-      "USD": "1.99",
-      "CAD": "2.79",
-      "GBP": "1.48",
-      "EUR": "1.74",
-      "AUD": "2.85",
-      "NZD": "3.41",
-      "SGD": "2.57",
-      "HKD": "15.60",
-      "ZAR": "32.84",
-      "INR": "191.86",
-      "MYR": "8.12",
-      "PHP": "122.73",
-      "AED": "7.31"
-    }
-  },
-  {
-    "id": "8921174",
-    "title": "Rosa Parks Activities Pack",
-    "link": "https://ciarasclassroom.com/product/Rosa-Parks-Activities-Pack-8921174",
-    "description": "<p><em>People Who Changed the World: </em> Rosa Parks.  </p><p></p><p>Trying to find useful resources for Black History Month? This Rosa Parks Activity Pack includes 28 pages of activities based on Rosa Parks, the mother of the Civil Rights Movement.  The pack includes poetry templates, sheets for recording information, fact file templates, a wordsearch (and solution), scaffolded writing task, a bus craftivity, brainstorming templates and bunting which can be used as a bulletin board banner.</p><p></p><p><strong>Other resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/Childrens-Rights-Activities-Bundle-7488005\" target=\"_blank\" rel=\"noreferrer noopener\">Children's Rights Activities Bundle</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Inclusive-Classroom-Posters-for-Celebrating-Diversity-7174795\" target=\"_blank\" rel=\"noreferrer noopener\">Inclusive Classroom Posters for Celebrating Diversity</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Circle-Time-Conversation-Cards-for-Multicultural-Classrooms-5589695\" target=\"_blank\" rel=\"noreferrer noopener\">Circle Time Conversation Cards for Multicultural Classrooms</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/Everyone-is-Welcome-Door-Display-Activity-5847028\" target=\"_blank\" rel=\"noreferrer noopener\">Everyone is Welcome Door Display</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/I-Wish-My-Teacher-Knew-Notes-8092854\" target=\"_blank\" rel=\"noreferrer noopener\">I Wish My Teacher Knew Notes</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/My-Identity-Iceberg-7749077\" target=\"_blank\" rel=\"noreferrer noopener\">My Identity Iceberg</a></li></ul><p></p><p>*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login).</li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product.</li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases.</li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store. &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
-    "descriptionSnippet": "People Who Changed the World:  Rosa Parks.   Trying to find useful resources for Black History Month? This Rosa Parks Activity Pack includes 28 pages of activities based on Rosa Parks, the mother of the Civil Rights Movement.  The pack includes poetry templates, sheets for recording information, fact file templates, a wordsearch (and solution), scaffolded writing task, a bus craftivity, brainstorming templates and bunting which can be used as a bulletin board banner. Other resources you may be i",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/Rosa-Parks-Activities-Pack-8921174-1729435474/750f-8921174-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Rosa-Parks-Activities-Pack-8921174-1729435474/750f-8921174-2.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Rosa-Parks-Activities-Pack-8921174-1729435474/750f-8921174-3.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/Rosa-Parks-Activities-Pack-8921174-1729435474/750f-8921174-4.jpg"
-    ],
-    "slug": "Rosa-Parks-Activities-Pack-8921174",
-    "reviews": 0,
-    "rating": 0,
-    "categories": [],
-    "currencies": {
-      "USD": "3.50",
-      "CAD": "4.91",
-      "GBP": "2.60",
-      "EUR": "3.06",
-      "AUD": "5.01",
-      "NZD": "5.99",
-      "SGD": "4.52",
-      "HKD": "27.44",
-      "ZAR": "57.76",
-      "INR": "337.44",
-      "MYR": "14.28",
-      "PHP": "215.85",
-      "AED": "12.85"
-    }
-  },
-  {
-    "id": "5939911",
-    "title": "Buddhism Research Templates",
-    "link": "https://ciarasclassroom.com/product/Buddhism-Research-Templates-5939911",
-    "description": "<p>These research templates would be perfect for exploring Buddhism as a World Religion with your students.  Each research template is available in both colored and black and white versions, allowing for flexibility and customization. With this Buddhism resource pack, students can delve into research, expand their knowledge, and develop their writing skills while exploring the figures, objects, and traditions that shape Buddhism worldwide.</p><p></p><p>The Buddhism KWL chart and graphic organizer provide a structured framework for inquiry, while sheets on topics such as Meditation, the Buddhist Endless Knot, Buddhist Flag, Gautama Buddha, Mount Kailash, Lotus Flower, Mani Stones, Dharma Wheel, Enso Circle, Buddhist Temples, and more offer valuable insights into the rich tapestry of Buddhism. Encourage comparative analysis with the \"Similarities and Differences between Buddhism and _____\" sheet, inviting students to draw connections with other world religions.</p><p></p><p><strong>Product includes:</strong></p><ul><li><strong>Buddhism KWL Chart:</strong> Encourage active learning as students document what they know, what they want to know, and what they have learned about Buddhism.</li><li><strong>Buddhism Graphic Organizer: </strong>Organize information and insights with this versatile graphic organizer, featuring five headings or topic areas to delve into different aspects of Buddhism.</li><li><strong>All About Meditation: </strong>Learn about the practice of meditation in Buddhism, its techniques, and its benefits.</li><li><strong>All About the Buddhist Endless Knot: </strong>Explore the symbolism and meaning behind the beautiful and intricate Buddhist symbol.</li><li><strong>All About the Buddhist Flag:</strong> Discover the significance of the colorful flag that represents Buddhism.</li><li><strong>All About Gautama Buddha: </strong>Gain insights into the life, teachings, and enlightenment of Siddhartha Gautama, the founder of Buddhism.</li><li><strong>All About Mount Kailash:</strong> Explore the sacred mountain revered in Buddhism and other religions.</li><li><strong>All About the Lotus Flower:</strong> Discover the symbolism and spiritual significance of the lotus flower in Buddhism.</li><li><strong>All About Mani Stones:</strong> Learn about the inscribed stones found in Buddhist regions and their cultural significance.</li><li><strong>All About the Dharma Wheel: </strong>Explore the symbolism and meaning of the Dharma Wheel, representing the teachings of the Buddha.</li><li><strong>All About the Enso Circle: </strong>Discover the art of the Zen Buddhist circle and its representation of enlightenment and the imperfections of existence.</li><li><strong>All About Buddhist Temples: </strong>Learn about the architecture, rituals, and practices associated with Buddhist temples.</li><li><strong>Symbols of Buddhism: </strong>Identify and explore the important symbols that represent Buddhism.</li><li><strong>Similarities and Differences between Buddhism and _____:</strong> Foster critical thinking by encouraging students to compare Buddhism with another world religion they are familiar with.</li></ul><p></p><p>If you would like to see some of the other resources that I love using with my students, check out my instagram account at <a href=\"https://www.instagram.com/ciarasclassroom/\">@ciarasclassroom</a>.</p><p></p><p><em>Also, I would really appreciate it if you could leave a review for this product on my store. Your feedback will help me to continue to make helpful resources for you and your students. You can also earn TpT credit to use towards future purchases on this website!</em></p><p></p><p><strong>Other World Religion resources you may be interested in:</strong></p><ul><li><a href=\"https://www.teacherspayteachers.com/Product/World-Religion-Christianity-Research-and-Written-Activities-Pack-5936430\" target=\"_blank\" rel=\"noreferrer noopener\">World Religion: Christianity Research and Written Activities Pack</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/World-Religion-Hinduism-Research-and-Written-Activities-Pack-6216380\" target=\"_blank\" rel=\"noreferrer noopener\">World Religion: Hinduism Research and Written Activities Pack</a></li><li><a href=\"https://www.teacherspayteachers.com/Product/World-Religion-Judaism-Research-and-Written-Activities-Pack-6202039\" target=\"_blank\" rel=\"noreferrer noopener\">World Religion: Judaism Research and Written Activities Pack</a></li></ul><p></p><p><br />*****************************************************************************</p><p><strong>Customer Tips:</strong></p><p><em>How to get TPT credit to use on future purchases:</em></p><ul><li>Go to your '<em>My Purchases' </em>page (you may need to login). </li><li>Beside each purchase you'll see a '<em>Provide Feedback' </em>button. Simply click it and you will be taken to a page where you can give a quick rating and leave a short comment for the product. </li><li>Each time you give feedback, TPT gives you feedback credits that you use to lower the cost of your future purchases. </li></ul><p></p><p><em>Be the first to know about my new discounts, freebies and product launches by following my store.  &gt;&gt;&gt;&gt; <a href=\"https://www.teacherspayteachers.com/Sellers-Im-Following/Add/Ciaras-Classroom\" target=\"_blank\" rel=\"noreferrer noopener\">Click Here!</a></em></p><!-- New description editor -->",
-    "descriptionSnippet": "These research templates would be perfect for exploring Buddhism as a World Religion with your students.  Each research template is available in both colored and black and white versions, allowing for flexibility and customization. With this Buddhism resource pack, students can delve into research, expand their knowledge, and develop their writing skills while exploring the figures, objects, and traditions that shape Buddhism worldwide. The Buddhism KWL chart and graphic organizer provide a stru",
-    "images": [
-      "https://ecdn.teacherspayteachers.com/thumbitem/World-Religion-Buddhism-Written-Activities-Pack-5939911-1689766291/750f-5939911-1.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/World-Religion-Buddhism-Written-Activities-Pack-5939911-1689766291/750f-5939911-2.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/World-Religion-Buddhism-Written-Activities-Pack-5939911-1689766291/750f-5939911-3.jpg",
-      "https://ecdn.teacherspayteachers.com/thumbitem/World-Religion-Buddhism-Written-Activities-Pack-5939911-1689766291/750f-5939911-4.jpg"
-    ],
-    "slug": "Buddhism-Research-Templates-5939911",
-    "reviews": 0,
-    "rating": 0,
-    "categories": [],
-    "currencies": {
-      "USD": "3.00",
-      "CAD": "4.21",
-      "GBP": "2.23",
-      "EUR": "2.62",
-      "AUD": "4.30",
-      "NZD": "5.14",
-      "SGD": "3.87",
-      "HKD": "23.52",
-      "ZAR": "49.51",
-      "INR": "289.23",
-      "MYR": "12.24",
-      "PHP": "185.02",
-      "AED": "11.02"
-    }
-  },
-  {
     "id": "12096300",
     "title": "Fáilte go Rang a hAon - Collaborative Art Project",
     "link": "https://ciarasclassroom.com/product/Failte-go-Rang-a-hAon-Collaborative-Art-Project-12096300",
@@ -3379,12 +3379,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     }
   },
@@ -3406,17 +3406,17 @@
     "categories": [],
     "currencies": {
       "USD": "12.00",
-      "CAD": "16.82",
+      "CAD": "16.83",
       "GBP": "8.93",
       "EUR": "10.49",
       "AUD": "17.19",
       "NZD": "20.54",
-      "SGD": "15.50",
+      "SGD": "15.49",
       "HKD": "94.08",
-      "ZAR": "198.04",
-      "INR": "1156.92",
-      "MYR": "48.96",
-      "PHP": "740.06",
+      "ZAR": "198.02",
+      "INR": "1156.55",
+      "MYR": "48.97",
+      "PHP": "739.82",
       "AED": "44.07"
     }
   },
@@ -3446,9 +3446,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -3477,9 +3477,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -3507,9 +3507,9 @@
       "SGD": "1.94",
       "HKD": "11.76",
       "ZAR": "24.75",
-      "INR": "144.62",
+      "INR": "144.57",
       "MYR": "6.12",
-      "PHP": "92.51",
+      "PHP": "92.48",
       "AED": "5.51"
     }
   },
@@ -3536,12 +3536,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     },
     "evaluations": []
@@ -3571,10 +3571,10 @@
       "NZD": "3.42",
       "SGD": "2.58",
       "HKD": "15.68",
-      "ZAR": "33.01",
-      "INR": "192.82",
+      "ZAR": "33.00",
+      "INR": "192.76",
       "MYR": "8.16",
-      "PHP": "123.34",
+      "PHP": "123.30",
       "AED": "7.34"
     },
     "evaluations": []
@@ -3604,10 +3604,10 @@
       "NZD": "19.69",
       "SGD": "14.85",
       "HKD": "90.16",
-      "ZAR": "189.79",
-      "INR": "1108.72",
-      "MYR": "46.92",
-      "PHP": "709.23",
+      "ZAR": "189.77",
+      "INR": "1108.36",
+      "MYR": "46.93",
+      "PHP": "709.00",
       "AED": "42.23"
     }
   },
@@ -3637,9 +3637,9 @@
       "SGD": "2.26",
       "HKD": "13.72",
       "ZAR": "28.88",
-      "INR": "168.72",
+      "INR": "168.66",
       "MYR": "7.14",
-      "PHP": "107.93",
+      "PHP": "107.89",
       "AED": "6.43"
     },
     "evaluations": []
@@ -3667,9 +3667,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -3697,11 +3697,11 @@
       "AUD": "7.38",
       "NZD": "8.82",
       "SGD": "6.65",
-      "HKD": "40.37",
-      "ZAR": "84.99",
-      "INR": "496.51",
-      "MYR": "21.01",
-      "PHP": "317.61",
+      "HKD": "40.38",
+      "ZAR": "84.98",
+      "INR": "496.35",
+      "MYR": "21.02",
+      "PHP": "317.51",
       "AED": "18.91"
     }
   },
@@ -3730,10 +3730,10 @@
       "NZD": "7.10",
       "SGD": "5.36",
       "HKD": "32.54",
-      "ZAR": "68.49",
-      "INR": "400.10",
-      "MYR": "16.93",
-      "PHP": "255.94",
+      "ZAR": "68.48",
+      "INR": "399.97",
+      "MYR": "16.94",
+      "PHP": "255.85",
       "AED": "15.24"
     }
   },
@@ -3755,17 +3755,17 @@
     "categories": [],
     "currencies": {
       "USD": "2.60",
-      "CAD": "3.64",
+      "CAD": "3.65",
       "GBP": "1.93",
       "EUR": "2.27",
       "AUD": "3.72",
       "NZD": "4.45",
       "SGD": "3.36",
       "HKD": "20.38",
-      "ZAR": "42.91",
-      "INR": "250.67",
+      "ZAR": "42.90",
+      "INR": "250.59",
       "MYR": "10.61",
-      "PHP": "160.35",
+      "PHP": "160.29",
       "AED": "9.55"
     }
   },
@@ -3795,9 +3795,9 @@
       "SGD": "2.91",
       "HKD": "17.64",
       "ZAR": "37.13",
-      "INR": "216.92",
+      "INR": "216.85",
       "MYR": "9.18",
-      "PHP": "138.76",
+      "PHP": "138.72",
       "AED": "8.26"
     }
   },
@@ -3827,9 +3827,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     }
   },
@@ -3858,9 +3858,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     },
     "evaluations": []
@@ -3890,10 +3890,10 @@
       "NZD": "13.85",
       "SGD": "10.45",
       "HKD": "63.42",
-      "ZAR": "133.51",
-      "INR": "779.96",
-      "MYR": "33.01",
-      "PHP": "498.93",
+      "ZAR": "133.50",
+      "INR": "779.71",
+      "MYR": "33.02",
+      "PHP": "498.76",
       "AED": "29.71"
     }
   },
@@ -3922,10 +3922,10 @@
       "NZD": "11.54",
       "SGD": "8.70",
       "HKD": "52.84",
-      "ZAR": "111.23",
-      "INR": "649.80",
-      "MYR": "27.50",
-      "PHP": "415.67",
+      "ZAR": "111.22",
+      "INR": "649.60",
+      "MYR": "27.51",
+      "PHP": "415.53",
       "AED": "24.75"
     }
   },
@@ -3955,9 +3955,9 @@
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "19.80",
-      "INR": "115.69",
+      "INR": "115.66",
       "MYR": "4.90",
-      "PHP": "74.01",
+      "PHP": "73.98",
       "AED": "4.41"
     }
   },
@@ -3987,9 +3987,9 @@
       "SGD": "4.52",
       "HKD": "27.44",
       "ZAR": "57.76",
-      "INR": "337.44",
+      "INR": "337.33",
       "MYR": "14.28",
-      "PHP": "215.85",
+      "PHP": "215.78",
       "AED": "12.85"
     }
   },
@@ -4018,10 +4018,10 @@
       "NZD": "13.68",
       "SGD": "10.32",
       "HKD": "62.64",
-      "ZAR": "131.86",
-      "INR": "770.32",
-      "MYR": "32.60",
-      "PHP": "492.76",
+      "ZAR": "131.85",
+      "INR": "770.07",
+      "MYR": "32.61",
+      "PHP": "492.60",
       "AED": "29.34"
     }
   },
@@ -4050,10 +4050,10 @@
       "NZD": "12.82",
       "SGD": "9.67",
       "HKD": "58.72",
-      "ZAR": "123.61",
-      "INR": "722.11",
-      "MYR": "30.56",
-      "PHP": "461.92",
+      "ZAR": "123.60",
+      "INR": "721.88",
+      "MYR": "30.57",
+      "PHP": "461.77",
       "AED": "27.51"
     }
   },
@@ -4081,9 +4081,9 @@
       "SGD": "10.33",
       "HKD": "62.72",
       "ZAR": "132.02",
-      "INR": "771.28",
-      "MYR": "32.64",
-      "PHP": "493.38",
+      "INR": "771.03",
+      "MYR": "32.65",
+      "PHP": "493.21",
       "AED": "29.38"
     }
   },
@@ -4113,9 +4113,9 @@
       "SGD": "4.26",
       "HKD": "25.87",
       "ZAR": "54.46",
-      "INR": "318.15",
-      "MYR": "13.46",
-      "PHP": "203.52",
+      "INR": "318.05",
+      "MYR": "13.47",
+      "PHP": "203.45",
       "AED": "12.12"
     }
   },
@@ -4144,9 +4144,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     }
   },
@@ -4175,10 +4175,10 @@
       "NZD": "5.56",
       "SGD": "4.20",
       "HKD": "25.48",
-      "ZAR": "53.64",
-      "INR": "313.33",
+      "ZAR": "53.63",
+      "INR": "313.23",
       "MYR": "13.26",
-      "PHP": "200.43",
+      "PHP": "200.37",
       "AED": "11.94"
     }
   },
@@ -4207,10 +4207,10 @@
       "NZD": "5.56",
       "SGD": "4.20",
       "HKD": "25.48",
-      "ZAR": "53.64",
-      "INR": "313.33",
+      "ZAR": "53.63",
+      "INR": "313.23",
       "MYR": "13.26",
-      "PHP": "200.43",
+      "PHP": "200.37",
       "AED": "11.94"
     }
   },
@@ -4240,9 +4240,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -4272,9 +4272,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -4304,9 +4304,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -4335,10 +4335,10 @@
       "NZD": "11.95",
       "SGD": "9.01",
       "HKD": "54.72",
-      "ZAR": "115.19",
-      "INR": "672.94",
-      "MYR": "28.48",
-      "PHP": "430.47",
+      "ZAR": "115.18",
+      "INR": "672.73",
+      "MYR": "28.49",
+      "PHP": "430.33",
       "AED": "25.63"
     }
   },
@@ -4368,9 +4368,9 @@
       "SGD": "4.13",
       "HKD": "25.09",
       "ZAR": "52.81",
-      "INR": "308.51",
+      "INR": "308.41",
       "MYR": "13.06",
-      "PHP": "197.35",
+      "PHP": "197.29",
       "AED": "11.75"
     }
   },
@@ -4400,9 +4400,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     }
   },
@@ -4431,10 +4431,10 @@
       "NZD": "11.88",
       "SGD": "8.96",
       "HKD": "54.41",
-      "ZAR": "114.53",
-      "INR": "669.09",
+      "ZAR": "114.52",
+      "INR": "668.87",
       "MYR": "28.32",
-      "PHP": "428.00",
+      "PHP": "427.86",
       "AED": "25.49"
     }
   },
@@ -4462,9 +4462,9 @@
       "SGD": "1.94",
       "HKD": "11.76",
       "ZAR": "24.75",
-      "INR": "144.62",
+      "INR": "144.57",
       "MYR": "6.12",
-      "PHP": "92.51",
+      "PHP": "92.48",
       "AED": "5.51"
     }
   },
@@ -4494,9 +4494,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -4526,9 +4526,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -4558,9 +4558,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -4588,9 +4588,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -4618,9 +4618,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -4650,9 +4650,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -4681,9 +4681,9 @@
       "SGD": "2.39",
       "HKD": "14.50",
       "ZAR": "30.53",
-      "INR": "178.36",
+      "INR": "178.30",
       "MYR": "7.55",
-      "PHP": "114.09",
+      "PHP": "114.06",
       "AED": "6.79"
     }
   },
@@ -4711,9 +4711,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "16.50",
-      "INR": "96.41",
+      "INR": "96.38",
       "MYR": "4.08",
-      "PHP": "61.67",
+      "PHP": "61.65",
       "AED": "3.67"
     },
     "evaluations": []
@@ -4743,10 +4743,10 @@
       "NZD": "8.56",
       "SGD": "6.46",
       "HKD": "39.20",
-      "ZAR": "82.52",
-      "INR": "482.05",
-      "MYR": "20.40",
-      "PHP": "308.36",
+      "ZAR": "82.51",
+      "INR": "481.90",
+      "MYR": "20.41",
+      "PHP": "308.26",
       "AED": "18.36"
     }
   },
@@ -4773,12 +4773,12 @@
       "EUR": "6.20",
       "AUD": "10.15",
       "NZD": "12.14",
-      "SGD": "9.16",
+      "SGD": "9.15",
       "HKD": "55.58",
-      "ZAR": "117.01",
-      "INR": "683.55",
+      "ZAR": "117.00",
+      "INR": "683.33",
       "MYR": "28.93",
-      "PHP": "437.25",
+      "PHP": "437.11",
       "AED": "26.04"
     }
   },
@@ -4807,10 +4807,10 @@
       "NZD": "9.89",
       "SGD": "7.46",
       "HKD": "45.31",
-      "ZAR": "95.39",
-      "INR": "557.25",
-      "MYR": "23.58",
-      "PHP": "356.46",
+      "ZAR": "95.38",
+      "INR": "557.07",
+      "MYR": "23.59",
+      "PHP": "356.35",
       "AED": "21.23"
     }
   },
@@ -4835,14 +4835,14 @@
       "CAD": "9.81",
       "GBP": "5.21",
       "EUR": "6.12",
-      "AUD": "10.03",
+      "AUD": "10.02",
       "NZD": "11.98",
       "SGD": "9.04",
       "HKD": "54.88",
-      "ZAR": "115.52",
-      "INR": "674.87",
-      "MYR": "28.56",
-      "PHP": "431.70",
+      "ZAR": "115.51",
+      "INR": "674.66",
+      "MYR": "28.57",
+      "PHP": "431.56",
       "AED": "25.71"
     }
   },
@@ -4870,9 +4870,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     }
   },
@@ -4894,17 +4894,17 @@
     "categories": [],
     "currencies": {
       "USD": "2.50",
-      "CAD": "3.50",
+      "CAD": "3.51",
       "GBP": "1.86",
       "EUR": "2.19",
       "AUD": "3.58",
       "NZD": "4.28",
       "SGD": "3.23",
       "HKD": "19.60",
-      "ZAR": "41.26",
-      "INR": "241.03",
+      "ZAR": "41.25",
+      "INR": "240.95",
       "MYR": "10.20",
-      "PHP": "154.18",
+      "PHP": "154.13",
       "AED": "9.18"
     }
   },
@@ -4926,17 +4926,17 @@
     "categories": [],
     "currencies": {
       "USD": "2.50",
-      "CAD": "3.50",
+      "CAD": "3.51",
       "GBP": "1.86",
       "EUR": "2.19",
       "AUD": "3.58",
       "NZD": "4.28",
       "SGD": "3.23",
       "HKD": "19.60",
-      "ZAR": "41.26",
-      "INR": "241.03",
+      "ZAR": "41.25",
+      "INR": "240.95",
       "MYR": "10.20",
-      "PHP": "154.18",
+      "PHP": "154.13",
       "AED": "9.18"
     }
   },
@@ -4963,12 +4963,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     }
   },
@@ -4995,12 +4995,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     }
   },
@@ -5027,12 +5027,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     }
   },
@@ -5061,10 +5061,10 @@
       "NZD": "8.73",
       "SGD": "6.59",
       "HKD": "39.98",
-      "ZAR": "84.17",
-      "INR": "491.69",
+      "ZAR": "84.16",
+      "INR": "491.53",
       "MYR": "20.81",
-      "PHP": "314.53",
+      "PHP": "314.42",
       "AED": "18.73"
     }
   },
@@ -5091,12 +5091,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     }
   },
@@ -5123,12 +5123,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     }
   },
@@ -5155,12 +5155,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     }
   },
@@ -5187,12 +5187,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     }
   },
@@ -5219,12 +5219,12 @@
       "EUR": "3.50",
       "AUD": "5.73",
       "NZD": "6.85",
-      "SGD": "5.17",
+      "SGD": "5.16",
       "HKD": "31.36",
       "ZAR": "66.01",
-      "INR": "385.64",
+      "INR": "385.52",
       "MYR": "16.32",
-      "PHP": "246.69",
+      "PHP": "246.61",
       "AED": "14.69"
     }
   },
@@ -5253,10 +5253,10 @@
       "NZD": "8.54",
       "SGD": "6.44",
       "HKD": "39.12",
-      "ZAR": "82.35",
-      "INR": "481.09",
+      "ZAR": "82.34",
+      "INR": "480.93",
       "MYR": "20.36",
-      "PHP": "307.74",
+      "PHP": "307.64",
       "AED": "18.33"
     }
   },
@@ -5283,9 +5283,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     }
   },
@@ -5313,9 +5313,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     },
     "evaluations": []
@@ -5346,9 +5346,9 @@
       "SGD": "4.52",
       "HKD": "27.44",
       "ZAR": "57.76",
-      "INR": "337.44",
+      "INR": "337.33",
       "MYR": "14.28",
-      "PHP": "215.85",
+      "PHP": "215.78",
       "AED": "12.85"
     }
   },
@@ -5377,9 +5377,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -5408,10 +5408,10 @@
       "NZD": "3.42",
       "SGD": "2.58",
       "HKD": "15.68",
-      "ZAR": "33.01",
-      "INR": "192.82",
+      "ZAR": "33.00",
+      "INR": "192.76",
       "MYR": "8.16",
-      "PHP": "123.34",
+      "PHP": "123.30",
       "AED": "7.34"
     }
   },
@@ -5441,9 +5441,9 @@
       "SGD": "4.52",
       "HKD": "27.44",
       "ZAR": "57.76",
-      "INR": "337.44",
+      "INR": "337.33",
       "MYR": "14.28",
-      "PHP": "215.85",
+      "PHP": "215.78",
       "AED": "12.85"
     }
   },
@@ -5473,9 +5473,9 @@
       "SGD": "4.52",
       "HKD": "27.44",
       "ZAR": "57.76",
-      "INR": "337.44",
+      "INR": "337.33",
       "MYR": "14.28",
-      "PHP": "215.85",
+      "PHP": "215.78",
       "AED": "12.85"
     }
   },
@@ -5505,9 +5505,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -5537,9 +5537,9 @@
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "19.80",
-      "INR": "115.69",
+      "INR": "115.66",
       "MYR": "4.90",
-      "PHP": "74.01",
+      "PHP": "73.98",
       "AED": "4.41"
     }
   },
@@ -5569,9 +5569,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -5601,9 +5601,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -5633,9 +5633,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -5665,9 +5665,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -5697,9 +5697,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -5729,9 +5729,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -5761,9 +5761,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -5793,9 +5793,9 @@
       "SGD": "5.09",
       "HKD": "30.89",
       "ZAR": "65.02",
-      "INR": "379.86",
+      "INR": "379.73",
       "MYR": "16.08",
-      "PHP": "242.99",
+      "PHP": "242.91",
       "AED": "14.47"
     }
   },
@@ -5825,9 +5825,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -5857,9 +5857,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -5889,9 +5889,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -5921,9 +5921,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -5953,9 +5953,9 @@
       "SGD": "3.87",
       "HKD": "23.52",
       "ZAR": "49.51",
-      "INR": "289.23",
+      "INR": "289.14",
       "MYR": "12.24",
-      "PHP": "185.02",
+      "PHP": "184.96",
       "AED": "11.02"
     }
   },
@@ -5984,9 +5984,9 @@
       "SGD": "1.94",
       "HKD": "11.76",
       "ZAR": "24.75",
-      "INR": "144.62",
+      "INR": "144.57",
       "MYR": "6.12",
-      "PHP": "92.51",
+      "PHP": "92.48",
       "AED": "5.51"
     },
     "evaluations": []
@@ -6015,9 +6015,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "16.50",
-      "INR": "96.41",
+      "INR": "96.38",
       "MYR": "4.08",
-      "PHP": "61.67",
+      "PHP": "61.65",
       "AED": "3.67"
     }
   },
@@ -6045,9 +6045,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "16.50",
-      "INR": "96.41",
+      "INR": "96.38",
       "MYR": "4.08",
-      "PHP": "61.67",
+      "PHP": "61.65",
       "AED": "3.67"
     }
   },
@@ -6075,9 +6075,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "16.50",
-      "INR": "96.41",
+      "INR": "96.38",
       "MYR": "4.08",
-      "PHP": "61.67",
+      "PHP": "61.65",
       "AED": "3.67"
     }
   },
@@ -6099,17 +6099,17 @@
     "categories": [],
     "currencies": {
       "USD": "2.50",
-      "CAD": "3.50",
+      "CAD": "3.51",
       "GBP": "1.86",
       "EUR": "2.19",
       "AUD": "3.58",
       "NZD": "4.28",
       "SGD": "3.23",
       "HKD": "19.60",
-      "ZAR": "41.26",
-      "INR": "241.03",
+      "ZAR": "41.25",
+      "INR": "240.95",
       "MYR": "10.20",
-      "PHP": "154.18",
+      "PHP": "154.13",
       "AED": "9.18"
     }
   },
@@ -6137,9 +6137,9 @@
       "SGD": "1.94",
       "HKD": "11.76",
       "ZAR": "24.75",
-      "INR": "144.62",
+      "INR": "144.57",
       "MYR": "6.12",
-      "PHP": "92.51",
+      "PHP": "92.48",
       "AED": "5.51"
     }
   },
@@ -6161,17 +6161,17 @@
     "categories": [],
     "currencies": {
       "USD": "2.50",
-      "CAD": "3.50",
+      "CAD": "3.51",
       "GBP": "1.86",
       "EUR": "2.19",
       "AUD": "3.58",
       "NZD": "4.28",
       "SGD": "3.23",
       "HKD": "19.60",
-      "ZAR": "41.26",
-      "INR": "241.03",
+      "ZAR": "41.25",
+      "INR": "240.95",
       "MYR": "10.20",
-      "PHP": "154.18",
+      "PHP": "154.13",
       "AED": "9.18"
     }
   },
@@ -6198,10 +6198,10 @@
       "NZD": "3.42",
       "SGD": "2.58",
       "HKD": "15.68",
-      "ZAR": "33.01",
-      "INR": "192.82",
+      "ZAR": "33.00",
+      "INR": "192.76",
       "MYR": "8.16",
-      "PHP": "123.34",
+      "PHP": "123.30",
       "AED": "7.34"
     }
   },
@@ -6231,9 +6231,9 @@
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "19.80",
-      "INR": "115.69",
+      "INR": "115.66",
       "MYR": "4.90",
-      "PHP": "74.01",
+      "PHP": "73.98",
       "AED": "4.41"
     },
     "evaluations": []
@@ -6264,9 +6264,9 @@
       "SGD": "2.91",
       "HKD": "17.64",
       "ZAR": "37.13",
-      "INR": "216.92",
+      "INR": "216.85",
       "MYR": "9.18",
-      "PHP": "138.76",
+      "PHP": "138.72",
       "AED": "8.26"
     }
   },
@@ -6296,9 +6296,9 @@
       "SGD": "2.91",
       "HKD": "17.64",
       "ZAR": "37.13",
-      "INR": "216.92",
+      "INR": "216.85",
       "MYR": "9.18",
-      "PHP": "138.76",
+      "PHP": "138.72",
       "AED": "8.26"
     }
   },
@@ -6327,9 +6327,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     }
   },
@@ -6358,10 +6358,10 @@
       "NZD": "3.59",
       "SGD": "2.71",
       "HKD": "16.46",
-      "ZAR": "34.66",
-      "INR": "202.46",
+      "ZAR": "34.65",
+      "INR": "202.40",
       "MYR": "8.57",
-      "PHP": "129.51",
+      "PHP": "129.47",
       "AED": "7.71"
     }
   },
@@ -6390,10 +6390,10 @@
       "NZD": "3.59",
       "SGD": "2.71",
       "HKD": "16.46",
-      "ZAR": "34.66",
-      "INR": "202.46",
+      "ZAR": "34.65",
+      "INR": "202.40",
       "MYR": "8.57",
-      "PHP": "129.51",
+      "PHP": "129.47",
       "AED": "7.71"
     }
   },
@@ -6422,10 +6422,10 @@
       "NZD": "3.59",
       "SGD": "2.71",
       "HKD": "16.46",
-      "ZAR": "34.66",
-      "INR": "202.46",
+      "ZAR": "34.65",
+      "INR": "202.40",
       "MYR": "8.57",
-      "PHP": "129.51",
+      "PHP": "129.47",
       "AED": "7.71"
     }
   },
@@ -6454,9 +6454,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     }
   },
@@ -6486,9 +6486,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     }
   },
@@ -6518,9 +6518,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     }
   },
@@ -6549,9 +6549,9 @@
       "SGD": "2.57",
       "HKD": "15.60",
       "ZAR": "32.84",
-      "INR": "191.86",
+      "INR": "191.79",
       "MYR": "8.12",
-      "PHP": "122.73",
+      "PHP": "122.69",
       "AED": "7.31"
     }
   },
@@ -6581,9 +6581,9 @@
       "SGD": "2.52",
       "HKD": "15.29",
       "ZAR": "32.18",
-      "INR": "188.00",
+      "INR": "187.94",
       "MYR": "7.96",
-      "PHP": "120.26",
+      "PHP": "120.22",
       "AED": "7.16"
     }
   },
@@ -6612,10 +6612,10 @@
       "NZD": "3.25",
       "SGD": "2.45",
       "HKD": "14.90",
-      "ZAR": "31.36",
-      "INR": "183.18",
+      "ZAR": "31.35",
+      "INR": "183.12",
       "MYR": "7.75",
-      "PHP": "117.18",
+      "PHP": "117.14",
       "AED": "6.98"
     }
   },
@@ -6642,9 +6642,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "16.50",
-      "INR": "96.41",
+      "INR": "96.38",
       "MYR": "4.08",
-      "PHP": "61.67",
+      "PHP": "61.65",
       "AED": "3.67"
     }
   },
@@ -6673,9 +6673,9 @@
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "19.80",
-      "INR": "115.69",
+      "INR": "115.66",
       "MYR": "4.90",
-      "PHP": "74.01",
+      "PHP": "73.98",
       "AED": "4.41"
     }
   },
@@ -6705,9 +6705,9 @@
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "19.80",
-      "INR": "115.69",
+      "INR": "115.66",
       "MYR": "4.90",
-      "PHP": "74.01",
+      "PHP": "73.98",
       "AED": "4.41"
     }
   },
@@ -6737,9 +6737,9 @@
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "19.80",
-      "INR": "115.69",
+      "INR": "115.66",
       "MYR": "4.90",
-      "PHP": "74.01",
+      "PHP": "73.98",
       "AED": "4.41"
     }
   },
@@ -6769,9 +6769,9 @@
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "19.80",
-      "INR": "115.69",
+      "INR": "115.66",
       "MYR": "4.90",
-      "PHP": "74.01",
+      "PHP": "73.98",
       "AED": "4.41"
     }
   },
@@ -6801,9 +6801,9 @@
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "19.80",
-      "INR": "115.69",
+      "INR": "115.66",
       "MYR": "4.90",
-      "PHP": "74.01",
+      "PHP": "73.98",
       "AED": "4.41"
     }
   },
@@ -6833,9 +6833,9 @@
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "19.80",
-      "INR": "115.69",
+      "INR": "115.66",
       "MYR": "4.90",
-      "PHP": "74.01",
+      "PHP": "73.98",
       "AED": "4.41"
     }
   },
@@ -6865,9 +6865,9 @@
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "19.80",
-      "INR": "115.69",
+      "INR": "115.66",
       "MYR": "4.90",
-      "PHP": "74.01",
+      "PHP": "73.98",
       "AED": "4.41"
     }
   },
@@ -6897,9 +6897,9 @@
       "SGD": "1.55",
       "HKD": "9.41",
       "ZAR": "19.80",
-      "INR": "115.69",
+      "INR": "115.66",
       "MYR": "4.90",
-      "PHP": "74.01",
+      "PHP": "73.98",
       "AED": "4.41"
     }
   },
@@ -6927,9 +6927,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "16.50",
-      "INR": "96.41",
+      "INR": "96.38",
       "MYR": "4.08",
-      "PHP": "61.67",
+      "PHP": "61.65",
       "AED": "3.67"
     }
   },
@@ -6957,9 +6957,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "16.50",
-      "INR": "96.41",
+      "INR": "96.38",
       "MYR": "4.08",
-      "PHP": "61.67",
+      "PHP": "61.65",
       "AED": "3.67"
     }
   },
@@ -6987,9 +6987,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "16.50",
-      "INR": "96.41",
+      "INR": "96.38",
       "MYR": "4.08",
-      "PHP": "61.67",
+      "PHP": "61.65",
       "AED": "3.67"
     }
   },
@@ -7017,9 +7017,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "16.50",
-      "INR": "96.41",
+      "INR": "96.38",
       "MYR": "4.08",
-      "PHP": "61.67",
+      "PHP": "61.65",
       "AED": "3.67"
     }
   },
@@ -7047,9 +7047,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "16.50",
-      "INR": "96.41",
+      "INR": "96.38",
       "MYR": "4.08",
-      "PHP": "61.67",
+      "PHP": "61.65",
       "AED": "3.67"
     }
   },
@@ -7077,9 +7077,9 @@
       "SGD": "1.29",
       "HKD": "7.84",
       "ZAR": "16.50",
-      "INR": "96.41",
+      "INR": "96.38",
       "MYR": "4.08",
-      "PHP": "61.67",
+      "PHP": "61.65",
       "AED": "3.67"
     }
   },
