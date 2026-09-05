@@ -22,15 +22,33 @@ const formatPrice = (price: number | string): string => {
     <div class="container mx-auto px-4 py-8">
       <header class="mb-10 max-w-2xl text-center mx-auto">
         <h1 class="h2 mb-3">Teaching Resources</h1>
-        <p class="text-text">
-          Inclusive, multicultural printables and activities for the primary classroom.
-        </p>
+        <p class="text-text">Inclusive, multicultural printables and activities for the primary classroom.</p>
       </header>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="mb-8 max-w-xl mx-auto">
+        <label for="product-filter" class="sr-only">Filter resources</label>
+        <input
+          type="search"
+          id="product-filter"
+          placeholder={`Filter ${products.length} resources by keyword…`}
+          autocomplete="off"
+          class="w-full rounded-lg border border-gray-300 px-4 py-3 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+        />
+        <p id="product-filter-count" class="mt-2 text-sm text-gray-500" aria-live="polite" role="status"></p>
+      </div>
+
+      <p id="product-filter-empty" style="display: none" class="py-12 text-center text-gray-600">
+        No resources match that search. <button type="button" id="product-filter-clear" class="text-primary underline"
+          >Clear the filter</button
+        > to see all {products.length}.
+      </p>
+
+      <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {
           products.map((resource, index) => (
             <a
               href={resource.link}
+              data-product-card
+              data-title={`${resource.title} ${resource.descriptionSnippet ?? ""}`.toLowerCase()}
               class="group flex flex-col bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
             >
               <img
@@ -43,9 +61,7 @@ const formatPrice = (price: number | string): string => {
                 class="w-full h-48 object-cover"
               />
               <div class="flex flex-col grow p-4">
-                <h2 class="text-lg font-semibold mb-2 group-hover:text-primary transition-colors">
-                  {resource.title}
-                </h2>
+                <h2 class="text-lg font-semibold mb-2 group-hover:text-primary transition-colors">{resource.title}</h2>
                 <p class="text-gray-600 mb-3 line-clamp-4">{resource.descriptionSnippet}</p>
                 {resource.reviews > 0 && (
                   <div class="mb-2 flex items-center text-sm">
@@ -67,3 +83,49 @@ const formatPrice = (price: number | string): string => {
     </div>
   </section>
 </Base>
+
+<script>
+  // Progressive enhancement: all 226 cards are already in the HTML (so crawlers and
+  // no-JS visitors see the full catalogue); this only hides non-matching ones.
+  const setupProductFilter = () => {
+    const input = document.querySelector<HTMLInputElement>("#product-filter");
+    const grid = document.querySelector<HTMLElement>("#product-grid");
+    if (!input || !grid) return;
+
+    const cards = Array.from(grid.querySelectorAll<HTMLElement>("[data-product-card]"));
+    const count = document.querySelector<HTMLElement>("#product-filter-count");
+    const empty = document.querySelector<HTMLElement>("#product-filter-empty");
+    const clear = document.querySelector<HTMLElement>("#product-filter-clear");
+
+    const apply = () => {
+      const terms = input.value.toLowerCase().split(/\s+/).filter(Boolean);
+      let visible = 0;
+
+      for (const card of cards) {
+        const haystack = card.dataset.title ?? "";
+        const match = terms.every((term) => haystack.includes(term));
+        // An inline style, not the `hidden` attribute: the cards carry Tailwind's
+        // `flex` class, and a class beats the UA stylesheet's `[hidden] {display:none}`,
+        // so hiding via the attribute alone leaves them visible.
+        card.style.display = match ? "" : "none";
+        if (match) visible++;
+      }
+
+      if (count) count.textContent = terms.length ? `${visible} of ${cards.length} resources` : "";
+      if (empty) empty.style.display = visible === 0 ? "" : "none";
+      grid.style.display = visible === 0 ? "none" : "";
+    };
+
+    input.addEventListener("input", apply);
+    clear?.addEventListener("click", () => {
+      input.value = "";
+      apply();
+      input.focus();
+    });
+    apply();
+  };
+
+  setupProductFilter();
+  // The site uses view transitions, so re-bind after client-side navigation.
+  document.addEventListener("astro:page-load", setupProductFilter);
+</script>

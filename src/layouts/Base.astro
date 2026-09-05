@@ -41,8 +41,20 @@ export interface Props {
 const { title, meta_title, description, image, noindex, canonical, date, tags, weight, external_image } = Astro.props;
 
 // resolved metadata helpers
+// Google renders roughly 155-160 characters of a description. Anything past that is
+// cut mid-sentence in the SERP, so trim on a word boundary and keep control of how
+// the snippet ends. (TpT product descriptions arrive at ~500 characters.)
+const MAX_META_DESCRIPTION = 155;
+
+const truncateForMeta = (text: string) => {
+  if (text.length <= MAX_META_DESCRIPTION) return text;
+  const clipped = text.slice(0, MAX_META_DESCRIPTION - 1);
+  const lastSpace = clipped.lastIndexOf(" ");
+  return `${(lastSpace > 0 ? clipped.slice(0, lastSpace) : clipped).replace(/[,;:.\s]+$/, "")}…`;
+};
+
 const pageTitle = plainify(meta_title ? meta_title : title ? title : config.site.title).trim();
-const pageDescription = plainify(description ? description : config.metadata.meta_description).trim();
+const pageDescription = truncateForMeta(plainify(description ? description : config.metadata.meta_description).trim());
 const canonicalURL = canonical || new URL(Astro.url.pathname, config.site.base_url).href;
 const ogImage = encodeURI(
   `${!external_image ? config.site.base_url : ""}${image ? image : config.metadata.meta_image}`,
@@ -88,7 +100,45 @@ const website = {
   },
 };
 
+// Breadcrumbs give Google the path to show under the result instead of a bare URL,
+// and they apply to every page, so they are built here rather than per-template.
+const SEGMENT_LABELS: Record<string, string> = {
+  product: "Teaching Resources",
+  blog: "Blog",
+  categories: "Categories",
+  tags: "Tags",
+  page: "Blog",
+};
+
+const segments = Astro.url.pathname.split("/").filter(Boolean);
+
+const breadcrumb =
+  segments.length > 0
+    ? {
+        "@type": "BreadcrumbList",
+        "@id": `${canonicalURL}#breadcrumb`,
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: config.site.base_url },
+          ...segments.map((segment, index) => ({
+            "@type": "ListItem",
+            position: index + 2,
+            // The last crumb is the page itself, so use its real title rather than
+            // the slug; `item` is omitted there per Google's guidance.
+            name:
+              index === segments.length - 1 ? pageTitle : (SEGMENT_LABELS[segment] ?? segment.replace(/[-_]/g, " ")),
+            ...(index === segments.length - 1
+              ? {}
+              : { item: `${config.site.base_url}/${segments.slice(0, index + 1).join("/")}` }),
+          })),
+        ],
+      }
+    : null;
+
 const graph: any[] = [organization, website];
+
+if (breadcrumb) {
+  graph.push(breadcrumb);
+}
 
 if (isArticle) {
   graph.push({

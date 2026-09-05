@@ -24,6 +24,8 @@ jobs:
   fetch_data:
     name: Fetch External Data
     runs-on: ubuntu-latest
+    outputs:
+      failures: ${{ steps.fetch.outputs.failures }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -46,6 +48,7 @@ jobs:
           tags: tag:ci
           
       - name: Fetch external data
+        id: fetch
         env:
           # Route only the TPT/Instagram fetches through the home tailnet privoxy so
           # they egress from a residential IP (both block GitHub datacenter IPs). Those
@@ -56,13 +59,28 @@ jobs:
           NO_PROXY: "localhost,127.0.0.1,v6.exchangerate-api.com"
           EXCHANGE_RATE_API_KEY: ${{ secrets.EXCHANGE_RATE_API_KEY }}
         run: |
+          # Each fetch is allowed to fail without blocking the deploy -- the scripts
+          # leave the previous good fixture in place, so the site simply redeploys with
+          # yesterday's data. Failures are recorded here and reported by the
+          # `data_health` job below, which DOES fail so the run goes red and notifies.
+          failures=""
+
           echo "Checking proxy reachability ($HTTP_PROXY)..."
-          curl -s -o /dev/null -w "  TPT via proxy -> http=%{http_code}\n" --max-time 25 -x "$HTTP_PROXY" https://www.teacherspayteachers.com/robots.txt || echo "  WARNING: proxy unreachable from CI"
-          node fetch-instagram-posts.mjs || true
-          node fetch-tpt-products.mjs RELEVANCE || true
-          node fetch-tpt-products.mjs MOST_RECENT || true
+          if curl -s -o /dev/null -w "  TPT via proxy -> http=%{http_code}\n" --max-time 25 -x "$HTTP_PROXY" https://www.teacherspayteachers.com/robots.txt; then
+            echo "  proxy OK"
+          else
+            echo "::error title=Tailnet proxy unreachable::$HTTP_PROXY did not answer from CI. Check that the runner joined the tailnet as tag:ci and that the tailnet policy grants tag:ci -> tag:gateway:8118."
+            failures="$failures proxy"
+          fi
+
+          node fetch-instagram-posts.mjs   || { echo "::error title=Instagram fetch failed::see log above"; failures="$failures instagram"; }
+          node fetch-tpt-products.mjs RELEVANCE   || { echo "::error title=TpT RELEVANCE fetch failed::see log above"; failures="$failures tpt_RELEVANCE"; }
+          node fetch-tpt-products.mjs MOST_RECENT || { echo "::error title=TpT MOST_RECENT fetch failed::see log above"; failures="$failures tpt_MOST_RECENT"; }
+
           echo "Fetched record counts:"
           node -e "for (const f of ['instagram_posts','tpt_products_RELEVANCE','tpt_products_MOST_RECENT']) { try { const d = require('./src/lib/fixtures/'+f+'.json'); console.log('  '+f+': '+(Array.isArray(d)?d.length:'n/a')); } catch { console.log('  '+f+': missing'); } }"
+
+          echo "failures=${failures# }" >> "$GITHUB_OUTPUT"
 
       - name: Upload fetched data
         uses: actions/upload-artifact@v4
@@ -111,6 +129,12 @@ jobs:
         with:
           name: external-data
 
+      - name: Generate Google Merchant product review feed
+        # Writes public/product-reviews.xml so the deployed site serves it at
+        # https://ciarasclassroom.com/product-reviews.xml, which Merchant Center is
+        # configured to fetch on a schedule. Must run before the Astro build.
+        run: node google-merchant-review-feed.xml.mjs
+
       - name: Build Site
         env:
           TINACLIENTID: ${{ secrets.TINACLIENTID }}
@@ -131,6 +155,33 @@ jobs:
         # Notifies the IndexNow ecosystem that URLs changed so they recrawl
         # within minutes. Reads ./dist/sitemap-index.xml; never fails the deploy.
         run: node submit-indexnow.mjs || true
+
+  data_health:
+    name: Data Health
+    needs: fetch_data
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Download fetched data
+        uses: actions/download-artifact@v4
+        with:
+          name: external-data
+
+      - name: Assert the fixtures are populated
+        run: node check-fixtures.mjs
+
+      - name: Fail if any fetch errored
+        if: needs.fetch_data.outputs.failures != ''
+        run: |
+          echo "::error title=External data is stale::These fetches failed:${{ needs.fetch_data.outputs.failures }}. The site still deployed, but with the previously committed data. Check the tailnet proxy first."
+          exit 1
 
   upload_google_products:
     name: Upload Google Products

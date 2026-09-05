@@ -25,3 +25,5 @@ yarn.lock
 oauth2_credentials.json
 token.json
 
+# Generated at build time from the TpT fixtures by google-merchant-review-feed.xml.mjs
+public/product-reviews.xml

@@ -56,7 +56,7 @@ Introduce the story of Hanukkah to your students by sharing the tale of the Macc
 Play the song Candlelight by the Maccabeats, a catchy Hanukkah parody of Taio Cruz’s Dynamite. This song blends tradition with modern music, making it relatable and engaging for students. After listening, discuss the lyrics and their connection to Hanukkah traditions. You could even encourage students to write their own Hanukkah-inspired song verses!
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qSJCSR4MuhU?si=pUT5UMwgnbRQFNXS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/qSJCSR4MuhU?si=pUT5UMwgnbRQFNXS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
 #### 3. Personalised Greeting Cards

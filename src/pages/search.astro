@@ -16,10 +16,21 @@ const searchList = posts
   }));
 ---
 
-<Base title={`Search`}>
+<Base
+  title="Search"
+  meta_title="Search | Ciara's Classroom"
+  description="Search Ciara's Classroom for inclusive, multicultural teaching ideas and classroom resources."
+  noindex={true}
+>
   <section class="section">
     <div class="container">
+      <h1 class="h2 mb-6">Search the blog</h1>
       <SearchBar client:load searchList={searchList} />
+      <p class="mt-8 text-text">
+        Looking for printables and activities instead? Browse all <a href="/product" class="text-primary underline"
+          >teaching resources</a
+        >.
+      </p>
     </div>
   </section>
 </Base>

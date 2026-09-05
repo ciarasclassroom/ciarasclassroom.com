@@ -19,22 +19,17 @@ const formatRating = (rating) => ({
   },
 });
 
-const createProductIds = (product, countryCode) => {
-  const productIds = {};
-
-  // Order matters: gtins, mpns, brands, asins, skus
-  productIds.gtins = { gtin: [product.gtin || `${product.id}-${countryCode}`] };
-  productIds.mpns = { mpn: [product.mpn || `${product.id}-${countryCode}`] };
-  productIds.brands = { brand: ["Ciara's Classroom"] };
-  // productIds.asins = { asin: [product.asin || `${product.id}-${countryCode}`] };
-
-  // Include SKU if available
-  if (product.id) {
-    productIds.skus = { sku: [`${product.id}-${countryCode}`] };
-  }
-
-  return productIds;
-};
+// These are digital resources with no GTIN or manufacturer part number, and the
+// product feed says so (`identifierExists: false`). The feed used to synthesise
+// `<gtin>`/`<mpn>` from the TpT id, which is a fabricated identifier -- Google either
+// rejects it or matches it to the wrong item. Match on SKU + brand instead: the SKU
+// here is exactly the `offerId` google-merchent.mjs uploads (`<tptId>-<country>`).
+//
+// Order matters in the 2.3 schema: gtins, mpns, brands, asins, skus.
+const createProductIds = (product, countryCode) => ({
+  brands: { brand: ["Ciara's Classroom"] },
+  skus: { sku: [`${product.id}-${countryCode}`] },
+});
 
 const convertReview = (review, product, currency) => {
   const { country, suffix } = currencyCountryMap[currency] || { country: "US", suffix: "" };
@@ -50,7 +45,7 @@ const convertReview = (review, product, currency) => {
       reviewer_id: review.user.id,
     },
     review_timestamp: toISOString(review.updatedAt),
-    title: review.title || "Review",
+    ...(review.signals.buyer_experience_title ? { title: review.signals.buyer_experience_title } : {}),
     content: review.signals.buyer_experience || "",
     review_url: [{ _: productUrl + "#review-" + uniqueReviewId, $: { type: "singleton" } }],
     ratings: {
@@ -92,8 +87,8 @@ const convertReviewsToXml = (inputData) => {
       name: "Teachers Pay Teachers",
     },
     publisher: {
-      name: "Teachers Pay Teachers",
-      favicon: "https://www.teacherspayteachers.com/favicon.ico",
+      name: "Ciara's Classroom",
+      favicon: "https://ciarasclassroom.com/favicon.ico",
     },
     reviews: {
       review: products.flatMap((product) =>
@@ -127,21 +122,32 @@ const saveXMLToFile = async (xmlContent, filename) => {
   }
 };
 
+// Written into public/ so the built site serves it at
+// https://ciarasclassroom.com/product-reviews.xml. Register that URL in Merchant
+// Center as a scheduled "Product reviews" feed; Google then re-fetches it itself,
+// which is why nothing here needs the Content API.
+const OUTPUT_PATH = "public/product-reviews.xml";
+
 const main = async () => {
   try {
-    // Read input JSON file
-    const inputData = await loadJSONFromFile("input.json", "");
+    const products = await loadJSONFromFile("tpt_products_MOST_RECENT.json");
 
-    // Convert reviews to XML
-    const xmlOutput = convertReviewsToXml(inputData);
+    if (!Array.isArray(products) || products.length === 0) {
+      throw new Error("No products found in tpt_products_MOST_RECENT.json — refusing to write an empty review feed.");
+    }
 
-    // Write output XML file directly
-    await saveXMLToFile(xmlOutput, "output.xml");
-    console.log("XML file has been created successfully.");
+    const reviewCount = products.reduce((total, product) => total + (product.evaluations?.length || 0), 0);
+    if (reviewCount === 0) {
+      throw new Error("No evaluations found on any product — refusing to write an empty review feed.");
+    }
 
-    // Upload product reviews
-    // await uploadProductReviews(xmlOutput);
-    console.log("Product reviews have been uploaded to Google Merchant Center.");
+    const xmlOutput = convertReviewsToXml(products);
+    await saveXMLToFile(xmlOutput, OUTPUT_PATH);
+
+    console.log(
+      `Review feed written: ${reviewCount} reviews across ${products.length} products ` +
+        `(x${Object.keys(currencyCountryMap).length} country variants).`,
+    );
   } catch (error) {
     console.error("An unexpected error occurred:", error.message);
     process.exit(1);

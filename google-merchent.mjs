@@ -1,3 +1,4 @@
+import * as cheerio from "cheerio";
 import { google } from "googleapis";
 import {
   MERCHANT_ID,
@@ -13,6 +14,19 @@ const PRODUCTS_JSON_PATH = process.env.PRODUCTS_JSON_PATH || "tpt_products_MOST_
 const BATCH_SIZE = 1000;
 const CONCURRENT_BATCHES = 5;
 
+// Google truncates beyond 5000 characters and rejects longer values outright.
+const MAX_DESCRIPTION_LENGTH = 5000;
+
+// Every resource is an instant digital download, so there is nothing to ship. Stating
+// that explicitly stops Merchant Center falling back to account-level shipping rules
+// (and disapproving items when none match the target country).
+const DIGITAL_SHIPPING_SERVICE = "Instant digital download";
+
+// `productTypes` is the seller-defined taxonomy. TpT dropped `resourceCategories`
+// from their API so `product.categories` is now always empty; without a fallback the
+// field goes out blank and Google loses a useful classification signal.
+const DEFAULT_PRODUCT_TYPE = "Teaching Resources > Printable Classroom Activities";
+
 // Default product fields
 const defaultProduct = {
   contentLanguage: "en",
@@ -20,7 +34,22 @@ const defaultProduct = {
   availability: "in stock",
   condition: "new",
   brand: "Ciara's Classroom",
+  adult: false,
+  isBundle: false,
 };
+
+/**
+ * Turns TpT's HTML description into the plain text Google expects.
+ * Falls back to the short snippet if the rich description is missing.
+ */
+function toPlainDescription(product) {
+  const html = product.description || "";
+  const text = html ? cheerio.load(html).text().replace(/\s+/g, " ").trim() : "";
+  const description = text || product.descriptionSnippet || product.title;
+  return description.length > MAX_DESCRIPTION_LENGTH
+    ? `${description.slice(0, MAX_DESCRIPTION_LENGTH - 1).trimEnd()}…`
+    : description;
+}
 
 /**
  * Creates a product object for Google Merchant Center
@@ -31,22 +60,30 @@ const defaultProduct = {
 function createProduct(product, currencyCode) {
   const { country, suffix } = currencyCountryMap[currencyCode];
   const offerId = `${product.slug.split("-").pop()}-${suffix}`;
+
+  const price = product.currencies[currencyCode];
+  if (price === undefined || price === null) {
+    // Previously this fell back to "0", which quietly listed a paid resource as free.
+    throw new Error(`Missing ${currencyCode} price for "${product.title}" (${product.slug}).`);
+  }
+
   return {
     ...defaultProduct,
-    id: `${product.slug.split("-").pop()}-${suffix}`,
+    id: offerId,
     targetCountry: country,
     offerId,
     title: product.title,
-    description: product.descriptionSnippet,
+    description: toPlainDescription(product),
     link: generateProductUrl(product.slug, suffix),
     imageLink: product.images[0],
     additionalImageLinks: product.images.slice(1),
     identifierExists: false,
     price: {
-      value: product.currencies[currencyCode] || "0",
+      value: price,
       currency: currencyCode,
     },
-    productTypes: product.categories,
+    productTypes: product.categories?.length ? product.categories : [DEFAULT_PRODUCT_TYPE],
+    shipping: [{ country, service: DIGITAL_SHIPPING_SERVICE, price: { value: "0", currency: currencyCode } }],
   };
 }
 

@@ -33,6 +33,7 @@ export async function getStaticPaths() {
       id: evaluation.id,
       author: evaluation.user.displayName,
       date: new Date(evaluation.updatedAt).toLocaleDateString(),
+      datePublished: new Date(evaluation.updatedAt).toISOString().slice(0, 10),
       rating:
         evaluation.signals.overall_qual_how_satisfied_stars === "extremely"
           ? 5
@@ -76,6 +77,8 @@ export async function getStaticPaths() {
     ),
   ]);
 }
+
+const MAX_SCHEMA_REVIEWS = 20;
 
 const { product } = Astro.props;
 // Every currency variant (-US, -IE, -AU, …) is a near-duplicate of the base
@@ -145,8 +148,26 @@ const ProductSchema = JSON.stringify({
           "@type": "AggregateRating",
           ratingValue: product.rating,
           reviewCount: product.reviews,
+          bestRating: 5,
+          worstRating: 1,
         }
       : undefined,
+  // Individual reviews (not just the aggregate) are what let Google render review
+  // snippets under the result. Capped so the JSON-LD block stays a sane size.
+  review: product.reviewList?.length
+    ? product.reviewList.slice(0, MAX_SCHEMA_REVIEWS).map((review) => ({
+        "@type": "Review",
+        author: { "@type": "Person", name: review.author },
+        datePublished: review.datePublished,
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: review.rating,
+          bestRating: 5,
+          worstRating: 1,
+        },
+        reviewBody: review.content,
+      }))
+    : undefined,
   offers: {
     "@type": "Offer",
     url: canonicalURL.toString(),
@@ -398,9 +419,11 @@ const formatPrice = (price: number | string): string => {
                     <span class="text-gray-500 ml-2">{review.date}</span>
                   </div>
                   <p class="text-gray-700 review-content">{review.content}</p>
-                  <div class="mt-2 text-sm text-gray-500">
-                    {review.helpfulCount} {review.helpfulCount === 1 ? "person" : "people"} found this helpful
-                  </div>
+                  {review.helpfulCount > 0 && (
+                    <div class="mt-2 text-sm text-gray-500">
+                      {review.helpfulCount} {review.helpfulCount === 1 ? "person" : "people"} found this helpful
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
