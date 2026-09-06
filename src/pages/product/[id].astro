@@ -21,9 +21,45 @@ export async function getStaticPaths() {
     AE: { suffix: "AE", currency: "AED", symbol: "د.إ" },
   } as const;
 
-  const extractFirstParagraph = (htmlString) => {
-    const $ = cheerio.load(htmlString);
-    return $("p").first().prop("outerHTML");
+  // TpT product ids are the trailing numeric segment of our own slugs, so a link to
+  // teacherspayteachers.com/Product/Whatever-1234567 can be matched back to the resource
+  // on this site.
+  const slugByTptId = new Map(products.map((p) => [p.slug.split("-").pop(), p.slug]));
+
+  /**
+   * The page used to render only the first paragraph of the TpT description — roughly
+   * 390 of ~1,970 characters, so four fifths of the copy for these pages was thrown
+   * away. Render all of it, and rewrite the links it contains:
+   *
+   *  - ~83% of the TpT links point at another resource that also has a page here, so
+   *    they become internal links. That turns product pages that were reachable only
+   *    from the index into a connected set, and stops us handing the click to TpT
+   *    before the visitor has seen our own page for the same resource.
+   *  - Whatever is left (TpT store pages, Instagram) stays external but picks up
+   *    rel="nofollow noopener" rather than passing ranking signal off-site.
+   */
+  const rewriteDescriptionLinks = (htmlString) => {
+    const $ = cheerio.load(htmlString || "", null, false);
+
+    $("a[href]").each((_, el) => {
+      const link = $(el);
+      const href = link.attr("href") || "";
+      const tptId = href.includes("teacherspayteachers.com")
+        ? (href.replace(/\/+$/, "").split("/").pop()?.match(/(\d{5,})/)?.[1] ?? null)
+        : null;
+      const slug = tptId ? slugByTptId.get(tptId) : undefined;
+
+      if (slug) {
+        link.attr("href", `/product/${slug}/`);
+        link.removeAttr("target");
+        link.removeAttr("rel");
+      } else {
+        link.attr("rel", "nofollow noopener");
+        link.attr("target", "_blank");
+      }
+    });
+
+    return $.html();
   };
 
   const formatReviews = (evaluations) => {
@@ -55,7 +91,7 @@ export async function getStaticPaths() {
       props: {
         product: {
           ...product,
-          description: extractFirstParagraph(product.description),
+          description: rewriteDescriptionLinks(product.description),
           id: `${product.slug.split("-").pop()}${variant.suffix ? `-${variant.suffix}` : ""}`,
           currency: variant.currency,
           currencySymbol: variant.symbol,
@@ -318,7 +354,8 @@ const formatPrice = (price: number | string): string => {
               {product.title}
             </h1>
           </header>
-          <div set:html={product.description} class="mt-2 text-gray-600" />
+          <!-- `prose` so the description's lists and bold sub-headings render as such. -->
+          <div set:html={product.description} class="prose prose-sm mt-2 max-w-none text-gray-600" />
 
           <div class="mt-4">
             <span class="text-gray-500">Price:</span>
