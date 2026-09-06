@@ -6,6 +6,7 @@ import { getTaxonomy } from "@/lib/taxonomyParser.astro";
 import { sortByDate } from "@/lib/utils/sortFunctions";
 import taxonomyFilter from "@/lib/utils/taxonomyFilter";
 import { humanize } from "@/lib/utils/textConverter";
+import { MIN_POSTS_TO_INDEX } from "@/lib/utils/thinTaxonomies.mjs";
 
 export async function getStaticPaths() {
   const tags = await getTaxonomy("posts", "tags");
@@ -24,9 +25,20 @@ const filterByTags = taxonomyFilter(posts, "tags", tag);
 const sortedPosts = sortByDate(filterByTags);
 
 const title = humanize(tag || "");
+
+// A tag with one post behind it is a near-duplicate of that post, and Search Console
+// bears that out — these come back "Crawled/Discovered - currently not indexed". Keep
+// them navigable but out of the index, so signals go to the posts instead. The sitemap
+// filter in astro.config.mjs drops the same URLs.
+const isThin = sortedPosts.length < MIN_POSTS_TO_INDEX;
 ---
 
-<Base title={title || "Tag"}>
+<Base
+  title={title || "Tag"}
+  meta_title={`${title} — Posts | Ciara's Classroom`}
+  description={`Posts from Ciara's Classroom tagged ${title}: ideas for inclusive, diverse and multicultural primary classrooms.`}
+  noindex={isThin}
+>
   <div class="section">
     <div class="container">
       <p class="text-center text-2xl mb-4">Showing Posts From</p>

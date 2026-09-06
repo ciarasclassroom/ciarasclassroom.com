@@ -21,6 +21,7 @@ import tailwind from "@astrojs/tailwind";
 import { defineConfig, squooshImageService } from "astro/config";
 import removeTagWhitespace from "astro-remove-whitespace";
 import rehypeInternalProductLinks from "./src/lib/utils/rehypeInternalProductLinks.mjs";
+import { isThinTaxonomyUrl } from "./src/lib/utils/thinTaxonomies.mjs";
 import rehypeLazyMedia from "./src/lib/utils/rehypeLazyMedia.mjs";
 
 // https://astro.build/config
@@ -41,11 +42,18 @@ export default defineConfig({
     sitemap({
       filter: (page) =>
         !page.includes("/admin") &&
-        !page.endsWith("/search") &&
+        // Matches with or without the trailing slash: the site emits "/search/", so an
+        // endsWith("/search") test silently stopped excluding it when trailingSlash
+        // became "always", and the noindexed search page went back into the sitemap.
+        !/\/search\/?$/.test(page) &&
         // Exclude per-currency product variants (…-US, …-IE, …-AU, …). They are
         // orphaned near-duplicates that canonicalise to the base product URL, so
         // only the base page belongs in the sitemap.
-        !/\/product\/.+-(US|CA|IE|UK|AU|NZ|SG|HK|ZA|IN|MY|PH|AE)\/?$/.test(page),
+        !/\/product\/.+-(US|CA|IE|UK|AU|NZ|SG|HK|ZA|IN|MY|PH|AE)\/?$/.test(page) &&
+        // Tag/category listings with a single post behind them are near-duplicates of
+        // that post. They are noindexed, so keep them out of the sitemap too rather
+        // than submitting URLs we have told Google not to index.
+        !isThinTaxonomyUrl(page),
       changefreq: "weekly",
       priority: 0.7,
       lastmod: new Date(),

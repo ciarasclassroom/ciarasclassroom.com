@@ -6,6 +6,7 @@ import { getTaxonomy } from "@/lib/taxonomyParser.astro";
 import { sortByDate } from "@/lib/utils/sortFunctions";
 import taxonomyFilter from "@/lib/utils/taxonomyFilter";
 import { humanize } from "@/lib/utils/textConverter";
+import { MIN_POSTS_TO_INDEX } from "@/lib/utils/thinTaxonomies.mjs";
 
 export async function getStaticPaths() {
   const categories = await getTaxonomy("posts", "categories");
@@ -24,9 +25,18 @@ const filterByCategory = taxonomyFilter(posts, "categories", category);
 const sortedPosts = sortByDate(filterByCategory);
 
 const title = humanize(category || "");
+
+// Same reasoning as the tag listings: a category with one post behind it is a
+// near-duplicate of that post, so it stays navigable but out of the index.
+const isThin = sortedPosts.length < MIN_POSTS_TO_INDEX;
 ---
 
-<Base title={title || "Category"}>
+<Base
+  title={title || "Category"}
+  meta_title={`${title} — Posts | Ciara's Classroom`}
+  description={`Posts from Ciara's Classroom in ${title}: ideas for inclusive, diverse and multicultural primary classrooms.`}
+  noindex={isThin}
+>
   <div class="section">
     <div class="container">
       <p class="text-center text-2xl mb-4">Showing Posts From</p>
