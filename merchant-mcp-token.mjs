@@ -30,10 +30,18 @@ try {
   process.exit(1);
 }
 
+// Defaults to the Merchant scope. `--scopes a,b` mints for other Google APIs off the
+// same key — e.g. `--scopes https://www.googleapis.com/auth/webmasters.readonly` for
+// Search Console, which needs the service account added as a user in that property.
+const scopesArg = process.argv.find((a) => a.startsWith("--scopes="));
+const scopes = scopesArg
+  ? scopesArg.slice("--scopes=".length).split(",")
+  : ["https://www.googleapis.com/auth/content"];
+
 const client = new JWT({
   email: key.client_email,
   key: key.private_key,
-  scopes: ["https://www.googleapis.com/auth/content"],
+  scopes,
 });
 
 const { access_token: accessToken } = await client.authorize();

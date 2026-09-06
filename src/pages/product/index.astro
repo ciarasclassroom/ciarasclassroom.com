@@ -46,7 +46,7 @@ const formatPrice = (price: number | string): string => {
         {
           products.map((resource, index) => (
             <a
-              href={resource.link}
+              href={resource.link.replace(/\/?$/, "/")}
               data-product-card
               data-title={`${resource.title} ${resource.descriptionSnippet ?? ""}`.toLowerCase()}
               class="group flex flex-col bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"

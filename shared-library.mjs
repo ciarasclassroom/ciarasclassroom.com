@@ -300,7 +300,9 @@ export const loadJSONFromFile = async (fileName, directory = "src/lib/fixtures")
  * @returns {string} Full product URL
  */
 export const generateProductUrl = (slug, suffix) => {
-  return `${MAIN_SITE_URL}/product/${slug}${suffix ? `-${suffix}` : ""}`;
+  // Trailing slash is deliberate: GitHub Pages 301-redirects the slashless form, and a
+  // feed whose `link` redirects makes Google re-crawl to reach the landing page.
+  return `${MAIN_SITE_URL}/product/${slug}${suffix ? `-${suffix}` : ""}/`;
 };
 
 /**

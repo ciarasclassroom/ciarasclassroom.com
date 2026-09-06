@@ -94,7 +94,7 @@ const website = {
     "@type": "SearchAction",
     target: {
       "@type": "EntryPoint",
-      urlTemplate: `${config.site.base_url}/search?q={search_term_string}`,
+      urlTemplate: `${config.site.base_url}/search/?q={search_term_string}`,
     },
     "query-input": "required name=search_term_string",
   },
@@ -118,7 +118,7 @@ const breadcrumb =
         "@type": "BreadcrumbList",
         "@id": `${canonicalURL}#breadcrumb`,
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: config.site.base_url },
+          { "@type": "ListItem", position: 1, name: "Home", item: `${config.site.base_url}/` },
           ...segments.map((segment, index) => ({
             "@type": "ListItem",
             position: index + 2,
@@ -128,7 +128,7 @@ const breadcrumb =
               index === segments.length - 1 ? pageTitle : (SEGMENT_LABELS[segment] ?? segment.replace(/[-_]/g, " ")),
             ...(index === segments.length - 1
               ? {}
-              : { item: `${config.site.base_url}/${segments.slice(0, index + 1).join("/")}` }),
+              : { item: `${config.site.base_url}/${segments.slice(0, index + 1).join("/")}/` }),
           })),
         ],
       }
@@ -153,7 +153,7 @@ if (isArticle) {
     author: {
       "@type": "Person",
       name: "Ciara Lynch",
-      url: `${config.site.base_url}/about`,
+      url: `${config.site.base_url}/about/`,
     },
     publisher: { "@id": `${config.site.base_url}/#organization` },
     ...(tags && tags.length ? { keywords: tags.join(", ") } : {}),
@@ -222,7 +222,12 @@ const jsonLd = JSON.stringify({ "@context": "https://schema.org", "@graph": grap
     <meta name="author" content={isArticle ? "Ciara Lynch" : config.metadata.meta_author} />
 
     <!-- robots -->
-    <meta name="robots" content={noindex ? "noindex, nofollow" : "index, follow"} />
+    <!--
+      `follow` rather than `nofollow` on noindexed pages: they still link on to pages
+      that should rank (the base product page, the resource index), and nofollow would
+      throw that crawl path away for no benefit.
+    -->
+    <meta name="robots" content={noindex ? "noindex, follow" : "index, follow"} />
     <meta name="language" content="English" />
 
     <!-- og-title -->

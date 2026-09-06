@@ -26,6 +26,11 @@ import rehypeLazyMedia from "./src/lib/utils/rehypeLazyMedia.mjs";
 export default defineConfig({
   site: config.site.base_url ? config.site.base_url : "https://ciarasclassroom.com",
   base: config.site.base_path ? config.site.base_path : "/",
+  // Must stay "always". The site is served by GitHub Pages, which 301-redirects
+  // /foo to /foo/ for every directory-backed page. With "never", every canonical
+  // tag, sitemap entry and Merchant feed link pointed at the redirecting form, so
+  // Search Console logged them as "Page with redirect" rather than indexing the URL
+  // as submitted. Emitting the slash matches what the host actually serves.
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   image: {
     service: squooshImageService(),
