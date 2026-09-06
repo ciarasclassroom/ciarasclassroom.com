@@ -21,9 +21,49 @@ export async function getStaticPaths() {
     AE: { suffix: "AE", currency: "AED", symbol: "د.إ" },
   } as const;
 
-  const extractFirstParagraph = (htmlString) => {
-    const $ = cheerio.load(htmlString);
-    return $("p").first().prop("outerHTML");
+  // TpT product ids are the trailing numeric segment of our own slugs, so a link to
+  // teacherspayteachers.com/Product/Whatever-1234567 can be matched back to the resource
+  // on this site.
+  const slugByTptId = new Map(products.map((p) => [p.slug.split("-").pop(), p.slug]));
+
+  /**
+   * The page used to render only the first paragraph of the TpT description — roughly
+   * 390 of ~1,970 characters, so four fifths of the copy for these pages was thrown
+   * away. Render all of it, and rewrite the links it contains:
+   *
+   *  - ~83% of the TpT links point at another resource that also has a page here, so
+   *    they become internal links. That turns product pages that were reachable only
+   *    from the index into a connected set, and stops us handing the click to TpT
+   *    before the visitor has seen our own page for the same resource.
+   *  - Whatever is left (TpT store pages, Instagram) stays external but picks up
+   *    rel="nofollow noopener" rather than passing ranking signal off-site.
+   */
+  const rewriteDescriptionLinks = (htmlString) => {
+    const $ = cheerio.load(htmlString || "", null, false);
+
+    $("a[href]").each((_, el) => {
+      const link = $(el);
+      const href = link.attr("href") || "";
+      const tptId = href.includes("teacherspayteachers.com")
+        ? (href
+            .replace(/\/+$/, "")
+            .split("/")
+            .pop()
+            ?.match(/(\d{5,})/)?.[1] ?? null)
+        : null;
+      const slug = tptId ? slugByTptId.get(tptId) : undefined;
+
+      if (slug) {
+        link.attr("href", `/product/${slug}/`);
+        link.removeAttr("target");
+        link.removeAttr("rel");
+      } else {
+        link.attr("rel", "nofollow noopener");
+        link.attr("target", "_blank");
+      }
+    });
+
+    return $.html();
   };
 
   const formatReviews = (evaluations) => {
@@ -55,7 +95,7 @@ export async function getStaticPaths() {
       props: {
         product: {
           ...product,
-          description: extractFirstParagraph(product.description),
+          description: rewriteDescriptionLinks(product.description),
           id: `${product.slug.split("-").pop()}${variant.suffix ? `-${variant.suffix}` : ""}`,
           currency: variant.currency,
           currencySymbol: variant.symbol,
@@ -78,14 +118,28 @@ export async function getStaticPaths() {
   ]);
 }
 
+// Product structured data lives solely in the JSON-LD below. An earlier microdata copy
+// of the same Product was removed: Google merges microdata and JSON-LD into one entity,
+// and the two had drifted apart (365 vs 14 return days, and a ReturnByMail method that
+// does not exist for instant downloads), which risks invalidating the whole rich result.
 const MAX_SCHEMA_REVIEWS = 20;
 
 const { product } = Astro.props;
-// Every currency variant (-US, -IE, -AU, …) is a near-duplicate of the base
-// (suffix-less) product page — which is the only version linked internally.
-// Point them all at the base URL so search engines consolidate ranking signals
-// onto one canonical page instead of splitting them across ~14 duplicates.
-const canonicalURL = new URL(`/product/${product.slug}`, Astro.site);
+
+// Currency variants (-US, -IE, -AU, …) are the landing pages named by `link` in the
+// Google Merchant feed, one per country. They used to canonicalise to the suffix-less
+// base page to stop ~14 near-duplicates splitting ranking signals, but that pointed a
+// EUR/GBP/AUD offer at a page rendering USD: Google crawls the feed link, compares its
+// structured data against the feed, and flags "Mismatched value (price)".
+//
+// So each variant is now self-canonical (its offer URL, price and currency all agree)
+// and carries `noindex, follow` instead. Shopping and free listings are driven by the
+// feed rather than the web index, so the offers are unaffected, while organic search
+// still sees only the one base page. The sitemap filter in astro.config.mjs already
+// omits the variants.
+// Trailing slash matches what GitHub Pages actually serves; the slashless form 301s.
+const isCurrencyVariant = Astro.params.id !== product.slug;
+const canonicalURL = new URL(`/product/${Astro.params.id}/`, Astro.site);
 
 const price = product.currencies[product.currency];
 
@@ -99,7 +153,10 @@ const getCountryInfo = (id) => {
     case "IE":
       return { name: "Ireland", identifier: "IE", currency: "EUR" };
     case "UK":
-      return { name: "United Kingdom", identifier: "UK", currency: "GBP" };
+      // URL suffix is "UK", but schema.org country identifiers are ISO 3166-1 alpha-2,
+      // where the United Kingdom is "GB". The Merchant feed already sends GB, so
+      // emitting "UK" here made the landing page contradict the feed.
+      return { name: "United Kingdom", identifier: "GB", currency: "GBP" };
     case "AU":
       return { name: "Australia", identifier: "AU", currency: "AUD" };
     case "NZ":
@@ -257,19 +314,12 @@ const formatPrice = (price: number | string): string => {
   image={product.images[0]}
   external_image={true}
   canonical={canonicalURL.toString()}
+  noindex={isCurrencyVariant}
 >
   <script type="application/ld+json" set:html={ProductSchema} />
 
   <div class="container mx-auto px-4 py-8">
-    <article class="bg-white shadow-lg rounded-lg overflow-hidden" itemscope itemtype="https://schema.org/Product">
-      <meta itemprop="name" content={product.title} />
-      <meta itemprop="description" content={product.descriptionSnippet} />
-      <meta itemprop="sku" content={product.id} />
-      <meta itemprop="mpn" content={product.id} />
-      <div itemprop="brand" itemscope itemtype="https://schema.org/Brand">
-        <meta itemprop="name" content="Ciara's Classroom" />
-      </div>
-
+    <article class="bg-white shadow-lg rounded-lg overflow-hidden">
       <div class="md:flex">
         <div class="md:w-1/2 p-4">
           <div class="w-full h-0 pb-[100%] relative mb-4">
@@ -286,7 +336,6 @@ const formatPrice = (price: number | string): string => {
             {
               product.images.map((image, index) => (
                 <div class="aspect-w-1 aspect-h-1 cursor-pointer">
-                  <meta itemprop="image" content={image} />
                   <Image
                     src={image}
                     alt={`${product.title} - Image ${index + 1}`}
@@ -309,7 +358,8 @@ const formatPrice = (price: number | string): string => {
               {product.title}
             </h1>
           </header>
-          <div set:html={product.description} class="mt-2 text-gray-600" />
+          <!-- `prose` so the description's lists and bold sub-headings render as such. -->
+          <div set:html={product.description} class="prose prose-sm mt-2 max-w-none text-gray-600" />
 
           <div class="mt-4">
             <span class="text-gray-500">Price:</span>
@@ -334,76 +384,11 @@ const formatPrice = (price: number | string): string => {
           }
 
           <a
-            href={product.link.replace("ciarasclassroom.com", "teacherspayteachers.com")}
+            href={product.link.replace("ciarasclassroom.com", "teacherspayteachers.com").replace(/\/$/, "")}
             class="mt-4 btn rounded-lg border border-light bg-transparent text-center transition hover:border-primary hover:bg-primary hover:text-white px-4 py-2 inline-block"
           >
             {price === 0 ? "Get for Free" : "Buy Now"}
           </a>
-
-          <!-- Hidden metadata -->
-          <div hidden>
-            <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-              <meta itemprop="price" content={price} />
-              <meta itemprop="priceCurrency" content={product.currency} />
-              <link itemprop="availability" href="https://schema.org/InStock" />
-              <meta itemprop="priceValidUntil" content={`${new Date().getFullYear() + 1}-12-31`} />
-              <div itemprop="areaServed" itemscope itemtype="https://schema.org/Country">
-                <meta itemprop="name" content={countryInfo.name} />
-                <meta itemprop="identifier" content={countryInfo.identifier} />
-              </div>
-              <div itemprop="hasMerchantReturnPolicy" itemscope itemtype="https://schema.org/MerchantReturnPolicy">
-                <meta itemprop="applicableCountry" content={countryInfo.identifier} />
-                <link itemprop="returnPolicyCategory" href="https://schema.org/MerchantReturnFiniteReturnWindow" />
-                <meta itemprop="merchantReturnDays" content="365" />
-                <link itemprop="returnMethod" href="https://schema.org/ReturnByMail" />
-                <link itemprop="returnFees" href="https://schema.org/FreeReturn" />
-                <link itemprop="returnPolicyLink" href="https://ciarasclassroom.com/refund-policy/" />
-                <div itemprop="additionalProperty" itemscope itemtype="https://schema.org/PropertyValue">
-                  <meta itemprop="name" content="RefundPolicy" />
-                  <meta
-                    itemprop="value"
-                    content="All sales are final and nonrefundable for downloaded or accessed digital resources. Refunds are considered in specific scenarios within one year of purchase."
-                  />
-                </div>
-                <div itemprop="additionalProperty" itemscope itemtype="https://schema.org/PropertyValue">
-                  <meta itemprop="name" content="RefundScenarios" />
-                  <meta
-                    itemprop="value"
-                    content="Compromised resource file, misrepresentation, technical limitations, duplicate purchase, or unaccessed file status."
-                  />
-                </div>
-              </div>
-              <div itemprop="shippingDetails" itemscope itemtype="https://schema.org/OfferShippingDetails">
-                <div itemprop="shippingRate" itemscope itemtype="https://schema.org/MonetaryAmount">
-                  <meta itemprop="value" content="0" />
-                  <meta itemprop="currency" content={countryInfo.currency} />
-                </div>
-                <div itemprop="shippingDestination" itemscope itemtype="https://schema.org/DefinedRegion">
-                  <meta itemprop="addressCountry" content={countryInfo.identifier} />
-                </div>
-                <div itemprop="deliveryTime" itemscope itemtype="https://schema.org/ShippingDeliveryTime">
-                  <div itemprop="handlingTime" itemscope itemtype="https://schema.org/QuantitativeValue">
-                    <meta itemprop="minValue" content="0" />
-                    <meta itemprop="maxValue" content="0" />
-                    <meta itemprop="unitCode" content="DAY" />
-                  </div>
-                  <div itemprop="transitTime" itemscope itemtype="https://schema.org/QuantitativeValue">
-                    <meta itemprop="minValue" content="0" />
-                    <meta itemprop="maxValue" content="0" />
-                    <meta itemprop="unitCode" content="DAY" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            {
-              product.reviews > 0 && (
-                <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                  <meta itemprop="ratingValue" content={product.rating} />
-                  <meta itemprop="reviewCount" content={product.reviews} />
-                </div>
-              )
-            }
-          </div>
         </div>
       </div>
     </article>

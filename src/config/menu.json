@@ -7,12 +7,12 @@
     },
     {
       "name": "Blog",
-      "url": "/blog",
+      "url": "/blog/",
       "weight": 2
     },
     {
       "name": "Best Sellers",
-      "url": "/product",
+      "url": "/product/",
       "weight": 3
     }
   ],
