@@ -75,12 +75,7 @@ jobs:
             failures="$failures proxy"
           fi
 
-          # Known and accepted: Meta closed the anonymous web_profile_info endpoint
-          # (401 require_login), so this cannot succeed without a credential. The
-          # script leaves the previously fetched posts in place, so the footer just
-          # goes stale rather than empty. Warn instead of failing the run; move
-          # `instagram` back into `failures` if we ever wire up a token.
-          node fetch-instagram-posts.mjs   || { echo "::warning title=Instagram fetch failed (known)::Meta requires login for the public profile endpoint; the footer keeps its existing posts."; warnings="$warnings instagram"; }
+          node fetch-instagram-posts.mjs   || { echo "::error title=Instagram fetch failed::see log above"; failures="$failures instagram"; }
           node fetch-tpt-products.mjs RELEVANCE   || { echo "::error title=TpT RELEVANCE fetch failed::see log above"; failures="$failures tpt_RELEVANCE"; }
           node fetch-tpt-products.mjs MOST_RECENT || { echo "::error title=TpT MOST_RECENT fetch failed::see log above"; failures="$failures tpt_MOST_RECENT"; }
 
