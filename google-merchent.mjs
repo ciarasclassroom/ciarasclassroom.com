@@ -11,7 +11,7 @@ import {
   merchantOfferId,
   merchantAccountName,
   ensureGcpRegistered,
-  resolveProductDataSource,
+  resolveProductDataSources,
   mapWithConcurrency,
 } from "./shared-library.mjs";
 import { performance } from "perf_hooks";
@@ -104,8 +104,9 @@ function createProduct(product, currencyCode, manifest) {
   return {
     offerId,
     contentLanguage: CONTENT_LANGUAGE,
-    // The Content API's `targetCountry` is now the feed label; the shipping entry below
-    // is what actually scopes the offer to a country.
+    // The Content API's `targetCountry` has no direct equivalent. What actually targets
+    // an offer is the `countries` field of the data source it lives in, and offers are
+    // routed to a per-country source by this feedLabel (see resolveProductDataSources).
     feedLabel: country,
     productAttributes: {
       ...defaultAttributes,
@@ -178,7 +179,7 @@ async function bulkUploadProducts(authClient, products) {
   await ensureGcpRegistered(accountsApi);
 
   const parent = merchantAccountName();
-  const dataSource = await resolveProductDataSource(datasources);
+  const dataSources = await resolveProductDataSources(datasources);
 
   console.log(`Uploading ${products.length} offers (concurrency ${UPLOAD_CONCURRENCY})...`);
 
@@ -186,6 +187,13 @@ async function bulkUploadProducts(authClient, products) {
   const results = await mapWithConcurrency(
     products,
     async (product) => {
+      // Each offer goes into the data source scoped to its own country, so it is
+      // targeted there and nowhere else.
+      const dataSource = dataSources.get(product.feedLabel);
+      if (!dataSource) {
+        throw new Error(`No data source for feedLabel "${product.feedLabel}" (offer ${product.offerId}).`);
+      }
+
       const response = await productsApi.accounts.productInputs.insert({
         parent,
         dataSource,

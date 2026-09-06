@@ -110,9 +110,6 @@ export const merchantOfferId = (product, suffix) => `${product.slug.split("-").p
  */
 export const merchantAccountName = () => `accounts/${MERCHANT_ID}`;
 
-// Name of the primary API data source products are pushed into. Created on first run.
-export const PRODUCT_DATA_SOURCE_DISPLAY_NAME = "Ciara's Classroom (API)";
-
 /**
  * Ensures the GCP project is registered as a developer against the merchant account.
  *
@@ -161,47 +158,71 @@ export const ensureGcpRegistered = async (accounts) => {
   }
 };
 
+// One primary API data source per country. The country is part of the name because a
+// data source's `countries` field is what actually targets its products.
+export const PRODUCT_DATA_SOURCE_PREFIX = "Ciara's Classroom (API)";
+
+const dataSourceDisplayName = (country) => `${PRODUCT_DATA_SOURCE_PREFIX} ${country}`;
+
 /**
- * Finds -- or creates on first run -- the primary API data source that products are
- * upserted into.
+ * Finds — or creates on first run — one primary API data source per country.
  *
- * The Merchant API requires every product to belong to a data source; the old Content
- * API had no such concept. `feedLabel`/`contentLanguage` are deliberately left unset so
- * a single data source accepts all thirteen country/currency variants.
+ * A single data source listing every country does NOT mean "these offers may target
+ * these countries"; it means *every* product in it targets *all* of them. Doing that
+ * turned 2,834 offers into ~36,800 product/country combinations, and each offer was
+ * disapproved in the twelve countries whose currency it was not priced in
+ * (`missing_shipping_mismatch_of_shipping_method_and_offer_currency`).
+ *
+ * So each country gets its own source, scoped with `feedLabel` + `contentLanguage` +
+ * `countries` — the same shape the legacy Content API created automatically. Products
+ * are inserted into the source matching their feedLabel; re-inserting an existing offer
+ * against a different source moves it, so this also migrates offers off the old
+ * over-broad source.
  *
  * @param {import("googleapis").merchantapi_datasources_v1.Merchantapi} datasources
- * @returns {Promise<string>} `accounts/{account}/dataSources/{datasource}`
+ * @returns {Promise<Map<string, string>>} country -> `accounts/{account}/dataSources/{id}`
  */
-export const resolveProductDataSource = async (datasources) => {
+export const resolveProductDataSources = async (datasources) => {
   const parent = merchantAccountName();
+  const existing = new Map();
   let pageToken;
 
   do {
     const { data } = await datasources.accounts.dataSources.list({ parent, pageSize: 100, pageToken });
-    const existing = (data.dataSources || []).find(
-      (source) => source.displayName === PRODUCT_DATA_SOURCE_DISPLAY_NAME && source.primaryProductDataSource,
-    );
-    if (existing) {
-      console.log(`Using existing data source: ${existing.name}`);
-      return existing.name;
+    for (const source of data.dataSources || []) {
+      if (source.primaryProductDataSource) existing.set(source.displayName, source.name);
     }
     pageToken = data.nextPageToken;
   } while (pageToken);
 
-  console.log(`Creating data source "${PRODUCT_DATA_SOURCE_DISPLAY_NAME}"...`);
-  const { data: created } = await datasources.accounts.dataSources.create({
-    parent,
-    requestBody: {
-      displayName: PRODUCT_DATA_SOURCE_DISPLAY_NAME,
-      primaryProductDataSource: {
-        // Unset feedLabel/contentLanguage so one source takes every country variant.
-        countries: Object.values(currencyCountryMap).map(({ country }) => country),
-      },
-    },
-  });
+  const byCountry = new Map();
 
-  console.log(`Created data source: ${created.name}`);
-  return created.name;
+  for (const { country } of Object.values(currencyCountryMap)) {
+    const displayName = dataSourceDisplayName(country);
+    const found = existing.get(displayName);
+
+    if (found) {
+      byCountry.set(country, found);
+      continue;
+    }
+
+    console.log(`Creating data source "${displayName}"...`);
+    const { data: created } = await datasources.accounts.dataSources.create({
+      parent,
+      requestBody: {
+        displayName,
+        primaryProductDataSource: {
+          feedLabel: country,
+          contentLanguage: "en",
+          countries: [country],
+        },
+      },
+    });
+    console.log(`  created ${created.name}`);
+    byCountry.set(country, created.name);
+  }
+
+  return byCountry;
 };
 
 /**
