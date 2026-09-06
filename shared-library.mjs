@@ -93,6 +93,41 @@ export const merchantAccountName = () => `accounts/${MERCHANT_ID}`;
 export const PRODUCT_DATA_SOURCE_DISPLAY_NAME = "Ciara's Classroom (API)";
 
 /**
+ * Ensures the GCP project is registered as a developer against the merchant account.
+ *
+ * The Merchant API (unlike the sunset Content API) refuses every call until the calling
+ * project is registered with the account: "GCP project with id ... is not registered
+ * with the merchant account". This is a one-time, idempotent setup step, so it is done
+ * here rather than left as a manual console click that nobody remembers next time.
+ *
+ * Set DEVELOPER_EMAIL to also grant that (real, non-service) Google account the
+ * API_DEVELOPER role and API notifications; without it registration still succeeds.
+ *
+ * @param {import("googleapis").merchantapi_accounts_v1.Merchantapi} accounts
+ */
+export const ensureGcpRegistered = async (accounts) => {
+  const name = `${merchantAccountName()}/developerRegistration`;
+
+  try {
+    const { data } = await accounts.accounts.developerRegistration.getDeveloperRegistration({ name });
+    if (data.gcpIds?.length) {
+      console.log(`GCP project already registered (${data.gcpIds.join(", ")}).`);
+      return;
+    }
+  } catch (error) {
+    // A 404 just means nothing is registered yet; anything else is a real problem.
+    if (error?.code !== 404 && error?.response?.status !== 404) throw error;
+  }
+
+  console.log("Registering the GCP project with the merchant account...");
+  const { data } = await accounts.accounts.developerRegistration.registerGcp({
+    name,
+    requestBody: process.env.DEVELOPER_EMAIL ? { developerEmail: process.env.DEVELOPER_EMAIL } : {},
+  });
+  console.log(`Registered: ${data.gcpIds?.join(", ") || data.name}`);
+};
+
+/**
  * Finds -- or creates on first run -- the primary API data source that products are
  * upserted into.
  *

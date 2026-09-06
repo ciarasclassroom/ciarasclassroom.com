@@ -7,6 +7,7 @@ import {
   currencyCountryMap,
   generateProductUrl,
   merchantAccountName,
+  ensureGcpRegistered,
   resolveProductDataSource,
   mapWithConcurrency,
 } from "./shared-library.mjs";
@@ -143,8 +144,11 @@ async function loadProductsFromFile(filePath) {
 async function bulkUploadProducts(authClient, products) {
   await authClient.authorize();
 
+  const accountsApi = google.merchantapi({ version: "accounts_v1", auth: authClient });
   const datasources = google.merchantapi({ version: "datasources_v1", auth: authClient });
   const productsApi = google.merchantapi({ version: "products_v1", auth: authClient });
+
+  await ensureGcpRegistered(accountsApi);
 
   const parent = merchantAccountName();
   const dataSource = await resolveProductDataSource(datasources);
