@@ -20,6 +20,7 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import { defineConfig, squooshImageService } from "astro/config";
 import removeTagWhitespace from "astro-remove-whitespace";
+import rehypeInternalProductLinks from "./src/lib/utils/rehypeInternalProductLinks.mjs";
 import rehypeLazyMedia from "./src/lib/utils/rehypeLazyMedia.mjs";
 
 // https://astro.build/config
@@ -90,7 +91,7 @@ export default defineConfig({
         },
       ],
     ],
-    rehypePlugins: [rehypeLazyMedia],
+    rehypePlugins: [rehypeLazyMedia, rehypeInternalProductLinks],
     shikiConfig: {
       theme: "one-dark-pro",
       wrap: true,
