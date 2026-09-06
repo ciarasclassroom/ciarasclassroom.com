@@ -26,6 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       failures: ${{ steps.fetch.outputs.failures }}
+      warnings: ${{ steps.fetch.outputs.warnings }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -64,6 +65,7 @@ jobs:
           # yesterday's data. Failures are recorded here and reported by the
           # `data_health` job below, which DOES fail so the run goes red and notifies.
           failures=""
+          warnings=""
 
           echo "Checking proxy reachability ($HTTP_PROXY)..."
           if curl -s -o /dev/null -w "  TPT via proxy -> http=%{http_code}\n" --max-time 25 -x "$HTTP_PROXY" https://www.teacherspayteachers.com/robots.txt; then
@@ -73,7 +75,12 @@ jobs:
             failures="$failures proxy"
           fi
 
-          node fetch-instagram-posts.mjs   || { echo "::error title=Instagram fetch failed::see log above"; failures="$failures instagram"; }
+          # Known and accepted: Meta closed the anonymous web_profile_info endpoint
+          # (401 require_login), so this cannot succeed without a credential. The
+          # script leaves the previously fetched posts in place, so the footer just
+          # goes stale rather than empty. Warn instead of failing the run; move
+          # `instagram` back into `failures` if we ever wire up a token.
+          node fetch-instagram-posts.mjs   || { echo "::warning title=Instagram fetch failed (known)::Meta requires login for the public profile endpoint; the footer keeps its existing posts."; warnings="$warnings instagram"; }
           node fetch-tpt-products.mjs RELEVANCE   || { echo "::error title=TpT RELEVANCE fetch failed::see log above"; failures="$failures tpt_RELEVANCE"; }
           node fetch-tpt-products.mjs MOST_RECENT || { echo "::error title=TpT MOST_RECENT fetch failed::see log above"; failures="$failures tpt_MOST_RECENT"; }
 
@@ -81,6 +88,7 @@ jobs:
           node -e "for (const f of ['instagram_posts','tpt_products_RELEVANCE','tpt_products_MOST_RECENT']) { try { const d = require('./src/lib/fixtures/'+f+'.json'); console.log('  '+f+': '+(Array.isArray(d)?d.length:'n/a')); } catch { console.log('  '+f+': missing'); } }"
 
           echo "failures=${failures# }" >> "$GITHUB_OUTPUT"
+          echo "warnings=${warnings# }" >> "$GITHUB_OUTPUT"
 
       - name: Upload fetched data
         uses: actions/upload-artifact@v4
@@ -176,6 +184,11 @@ jobs:
 
       - name: Assert the fixtures are populated
         run: node check-fixtures.mjs
+
+      - name: Report known-stale data
+        if: needs.fetch_data.outputs.warnings != ''
+        run: |
+          echo "::warning title=External data is stale (known)::These fetches failed:${{ needs.fetch_data.outputs.warnings }}. This is expected and does not fail the run."
 
       - name: Fail if any fetch errored
         if: needs.fetch_data.outputs.failures != ''
