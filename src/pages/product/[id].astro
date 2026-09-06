@@ -185,16 +185,25 @@ const ProductSchema = JSON.stringify({
       "@type": "MerchantReturnPolicy",
       applicableCountry: countryInfo.identifier,
       returnPolicyCategory: "https://schema.org/MerchantReturnFiniteReturnWindow",
-      merchantReturnDays: 365,
-      returnMethod: "https://schema.org/ReturnByMail",
+      merchantReturnDays: 14,
+      // No `returnMethod`: every resource is an instant download, so there is nothing to
+      // post back. Claiming ReturnByMail would describe a physical process that does not
+      // exist. `returnFees` stays FreeReturn — a return never costs the buyer anything.
       returnFees: "https://schema.org/FreeReturn",
+      returnShippingFeesAmount: {
+        "@type": "MonetaryAmount",
+        value: 0,
+        currency: countryInfo.currency,
+      },
       returnPolicyLink: "https://ciarasclassroom.com/refund-policy/",
       additionalProperty: [
         {
           "@type": "PropertyValue",
           name: "RefundPolicy",
           value:
-            "All sales are final and nonrefundable for downloaded or accessed digital resources. Refunds are considered in specific scenarios within one year of purchase.",
+            "All sales are final and nonrefundable for downloaded or accessed digital resources. " +
+            "Refunds are considered in specific scenarios within 14 days of purchase. Resources are " +
+            "instant digital downloads, so nothing needs to be returned or posted back.",
         },
         {
           "@type": "PropertyValue",

@@ -84,6 +84,27 @@ export const initializeAuthClient = async () => {
 };
 
 /**
+ * Whether a TpT resource can be listed on Google Shopping.
+ *
+ * Google rejects any offer priced at or below zero ("price_out_of_range"), so Ciara's
+ * free resources cannot be listed — they accounted for 336 disapprovals across the 13
+ * country variants. Excluding them here keeps the account clean; the freebies still get
+ * their own pages on the site and stay in the sitemap, so they keep working for SEO.
+ *
+ * @param {Object} product
+ * @returns {boolean}
+ */
+export const isSellableProduct = (product) => Number(product?.currencies?.USD) > 0;
+
+/**
+ * The Merchant Center offerId for a resource in one country.
+ * @param {Object} product
+ * @param {string} suffix e.g. "US"
+ * @returns {string} e.g. "6617072-US"
+ */
+export const merchantOfferId = (product, suffix) => `${product.slug.split("-").pop()}-${suffix}`;
+
+/**
  * Returns the Merchant API account resource name.
  * @returns {string} `accounts/{merchantId}`
  */

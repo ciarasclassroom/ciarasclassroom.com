@@ -16,6 +16,8 @@ import {
   initializeAuthClient,
   loadJSONFromFile,
   currencyCountryMap,
+  isSellableProduct,
+  merchantOfferId,
   merchantAccountName,
   mapWithConcurrency,
 } from "./shared-library.mjs";
@@ -44,11 +46,12 @@ async function loadExpectedOfferIds() {
     throw new Error(`No products in ${PRODUCTS_JSON_PATH} — refusing to prune, as everything would look stale.`);
   }
 
+  // Must apply the same filter the upload does, or every free resource looks stale on
+  // one run and gets re-added on the next.
   const offerIds = new Set();
-  for (const product of products) {
-    const tptId = product.slug.split("-").pop();
+  for (const product of products.filter(isSellableProduct)) {
     for (const { suffix } of Object.values(currencyCountryMap)) {
-      offerIds.add(`${tptId}-${suffix}`);
+      offerIds.add(merchantOfferId(product, suffix));
     }
   }
   return offerIds;

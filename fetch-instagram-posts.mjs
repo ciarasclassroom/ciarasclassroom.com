@@ -4,65 +4,118 @@ import path from "path";
 import sharp from "sharp";
 import { performance } from "perf_hooks";
 import dotenv from "dotenv";
-import { getProxyAgent, INSTAGRAM_BASE_URL, USER_AGENT, saveJSONToFile, fetchWithRetry } from "./shared-library.mjs";
+import { getProxyAgent, INSTAGRAM_BASE_URL, MAIN_SITE_URL, saveJSONToFile, fetchWithRetry } from "./shared-library.mjs";
 
 // Load environment variables
 dotenv.config();
 
 // Constants
 const INSTAGRAM_USERNAME = process.env.INSTAGRAM_USERNAME || "ciarasclassroom";
-// Public web app id used by instagram.com's own frontend for the web_profile_info endpoint.
-const INSTAGRAM_APP_ID = process.env.INSTAGRAM_APP_ID || "936619743392459";
 const INSTAGRAM_API_USER_AGENT =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
+// The embed iframe is served to third-party pages, so it must be requested the way a
+// browser embeds it: iframe fetch metadata, a referring site, and the `rd` (referring
+// domain) parameter instagram's own embed.js sends. Without these the endpoint returns
+// the bare JS shell with no post data.
+const EMBED_REFERER = MAIN_SITE_URL;
+const EMBED_HEADERS = {
+  "User-Agent": INSTAGRAM_API_USER_AGENT,
+  Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+  "Accept-Language": "en-IE,en;q=0.9",
+  Referer: `${EMBED_REFERER}/`,
+  "Sec-Fetch-Dest": "iframe",
+  "Sec-Fetch-Mode": "navigate",
+  "Sec-Fetch-Site": "cross-site",
+  "Upgrade-Insecure-Requests": "1",
+};
 const IMAGE_WIDTH = 200;
 const POSTS_TO_PROCESS = 4;
 const MAX_RETRIES = 3;
 const RETRY_DELAY = 1000; // 1 second
 
 /**
- * Fetches the latest Instagram posts via the public web_profile_info endpoint
- * (the same one instagram.com's web frontend uses; the old graphql/query_hash
- * API was retired by Meta and now returns HTTP 400).
+ * Pulls the `contextJSON` blob out of an Instagram embed page.
+ *
+ * The embed ships its data as a JSON string nested inside another JSON string, so it
+ * needs unescaping twice. Hand-rolled rather than regex'd because the value contains
+ * escaped quotes.
+ *
+ * @param {string} html
+ * @returns {Object} the decoded `context` object
+ */
+function extractEmbedContext(html) {
+  const key = '"contextJSON":';
+  const keyAt = html.indexOf(key);
+  if (keyAt === -1) {
+    throw new Error("No contextJSON in the embed response — Instagram served the empty JS shell.");
+  }
+
+  const start = html.indexOf('"', keyAt + key.length);
+  let end = start + 1;
+
+  for (;;) {
+    end = html.indexOf('"', end);
+    if (end === -1) throw new Error("Unterminated contextJSON string in the embed response.");
+    let backslashes = 0;
+    for (let i = end - 1; html[i] === "\\"; i--) backslashes++;
+    if (backslashes % 2 === 0) break;
+    end++;
+  }
+
+  const { context } = JSON.parse(JSON.parse(html.slice(start, end + 1)));
+  if (!context) throw new Error("Embed contextJSON had no `context` key.");
+  return context;
+}
+
+/**
+ * Fetches the latest Instagram posts from the public profile embed.
+ *
+ * Meta closed every anonymous JSON route in 2026 — `web_profile_info`, `?__a=1` and
+ * `graphql/query` all answer 401 `require_login`, and the profile HTML is a login wall.
+ * The *embed* iframe stayed open, because that is what renders Instagram posts on
+ * third-party sites, and the profile-level embed (`/{username}/embed/`) server-renders
+ * the recent posts into `contextJSON`. One request, no credentials, no headless browser.
+ *
  * @returns {Promise<Array>} Array of Instagram post objects
  */
 async function fetchInstagramPosts() {
-  try {
-    const response = await fetchWithRetry(
-      {
-        url: "https://i.instagram.com/api/v1/users/web_profile_info/",
-        method: "get",
-        params: { username: INSTAGRAM_USERNAME },
-        httpsAgent: getProxyAgent(),
-        headers: {
-          "User-Agent": INSTAGRAM_API_USER_AGENT,
-          "x-ig-app-id": INSTAGRAM_APP_ID,
-        },
-      },
-      // One request gets all posts. Keep the footprint tiny (a single retry) —
-      // hammering with retries on a 429 only makes the rate limit worse; on
-      // failure we just keep the previously fetched posts.
-      1,
-      3000,
-    );
+  const url = `${INSTAGRAM_BASE_URL}/${INSTAGRAM_USERNAME}/embed/`;
 
-    const edges = response.data.data.user.edge_owner_to_timeline_media.edges;
-    // The endpoint returns pinned posts first (which can be years old), so sort by
-    // post date to get the genuinely latest posts rather than pinned ones.
-    const latest = [...edges].sort(
-      (a, b) => (b.node.taken_at_timestamp || 0) - (a.node.taken_at_timestamp || 0),
-    );
-    return latest.slice(0, POSTS_TO_PROCESS).map((edge, index) => {
-      const { shortcode } = edge.node;
-      const imageUrl = edge.node.display_url || edge.node.thumbnail_src;
-      const caption = edge.node.edge_media_to_caption.edges[0]?.node?.text || "";
-      const postUrl = `${INSTAGRAM_BASE_URL}/p/${shortcode}/`;
-      return { imageUrl, caption, postUrl, index };
-    });
-  } catch (error) {
-    console.error("An error occurred while fetching Instagram posts:", error.message);
-    throw error;
+  const response = await fetchWithRetry(
+    {
+      url,
+      method: "get",
+      params: { cr: 1, v: 14, wp: 540, rd: EMBED_REFERER },
+      httpsAgent: getProxyAgent(),
+      headers: EMBED_HEADERS,
+      responseType: "text",
+    },
+    // Keep the footprint small: on failure we simply keep the previous posts.
+    1,
+    3000,
+  );
+
+  const context = extractEmbedContext(response.data);
+  const media = (context.graphql_media || []).map((entry) => entry.shortcode_media || entry);
+
+  if (media.length === 0) {
+    throw new Error(`The embed for @${INSTAGRAM_USERNAME} returned no posts.`);
   }
+
+  // Pinned posts come first and can be years old, so rank them below everything else
+  // and sort the rest newest-first.
+  const isPinned = (node) => (node.pinned_for_users || []).length > 0;
+  const latest = [...media].sort((a, b) => {
+    if (isPinned(a) !== isPinned(b)) return isPinned(a) ? 1 : -1;
+    return (b.taken_at_timestamp || 0) - (a.taken_at_timestamp || 0);
+  });
+
+  return latest.slice(0, POSTS_TO_PROCESS).map((node, index) => ({
+    imageUrl: node.display_url || node.display_resources?.at(-1)?.src,
+    caption: node.edge_media_to_caption?.edges?.[0]?.node?.text || "",
+    postUrl: `${INSTAGRAM_BASE_URL}/p/${node.shortcode}/`,
+    index,
+  }));
 }
 
 /**

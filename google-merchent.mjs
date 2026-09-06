@@ -6,6 +6,8 @@ import {
   loadJSONFromFile,
   currencyCountryMap,
   generateProductUrl,
+  isSellableProduct,
+  merchantOfferId,
   merchantAccountName,
   ensureGcpRegistered,
   resolveProductDataSource,
@@ -74,7 +76,7 @@ function toPlainDescription(product) {
  */
 function createProduct(product, currencyCode) {
   const { country, suffix } = currencyCountryMap[currencyCode];
-  const offerId = `${product.slug.split("-").pop()}-${suffix}`;
+  const offerId = merchantOfferId(product, suffix);
 
   const price = product.currencies[currencyCode];
   if (price === undefined || price === null) {
@@ -120,8 +122,12 @@ function createProduct(product, currencyCode) {
 async function loadProductsFromFile(filePath) {
   try {
     const data = await loadJSONFromFile(filePath);
-    console.log(`Loaded ${data.length} products from file.`);
-    return data.flatMap((product) =>
+    const sellable = data.filter(isSellableProduct);
+    console.log(
+      `Loaded ${data.length} products from file; ${sellable.length} sellable ` +
+        `(${data.length - sellable.length} free resources skipped — Google rejects a price of 0).`,
+    );
+    return sellable.flatMap((product) =>
       Object.keys(currencyCountryMap).map((currencyCode) => createProduct(product, currencyCode)),
     );
   } catch (error) {
