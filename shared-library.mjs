@@ -115,16 +115,29 @@ export const ensureGcpRegistered = async (accounts) => {
       return;
     }
   } catch (error) {
-    // A 404 just means nothing is registered yet; anything else is a real problem.
-    if (error?.code !== 404 && error?.response?.status !== 404) throw error;
+    // Don't rethrow. The read is gated by the very registration we are trying to
+    // create, so an unregistered project fails this call with the same "not
+    // registered with the merchant account" error rather than a clean 404. Fall
+    // through and attempt the registration; if that fails too, its error is the
+    // one worth surfacing.
+    console.log(`Could not read the developer registration (${error.message}); attempting to create it.`);
   }
 
   console.log("Registering the GCP project with the merchant account...");
-  const { data } = await accounts.accounts.developerRegistration.registerGcp({
-    name,
-    requestBody: process.env.DEVELOPER_EMAIL ? { developerEmail: process.env.DEVELOPER_EMAIL } : {},
-  });
-  console.log(`Registered: ${data.gcpIds?.join(", ") || data.name}`);
+  try {
+    const { data } = await accounts.accounts.developerRegistration.registerGcp({
+      name,
+      requestBody: process.env.DEVELOPER_EMAIL ? { developerEmail: process.env.DEVELOPER_EMAIL } : {},
+    });
+    console.log(`Registered: ${data.gcpIds?.join(", ") || data.name}`);
+  } catch (error) {
+    throw new Error(
+      `Could not register the GCP project with merchant account ${MERCHANT_ID}: ${error.message}\n` +
+        `The service account in token.json must be added as a user on the Merchant Center account, ` +
+        `and the account needs a verified website. It can also be registered by hand under ` +
+        `Merchant Center > Settings > Developer registration.`,
+    );
+  }
 };
 
 /**
