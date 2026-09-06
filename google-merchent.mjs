@@ -6,6 +6,7 @@ import {
   loadJSONFromFile,
   currencyCountryMap,
   generateProductUrl,
+  MAIN_SITE_URL,
   isSellableProduct,
   merchantOfferId,
   merchantAccountName,
@@ -16,6 +17,7 @@ import {
 import { performance } from "perf_hooks";
 
 const PRODUCTS_JSON_PATH = process.env.PRODUCTS_JSON_PATH || "tpt_products_MOST_RECENT.json";
+const IMAGE_MANIFEST_PATH = "product_images.json";
 
 // The Merchant API has no `custombatch`, so each offer is its own request. 20 in flight
 // keeps ~2,900 uploads to a few minutes without tripping the API's rate limits.
@@ -69,14 +71,29 @@ function toPlainDescription(product) {
 }
 
 /**
+ * Rewrites TpT image URLs to our own banner-stripped copies.
+ *
+ * TpT cover images carry a promotional title bar that Google rejects
+ * (`image_unwanted_overlays`). process-product-images.mjs crops it and publishes the
+ * result on our domain; this maps the originals onto those. Anything missing from the
+ * manifest falls back to the TpT URL, so a partial image run degrades rather than breaks.
+ */
+function toHostedImages(images, manifest) {
+  return images.map((url) => (manifest[url] ? `${MAIN_SITE_URL}${manifest[url]}` : url));
+}
+
+/**
  * Creates a product object for Google Merchant Center
  * @param {Object} product - Product data from JSON file
  * @param {string} currencyCode - Currency code for the product
+ * @param {Object} manifest - Original image URL -> locally hosted path
  * @returns {Object} Formatted product object for Google Merchant Center
  */
-function createProduct(product, currencyCode) {
+function createProduct(product, currencyCode, manifest) {
   const { country, suffix } = currencyCountryMap[currencyCode];
   const offerId = merchantOfferId(product, suffix);
+
+  const hostedImages = toHostedImages(product.images, manifest);
 
   const price = product.currencies[currencyCode];
   if (price === undefined || price === null) {
@@ -95,8 +112,8 @@ function createProduct(product, currencyCode) {
       title: product.title,
       description: toPlainDescription(product),
       link: generateProductUrl(product.slug, suffix),
-      imageLink: product.images[0],
-      additionalImageLinks: product.images.slice(1),
+      imageLink: hostedImages[0],
+      additionalImageLinks: hostedImages.slice(1),
       identifierExists: false,
       price: {
         amountMicros: toAmountMicros(price),
@@ -122,13 +139,17 @@ function createProduct(product, currencyCode) {
 async function loadProductsFromFile(filePath) {
   try {
     const data = await loadJSONFromFile(filePath);
+    const manifest = (await loadJSONFromFile(IMAGE_MANIFEST_PATH)) || {};
+    if (Object.keys(manifest).length === 0) {
+      console.warn(`No ${IMAGE_MANIFEST_PATH} found — submitting TpT's original images, banners and all.`);
+    }
     const sellable = data.filter(isSellableProduct);
     console.log(
       `Loaded ${data.length} products from file; ${sellable.length} sellable ` +
         `(${data.length - sellable.length} free resources skipped — Google rejects a price of 0).`,
     );
     return sellable.flatMap((product) =>
-      Object.keys(currencyCountryMap).map((currencyCode) => createProduct(product, currencyCode)),
+      Object.keys(currencyCountryMap).map((currencyCode) => createProduct(product, currencyCode, manifest)),
     );
   } catch (error) {
     console.error("Error loading products from file:", error);

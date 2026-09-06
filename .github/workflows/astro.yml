@@ -79,6 +79,10 @@ jobs:
           node fetch-tpt-products.mjs RELEVANCE   || { echo "::error title=TpT RELEVANCE fetch failed::see log above"; failures="$failures tpt_RELEVANCE"; }
           node fetch-tpt-products.mjs MOST_RECENT || { echo "::error title=TpT MOST_RECENT fetch failed::see log above"; failures="$failures tpt_MOST_RECENT"; }
 
+          # Crops the promotional title bar off every TpT cover image and publishes the
+          # results under public/images/products/, which the Merchant feed points at.
+          node process-product-images.mjs || { echo "::error title=Product image processing failed::see log above"; failures="$failures product_images"; }
+
           echo "Fetched record counts:"
           node -e "for (const f of ['instagram_posts','tpt_products_RELEVANCE','tpt_products_MOST_RECENT']) { try { const d = require('./src/lib/fixtures/'+f+'.json'); console.log('  '+f+': '+(Array.isArray(d)?d.length:'n/a')); } catch { console.log('  '+f+': missing'); } }"
 
@@ -93,7 +97,9 @@ jobs:
             ./src/lib/fixtures/instagram_posts.json
             ./src/lib/fixtures/tpt_products_MOST_RECENT.json
             ./src/lib/fixtures/tpt_products_RELEVANCE.json
+            ./src/lib/fixtures/product_images.json
             ./public/images/instagram/*
+            ./public/images/products/*
 
       - name: Configure Git
         run: |
@@ -193,7 +199,10 @@ jobs:
 
   upload_google_products:
     name: Upload Google Products
-    needs: fetch_data
+    # Also needs build_and_deploy: the feed points imageLink at
+    # ciarasclassroom.com/images/products/..., so those files have to be live before
+    # Google is told to crawl them.
+    needs: [fetch_data, build_and_deploy]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository

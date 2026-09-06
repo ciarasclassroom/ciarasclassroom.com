@@ -27,3 +27,7 @@ token.json
 
 # Generated at build time from the TpT fixtures by google-merchant-review-feed.xml.mjs
 public/product-reviews.xml
+
+# Generated nightly by process-product-images.mjs (banner-stripped TpT covers)
+public/images/products/
+src/lib/fixtures/product_images.json
