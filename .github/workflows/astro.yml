@@ -138,6 +138,18 @@ jobs:
         with:
           name: external-data
 
+      - name: Refuse to deploy an empty catalogue
+        # The `data_health` job runs alongside this one rather than before it, so on its
+        # own it reports an empty catalogue only after the site has already gone live.
+        # Between 2026-08-09 and 2026-09-05 that is exactly what happened: the scrape
+        # wrote `[]` every night and every /product/ page 404'd for close to a month.
+        # Google still had 35% of the sitemap recorded as "Not found (404)" a day after
+        # the fix, and it cost the Merchant catalogue most of its approved offers.
+        #
+        # check-fixtures only fails when a fixture is empty or unparseable, so an
+        # ordinary fetch failure still deploys with the previous good data, as intended.
+        run: node check-fixtures.mjs
+
       - name: Generate Google Merchant product review feed
         # Writes public/product-reviews.xml so the deployed site serves it at
         # https://ciarasclassroom.com/product-reviews.xml, which Merchant Center is
