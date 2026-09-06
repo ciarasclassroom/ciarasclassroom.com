@@ -89,6 +89,10 @@ async function main() {
     console.log(`Merchant Center holds ${live.length} products; the feed defines ${expected.size} offers.`);
 
     const stale = live.filter((product) => !expected.has(product.offerId));
+    const orphaned = stale.filter((product) => !product.dataSource);
+    if (orphaned.length) {
+      console.warn(`Skipping ${orphaned.length} stale offers with no data source (cannot be deleted via the API).`);
+    }
 
     if (stale.length === 0) {
       console.log("Nothing to prune.");
@@ -102,14 +106,18 @@ async function main() {
       );
     }
 
-    console.log(`Pruning ${stale.length} stale offers...`);
+    const deletable = stale.filter((product) => product.dataSource);
+    console.log(`Pruning ${deletable.length} stale offers...`);
 
     const results = await mapWithConcurrency(
-      stale,
+      deletable,
       async (product) => {
-        // Products are deleted through the input that created them.
+        // Products are deleted through the input that created them, and the API needs
+        // to be told which data source that input lives in. Each product reports its
+        // own, so use that rather than assuming a single source.
         await productsApi.accounts.productInputs.delete({
           name: product.name.replace("/products/", "/productInputs/"),
+          dataSource: product.dataSource,
         });
         console.log(`  deleted ${product.offerId}`);
       },
