@@ -2,17 +2,21 @@ import * as cheerio from "cheerio";
 import { google } from "googleapis";
 import {
   MERCHANT_ID,
-  SERVICE_ACCOUNT_PATH,
   initializeAuthClient,
   loadJSONFromFile,
   currencyCountryMap,
   generateProductUrl,
+  merchantAccountName,
+  resolveProductDataSource,
+  mapWithConcurrency,
 } from "./shared-library.mjs";
 import { performance } from "perf_hooks";
 
 const PRODUCTS_JSON_PATH = process.env.PRODUCTS_JSON_PATH || "tpt_products_MOST_RECENT.json";
-const BATCH_SIZE = 1000;
-const CONCURRENT_BATCHES = 5;
+
+// The Merchant API has no `custombatch`, so each offer is its own request. 20 in flight
+// keeps ~2,900 uploads to a few minutes without tripping the API's rate limits.
+const UPLOAD_CONCURRENCY = 20;
 
 // Google truncates beyond 5000 characters and rejects longer values outright.
 const MAX_DESCRIPTION_LENGTH = 5000;
@@ -27,16 +31,26 @@ const DIGITAL_SHIPPING_SERVICE = "Instant digital download";
 // field goes out blank and Google loses a useful classification signal.
 const DEFAULT_PRODUCT_TYPE = "Teaching Resources > Printable Classroom Activities";
 
-// Default product fields
-const defaultProduct = {
-  contentLanguage: "en",
-  channel: "online",
-  availability: "in stock",
-  condition: "new",
+const CONTENT_LANGUAGE = "en";
+
+// Default attributes shared by every offer. Merchant API v1 uses enum-style values
+// where the Content API took free text ("in stock" -> "IN_STOCK").
+const defaultAttributes = {
+  availability: "IN_STOCK",
+  condition: "NEW",
   brand: "Ciara's Classroom",
   adult: false,
   isBundle: false,
 };
+
+/**
+ * Merchant API v1 takes prices as integer micros, not decimal strings.
+ * @param {string|number} amount e.g. "6.00"
+ * @returns {string} e.g. "6000000"
+ */
+function toAmountMicros(amount) {
+  return String(Math.round(Number(amount) * 1e6));
+}
 
 /**
  * Turns TpT's HTML description into the plain text Google expects.
@@ -68,22 +82,32 @@ function createProduct(product, currencyCode) {
   }
 
   return {
-    ...defaultProduct,
-    id: offerId,
-    targetCountry: country,
     offerId,
-    title: product.title,
-    description: toPlainDescription(product),
-    link: generateProductUrl(product.slug, suffix),
-    imageLink: product.images[0],
-    additionalImageLinks: product.images.slice(1),
-    identifierExists: false,
-    price: {
-      value: price,
-      currency: currencyCode,
+    contentLanguage: CONTENT_LANGUAGE,
+    // The Content API's `targetCountry` is now the feed label; the shipping entry below
+    // is what actually scopes the offer to a country.
+    feedLabel: country,
+    productAttributes: {
+      ...defaultAttributes,
+      title: product.title,
+      description: toPlainDescription(product),
+      link: generateProductUrl(product.slug, suffix),
+      imageLink: product.images[0],
+      additionalImageLinks: product.images.slice(1),
+      identifierExists: false,
+      price: {
+        amountMicros: toAmountMicros(price),
+        currencyCode,
+      },
+      productTypes: product.categories?.length ? product.categories : [DEFAULT_PRODUCT_TYPE],
+      shipping: [
+        {
+          country,
+          service: DIGITAL_SHIPPING_SERVICE,
+          price: { amountMicros: "0", currencyCode },
+        },
+      ],
     },
-    productTypes: product.categories?.length ? product.categories : [DEFAULT_PRODUCT_TYPE],
-    shipping: [{ country, service: DIGITAL_SHIPPING_SERVICE, price: { value: "0", currency: currencyCode } }],
   };
 }
 
@@ -106,70 +130,52 @@ async function loadProductsFromFile(filePath) {
 }
 
 /**
- * Uploads a batch of products to Google Merchant Center
- * @param {google.content} content - Google Content API client
- * @param {Array} batch - Batch of products to upload
- * @param {number} batchNumber - Current batch number
- * @returns {Promise<void>}
- */
-async function uploadProductBatch(content, batch, batchNumber) {
-  try {
-    const batchRequest = batch.map((product, index) => ({
-      batchId: index + 1,
-      merchantId: MERCHANT_ID,
-      method: "insert",
-      product,
-    }));
-
-    const res = await content.products.custombatch({
-      requestBody: { entries: batchRequest },
-    });
-
-    console.log(`Batch ${batchNumber} upload completed.`);
-
-    let successCount = 0;
-    let errorCount = 0;
-
-    res.data.entries.forEach((entry) => {
-      if (entry.errors) {
-        errorCount++;
-        console.error(
-          `Product upload error (Batch ${batchNumber}, ID: ${entry.batchId}):`,
-          JSON.stringify(entry.errors),
-        );
-      } else {
-        successCount++;
-      }
-    });
-
-    console.log(`Batch ${batchNumber} results: ${successCount} successes, ${errorCount} errors`);
-  } catch (error) {
-    console.error(`Error uploading batch ${batchNumber}:`, error.message);
-  }
-}
-
-/**
- * Uploads products to Google Merchant Center in batches
- * @param {google.auth.JWT} authClient - Authenticated Google JWT client
- * @param {Array} products - Array of products to upload
+ * Upserts every offer into the Merchant Center data source.
+ *
+ * `productInputs.insert` is an upsert: re-sending an existing `offerId` updates it in
+ * place. That is why nothing is deleted first any more -- the old flow wiped the whole
+ * account nightly and re-inserted it, which reset each product's history in Merchant
+ * Center. Stale offers are pruned separately by delete-google-merchant.mjs.
+ *
+ * @param {import("google-auth-library").JWT} authClient
+ * @param {Array} products
  */
 async function bulkUploadProducts(authClient, products) {
   await authClient.authorize();
-  const content = google.content({ version: "v2.1", auth: authClient });
 
-  const totalBatches = Math.ceil(products.length / BATCH_SIZE);
-  console.log(`Uploading ${products.length} products in ${totalBatches} batches.`);
+  const datasources = google.merchantapi({ version: "datasources_v1", auth: authClient });
+  const productsApi = google.merchantapi({ version: "products_v1", auth: authClient });
 
-  for (let i = 0; i < products.length; i += BATCH_SIZE * CONCURRENT_BATCHES) {
-    const batchPromises = [];
-    for (let j = 0; j < CONCURRENT_BATCHES && i + j * BATCH_SIZE < products.length; j++) {
-      const start = i + j * BATCH_SIZE;
-      const end = Math.min(start + BATCH_SIZE, products.length);
-      const batch = products.slice(start, end);
-      const batchNumber = Math.floor(start / BATCH_SIZE) + 1;
-      batchPromises.push(uploadProductBatch(content, batch, batchNumber));
+  const parent = merchantAccountName();
+  const dataSource = await resolveProductDataSource(datasources);
+
+  console.log(`Uploading ${products.length} offers (concurrency ${UPLOAD_CONCURRENCY})...`);
+
+  let uploaded = 0;
+  const results = await mapWithConcurrency(
+    products,
+    async (product) => {
+      const response = await productsApi.accounts.productInputs.insert({
+        parent,
+        dataSource,
+        requestBody: product,
+      });
+      uploaded += 1;
+      if (uploaded % 250 === 0) console.log(`  ${uploaded}/${products.length} uploaded`);
+      return response.data;
+    },
+    UPLOAD_CONCURRENCY,
+  );
+
+  const failures = results.filter((result) => result.status === "rejected");
+  console.log(`Upload finished: ${results.length - failures.length} succeeded, ${failures.length} failed.`);
+
+  if (failures.length) {
+    // Show a handful rather than thousands of near-identical stack traces.
+    for (const failure of failures.slice(0, 5)) {
+      console.error("  ", failure.reason?.message || failure.reason);
     }
-    await Promise.all(batchPromises);
+    throw new Error(`${failures.length} of ${results.length} offers failed to upload.`);
   }
 }
 

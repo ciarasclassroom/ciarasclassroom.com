@@ -84,6 +84,89 @@ export const initializeAuthClient = async () => {
 };
 
 /**
+ * Returns the Merchant API account resource name.
+ * @returns {string} `accounts/{merchantId}`
+ */
+export const merchantAccountName = () => `accounts/${MERCHANT_ID}`;
+
+// Name of the primary API data source products are pushed into. Created on first run.
+export const PRODUCT_DATA_SOURCE_DISPLAY_NAME = "Ciara's Classroom (API)";
+
+/**
+ * Finds -- or creates on first run -- the primary API data source that products are
+ * upserted into.
+ *
+ * The Merchant API requires every product to belong to a data source; the old Content
+ * API had no such concept. `feedLabel`/`contentLanguage` are deliberately left unset so
+ * a single data source accepts all thirteen country/currency variants.
+ *
+ * @param {import("googleapis").merchantapi_datasources_v1.Merchantapi} datasources
+ * @returns {Promise<string>} `accounts/{account}/dataSources/{datasource}`
+ */
+export const resolveProductDataSource = async (datasources) => {
+  const parent = merchantAccountName();
+  let pageToken;
+
+  do {
+    const { data } = await datasources.accounts.dataSources.list({ parent, pageSize: 100, pageToken });
+    const existing = (data.dataSources || []).find(
+      (source) => source.displayName === PRODUCT_DATA_SOURCE_DISPLAY_NAME && source.primaryProductDataSource,
+    );
+    if (existing) {
+      console.log(`Using existing data source: ${existing.name}`);
+      return existing.name;
+    }
+    pageToken = data.nextPageToken;
+  } while (pageToken);
+
+  console.log(`Creating data source "${PRODUCT_DATA_SOURCE_DISPLAY_NAME}"...`);
+  const { data: created } = await datasources.accounts.dataSources.create({
+    parent,
+    requestBody: {
+      displayName: PRODUCT_DATA_SOURCE_DISPLAY_NAME,
+      primaryProductDataSource: {
+        // Unset feedLabel/contentLanguage so one source takes every country variant.
+        countries: Object.values(currencyCountryMap).map(({ country }) => country),
+      },
+    },
+  });
+
+  console.log(`Created data source: ${created.name}`);
+  return created.name;
+};
+
+/**
+ * Runs async tasks with a bounded number in flight.
+ *
+ * The Merchant API has no equivalent of the Content API's `custombatch`, so ~2,900
+ * products become ~2,900 requests; unbounded `Promise.all` trips its rate limits.
+ *
+ * @param {Array} items
+ * @param {(item: any) => Promise<any>} worker
+ * @param {number} concurrency
+ * @returns {Promise<Array<{status: "fulfilled"|"rejected", value?: any, reason?: any}>>}
+ */
+export const mapWithConcurrency = async (items, worker, concurrency = 20) => {
+  const results = new Array(items.length);
+  let cursor = 0;
+
+  const runners = Array.from({ length: Math.min(concurrency, items.length) }, async () => {
+    for (;;) {
+      const index = cursor++;
+      if (index >= items.length) return;
+      try {
+        results[index] = { status: "fulfilled", value: await worker(items[index]) };
+      } catch (error) {
+        results[index] = { status: "rejected", reason: error };
+      }
+    }
+  });
+
+  await Promise.all(runners);
+  return results;
+};
+
+/**
  * Saves JSON data to a file
  * @param {Object|Array} data - Data to be saved
  * @param {string} fileName - Name of the file
