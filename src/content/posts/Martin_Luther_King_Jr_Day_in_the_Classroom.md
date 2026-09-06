@@ -10,40 +10,37 @@ categories:
 date: 2025-01-15T00:00:00.000Z
 draft: false
 ---
-
 Martin Luther King Jr. Day, observed on the third Monday of January each year (January 20th in 2025), is a powerful opportunity to reflect on the values of equality, justice, and non-violence.  It’s the perfect time to start meaningful conversations in your classroom about anti-racism and inclusion. 
 
 But let’s not stop at one day. Anti-racism education and celebrating diversity should weave into your teaching all year long. Here’s some ideas on how you can approach MLK Day meaningfully while building a foundation for continuous, inclusive learning.
 
-![](/MLKJr.jpg)
+![Martin Luther King Jr. seated at a table, smiling, in a black and white 1960s photograph](/MLKJr.jpg)
 
 ***
 
-###
-
-### Tips and Activities to Bring MLK Day to Life
+## Tips and Activities to Bring MLK Day to Life
 
 To make MLK Day meaningful, integrate these tips and activities into your lessons:
 
-#### 1. Create a Classroom Pledge for Kindness and Justice
+### 1. Create a Classroom Pledge for Kindness and Justice
 
 Start by exploring the values Dr. King stood for—courage, fairness, and non-violence.
 
 * Activity: Brainstorm actions students can take to make their classroom a kinder, more inclusive place. Compile their ideas into a pledge, and have students sign or decorate it as a display of their commitment.
 
-#### 2. Broaden the Story Beyond “I Have a Dream”
+### 2. Broaden the Story Beyond “I Have a Dream”
 
 While Dr. King’s iconic speech is a great starting point, explore other aspects of his work, like the Montgomery Bus Boycott or the Poor People’s Campaign.
 
 * Activity: Use graphic organisers to research and record information about different moments in Dr. King’s life. Students can brainstorm how these events connect to values like courage or resilience.
 
-#### 3. Relate the Past to the Present
+### 3. Relate the Past to the Present
 
 Help students connect historical struggles to modern-day issues of equity and justice.
 
 * Activity: Have students write or draw about what they would work to change in today’s world if they were activists. Display their ideas as part of a “Change Makers Wall.”
 
-#### 4.  Explore MLK's Speeches Through Music
+### 4.  Explore MLK's Speeches Through Music
 
 Dr. King and other civil rights activists have inspired countless songs and musical works.
 
@@ -53,19 +50,19 @@ Dr. King and other civil rights activists have inspired countless songs and musi
 <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/KnIozPJWTPM?si=BHmzMNgo960Yb84n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
-#### 5. Teach Peaceful Problem-Solving
+### 5. Teach Peaceful Problem-Solving
 
 Dr. King’s commitment to non-violence is a timeless lesson in conflict resolution.
 
 * Activity: Role-play scenarios where students practice peaceful solutions to common school conflicts, such as disagreements over sharing or teamwork.
 
-#### 6. Engage with Art and Poetry
+### 6. Engage with Art and Poetry
 
 Dr. King’s messages of hope and unity lend themselves beautifully to creative expression.
 
 * Activity: Guide students in writing peace-themed poems or creating collaborative art projects inspired by his legacy.
 
-#### 7. Use Literature to Spark Conversations
+### 7. Use Literature to Spark Conversations
 
 Picture books and biographies are a great way to introduce Dr. King’s story.
 
@@ -75,23 +72,22 @@ Picture books and biographies are a great way to introduce Dr. King’s story.
 <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/m2LYcwHF8gs?si=s14MgpiNBz7GwHw5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center >
 
-#### 8. Dr. King’s Legacy in Action
+### 8. Dr. King’s Legacy in Action
 
 Show students how Dr. King’s work has inspired modern activists and movements for justice.
 
 * Activity: Watch a short, age-appropriate video about a recent social justice movement or leader. Ask students to discuss connections between Dr. King’s values and present-day efforts for equality.
 
-![](/MLK_Badge.png)
+![A 1982 campaign badge reading Martin Luther King National Holiday March, Washington D.C.](/MLK_Badge.png)
 
 ***
 
-###
 
-### Building Anti-Racism Education Beyond MLK Day
+## Building Anti-Racism Education Beyond MLK Day
 
 Martin Luther King Jr. Day is only one piece of the puzzle when it comes to fostering an inclusive classroom. Here are ways to ensure anti-racism education continues year-round:
 
-#### 1. Celebrate Black Excellence All Year
+### 1. Celebrate Black Excellence All Year
 
 Make a conscious effort to highlight the achievements, contributions, and stories of Black individuals throughout the curriculum—not just during Black History Month.
 
@@ -101,7 +97,7 @@ Make a conscious effort to highlight the achievements, contributions, and storie
 
 By embedding these narratives into your teaching, students see Black excellence as part of everyday learning rather than as an occasional highlight.
 
-#### 2. Create Space for Honest Conversations
+### 2. Create Space for Honest Conversations
 
 Encourage open and age-appropriate discussions about race, identity, and fairness. Children are naturally curious, and creating a safe space to explore these topics helps them develop empathy and understanding.
 
@@ -109,7 +105,7 @@ Encourage open and age-appropriate discussions about race, identity, and fairnes
 
 Remind students that it’s okay to ask questions and make mistakes as long as they’re learning and growing.
 
-#### 3. Incorporate Anti-Racism into Everyday Lessons
+### 3. Incorporate Anti-Racism into Everyday Lessons
 
 Look for opportunities to integrate anti-racist perspectives into your teaching, no matter the subject.
 
@@ -119,9 +115,9 @@ Look for opportunities to integrate anti-racist perspectives into your teaching,
 
 By showing how Black history and culture intersect with every subject, you help students see that diversity is a strength woven into all aspects of life.
 
-![](/Together_We_Rise.png)
+![A woman holding a hand-painted placard reading Together We Rise](/Together_We_Rise.png)
 
-#### 4. Foster Critical Thinking About Bias and Stereotypes
+### 4. Foster Critical Thinking About Bias and Stereotypes
 
 Help students develop the skills to recognise and challenge stereotypes in media, books, and everyday life.
 
@@ -130,7 +126,7 @@ Help students develop the skills to recognise and challenge stereotypes in media
 
 Teaching students to identify and question bias equips them to navigate the world with greater awareness and empathy.
 
-#### 5.  Empower Students to Be Changemakers
+### 5.  Empower Students to Be Changemakers
 
 Encourage your students to take small, meaningful actions in their own communities.
 
@@ -139,7 +135,7 @@ Encourage your students to take small, meaningful actions in their own communiti
 
 Show them that everyone—regardless of age—can make a positive difference in the world.
 
-#### 6. Diversify Your Classroom Resources
+### 6. Diversify Your Classroom Resources
 
 Representation matters. Make sure your classroom materials reflect the rich diversity of the world.
 
@@ -151,7 +147,7 @@ Representation in the classroom helps all students feel seen, respected, and val
 
 ***
 
-### Simplify Your Planning for MLK Day with Ready-to-Use Resources
+## Simplify Your Planning for MLK Day with Ready-to-Use Resources
 
 To help you make the most of your MLK Day lessons, I’ve created a comprehensive **117-page resource** packed with engaging activities, including:
 
@@ -165,11 +161,11 @@ To help you make the most of your MLK Day lessons, I’ve created a comprehensiv
 * Word search and solution
 * Printable bunting for classroom displays
 
-![](/Martin_Luther_King_Jr_BUNDLE.png)
+![M.L.K. Jr. Bundle printables: an I Have a Dream colour by number sheet and a Martin Luther King Jr. fact recording template](/Martin_Luther_King_Jr_BUNDLE.png)
 
 Click [here](https://www.teacherspayteachers.com/Product/Martin-Luther-King-Junior-BUNDLE-8979320?utm_source=My%20Blog\&utm_campaign=MLK%20Day%20Blogpost) to explore this resource and get started!
 
-### Final Thoughts
+## Final Thoughts
 
 Anti-racism education is an ongoing commitment that enriches your students’ understanding of the world and their place in it. By celebrating Black excellence, creating space for honest conversations, and weaving diverse perspectives into everyday learning, you foster a classroom environment where every student feels valued and empowered.
 

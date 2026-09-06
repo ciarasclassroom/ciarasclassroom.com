@@ -19,24 +19,23 @@ categories:
 date: 2025-01-05T00:00:00.000Z
 draft: false
 ---
-
 The Conceptual Enquiry Approach lies at the heart of how Educate Together schools teach world religions and belief systems through the Learn Together Curriculum. This student-centred methodology promotes critical thinking, inclusivity, and respect for diversity, helping students engage meaningfully with complex ideas while fostering curiosity and understanding.
 
 If you're a teacher seeking effective strategies to teach about religions and beliefs, the Conceptual Enquiry Approach provides a clear, structured framework that encourages deep learning and meaningful discussions.
 
 ***
 
-### What Is the Conceptual Enquiry Approach?
+## What Is the Conceptual Enquiry Approach?
 
 The Conceptual Enquiry Approach is a step-by-step methodology designed to help students explore big questions about belief systems. It moves beyond rote learning of facts, encouraging learners to analyse, reflect, and make connections between new ideas, their personal experiences, and the wider world.
 
 This approach is particularly useful for teaching the Belief Systems strand of the Learn Together Curriculum, where the goal is to nurture an inclusive and respectful understanding of diverse worldviews.
 
-![](/Conceptual_Enquiry_Approach.jpg)
+![The Conceptual Enquiry Approach shown as a cycle: Communicate, Apply, Enquire, Contextualise and Evaluate](/Conceptual_Enquiry_Approach.jpg)
 
 ***
 
-### The 5 Steps of the Conceptual Enquiry Approach
+## The 5 Steps of the Conceptual Enquiry Approach
 
 Here’s how the Conceptual Enquiry Approach works step by step:
 
@@ -53,7 +52,7 @@ Here’s how the Conceptual Enquiry Approach works step by step:
 
 ***
 
-### Why Use the Conceptual Enquiry Approach?
+## Why Use the Conceptual Enquiry Approach?
 
 The Conceptual Enquiry Approach is about much more than teaching facts—it’s about creating a learning environment where students:
 
@@ -63,11 +62,11 @@ The Conceptual Enquiry Approach is about much more than teaching facts—it’s 
 
 By fostering thoughtful discussions and promoting inclusivity, this methodology helps students engage deeply with complex topics, equipping them with skills to respectfully navigate a diverse world.
 
-![](</Child Thinking.jpg>)
+![A young girl resting her chin on her hand beside a wall covered in chalk-drawn question marks](</Child Thinking.jpg>)
 
 ***
 
-### Professional Development for Teachers
+## Professional Development for Teachers
 
 If you’re new to the Conceptual Enquiry Approach or want to enhance your teaching, consider professional development opportunities. Educate Together offers online training courses specifically designed to help teachers apply this methodology effectively in the classroom.
 
@@ -75,7 +74,7 @@ For more information, visit [the Educate Together website](https://www.educateto
 
 ***
 
-### Final Thoughts
+## Final Thoughts
 
 The Conceptual Enquiry Approach is a powerful, student-focused tool for teaching about religions and beliefs in a meaningful, engaging and inclusive way.. By helping students think critically and reflect deeply, it not only enriches their understanding of belief systems but also equips them to engage respectfully with the diverse world around them.
 

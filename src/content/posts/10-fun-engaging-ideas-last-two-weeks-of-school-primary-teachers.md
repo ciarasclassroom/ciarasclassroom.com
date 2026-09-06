@@ -18,7 +18,6 @@ categories:
 date: 2025-05-27T23:00:00.000Z
 draft: true
 ---
-
 You’re nearly there! The books are almost closed, the weather’s warming up (hopefully), and attention spans are starting to fade. But the last couple of weeks can still be some of the most memorable and joyful parts of the year. This post shares 10 teacher-loved activities that help you wrap up the term with fun, connection, and just a little bit of learning too.
 
 1. The Countdown to Summer Jar
@@ -42,7 +41,7 @@ You’re nearly there! The books are almost closed, the weather’s warming up (
 10. Story Dice Theatre: Creative Drama Fun   \
     Story Dice Theatre is a fantastic way to combine imagination with drama in the classroom. Using story dice (which you can easily make or buy), children roll the dice to reveal random words, images, or themes. In pairs or small groups, they then create a short skit or performance based on the prompts. This activity encourages teamwork, oral language skills, and creativity — but it feels like pure fun! You can give the kids the freedom to use costumes, props, and even act out their story for the class. It’s an engaging way to revisit storytelling techniques, narrative structure, and public speaking skills, all while keeping the atmosphere light and joyful as the school year winds down.
 
-##### 2 Bonus Ideas for Reading This Far!
+## 2 Bonus Ideas for Reading This Far!
 
 1. Outdoor Games and Challenges
    Take advantage of the nice weather by having an outdoor day full of fun challenges. From a class relay race to tug-of-war, these classic games are a great way to wrap up the school year while encouraging teamwork and physical activity.
@@ -54,5 +53,5 @@ However you spend the final stretch, remember: your class won’t remember every
 
 And if you’re looking for some ready-to-go resources for your classroom this June, make sure to check out my [Last Week of School Bundle](https://www.teacherspayteachers.com/Product/Last-Week-of-School-Teaching-Resources-Bundle-8170932).
 
-![](/IMG_0074.jpeg)\
+![Last Week of School Bundle printables: countdown-to-summer cards, a team building challenge card and a My Summer Holiday Plans writing template](/IMG_0074.jpeg)\
 As the summer holidays approach, it’s the perfect time to show your students how much they’ve grown, what they’ve accomplished, and how much fun learning can be. I hope these activities give you the inspiration you need to finish the school year with a bang!

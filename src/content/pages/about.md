@@ -29,4 +29,4 @@ Happy teaching!
 
 Ciara
 
-![](</About Ciara.jpeg>)
+![Ciara, a primary school teacher and assistant principal in Ireland, smiling at a table by a sunlit window](</About Ciara.jpeg>)
